@@ -5,6 +5,7 @@ case $(hostname) in *mbp16*|*MBP16*|macbook-pro*) ;; *) echo 'Run acceptance on 
 export CHECKMATE_EVIDENCE_DIR=${CHECKMATE_EVIDENCE_DIR:-$(mktemp -d /tmp/checkmate-acceptance.XXXXXX)}
 mkdir -p "$CHECKMATE_EVIDENCE_DIR"
 bash scripts/test-ui.sh
+python3 scripts/test-startup-settings.py
 bash scripts/test-fullscreen.sh
 bash scripts/test-layout.sh
 python3 scripts/test-lifecycle.py
