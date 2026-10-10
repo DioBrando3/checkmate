@@ -32,7 +32,7 @@ public struct CourseLibrary:Decodable {
     public let retiredExerciseIDs:[String]?
     public var lessonTiming:CourseTiming {timing ?? .standard}
     enum CodingKeys:String,CodingKey {case schemaVersion,lessons,voices,exercises,puzzles,stepTitles,sounds,timing,retiredExerciseIDs;case referenceFrames="frames"}
-    public init() throws {self=try JSONDecoder().decode(Self.self,from:Data(contentsOf:NativeResources.url("course.json")))}
+    public init(language:String=ChineseEdition.language) throws {self=try JSONDecoder().decode(Self.self,from:Data(contentsOf:NativeResources.url(language=="zh-Hans" ? "course.zh-Hans.json":"course.json")))}
     /// Older saves used the original transcript index. Stable recording IDs let
     /// them resume at the same explanation, or after a retired question.
     public func resumeStep(in lesson:CourseLesson,progress:CourseProgress)->Int {

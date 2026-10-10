@@ -1,0 +1,4322 @@
+{
+  "intro:0": {
+    "file": "course/zh-Hans/intro/0-00681e78f527d919.m4a",
+    "seconds": 5.249388,
+    "duration": 5.749388
+  },
+  "intro:1": {
+    "file": "course/zh-Hans/intro/1-4d86a7a763f11e3d.m4a",
+    "seconds": 3.576281,
+    "duration": 4.076281
+  },
+  "intro:2": {
+    "file": "course/zh-Hans/intro/2-3a62dcd103937843.m4a",
+    "seconds": 3.506304,
+    "duration": 4.006304
+  },
+  "intro:3": {
+    "file": "course/zh-Hans/intro/3-d913cbc63106df71.m4a",
+    "seconds": 3.259955,
+    "duration": 3.759955
+  },
+  "intro:4": {
+    "file": "course/zh-Hans/intro/4-4efe58560ca40564.m4a",
+    "seconds": 2.661224,
+    "duration": 3.161224
+  },
+  "intro:5": {
+    "file": "course/zh-Hans/intro/5-4a33ff132b9b3d98.m4a",
+    "seconds": 3.286032,
+    "duration": 3.786032
+  },
+  "intro:6": {
+    "file": "course/zh-Hans/intro/6-688dbc9c5dd8347c.m4a",
+    "seconds": 6.612245,
+    "duration": 7.112245
+  },
+  "intro:7": {
+    "file": "course/zh-Hans/intro/7-32064206b3f0cc12.m4a",
+    "seconds": 3.267438,
+    "duration": 3.767438
+  },
+  "intro:8": {
+    "file": "course/zh-Hans/intro/8-bf3cffae4a325105.m4a",
+    "seconds": 3.81093,
+    "duration": 4.31093
+  },
+  "intro:9": {
+    "file": "course/zh-Hans/intro/9-9ede80b3671fa1fd.m4a",
+    "seconds": 4.769615,
+    "duration": 5.269615
+  },
+  "intro:10": {
+    "file": "course/zh-Hans/intro/10-a6d15eff2db0635e.m4a",
+    "seconds": 3.873243,
+    "duration": 4.373243
+  },
+  "intro:11": {
+    "file": "course/zh-Hans/intro/11-6ff14120e6aaa884.m4a",
+    "seconds": 4.757642,
+    "duration": 5.257642
+  },
+  "intro:12": {
+    "file": "course/zh-Hans/intro/12-206258065489193b.m4a",
+    "seconds": 5.280091,
+    "duration": 5.780091
+  },
+  "intro:13": {
+    "file": "course/zh-Hans/intro/13-f45fc536131c25d6.m4a",
+    "seconds": 5.277596,
+    "duration": 5.777596
+  },
+  "intro:14": {
+    "file": "course/zh-Hans/intro/14-d4bc7ae99956857b.m4a",
+    "seconds": 2.821633,
+    "duration": 3.321633
+  },
+  "intro:15": {
+    "file": "course/zh-Hans/intro/15-3b14c4ead77df484.m4a",
+    "seconds": 5.844308,
+    "duration": 6.344308
+  },
+  "intro:16": {
+    "file": "course/zh-Hans/intro/16-57006055a33a0514.m4a",
+    "seconds": 4.845034,
+    "duration": 5.345034
+  },
+  "intro:18": {
+    "file": "course/zh-Hans/intro/18-8910c732c8ad4f36.m4a",
+    "seconds": 3.253651,
+    "duration": 3.753651
+  },
+  "intro:20": {
+    "file": "course/zh-Hans/intro/20-3c6f0245ec3c1976.m4a",
+    "seconds": 7.082494,
+    "duration": 7.582494
+  },
+  "intro:21": {
+    "file": "course/zh-Hans/intro/21-6f610f2c1cb117b7.m4a",
+    "seconds": 5.077234,
+    "duration": 5.577234
+  },
+  "battlefield:0": {
+    "file": "course/zh-Hans/battlefield/0-26a6a4018928fbae.m4a",
+    "seconds": 2.615918,
+    "duration": 3.115918
+  },
+  "battlefield:1": {
+    "file": "course/zh-Hans/battlefield/1-c1ef9fb91330c863.m4a",
+    "seconds": 3.292336,
+    "duration": 3.792336
+  },
+  "battlefield:2": {
+    "file": "course/zh-Hans/battlefield/2-7818894e1b77ae55.m4a",
+    "seconds": 5.798594,
+    "duration": 6.298594
+  },
+  "battlefield:3": {
+    "file": "course/zh-Hans/battlefield/3-5e5e8cb679f05cd5.m4a",
+    "seconds": 6.246259,
+    "duration": 6.746259
+  },
+  "battlefield:4": {
+    "file": "course/zh-Hans/battlefield/4-12c4a54e23fc0585.m4a",
+    "seconds": 2.905351,
+    "duration": 3.405351
+  },
+  "battlefield:5": {
+    "file": "course/zh-Hans/battlefield/5-1de06e31b632f69a.m4a",
+    "seconds": 6.446395,
+    "duration": 6.946395
+  },
+  "battlefield:6": {
+    "file": "course/zh-Hans/battlefield/6-b6ede97c7fc4eaa6.m4a",
+    "seconds": 3.344082,
+    "duration": 3.844082
+  },
+  "battlefield:7": {
+    "file": "course/zh-Hans/battlefield/7-03f05c0ad4676a1b.m4a",
+    "seconds": 4.395193,
+    "duration": 4.895193
+  },
+  "battlefield:8": {
+    "file": "course/zh-Hans/battlefield/8-fe5010bea5f85244.m4a",
+    "seconds": 3.274422,
+    "duration": 3.774422
+  },
+  "battlefield:9": {
+    "file": "course/zh-Hans/battlefield/9-195d88c7d1fadb00.m4a",
+    "seconds": 3.568027,
+    "duration": 4.068027
+  },
+  "battlefield:10": {
+    "file": "course/zh-Hans/battlefield/10-502bee284df11d00.m4a",
+    "seconds": 3.208027,
+    "duration": 3.708027
+  },
+  "battlefield:11": {
+    "file": "course/zh-Hans/battlefield/11-18bc24dcb4f0ef56.m4a",
+    "seconds": 5.58907,
+    "duration": 6.08907
+  },
+  "battlefield:12": {
+    "file": "course/zh-Hans/battlefield/12-4b5cf995b768f463.m4a",
+    "seconds": 3.79034,
+    "duration": 4.2903400000000005
+  },
+  "battlefield:13": {
+    "file": "course/zh-Hans/battlefield/13-6362d63f0c37a9d1.m4a",
+    "seconds": 3.277687,
+    "duration": 3.777687
+  },
+  "battlefield:14": {
+    "file": "course/zh-Hans/battlefield/14-4272c1113973dc4f.m4a",
+    "seconds": 3.401814,
+    "duration": 3.901814
+  },
+  "battlefield:15": {
+    "file": "course/zh-Hans/battlefield/15-a3ab3cb5836eebb4.m4a",
+    "seconds": 3.55034,
+    "duration": 4.05034
+  },
+  "battlefield:16": {
+    "file": "course/zh-Hans/battlefield/16-63fd22fd52a5f2c8.m4a",
+    "seconds": 3.95941,
+    "duration": 4.45941
+  },
+  "battlefield:17": {
+    "file": "course/zh-Hans/battlefield/17-c019a9f05cc5fdaf.m4a",
+    "seconds": 2.232789,
+    "duration": 2.732789
+  },
+  "battlefield:19": {
+    "file": "course/zh-Hans/battlefield/19-e40be0a116474d20.m4a",
+    "seconds": 3.831701,
+    "duration": 4.331701
+  },
+  "battlefield:21": {
+    "file": "course/zh-Hans/battlefield/21-9720425f497dec32.m4a",
+    "seconds": 4.671701,
+    "duration": 5.171701
+  },
+  "battlefield:22": {
+    "file": "course/zh-Hans/battlefield/22-50f3399b29782dcb.m4a",
+    "seconds": 6.413741,
+    "duration": 6.913741
+  },
+  "battlefield:23": {
+    "file": "course/zh-Hans/battlefield/23-82a9128468a8f94e.m4a",
+    "seconds": 3.325896,
+    "duration": 3.825896
+  },
+  "battlefield:24": {
+    "file": "course/zh-Hans/battlefield/24-91fca88c2be04cd7.m4a",
+    "seconds": 5.61483,
+    "duration": 6.11483
+  },
+  "pawn:0": {
+    "file": "course/zh-Hans/pawn/0-c0199f6d3dc041cd.m4a",
+    "seconds": 2.383719,
+    "duration": 2.883719
+  },
+  "pawn:1": {
+    "file": "course/zh-Hans/pawn/1-2890153325982b03.m4a",
+    "seconds": 2.440635,
+    "duration": 2.940635
+  },
+  "pawn:2": {
+    "file": "course/zh-Hans/pawn/2-091a424d11a3b7fd.m4a",
+    "seconds": 5.621769,
+    "duration": 6.121769
+  },
+  "pawn:3": {
+    "file": "course/zh-Hans/pawn/3-e7a1161d4075103a.m4a",
+    "seconds": 2.870522,
+    "duration": 3.370522
+  },
+  "pawn:4": {
+    "file": "course/zh-Hans/pawn/4-67a6925a5e8d3a4b.m4a",
+    "seconds": 3.253651,
+    "duration": 3.753651
+  },
+  "pawn:5": {
+    "file": "course/zh-Hans/pawn/5-5e5109e37c8adfe0.m4a",
+    "seconds": 2.21093,
+    "duration": 2.71093
+  },
+  "pawn:6": {
+    "file": "course/zh-Hans/pawn/6-55da4d471698aa47.m4a",
+    "seconds": 7.270703,
+    "duration": 7.770703
+  },
+  "pawn:7": {
+    "file": "course/zh-Hans/pawn/7-c3ab395cf1384251.m4a",
+    "seconds": 2.415283,
+    "duration": 2.915283
+  },
+  "pawn:8": {
+    "file": "course/zh-Hans/pawn/8-536a8f823a162514.m4a",
+    "seconds": 4.101179,
+    "duration": 4.601179
+  },
+  "pawn:9": {
+    "file": "course/zh-Hans/pawn/9-ba3ed84169776358.m4a",
+    "seconds": 1.602268,
+    "duration": 2.102268
+  },
+  "pawn:10": {
+    "file": "course/zh-Hans/pawn/10-03a382c5a370ce65.m4a",
+    "seconds": 4.409342,
+    "duration": 4.909342
+  },
+  "pawn:11": {
+    "file": "course/zh-Hans/pawn/11-a24a140e82454f5d.m4a",
+    "seconds": 5.043401,
+    "duration": 5.543401
+  },
+  "pawn:12": {
+    "file": "course/zh-Hans/pawn/12-ba1a6493f3665feb.m4a",
+    "seconds": 1.221905,
+    "duration": 1.721905
+  },
+  "pawn:13": {
+    "file": "course/zh-Hans/pawn/13-b99d80599a3575f8.m4a",
+    "seconds": 6.234966,
+    "duration": 6.734966
+  },
+  "pawn:14": {
+    "file": "course/zh-Hans/pawn/14-7a3572638f752be0.m4a",
+    "seconds": 5.088027,
+    "duration": 5.588027
+  },
+  "pawn:15": {
+    "file": "course/zh-Hans/pawn/15-8b47e91b29f3b219.m4a",
+    "seconds": 2.024626,
+    "duration": 2.524626
+  },
+  "pawn:16": {
+    "file": "course/zh-Hans/pawn/16-7d4a44284bf8d22d.m4a",
+    "seconds": 5.041587,
+    "duration": 5.541587
+  },
+  "pawn:17": {
+    "file": "course/zh-Hans/pawn/17-358726831fc491a8.m4a",
+    "seconds": 2.742812,
+    "duration": 3.242812
+  },
+  "pawn:18": {
+    "file": "course/zh-Hans/pawn/18-c693a970eb5d15b6.m4a",
+    "seconds": 5.979546,
+    "duration": 6.479546
+  },
+  "pawn:19": {
+    "file": "course/zh-Hans/pawn/19-36cf0b5f3cc50c6f.m4a",
+    "seconds": 3.271746,
+    "duration": 3.771746
+  },
+  "pawn:20": {
+    "file": "course/zh-Hans/pawn/20-d5752e5659e1393e.m4a",
+    "seconds": 4.298549,
+    "duration": 4.798549
+  },
+  "pawn:21": {
+    "file": "course/zh-Hans/pawn/21-5b0ba09336b23a54.m4a",
+    "seconds": 3.46263,
+    "duration": 3.96263
+  },
+  "pawn:23": {
+    "file": "course/zh-Hans/pawn/23-1af004e1309ab8af.m4a",
+    "seconds": 4.98517,
+    "duration": 5.48517
+  },
+  "pawn:25": {
+    "file": "course/zh-Hans/pawn/25-8d10bba69b218c29.m4a",
+    "seconds": 3.858186,
+    "duration": 4.358186
+  },
+  "pawn:26": {
+    "file": "course/zh-Hans/pawn/26-17183c75e4c89509.m4a",
+    "seconds": 3.172381,
+    "duration": 3.672381
+  },
+  "pawn:27": {
+    "file": "course/zh-Hans/pawn/27-c20eb579dba660c3.m4a",
+    "seconds": 5.59102,
+    "duration": 6.09102
+  },
+  "pawn-wars:0": {
+    "file": "course/zh-Hans/pawn-wars/0-5f7319c39d6c9c1f.m4a",
+    "seconds": 3.266122,
+    "duration": 3.766122
+  },
+  "pawn-wars:1": {
+    "file": "course/zh-Hans/pawn-wars/1-dfbe14632672931b.m4a",
+    "seconds": 5.981995,
+    "duration": 6.481995
+  },
+  "pawn-wars:2": {
+    "file": "course/zh-Hans/pawn-wars/2-3e08f1efbb68f4c8.m4a",
+    "seconds": 3.45102,
+    "duration": 3.95102
+  },
+  "pawn-wars:3": {
+    "file": "course/zh-Hans/pawn-wars/3-d631b9480f6eabb6.m4a",
+    "seconds": 3.301905,
+    "duration": 3.801905
+  },
+  "pawn-wars:4": {
+    "file": "course/zh-Hans/pawn-wars/4-faefaf0124ada302.m4a",
+    "seconds": 3.631474,
+    "duration": 4.131474
+  },
+  "pawn-wars:5": {
+    "file": "course/zh-Hans/pawn-wars/5-a6a856f8631a5926.m4a",
+    "seconds": 3.465488,
+    "duration": 3.965488
+  },
+  "pawn-wars:6": {
+    "file": "course/zh-Hans/pawn-wars/6-66b57a8e762371f9.m4a",
+    "seconds": 2.693923,
+    "duration": 3.193923
+  },
+  "pawn-wars:7": {
+    "file": "course/zh-Hans/pawn-wars/7-e81c293059ac5f04.m4a",
+    "seconds": 3.280816,
+    "duration": 3.780816
+  },
+  "pawn-wars:8": {
+    "file": "course/zh-Hans/pawn-wars/8-3545afd4d18eeee9.m4a",
+    "seconds": 3.57873,
+    "duration": 4.07873
+  },
+  "pawn-wars:9": {
+    "file": "course/zh-Hans/pawn-wars/9-06883be1301d7821.m4a",
+    "seconds": 1.744036,
+    "duration": 2.244036
+  },
+  "pawn-wars:10": {
+    "file": "course/zh-Hans/pawn-wars/10-fcc57f7858b058b3.m4a",
+    "seconds": 4.426259,
+    "duration": 4.926259
+  },
+  "pawn-wars:11": {
+    "file": "course/zh-Hans/pawn-wars/11-a095c75cee586923.m4a",
+    "seconds": 5.761406,
+    "duration": 6.261406
+  },
+  "pawn-wars:12": {
+    "file": "course/zh-Hans/pawn-wars/12-3b346a740cc3b215.m4a",
+    "seconds": 2.572608,
+    "duration": 3.072608
+  },
+  "pawn-wars:13": {
+    "file": "course/zh-Hans/pawn-wars/13-a0c4d4969a89583c.m4a",
+    "seconds": 3.608254,
+    "duration": 4.1082540000000005
+  },
+  "pawn-wars:14": {
+    "file": "course/zh-Hans/pawn-wars/14-37b911a5638bbf12.m4a",
+    "seconds": 3.985079,
+    "duration": 4.485079
+  },
+  "pawn-wars:15": {
+    "file": "course/zh-Hans/pawn-wars/15-53a6cb8ebf1c766e.m4a",
+    "seconds": 7.959637,
+    "duration": 8.459637
+  },
+  "pawn-wars:16": {
+    "file": "course/zh-Hans/pawn-wars/16-771dd04a8b2ca60e.m4a",
+    "seconds": 3.120635,
+    "duration": 3.620635
+  },
+  "pawn-wars:17": {
+    "file": "course/zh-Hans/pawn-wars/17-baf33d7c2ebc1a8a.m4a",
+    "seconds": 5.366667,
+    "duration": 5.866667
+  },
+  "pawn-wars:18": {
+    "file": "course/zh-Hans/pawn-wars/18-f4382faffb05fb3d.m4a",
+    "seconds": 5.682766,
+    "duration": 6.182766
+  },
+  "pawn-wars:20": {
+    "file": "course/zh-Hans/pawn-wars/20-3f283d6e671bfd60.m4a",
+    "seconds": 3.457324,
+    "duration": 3.957324
+  },
+  "pawn-wars:21": {
+    "file": "course/zh-Hans/pawn-wars/21-0cba50e2a91304ad.m4a",
+    "seconds": 2.795556,
+    "duration": 3.295556
+  },
+  "pawn-wars:23": {
+    "file": "course/zh-Hans/pawn-wars/23-415d40f3cbc868b9.m4a",
+    "seconds": 4.577188,
+    "duration": 5.077188
+  },
+  "pawn-wars:24": {
+    "file": "course/zh-Hans/pawn-wars/24-a30a7995ea1ef459.m4a",
+    "seconds": 3.521497,
+    "duration": 4.021497
+  },
+  "pawn-wars:25": {
+    "file": "course/zh-Hans/pawn-wars/25-e0050a6ffc2c942a.m4a",
+    "seconds": 2.749116,
+    "duration": 3.249116
+  },
+  "pawn-wars:26": {
+    "file": "course/zh-Hans/pawn-wars/26-fb81ba7d8313119c.m4a",
+    "seconds": 5.542948,
+    "duration": 6.042948
+  },
+  "rook:0": {
+    "file": "course/zh-Hans/rook/0-e9847e0694231242.m4a",
+    "seconds": 3.106032,
+    "duration": 3.606032
+  },
+  "rook:1": {
+    "file": "course/zh-Hans/rook/1-37a672b6ca3c3874.m4a",
+    "seconds": 3.917052,
+    "duration": 4.417052
+  },
+  "rook:2": {
+    "file": "course/zh-Hans/rook/2-5ced45bb0923e839.m4a",
+    "seconds": 5.640363,
+    "duration": 6.140363
+  },
+  "rook:3": {
+    "file": "course/zh-Hans/rook/3-cc25dd00b84830d7.m4a",
+    "seconds": 6.307075,
+    "duration": 6.807075
+  },
+  "rook:4": {
+    "file": "course/zh-Hans/rook/4-b05229a82ee94949.m4a",
+    "seconds": 1.92517,
+    "duration": 2.42517
+  },
+  "rook:5": {
+    "file": "course/zh-Hans/rook/5-e83f5daf189353f0.m4a",
+    "seconds": 4.660635,
+    "duration": 5.160635
+  },
+  "rook:6": {
+    "file": "course/zh-Hans/rook/6-76cd9a5d0ee18fef.m4a",
+    "seconds": 1.286621,
+    "duration": 1.786621
+  },
+  "rook:7": {
+    "file": "course/zh-Hans/rook/7-136a2b1ccc708d90.m4a",
+    "seconds": 4.502585,
+    "duration": 5.002585
+  },
+  "rook:8": {
+    "file": "course/zh-Hans/rook/8-72ad0a6ff05d8ccd.m4a",
+    "seconds": 2.406939,
+    "duration": 2.906939
+  },
+  "rook:9": {
+    "file": "course/zh-Hans/rook/9-2e8745021f1150a7.m4a",
+    "seconds": 3.687574,
+    "duration": 4.187574
+  },
+  "rook:10": {
+    "file": "course/zh-Hans/rook/10-2e8b1e968bbacb9f.m4a",
+    "seconds": 3.678277,
+    "duration": 4.178277
+  },
+  "rook:11": {
+    "file": "course/zh-Hans/rook/11-5d5992bc0f308c56.m4a",
+    "seconds": 2.993288,
+    "duration": 3.493288
+  },
+  "rook:12": {
+    "file": "course/zh-Hans/rook/12-15b95405872ef976.m4a",
+    "seconds": 3.120635,
+    "duration": 3.620635
+  },
+  "rook:13": {
+    "file": "course/zh-Hans/rook/13-80e588f591203abd.m4a",
+    "seconds": 3.515737,
+    "duration": 4.015737
+  },
+  "rook:15": {
+    "file": "course/zh-Hans/rook/15-2608de5e58fa617e.m4a",
+    "seconds": 5.234014,
+    "duration": 5.734014
+  },
+  "rook:16": {
+    "file": "course/zh-Hans/rook/16-c39956f0a2373292.m4a",
+    "seconds": 2.0761,
+    "duration": 2.5761
+  },
+  "rook:18": {
+    "file": "course/zh-Hans/rook/18-13459bbacfbb4400.m4a",
+    "seconds": 4.219592,
+    "duration": 4.719592
+  },
+  "rook:19": {
+    "file": "course/zh-Hans/rook/19-421b5d880b269823.m4a",
+    "seconds": 5.393651,
+    "duration": 5.893651
+  },
+  "rampant-rooks:0": {
+    "file": "course/zh-Hans/rampant-rooks/0-50bf423608f826a7.m4a",
+    "seconds": 2.826213,
+    "duration": 3.326213
+  },
+  "rampant-rooks:1": {
+    "file": "course/zh-Hans/rampant-rooks/1-52c73f65e0f26587.m4a",
+    "seconds": 4.151565,
+    "duration": 4.651565
+  },
+  "rampant-rooks:2": {
+    "file": "course/zh-Hans/rampant-rooks/2-d7d82243c2c59c32.m4a",
+    "seconds": 3.415873,
+    "duration": 3.915873
+  },
+  "rampant-rooks:3": {
+    "file": "course/zh-Hans/rampant-rooks/3-7cf398180cc9a866.m4a",
+    "seconds": 5.459229,
+    "duration": 5.959229
+  },
+  "rampant-rooks:4": {
+    "file": "course/zh-Hans/rampant-rooks/4-2c8705d60ff6bce1.m4a",
+    "seconds": 4.502404,
+    "duration": 5.002404
+  },
+  "rampant-rooks:5": {
+    "file": "course/zh-Hans/rampant-rooks/5-c6a97f11a6a8a962.m4a",
+    "seconds": 3.985079,
+    "duration": 4.485079
+  },
+  "rampant-rooks:6": {
+    "file": "course/zh-Hans/rampant-rooks/6-3b5c442453c0fe1d.m4a",
+    "seconds": 2.040907,
+    "duration": 2.540907
+  },
+  "rampant-rooks:7": {
+    "file": "course/zh-Hans/rampant-rooks/7-cb7a9a93067898bf.m4a",
+    "seconds": 1.639864,
+    "duration": 2.139864
+  },
+  "rampant-rooks:8": {
+    "file": "course/zh-Hans/rampant-rooks/8-990de3866b3d509c.m4a",
+    "seconds": 2.981315,
+    "duration": 3.481315
+  },
+  "rampant-rooks:9": {
+    "file": "course/zh-Hans/rampant-rooks/9-6bfedbdbb8531c52.m4a",
+    "seconds": 5.15737,
+    "duration": 5.65737
+  },
+  "rampant-rooks:10": {
+    "file": "course/zh-Hans/rampant-rooks/10-fd014687d834f221.m4a",
+    "seconds": 5.183175,
+    "duration": 5.683175
+  },
+  "rampant-rooks:11": {
+    "file": "course/zh-Hans/rampant-rooks/11-fcb0465424330e04.m4a",
+    "seconds": 5.436327,
+    "duration": 5.936327
+  },
+  "rampant-rooks:12": {
+    "file": "course/zh-Hans/rampant-rooks/12-fbcc4e1600807625.m4a",
+    "seconds": 4.000635,
+    "duration": 4.500635
+  },
+  "rampant-rooks:13": {
+    "file": "course/zh-Hans/rampant-rooks/13-4b6b538fbd0171ab.m4a",
+    "seconds": 4.669751,
+    "duration": 5.169751
+  },
+  "rampant-rooks:14": {
+    "file": "course/zh-Hans/rampant-rooks/14-b1315fda67237420.m4a",
+    "seconds": 3.403401,
+    "duration": 3.903401
+  },
+  "rampant-rooks:15": {
+    "file": "course/zh-Hans/rampant-rooks/15-5cc4b2533ac50613.m4a",
+    "seconds": 5.519909,
+    "duration": 6.019909
+  },
+  "rampant-rooks:16": {
+    "file": "course/zh-Hans/rampant-rooks/16-6701fdcdb90984f4.m4a",
+    "seconds": 4.18322,
+    "duration": 4.68322
+  },
+  "rampant-rooks:17": {
+    "file": "course/zh-Hans/rampant-rooks/17-c4db17d5457e8493.m4a",
+    "seconds": 4.228889,
+    "duration": 4.728889
+  },
+  "rampant-rooks:18": {
+    "file": "course/zh-Hans/rampant-rooks/18-2da168679aaae500.m4a",
+    "seconds": 2.760726,
+    "duration": 3.260726
+  },
+  "rampant-rooks:19": {
+    "file": "course/zh-Hans/rampant-rooks/19-45a98653e4209a76.m4a",
+    "seconds": 3.712744,
+    "duration": 4.212744
+  },
+  "rampant-rooks:20": {
+    "file": "course/zh-Hans/rampant-rooks/20-4a51abc0084bd322.m4a",
+    "seconds": 4.046803,
+    "duration": 4.546803
+  },
+  "rampant-rooks:21": {
+    "file": "course/zh-Hans/rampant-rooks/21-56333ec303c94ba6.m4a",
+    "seconds": 4.774331,
+    "duration": 5.274331
+  },
+  "rampant-rooks:23": {
+    "file": "course/zh-Hans/rampant-rooks/23-41181c774cc93060.m4a",
+    "seconds": 4.962132,
+    "duration": 5.462132
+  },
+  "rampant-rooks:25": {
+    "file": "course/zh-Hans/rampant-rooks/25-25d2847f2698acf0.m4a",
+    "seconds": 4.588571,
+    "duration": 5.088571
+  },
+  "rampant-rooks:26": {
+    "file": "course/zh-Hans/rampant-rooks/26-d3c89237783532a6.m4a",
+    "seconds": 5.113923,
+    "duration": 5.613923
+  },
+  "bishop:0": {
+    "file": "course/zh-Hans/bishop/0-0845721958f9add2.m4a",
+    "seconds": 2.769342,
+    "duration": 3.269342
+  },
+  "bishop:1": {
+    "file": "course/zh-Hans/bishop/1-4b568a6cfd9abae5.m4a",
+    "seconds": 3.266077,
+    "duration": 3.766077
+  },
+  "bishop:2": {
+    "file": "course/zh-Hans/bishop/2-2e5007699407b9c8.m4a",
+    "seconds": 4.055556,
+    "duration": 4.555556
+  },
+  "bishop:3": {
+    "file": "course/zh-Hans/bishop/3-7d09ef4e9e71948b.m4a",
+    "seconds": 4.144989,
+    "duration": 4.644989
+  },
+  "bishop:4": {
+    "file": "course/zh-Hans/bishop/4-e4f1d8cef91c83c5.m4a",
+    "seconds": 3.718866,
+    "duration": 4.218866
+  },
+  "bishop:5": {
+    "file": "course/zh-Hans/bishop/5-76a10dd75cb9c66f.m4a",
+    "seconds": 3.186168,
+    "duration": 3.686168
+  },
+  "bishop:6": {
+    "file": "course/zh-Hans/bishop/6-fa74f3f4d3fabac1.m4a",
+    "seconds": 2.743628,
+    "duration": 3.243628
+  },
+  "bishop:7": {
+    "file": "course/zh-Hans/bishop/7-cbe62c4532b120fb.m4a",
+    "seconds": 4.818549,
+    "duration": 5.318549
+  },
+  "bishop:8": {
+    "file": "course/zh-Hans/bishop/8-80b34714bfa39d10.m4a",
+    "seconds": 3.058413,
+    "duration": 3.558413
+  },
+  "bishop:9": {
+    "file": "course/zh-Hans/bishop/9-889297dec3a08b8d.m4a",
+    "seconds": 4.510113,
+    "duration": 5.010113
+  },
+  "bishop:10": {
+    "file": "course/zh-Hans/bishop/10-1518e904ddf31d57.m4a",
+    "seconds": 4.089569,
+    "duration": 4.589569
+  },
+  "bishop:11": {
+    "file": "course/zh-Hans/bishop/11-417d9c9b21eb49af.m4a",
+    "seconds": 3.905941,
+    "duration": 4.405941
+  },
+  "bishop:12": {
+    "file": "course/zh-Hans/bishop/12-746f0a91d097633a.m4a",
+    "seconds": 3.904626,
+    "duration": 4.404626
+  },
+  "bishop:13": {
+    "file": "course/zh-Hans/bishop/13-8819904b2755ebcf.m4a",
+    "seconds": 1.350431,
+    "duration": 1.850431
+  },
+  "bishop:14": {
+    "file": "course/zh-Hans/bishop/14-9d294c359bd6adfe.m4a",
+    "seconds": 4.461905,
+    "duration": 4.961905
+  },
+  "bishop:15": {
+    "file": "course/zh-Hans/bishop/15-0df057132f8a1a55.m4a",
+    "seconds": 2.639138,
+    "duration": 3.139138
+  },
+  "bishop:16": {
+    "file": "course/zh-Hans/bishop/16-cfbca16019eea549.m4a",
+    "seconds": 4.019683,
+    "duration": 4.519683
+  },
+  "bishop:17": {
+    "file": "course/zh-Hans/bishop/17-42fc37139ce08d12.m4a",
+    "seconds": 4.485125,
+    "duration": 4.985125
+  },
+  "bishop:19": {
+    "file": "course/zh-Hans/bishop/19-6ef92a925e01e7de.m4a",
+    "seconds": 3.847392,
+    "duration": 4.347392
+  },
+  "bishop:20": {
+    "file": "course/zh-Hans/bishop/20-9f478d56d058e6b6.m4a",
+    "seconds": 3.173197,
+    "duration": 3.673197
+  },
+  "bishop:22": {
+    "file": "course/zh-Hans/bishop/22-21dd821259f713b7.m4a",
+    "seconds": 3.102494,
+    "duration": 3.602494
+  },
+  "bishop:23": {
+    "file": "course/zh-Hans/bishop/23-0afb4477d0aae1b5.m4a",
+    "seconds": 6.148299,
+    "duration": 6.648299
+  },
+  "busy-bishops:0": {
+    "file": "course/zh-Hans/busy-bishops/0-a2cccb2d71f55113.m4a",
+    "seconds": 4.66059,
+    "duration": 5.16059
+  },
+  "busy-bishops:1": {
+    "file": "course/zh-Hans/busy-bishops/1-fed5680ee26b8472.m4a",
+    "seconds": 3.091927,
+    "duration": 3.591927
+  },
+  "busy-bishops:2": {
+    "file": "course/zh-Hans/busy-bishops/2-7eb207a006a5c312.m4a",
+    "seconds": 3.197778,
+    "duration": 3.697778
+  },
+  "busy-bishops:3": {
+    "file": "course/zh-Hans/busy-bishops/3-641be6d0ebf29079.m4a",
+    "seconds": 3.973469,
+    "duration": 4.473469
+  },
+  "busy-bishops:4": {
+    "file": "course/zh-Hans/busy-bishops/4-ee35957ac62046a7.m4a",
+    "seconds": 5.129161,
+    "duration": 5.629161
+  },
+  "busy-bishops:5": {
+    "file": "course/zh-Hans/busy-bishops/5-53a158407d950d42.m4a",
+    "seconds": 3.460181,
+    "duration": 3.960181
+  },
+  "busy-bishops:6": {
+    "file": "course/zh-Hans/busy-bishops/6-b7db69bcd596f325.m4a",
+    "seconds": 3.350204,
+    "duration": 3.850204
+  },
+  "busy-bishops:7": {
+    "file": "course/zh-Hans/busy-bishops/7-5ed4d1f6d7a97d2c.m4a",
+    "seconds": 4.834921,
+    "duration": 5.334921
+  },
+  "busy-bishops:8": {
+    "file": "course/zh-Hans/busy-bishops/8-aa5bf4a67f3d16c6.m4a",
+    "seconds": 3.021134,
+    "duration": 3.521134
+  },
+  "busy-bishops:9": {
+    "file": "course/zh-Hans/busy-bishops/9-5d199c9755007e95.m4a",
+    "seconds": 3.970703,
+    "duration": 4.470703
+  },
+  "busy-bishops:10": {
+    "file": "course/zh-Hans/busy-bishops/10-d9a2ae86f2184508.m4a",
+    "seconds": 5.749478,
+    "duration": 6.249478
+  },
+  "busy-bishops:11": {
+    "file": "course/zh-Hans/busy-bishops/11-4a736e86abf652e9.m4a",
+    "seconds": 4.345805,
+    "duration": 4.845805
+  },
+  "busy-bishops:13": {
+    "file": "course/zh-Hans/busy-bishops/13-17d1249017c6c4bd.m4a",
+    "seconds": 3.312063,
+    "duration": 3.812063
+  },
+  "busy-bishops:14": {
+    "file": "course/zh-Hans/busy-bishops/14-87b03a19f6385883.m4a",
+    "seconds": 1.500544,
+    "duration": 2.000544
+  },
+  "busy-bishops:15": {
+    "file": "course/zh-Hans/busy-bishops/15-b26eedfe181fb4fc.m4a",
+    "seconds": 2.644626,
+    "duration": 3.144626
+  },
+  "busy-bishops:16": {
+    "file": "course/zh-Hans/busy-bishops/16-b08a287c50ab77ce.m4a",
+    "seconds": 4.755283,
+    "duration": 5.255283
+  },
+  "busy-bishops:17": {
+    "file": "course/zh-Hans/busy-bishops/17-c62b0af70c5b3b45.m4a",
+    "seconds": 3.158322,
+    "duration": 3.658322
+  },
+  "busy-bishops:18": {
+    "file": "course/zh-Hans/busy-bishops/18-31f92aa0f08a58f6.m4a",
+    "seconds": 2.884308,
+    "duration": 3.384308
+  },
+  "busy-bishops:19": {
+    "file": "course/zh-Hans/busy-bishops/19-3fbbf3be4ce14957.m4a",
+    "seconds": 2.418549,
+    "duration": 2.918549
+  },
+  "busy-bishops:20": {
+    "file": "course/zh-Hans/busy-bishops/20-de8b788a0e5b17b8.m4a",
+    "seconds": 1.83805,
+    "duration": 2.33805
+  },
+  "busy-bishops:21": {
+    "file": "course/zh-Hans/busy-bishops/21-7d3961de0a3c0bde.m4a",
+    "seconds": 2.203447,
+    "duration": 2.703447
+  },
+  "busy-bishops:22": {
+    "file": "course/zh-Hans/busy-bishops/22-e54270acce2a7a1f.m4a",
+    "seconds": 6.685079,
+    "duration": 7.185079
+  },
+  "busy-bishops:24": {
+    "file": "course/zh-Hans/busy-bishops/24-641a79e34fdd3992.m4a",
+    "seconds": 4.322585,
+    "duration": 4.822585
+  },
+  "busy-bishops:25": {
+    "file": "course/zh-Hans/busy-bishops/25-c03ce64bc970fd52.m4a",
+    "seconds": 2.186349,
+    "duration": 2.686349
+  },
+  "busy-bishops:26": {
+    "file": "course/zh-Hans/busy-bishops/26-62b12dd20436f936.m4a",
+    "seconds": 5.146259,
+    "duration": 5.646259
+  },
+  "queen:0": {
+    "file": "course/zh-Hans/queen/0-a58b67edb6d88be3.m4a",
+    "seconds": 2.746122,
+    "duration": 3.246122
+  },
+  "queen:1": {
+    "file": "course/zh-Hans/queen/1-8f3e4cafaceb993f.m4a",
+    "seconds": 2.337279,
+    "duration": 2.837279
+  },
+  "queen:2": {
+    "file": "course/zh-Hans/queen/2-81e14e676bdcc164.m4a",
+    "seconds": 3.359773,
+    "duration": 3.859773
+  },
+  "queen:3": {
+    "file": "course/zh-Hans/queen/3-cbbec510d0c15f0a.m4a",
+    "seconds": 2.663855,
+    "duration": 3.163855
+  },
+  "queen:4": {
+    "file": "course/zh-Hans/queen/4-c1de882dd610cdd6.m4a",
+    "seconds": 3.371882,
+    "duration": 3.871882
+  },
+  "queen:5": {
+    "file": "course/zh-Hans/queen/5-cf16ff29d2fc56ed.m4a",
+    "seconds": 4.168209,
+    "duration": 4.668209
+  },
+  "queen:6": {
+    "file": "course/zh-Hans/queen/6-33e6a370aa30d75f.m4a",
+    "seconds": 3.662177,
+    "duration": 4.162177
+  },
+  "queen:7": {
+    "file": "course/zh-Hans/queen/7-b559e7a909e570b2.m4a",
+    "seconds": 3.692063,
+    "duration": 4.192063
+  },
+  "queen:8": {
+    "file": "course/zh-Hans/queen/8-760a1e9779b34a77.m4a",
+    "seconds": 4.718821,
+    "duration": 5.218821
+  },
+  "queen:9": {
+    "file": "course/zh-Hans/queen/9-879347dbe60f63de.m4a",
+    "seconds": 3.756825,
+    "duration": 4.256825
+  },
+  "queen:10": {
+    "file": "course/zh-Hans/queen/10-945fa24d2e2ebd78.m4a",
+    "seconds": 3.614376,
+    "duration": 4.114376
+  },
+  "queen:11": {
+    "file": "course/zh-Hans/queen/11-bced12b0ffc47230.m4a",
+    "seconds": 1.303991,
+    "duration": 1.803991
+  },
+  "queen:12": {
+    "file": "course/zh-Hans/queen/12-3a06c06f32603ae8.m4a",
+    "seconds": 3.265261,
+    "duration": 3.765261
+  },
+  "queen:13": {
+    "file": "course/zh-Hans/queen/13-67594d528f9e88dd.m4a",
+    "seconds": 3.906122,
+    "duration": 4.406122
+  },
+  "queen:15": {
+    "file": "course/zh-Hans/queen/15-43a3abd94fd411ad.m4a",
+    "seconds": 5.589932,
+    "duration": 6.089932
+  },
+  "queen:17": {
+    "file": "course/zh-Hans/queen/17-3bc2810a13e3916d.m4a",
+    "seconds": 4.553968,
+    "duration": 5.053968
+  },
+  "queen:18": {
+    "file": "course/zh-Hans/queen/18-9d8ded8e2609d138.m4a",
+    "seconds": 5.042404,
+    "duration": 5.542404
+  },
+  "queen:19": {
+    "file": "course/zh-Hans/queen/19-a1fcc73e2c0561e1.m4a",
+    "seconds": 5.219501,
+    "duration": 5.719501
+  },
+  "quirky-queens:0": {
+    "file": "course/zh-Hans/quirky-queens/0-167c07296311849d.m4a",
+    "seconds": 3.823356,
+    "duration": 4.323356
+  },
+  "quirky-queens:1": {
+    "file": "course/zh-Hans/quirky-queens/1-b82603b472dd0185.m4a",
+    "seconds": 3.508753,
+    "duration": 4.0087530000000005
+  },
+  "quirky-queens:2": {
+    "file": "course/zh-Hans/quirky-queens/2-7fed97582c0e47ea.m4a",
+    "seconds": 2.011383,
+    "duration": 2.511383
+  },
+  "quirky-queens:3": {
+    "file": "course/zh-Hans/quirky-queens/3-a9b2945d1d6c2721.m4a",
+    "seconds": 1.994467,
+    "duration": 2.494467
+  },
+  "quirky-queens:4": {
+    "file": "course/zh-Hans/quirky-queens/4-ba0ff898221cd6f6.m4a",
+    "seconds": 2.314603,
+    "duration": 2.814603
+  },
+  "quirky-queens:5": {
+    "file": "course/zh-Hans/quirky-queens/5-37dc6d83118b2911.m4a",
+    "seconds": 2.373923,
+    "duration": 2.873923
+  },
+  "quirky-queens:6": {
+    "file": "course/zh-Hans/quirky-queens/6-1a08d1c34f800125.m4a",
+    "seconds": 3.614376,
+    "duration": 4.114376
+  },
+  "quirky-queens:7": {
+    "file": "course/zh-Hans/quirky-queens/7-4247bf4e7dbf24d4.m4a",
+    "seconds": 2.406122,
+    "duration": 2.906122
+  },
+  "quirky-queens:8": {
+    "file": "course/zh-Hans/quirky-queens/8-df154211b088c520.m4a",
+    "seconds": 3.695646,
+    "duration": 4.195646
+  },
+  "quirky-queens:9": {
+    "file": "course/zh-Hans/quirky-queens/9-192a1ce495aed2ac.m4a",
+    "seconds": 5.761406,
+    "duration": 6.261406
+  },
+  "quirky-queens:10": {
+    "file": "course/zh-Hans/quirky-queens/10-8fc429dfabea959e.m4a",
+    "seconds": 7.306349,
+    "duration": 7.806349
+  },
+  "quirky-queens:11": {
+    "file": "course/zh-Hans/quirky-queens/11-0de720f674d369c1.m4a",
+    "seconds": 4.472698,
+    "duration": 4.972698
+  },
+  "quirky-queens:12": {
+    "file": "course/zh-Hans/quirky-queens/12-d4df3a971b92751b.m4a",
+    "seconds": 1.657778,
+    "duration": 2.157778
+  },
+  "quirky-queens:13": {
+    "file": "course/zh-Hans/quirky-queens/13-39f817571eb33494.m4a",
+    "seconds": 4.357415,
+    "duration": 4.857415
+  },
+  "quirky-queens:14": {
+    "file": "course/zh-Hans/quirky-queens/14-ac433e213da20196.m4a",
+    "seconds": 3.230431,
+    "duration": 3.730431
+  },
+  "quirky-queens:16": {
+    "file": "course/zh-Hans/quirky-queens/16-3129eaabad7a07a6.m4a",
+    "seconds": 5.050748,
+    "duration": 5.550748
+  },
+  "quirky-queens:17": {
+    "file": "course/zh-Hans/quirky-queens/17-9b8356c643944d62.m4a",
+    "seconds": 5.21941,
+    "duration": 5.71941
+  },
+  "quirky-queens:18": {
+    "file": "course/zh-Hans/quirky-queens/18-887e701320acc7e8.m4a",
+    "seconds": 2.087347,
+    "duration": 2.587347
+  },
+  "quirky-queens:20": {
+    "file": "course/zh-Hans/quirky-queens/20-a312ecc2c92416dc.m4a",
+    "seconds": 3.382177,
+    "duration": 3.882177
+  },
+  "quirky-queens:21": {
+    "file": "course/zh-Hans/quirky-queens/21-700e2901178ca340.m4a",
+    "seconds": 2.624263,
+    "duration": 3.124263
+  },
+  "quirky-queens:22": {
+    "file": "course/zh-Hans/quirky-queens/22-bae587ee4c46f6d6.m4a",
+    "seconds": 4.360363,
+    "duration": 4.860363
+  },
+  "knight:0": {
+    "file": "course/zh-Hans/knight/0-7a118d799c548249.m4a",
+    "seconds": 2.421043,
+    "duration": 2.921043
+  },
+  "knight:1": {
+    "file": "course/zh-Hans/knight/1-078ff59a77829a7c.m4a",
+    "seconds": 3.894785,
+    "duration": 4.394785000000001
+  },
+  "knight:2": {
+    "file": "course/zh-Hans/knight/2-b917f1197862ea08.m4a",
+    "seconds": 2.605125,
+    "duration": 3.105125
+  },
+  "knight:3": {
+    "file": "course/zh-Hans/knight/3-70eb55a7887585ca.m4a",
+    "seconds": 5.183492,
+    "duration": 5.683492
+  },
+  "knight:4": {
+    "file": "course/zh-Hans/knight/4-2790e4ca0d362791.m4a",
+    "seconds": 4.194875,
+    "duration": 4.694875
+  },
+  "knight:5": {
+    "file": "course/zh-Hans/knight/5-0fcd7b2bb1a89363.m4a",
+    "seconds": 3.325896,
+    "duration": 3.825896
+  },
+  "knight:6": {
+    "file": "course/zh-Hans/knight/6-879b269326e82d20.m4a",
+    "seconds": 4.95102,
+    "duration": 5.45102
+  },
+  "knight:7": {
+    "file": "course/zh-Hans/knight/7-b8cfe7c19b21260c.m4a",
+    "seconds": 2.037188,
+    "duration": 2.537188
+  },
+  "knight:8": {
+    "file": "course/zh-Hans/knight/8-eeda160424764803.m4a",
+    "seconds": 3.541134,
+    "duration": 4.041134
+  },
+  "knight:9": {
+    "file": "course/zh-Hans/knight/9-d2a1910e2fe259bd.m4a",
+    "seconds": 5.1922,
+    "duration": 5.6922
+  },
+  "knight:10": {
+    "file": "course/zh-Hans/knight/10-797c6dbb9fff176d.m4a",
+    "seconds": 2.989252,
+    "duration": 3.489252
+  },
+  "knight:11": {
+    "file": "course/zh-Hans/knight/11-1248c6efc1a37f46.m4a",
+    "seconds": 3.012018,
+    "duration": 3.512018
+  },
+  "knight:12": {
+    "file": "course/zh-Hans/knight/12-ff03c2973f4d604d.m4a",
+    "seconds": 2.813288,
+    "duration": 3.313288
+  },
+  "knight:13": {
+    "file": "course/zh-Hans/knight/13-47e16fc8ffd8aa47.m4a",
+    "seconds": 5.473741,
+    "duration": 5.973741
+  },
+  "knight:14": {
+    "file": "course/zh-Hans/knight/14-f9e7d06b75b5edc3.m4a",
+    "seconds": 2.072063,
+    "duration": 2.572063
+  },
+  "knight:15": {
+    "file": "course/zh-Hans/knight/15-7551ad1c138193ad.m4a",
+    "seconds": 5.6839,
+    "duration": 6.1839
+  },
+  "knight:16": {
+    "file": "course/zh-Hans/knight/16-b52799913f527b5a.m4a",
+    "seconds": 3.742902,
+    "duration": 4.242902
+  },
+  "knight:17": {
+    "file": "course/zh-Hans/knight/17-fff727f4faf9bd21.m4a",
+    "seconds": 3.592971,
+    "duration": 4.092971
+  },
+  "knight:18": {
+    "file": "course/zh-Hans/knight/18-417a7e29fa35f9f8.m4a",
+    "seconds": 4.367982,
+    "duration": 4.867982
+  },
+  "knight:20": {
+    "file": "course/zh-Hans/knight/20-94424345bc5d2b3d.m4a",
+    "seconds": 4.463719,
+    "duration": 4.963719
+  },
+  "knight:21": {
+    "file": "course/zh-Hans/knight/21-14b4916d6bcfe936.m4a",
+    "seconds": 2.791882,
+    "duration": 3.291882
+  },
+  "knight:23": {
+    "file": "course/zh-Hans/knight/23-c7530d9bdd96a04a.m4a",
+    "seconds": 5.49161,
+    "duration": 5.99161
+  },
+  "knight:24": {
+    "file": "course/zh-Hans/knight/24-d841cacbc5e498c0.m4a",
+    "seconds": 6.067029,
+    "duration": 6.567029
+  },
+  "hungry-horses:0": {
+    "file": "course/zh-Hans/hungry-horses/0-6ce65adf706747d4.m4a",
+    "seconds": 4.59093,
+    "duration": 5.09093
+  },
+  "hungry-horses:1": {
+    "file": "course/zh-Hans/hungry-horses/1-a24a1275bd0d6bdf.m4a",
+    "seconds": 5.126803,
+    "duration": 5.626803
+  },
+  "hungry-horses:2": {
+    "file": "course/zh-Hans/hungry-horses/2-b2bdb87163742b4c.m4a",
+    "seconds": 2.197143,
+    "duration": 2.697143
+  },
+  "hungry-horses:3": {
+    "file": "course/zh-Hans/hungry-horses/3-e8231812a3b5881e.m4a",
+    "seconds": 2.226667,
+    "duration": 2.726667
+  },
+  "hungry-horses:4": {
+    "file": "course/zh-Hans/hungry-horses/4-681aa4ade73e37da.m4a",
+    "seconds": 3.49483,
+    "duration": 3.99483
+  },
+  "hungry-horses:5": {
+    "file": "course/zh-Hans/hungry-horses/5-24b22b63ccc350aa.m4a",
+    "seconds": 6.54576,
+    "duration": 7.04576
+  },
+  "hungry-horses:7": {
+    "file": "course/zh-Hans/hungry-horses/7-1648d967117a3c7c.m4a",
+    "seconds": 2.960952,
+    "duration": 3.460952
+  },
+  "hungry-horses:8": {
+    "file": "course/zh-Hans/hungry-horses/8-d879f42fe18dff95.m4a",
+    "seconds": 1.535374,
+    "duration": 2.035374
+  },
+  "hungry-horses:9": {
+    "file": "course/zh-Hans/hungry-horses/9-48cdd88bac0d8d18.m4a",
+    "seconds": 1.808707,
+    "duration": 2.308707
+  },
+  "hungry-horses:10": {
+    "file": "course/zh-Hans/hungry-horses/10-1b092a730df4f638.m4a",
+    "seconds": 2.522222,
+    "duration": 3.022222
+  },
+  "hungry-horses:11": {
+    "file": "course/zh-Hans/hungry-horses/11-5718dbc2e259412b.m4a",
+    "seconds": 1.432517,
+    "duration": 1.932517
+  },
+  "hungry-horses:12": {
+    "file": "course/zh-Hans/hungry-horses/12-966bdb0f549d22f3.m4a",
+    "seconds": 4.676372,
+    "duration": 5.176372
+  },
+  "hungry-horses:13": {
+    "file": "course/zh-Hans/hungry-horses/13-c4d8dcd075b93fd8.m4a",
+    "seconds": 3.814875,
+    "duration": 4.314875
+  },
+  "hungry-horses:14": {
+    "file": "course/zh-Hans/hungry-horses/14-3ee4f2bb35cd9418.m4a",
+    "seconds": 4.06127,
+    "duration": 4.56127
+  },
+  "hungry-horses:15": {
+    "file": "course/zh-Hans/hungry-horses/15-52746e8c7eed078c.m4a",
+    "seconds": 3.959093,
+    "duration": 4.459093
+  },
+  "hungry-horses:16": {
+    "file": "course/zh-Hans/hungry-horses/16-2eeac8ca39ce03c1.m4a",
+    "seconds": 4.405351,
+    "duration": 4.905351
+  },
+  "hungry-horses:17": {
+    "file": "course/zh-Hans/hungry-horses/17-f44efe17cabbef12.m4a",
+    "seconds": 4.42381,
+    "duration": 4.92381
+  },
+  "hungry-horses:18": {
+    "file": "course/zh-Hans/hungry-horses/18-3ab35912f9134069.m4a",
+    "seconds": 2.536009,
+    "duration": 3.036009
+  },
+  "hungry-horses:19": {
+    "file": "course/zh-Hans/hungry-horses/19-9049172ac71a8591.m4a",
+    "seconds": 4.219592,
+    "duration": 4.719592
+  },
+  "hungry-horses:20": {
+    "file": "course/zh-Hans/hungry-horses/20-c5764881fd3d1886.m4a",
+    "seconds": 3.536054,
+    "duration": 4.036054
+  },
+  "hungry-horses:22": {
+    "file": "course/zh-Hans/hungry-horses/22-02c0ad34e94ae726.m4a",
+    "seconds": 4.444172,
+    "duration": 4.944172
+  },
+  "hungry-horses:23": {
+    "file": "course/zh-Hans/hungry-horses/23-3c2f063cf626ad08.m4a",
+    "seconds": 5.828617,
+    "duration": 6.328617
+  },
+  "king:0": {
+    "file": "course/zh-Hans/king/0-d80fa245dcd9e65e.m4a",
+    "seconds": 2.734512,
+    "duration": 3.234512
+  },
+  "king:1": {
+    "file": "course/zh-Hans/king/1-59b52e5e39583cfe.m4a",
+    "seconds": 2.002404,
+    "duration": 2.502404
+  },
+  "king:2": {
+    "file": "course/zh-Hans/king/2-504da81f1703ad7e.m4a",
+    "seconds": 3.778413,
+    "duration": 4.2784130000000005
+  },
+  "king:3": {
+    "file": "course/zh-Hans/king/3-e618091fa35e0a11.m4a",
+    "seconds": 3.720363,
+    "duration": 4.220363
+  },
+  "king:4": {
+    "file": "course/zh-Hans/king/4-99f35c2ec140f814.m4a",
+    "seconds": 3.260136,
+    "duration": 3.760136
+  },
+  "king:5": {
+    "file": "course/zh-Hans/king/5-3f578cde8c8a4c87.m4a",
+    "seconds": 2.512789,
+    "duration": 3.012789
+  },
+  "king:6": {
+    "file": "course/zh-Hans/king/6-3b1b3cee40ed94be.m4a",
+    "seconds": 4.451746,
+    "duration": 4.951746
+  },
+  "king:7": {
+    "file": "course/zh-Hans/king/7-ec78611c465a1c20.m4a",
+    "seconds": 4.233469,
+    "duration": 4.733469
+  },
+  "king:8": {
+    "file": "course/zh-Hans/king/8-92627b4f2dbacf5b.m4a",
+    "seconds": 4.437868,
+    "duration": 4.937868
+  },
+  "king:9": {
+    "file": "course/zh-Hans/king/9-e64b9eb41c8ab932.m4a",
+    "seconds": 3.689887,
+    "duration": 4.189887000000001
+  },
+  "king:10": {
+    "file": "course/zh-Hans/king/10-1ef0493bf7ad0b9b.m4a",
+    "seconds": 1.97737,
+    "duration": 2.47737
+  },
+  "king:12": {
+    "file": "course/zh-Hans/king/12-a605d1fb5831bd47.m4a",
+    "seconds": 3.181542,
+    "duration": 3.681542
+  },
+  "king:13": {
+    "file": "course/zh-Hans/king/13-9b3283e40b8ecf1f.m4a",
+    "seconds": 1.967256,
+    "duration": 2.467256
+  },
+  "king:14": {
+    "file": "course/zh-Hans/king/14-1ebd750fcb7bbdb7.m4a",
+    "seconds": 3.581361,
+    "duration": 4.081360999999999
+  },
+  "king:15": {
+    "file": "course/zh-Hans/king/15-4a180e13508a9488.m4a",
+    "seconds": 3.483401,
+    "duration": 3.983401
+  },
+  "king:16": {
+    "file": "course/zh-Hans/king/16-0f623df8f97db9f6.m4a",
+    "seconds": 3.743583,
+    "duration": 4.243583
+  },
+  "king:18": {
+    "file": "course/zh-Hans/king/18-ccf4d82212076a41.m4a",
+    "seconds": 4.908934,
+    "duration": 5.408934
+  },
+  "king:20": {
+    "file": "course/zh-Hans/king/20-e6c44ff6cc665a42.m4a",
+    "seconds": 2.789025,
+    "duration": 3.289025
+  },
+  "king:21": {
+    "file": "course/zh-Hans/king/21-50f4ee0563de4c83.m4a",
+    "seconds": 5.5678,
+    "duration": 6.0678
+  },
+  "mine-alert:0": {
+    "file": "course/zh-Hans/mine-alert/0-e773a598db6ae8ae.m4a",
+    "seconds": 4.091383,
+    "duration": 4.591383
+  },
+  "mine-alert:1": {
+    "file": "course/zh-Hans/mine-alert/1-065b17eea7ada831.m4a",
+    "seconds": 2.868073,
+    "duration": 3.368073
+  },
+  "mine-alert:2": {
+    "file": "course/zh-Hans/mine-alert/2-f85053f9c2010cdc.m4a",
+    "seconds": 3.569615,
+    "duration": 4.069615000000001
+  },
+  "mine-alert:3": {
+    "file": "course/zh-Hans/mine-alert/3-9996169d2b8c7542.m4a",
+    "seconds": 4.981088,
+    "duration": 5.481088
+  },
+  "mine-alert:4": {
+    "file": "course/zh-Hans/mine-alert/4-a98901a4735bdbfa.m4a",
+    "seconds": 4.242812,
+    "duration": 4.742812
+  },
+  "mine-alert:5": {
+    "file": "course/zh-Hans/mine-alert/5-63bd3a43f549110a.m4a",
+    "seconds": 4.194059,
+    "duration": 4.694059
+  },
+  "mine-alert:6": {
+    "file": "course/zh-Hans/mine-alert/6-3f6a8fbfe2e09fad.m4a",
+    "seconds": 4.351293,
+    "duration": 4.851293
+  },
+  "mine-alert:7": {
+    "file": "course/zh-Hans/mine-alert/7-3c403628910c9836.m4a",
+    "seconds": 3.940272,
+    "duration": 4.440272
+  },
+  "mine-alert:8": {
+    "file": "course/zh-Hans/mine-alert/8-8167533e5efe89a5.m4a",
+    "seconds": 3.219637,
+    "duration": 3.719637
+  },
+  "mine-alert:9": {
+    "file": "course/zh-Hans/mine-alert/9-2df5dd02a86b637b.m4a",
+    "seconds": 3.161587,
+    "duration": 3.661587
+  },
+  "mine-alert:10": {
+    "file": "course/zh-Hans/mine-alert/10-19eb6854bc0eddc8.m4a",
+    "seconds": 2.211066,
+    "duration": 2.711066
+  },
+  "mine-alert:11": {
+    "file": "course/zh-Hans/mine-alert/11-9170f9a08a0eb13f.m4a",
+    "seconds": 2.917778,
+    "duration": 3.417778
+  },
+  "mine-alert:12": {
+    "file": "course/zh-Hans/mine-alert/12-6c42884ea258ba73.m4a",
+    "seconds": 3.488163,
+    "duration": 3.988163
+  },
+  "mine-alert:13": {
+    "file": "course/zh-Hans/mine-alert/13-5ac0967ae425a8b6.m4a",
+    "seconds": 3.123175,
+    "duration": 3.623175
+  },
+  "mine-alert:15": {
+    "file": "course/zh-Hans/mine-alert/15-f91fef1efdcad265.m4a",
+    "seconds": 2.603265,
+    "duration": 3.103265
+  },
+  "mine-alert:16": {
+    "file": "course/zh-Hans/mine-alert/16-0f84bdd671f736c3.m4a",
+    "seconds": 3.4278,
+    "duration": 3.9278
+  },
+  "mine-alert:17": {
+    "file": "course/zh-Hans/mine-alert/17-33b673bfddd123fc.m4a",
+    "seconds": 4.330612,
+    "duration": 4.830612
+  },
+  "mine-alert:19": {
+    "file": "course/zh-Hans/mine-alert/19-1bb41ad895b8ecd1.m4a",
+    "seconds": 4.150249,
+    "duration": 4.650249
+  },
+  "mine-alert:20": {
+    "file": "course/zh-Hans/mine-alert/20-1e1729444f995d65.m4a",
+    "seconds": 2.733515,
+    "duration": 3.233515
+  },
+  "mine-alert:21": {
+    "file": "course/zh-Hans/mine-alert/21-19fae95b958bd56b.m4a",
+    "seconds": 2.584036,
+    "duration": 3.084036
+  },
+  "mine-alert:22": {
+    "file": "course/zh-Hans/mine-alert/22-77a35fb0e9204910.m4a",
+    "seconds": 3.169615,
+    "duration": 3.669615
+  },
+  "mine-alert:23": {
+    "file": "course/zh-Hans/mine-alert/23-1c2ce36c10d97259.m4a",
+    "seconds": 2.145533,
+    "duration": 2.645533
+  },
+  "mine-alert:24": {
+    "file": "course/zh-Hans/mine-alert/24-b6eb6811ac690b3b.m4a",
+    "seconds": 5.473741,
+    "duration": 5.973741
+  },
+  "catch-the-king:0": {
+    "file": "course/zh-Hans/catch-the-king/0-6eb262c01fc9522d.m4a",
+    "seconds": 3.26907,
+    "duration": 3.76907
+  },
+  "catch-the-king:1": {
+    "file": "course/zh-Hans/catch-the-king/1-f59443ad3d25410e.m4a",
+    "seconds": 4.184762,
+    "duration": 4.684762
+  },
+  "catch-the-king:2": {
+    "file": "course/zh-Hans/catch-the-king/2-40fbcc737e8c0c04.m4a",
+    "seconds": 5.544762,
+    "duration": 6.044762
+  },
+  "catch-the-king:3": {
+    "file": "course/zh-Hans/catch-the-king/3-abb9157ae3c89b2b.m4a",
+    "seconds": 3.077052,
+    "duration": 3.577052
+  },
+  "catch-the-king:4": {
+    "file": "course/zh-Hans/catch-the-king/4-afb40e201b54e3fb.m4a",
+    "seconds": 2.105079,
+    "duration": 2.605079
+  },
+  "catch-the-king:5": {
+    "file": "course/zh-Hans/catch-the-king/5-ac17ddba71a6adb3.m4a",
+    "seconds": 1.895283,
+    "duration": 2.395283
+  },
+  "catch-the-king:6": {
+    "file": "course/zh-Hans/catch-the-king/6-ac339e81c9a1f45e.m4a",
+    "seconds": 2.400816,
+    "duration": 2.900816
+  },
+  "catch-the-king:7": {
+    "file": "course/zh-Hans/catch-the-king/7-891fe64ba2490279.m4a",
+    "seconds": 3.47424,
+    "duration": 3.97424
+  },
+  "catch-the-king:9": {
+    "file": "course/zh-Hans/catch-the-king/9-3d7f9606d4b05d6d.m4a",
+    "seconds": 4.780862,
+    "duration": 5.280862
+  },
+  "catch-the-king:10": {
+    "file": "course/zh-Hans/catch-the-king/10-a94a9203107b9e57.m4a",
+    "seconds": 5.450249,
+    "duration": 5.950249
+  },
+  "catch-the-king:11": {
+    "file": "course/zh-Hans/catch-the-king/11-18ee64e59d5f14e4.m4a",
+    "seconds": 4.070703,
+    "duration": 4.570703
+  },
+  "catch-the-king:12": {
+    "file": "course/zh-Hans/catch-the-king/12-88ee8d13afc0c351.m4a",
+    "seconds": 4.000454,
+    "duration": 4.500454
+  },
+  "catch-the-king:13": {
+    "file": "course/zh-Hans/catch-the-king/13-6423eced6d1d4ac9.m4a",
+    "seconds": 4.035465,
+    "duration": 4.535465
+  },
+  "catch-the-king:14": {
+    "file": "course/zh-Hans/catch-the-king/14-5903be21a81a247d.m4a",
+    "seconds": 2.094966,
+    "duration": 2.594966
+  },
+  "catch-the-king:15": {
+    "file": "course/zh-Hans/catch-the-king/15-c170f8b09ddf1f0c.m4a",
+    "seconds": 4.744082,
+    "duration": 5.244082
+  },
+  "catch-the-king:16": {
+    "file": "course/zh-Hans/catch-the-king/16-0ad34509a2862088.m4a",
+    "seconds": 3.573787,
+    "duration": 4.073786999999999
+  },
+  "catch-the-king:17": {
+    "file": "course/zh-Hans/catch-the-king/17-8fa1baac0dc227e6.m4a",
+    "seconds": 3.283356,
+    "duration": 3.783356
+  },
+  "catch-the-king:18": {
+    "file": "course/zh-Hans/catch-the-king/18-d890b7fbd39f000c.m4a",
+    "seconds": 3.645941,
+    "duration": 4.1459410000000005
+  },
+  "catch-the-king:19": {
+    "file": "course/zh-Hans/catch-the-king/19-d7a68eb5782ea7ed.m4a",
+    "seconds": 5.042404,
+    "duration": 5.542404
+  },
+  "catch-the-king:20": {
+    "file": "course/zh-Hans/catch-the-king/20-2db55d7dd0ad06e7.m4a",
+    "seconds": 4.83483,
+    "duration": 5.33483
+  },
+  "catch-the-king:21": {
+    "file": "course/zh-Hans/catch-the-king/21-a973c6000790e305.m4a",
+    "seconds": 4.264535,
+    "duration": 4.764535
+  },
+  "catch-the-king:22": {
+    "file": "course/zh-Hans/catch-the-king/22-bcc00cd45fd06673.m4a",
+    "seconds": 3.722222,
+    "duration": 4.222222
+  },
+  "catch-the-king:23": {
+    "file": "course/zh-Hans/catch-the-king/23-0ed1e96341ac4878.m4a",
+    "seconds": 4.256281,
+    "duration": 4.756281
+  },
+  "catch-the-king:24": {
+    "file": "course/zh-Hans/catch-the-king/24-1e8c52d24d313f3c.m4a",
+    "seconds": 3.083673,
+    "duration": 3.583673
+  },
+  "catch-the-king:25": {
+    "file": "course/zh-Hans/catch-the-king/25-6c758cfb836f18dc.m4a",
+    "seconds": 4.484717,
+    "duration": 4.984717
+  },
+  "catch-the-king:27": {
+    "file": "course/zh-Hans/catch-the-king/27-05e1f664402ba26a.m4a",
+    "seconds": 5.207891,
+    "duration": 5.707891
+  },
+  "catch-the-king:29": {
+    "file": "course/zh-Hans/catch-the-king/29-20f71ddac09367cf.m4a",
+    "seconds": 5.805397,
+    "duration": 6.305397
+  },
+  "catch-the-king:30": {
+    "file": "course/zh-Hans/catch-the-king/30-8cef3d155ef1d04a.m4a",
+    "seconds": 2.633016,
+    "duration": 3.133016
+  },
+  "catch-the-king:31": {
+    "file": "course/zh-Hans/catch-the-king/31-d13311e871b0cc3c.m4a",
+    "seconds": 6.171519,
+    "duration": 6.671519
+  },
+  "king-safety:0": {
+    "file": "course/zh-Hans/king-safety/0-5ba2ce2737d5032d.m4a",
+    "seconds": 4.012109,
+    "duration": 4.512109
+  },
+  "king-safety:1": {
+    "file": "course/zh-Hans/king-safety/1-246245e55b1e3c10.m4a",
+    "seconds": 2.919274,
+    "duration": 3.419274
+  },
+  "king-safety:2": {
+    "file": "course/zh-Hans/king-safety/2-41965d87004f2adf.m4a",
+    "seconds": 1.904444,
+    "duration": 2.404444
+  },
+  "king-safety:3": {
+    "file": "course/zh-Hans/king-safety/3-1b63fda1dbf6d306.m4a",
+    "seconds": 2.674785,
+    "duration": 3.174785
+  },
+  "king-safety:4": {
+    "file": "course/zh-Hans/king-safety/4-4fb20300015b9d8a.m4a",
+    "seconds": 4.279274,
+    "duration": 4.779274
+  },
+  "king-safety:5": {
+    "file": "course/zh-Hans/king-safety/5-4a52e02e3e05cab3.m4a",
+    "seconds": 3.513016,
+    "duration": 4.013016
+  },
+  "king-safety:6": {
+    "file": "course/zh-Hans/king-safety/6-01add1283959deb9.m4a",
+    "seconds": 4.395374,
+    "duration": 4.895374
+  },
+  "king-safety:7": {
+    "file": "course/zh-Hans/king-safety/7-c91e68af18864e28.m4a",
+    "seconds": 4.591111,
+    "duration": 5.091111
+  },
+  "king-safety:8": {
+    "file": "course/zh-Hans/king-safety/8-b93219e4f1daff71.m4a",
+    "seconds": 5.415238,
+    "duration": 5.915238
+  },
+  "king-safety:9": {
+    "file": "course/zh-Hans/king-safety/9-6e79a4b5970edea4.m4a",
+    "seconds": 6.750522,
+    "duration": 7.250522
+  },
+  "king-safety:10": {
+    "file": "course/zh-Hans/king-safety/10-80aeb6074815001d.m4a",
+    "seconds": 4.168073,
+    "duration": 4.668073
+  },
+  "king-safety:11": {
+    "file": "course/zh-Hans/king-safety/11-98a73fd70f8d0614.m4a",
+    "seconds": 1.755964,
+    "duration": 2.255964
+  },
+  "king-safety:12": {
+    "file": "course/zh-Hans/king-safety/12-0096084ad1382c12.m4a",
+    "seconds": 5.352608,
+    "duration": 5.852608
+  },
+  "king-safety:13": {
+    "file": "course/zh-Hans/king-safety/13-1509b84c7edb4927.m4a",
+    "seconds": 4.270023,
+    "duration": 4.770023
+  },
+  "king-safety:14": {
+    "file": "course/zh-Hans/king-safety/14-deb014299dcb85fe.m4a",
+    "seconds": 3.197914,
+    "duration": 3.697914
+  },
+  "king-safety:15": {
+    "file": "course/zh-Hans/king-safety/15-e66eb37b5e166935.m4a",
+    "seconds": 5.422268,
+    "duration": 5.922268
+  },
+  "king-safety:16": {
+    "file": "course/zh-Hans/king-safety/16-9ddc957dc99fada0.m4a",
+    "seconds": 4.66059,
+    "duration": 5.16059
+  },
+  "king-safety:17": {
+    "file": "course/zh-Hans/king-safety/17-fff2e0dc2303829b.m4a",
+    "seconds": 4.644399,
+    "duration": 5.144399
+  },
+  "king-safety:19": {
+    "file": "course/zh-Hans/king-safety/19-d6e9782a638f90c6.m4a",
+    "seconds": 2.512925,
+    "duration": 3.012925
+  },
+  "king-safety:20": {
+    "file": "course/zh-Hans/king-safety/20-eb517df490904718.m4a",
+    "seconds": 2.05288,
+    "duration": 2.55288
+  },
+  "king-safety:22": {
+    "file": "course/zh-Hans/king-safety/22-f88d40ed12f95763.m4a",
+    "seconds": 2.707755,
+    "duration": 3.207755
+  },
+  "king-safety:23": {
+    "file": "course/zh-Hans/king-safety/23-53a10e50eec7afe5.m4a",
+    "seconds": 1.096871,
+    "duration": 1.596871
+  },
+  "king-safety:24": {
+    "file": "course/zh-Hans/king-safety/24-fefa11ca0082ea2b.m4a",
+    "seconds": 3.297324,
+    "duration": 3.797324
+  },
+  "king-safety:25": {
+    "file": "course/zh-Hans/king-safety/25-0bfc172e7caebb6a.m4a",
+    "seconds": 6.669116,
+    "duration": 7.169116
+  },
+  "setting-up:0": {
+    "file": "course/zh-Hans/setting-up/0-33645a576169d8aa.m4a",
+    "seconds": 2.965533,
+    "duration": 3.465533
+  },
+  "setting-up:1": {
+    "file": "course/zh-Hans/setting-up/1-d7e2471bd516b8d2.m4a",
+    "seconds": 2.603175,
+    "duration": 3.103175
+  },
+  "setting-up:2": {
+    "file": "course/zh-Hans/setting-up/2-f2c34a2e7cb98c52.m4a",
+    "seconds": 3.072245,
+    "duration": 3.572245
+  },
+  "setting-up:3": {
+    "file": "course/zh-Hans/setting-up/3-8c4539a53ddee674.m4a",
+    "seconds": 2.258957,
+    "duration": 2.758957
+  },
+  "setting-up:4": {
+    "file": "course/zh-Hans/setting-up/4-326d8b7c7c729843.m4a",
+    "seconds": 2.221179,
+    "duration": 2.721179
+  },
+  "setting-up:5": {
+    "file": "course/zh-Hans/setting-up/5-622b7c141031d537.m4a",
+    "seconds": 4.185034,
+    "duration": 4.685034
+  },
+  "setting-up:6": {
+    "file": "course/zh-Hans/setting-up/6-699b4782785c657c.m4a",
+    "seconds": 1.665714,
+    "duration": 2.165714
+  },
+  "setting-up:7": {
+    "file": "course/zh-Hans/setting-up/7-d5d493e8bc9ab4ed.m4a",
+    "seconds": 3.151429,
+    "duration": 3.651429
+  },
+  "setting-up:8": {
+    "file": "course/zh-Hans/setting-up/8-8b94d6296a3ae77b.m4a",
+    "seconds": 4.183265,
+    "duration": 4.683265
+  },
+  "setting-up:9": {
+    "file": "course/zh-Hans/setting-up/9-48c0009d6daa3bf2.m4a",
+    "seconds": 3.406893,
+    "duration": 3.906893
+  },
+  "setting-up:10": {
+    "file": "course/zh-Hans/setting-up/10-712cc3a5fd74e379.m4a",
+    "seconds": 3.742086,
+    "duration": 4.2420860000000005
+  },
+  "setting-up:11": {
+    "file": "course/zh-Hans/setting-up/11-37319e77ac897a1f.m4a",
+    "seconds": 5.662812,
+    "duration": 6.162812
+  },
+  "setting-up:12": {
+    "file": "course/zh-Hans/setting-up/12-61dccd23aaa43f5f.m4a",
+    "seconds": 2.940181,
+    "duration": 3.440181
+  },
+  "setting-up:13": {
+    "file": "course/zh-Hans/setting-up/13-adca05b2021b3fc1.m4a",
+    "seconds": 4.93678,
+    "duration": 5.43678
+  },
+  "setting-up:14": {
+    "file": "course/zh-Hans/setting-up/14-e361050a99118059.m4a",
+    "seconds": 4.275329,
+    "duration": 4.775329
+  },
+  "setting-up:16": {
+    "file": "course/zh-Hans/setting-up/16-649a4fecc836acf5.m4a",
+    "seconds": 3.56712,
+    "duration": 4.06712
+  },
+  "setting-up:17": {
+    "file": "course/zh-Hans/setting-up/17-57aa81378e34d2e9.m4a",
+    "seconds": 3.585034,
+    "duration": 4.085034
+  },
+  "setting-up:19": {
+    "file": "course/zh-Hans/setting-up/19-ffbd4d0ea64c1b71.m4a",
+    "seconds": 3.512834,
+    "duration": 4.012834
+  },
+  "setting-up:20": {
+    "file": "course/zh-Hans/setting-up/20-708df3511915a0af.m4a",
+    "seconds": 5.81161,
+    "duration": 6.31161
+  },
+  "why-castle:0": {
+    "file": "course/zh-Hans/why-castle/0-8188bb783ee39eda.m4a",
+    "seconds": 3.418367,
+    "duration": 3.918367
+  },
+  "why-castle:1": {
+    "file": "course/zh-Hans/why-castle/1-9dfadfa95fb74f4c.m4a",
+    "seconds": 3.009524,
+    "duration": 3.509524
+  },
+  "why-castle:2": {
+    "file": "course/zh-Hans/why-castle/2-21198dd1ff8b2d8c.m4a",
+    "seconds": 4.032336,
+    "duration": 4.532336
+  },
+  "why-castle:3": {
+    "file": "course/zh-Hans/why-castle/3-339e2f63f241f6b6.m4a",
+    "seconds": 2.357234,
+    "duration": 2.857234
+  },
+  "why-castle:4": {
+    "file": "course/zh-Hans/why-castle/4-b0f62624bcc7dd1a.m4a",
+    "seconds": 3.881406,
+    "duration": 4.381406
+  },
+  "why-castle:5": {
+    "file": "course/zh-Hans/why-castle/5-38051702eb02c76e.m4a",
+    "seconds": 2.568662,
+    "duration": 3.068662
+  },
+  "why-castle:6": {
+    "file": "course/zh-Hans/why-castle/6-743fe4136b4ab135.m4a",
+    "seconds": 2.791565,
+    "duration": 3.291565
+  },
+  "why-castle:7": {
+    "file": "course/zh-Hans/why-castle/7-9c4ba1e61de57acc.m4a",
+    "seconds": 4.310159,
+    "duration": 4.810159
+  },
+  "why-castle:8": {
+    "file": "course/zh-Hans/why-castle/8-c9e1e1559773202f.m4a",
+    "seconds": 2.742812,
+    "duration": 3.242812
+  },
+  "why-castle:9": {
+    "file": "course/zh-Hans/why-castle/9-79ba446b0415d977.m4a",
+    "seconds": 2.122177,
+    "duration": 2.622177
+  },
+  "why-castle:10": {
+    "file": "course/zh-Hans/why-castle/10-f8067f9f67af00a9.m4a",
+    "seconds": 4.112789,
+    "duration": 4.612789
+  },
+  "why-castle:11": {
+    "file": "course/zh-Hans/why-castle/11-5adbabb9eadb05c6.m4a",
+    "seconds": 2.847302,
+    "duration": 3.347302
+  },
+  "why-castle:12": {
+    "file": "course/zh-Hans/why-castle/12-96a8cf95cc2c4185.m4a",
+    "seconds": 6.501995,
+    "duration": 7.001995
+  },
+  "why-castle:13": {
+    "file": "course/zh-Hans/why-castle/13-0e47bce649b13bd7.m4a",
+    "seconds": 3.895964,
+    "duration": 4.395964
+  },
+  "why-castle:15": {
+    "file": "course/zh-Hans/why-castle/15-6e7c93eb5edb3e1d.m4a",
+    "seconds": 4.27288,
+    "duration": 4.77288
+  },
+  "why-castle:17": {
+    "file": "course/zh-Hans/why-castle/17-b9aac0233d105cf1.m4a",
+    "seconds": 1.909206,
+    "duration": 2.409206
+  },
+  "why-castle:18": {
+    "file": "course/zh-Hans/why-castle/18-44d532e80eb9f6f4.m4a",
+    "seconds": 6.241179,
+    "duration": 6.741179
+  },
+  "when-castle:0": {
+    "file": "course/zh-Hans/when-castle/0-a10d247adbeb96d6.m4a",
+    "seconds": 3.115147,
+    "duration": 3.615147
+  },
+  "when-castle:1": {
+    "file": "course/zh-Hans/when-castle/1-4264a6ad8f257b05.m4a",
+    "seconds": 4.126667,
+    "duration": 4.626667
+  },
+  "when-castle:2": {
+    "file": "course/zh-Hans/when-castle/2-b62ccbcc2f28a58d.m4a",
+    "seconds": 4.335646,
+    "duration": 4.835646
+  },
+  "when-castle:3": {
+    "file": "course/zh-Hans/when-castle/3-673ae9c8838423aa.m4a",
+    "seconds": 6.264399,
+    "duration": 6.764399
+  },
+  "when-castle:4": {
+    "file": "course/zh-Hans/when-castle/4-0e243d152f984301.m4a",
+    "seconds": 3.074512,
+    "duration": 3.574512
+  },
+  "when-castle:5": {
+    "file": "course/zh-Hans/when-castle/5-4d28782c2e5397ff.m4a",
+    "seconds": 4.428571,
+    "duration": 4.928571
+  },
+  "when-castle:6": {
+    "file": "course/zh-Hans/when-castle/6-dd5558fbdcc78a04.m4a",
+    "seconds": 3.85737,
+    "duration": 4.3573699999999995
+  },
+  "when-castle:7": {
+    "file": "course/zh-Hans/when-castle/7-0f38488773418405.m4a",
+    "seconds": 5.015918,
+    "duration": 5.515918
+  },
+  "when-castle:8": {
+    "file": "course/zh-Hans/when-castle/8-7ee840dd8d2165f5.m4a",
+    "seconds": 4.9278,
+    "duration": 5.4278
+  },
+  "when-castle:9": {
+    "file": "course/zh-Hans/when-castle/9-70bfd7c5ff314e72.m4a",
+    "seconds": 4.124172,
+    "duration": 4.624172
+  },
+  "when-castle:10": {
+    "file": "course/zh-Hans/when-castle/10-0cc66bfde223f389.m4a",
+    "seconds": 3.573424,
+    "duration": 4.073424
+  },
+  "when-castle:11": {
+    "file": "course/zh-Hans/when-castle/11-ec0cbecb4ca7af37.m4a",
+    "seconds": 4.149932,
+    "duration": 4.649932
+  },
+  "when-castle:12": {
+    "file": "course/zh-Hans/when-castle/12-b688c9c86677dca7.m4a",
+    "seconds": 5.291701,
+    "duration": 5.791701
+  },
+  "when-castle:13": {
+    "file": "course/zh-Hans/when-castle/13-f32be3f9042dc75b.m4a",
+    "seconds": 5.89288,
+    "duration": 6.39288
+  },
+  "when-castle:15": {
+    "file": "course/zh-Hans/when-castle/15-574c57384209b058.m4a",
+    "seconds": 3.032834,
+    "duration": 3.532834
+  },
+  "when-castle:17": {
+    "file": "course/zh-Hans/when-castle/17-0c8e009e6b93c34d.m4a",
+    "seconds": 5.937687,
+    "duration": 6.437687
+  },
+  "when-castle:18": {
+    "file": "course/zh-Hans/when-castle/18-9026cc4b92903a67.m4a",
+    "seconds": 1.837234,
+    "duration": 2.337234
+  },
+  "when-castle:19": {
+    "file": "course/zh-Hans/when-castle/19-e0b2cc31b4d767e1.m4a",
+    "seconds": 7.667574,
+    "duration": 8.167574
+  },
+  "pawn-magic:0": {
+    "file": "course/zh-Hans/pawn-magic/0-7695515bc27fa1a5.m4a",
+    "seconds": 4.066349,
+    "duration": 4.566349
+  },
+  "pawn-magic:1": {
+    "file": "course/zh-Hans/pawn-magic/1-d431cd0c60b087b9.m4a",
+    "seconds": 2.522222,
+    "duration": 3.022222
+  },
+  "pawn-magic:2": {
+    "file": "course/zh-Hans/pawn-magic/2-58f5f238609c4265.m4a",
+    "seconds": 2.18771,
+    "duration": 2.68771
+  },
+  "pawn-magic:3": {
+    "file": "course/zh-Hans/pawn-magic/3-c02d65a93e364d55.m4a",
+    "seconds": 2.410068,
+    "duration": 2.910068
+  },
+  "pawn-magic:4": {
+    "file": "course/zh-Hans/pawn-magic/4-c8c27282cdd499e0.m4a",
+    "seconds": 1.57102,
+    "duration": 2.07102
+  },
+  "pawn-magic:5": {
+    "file": "course/zh-Hans/pawn-magic/5-19f84c4d900cbdbb.m4a",
+    "seconds": 2.324853,
+    "duration": 2.824853
+  },
+  "pawn-magic:6": {
+    "file": "course/zh-Hans/pawn-magic/6-e29b00df3173744d.m4a",
+    "seconds": 5.503537,
+    "duration": 6.003537
+  },
+  "pawn-magic:7": {
+    "file": "course/zh-Hans/pawn-magic/7-d01dd4b2c9e927ab.m4a",
+    "seconds": 2.849433,
+    "duration": 3.349433
+  },
+  "pawn-magic:8": {
+    "file": "course/zh-Hans/pawn-magic/8-9c7d6f383192070c.m4a",
+    "seconds": 3.989252,
+    "duration": 4.4892520000000005
+  },
+  "pawn-magic:9": {
+    "file": "course/zh-Hans/pawn-magic/9-a662d319eaae3bd0.m4a",
+    "seconds": 4.832381,
+    "duration": 5.332381
+  },
+  "pawn-magic:10": {
+    "file": "course/zh-Hans/pawn-magic/10-856227d551478bfb.m4a",
+    "seconds": 4.741542,
+    "duration": 5.241542
+  },
+  "pawn-magic:11": {
+    "file": "course/zh-Hans/pawn-magic/11-76133abe1ff6df79.m4a",
+    "seconds": 4.548662,
+    "duration": 5.048662
+  },
+  "pawn-magic:12": {
+    "file": "course/zh-Hans/pawn-magic/12-8ad3161094e32f81.m4a",
+    "seconds": 2.505306,
+    "duration": 3.005306
+  },
+  "pawn-magic:13": {
+    "file": "course/zh-Hans/pawn-magic/13-a839a46ab94e46ec.m4a",
+    "seconds": 3.927029,
+    "duration": 4.427029
+  },
+  "pawn-magic:14": {
+    "file": "course/zh-Hans/pawn-magic/14-723a2b8fe57fb979.m4a",
+    "seconds": 2.965034,
+    "duration": 3.465034
+  },
+  "pawn-magic:15": {
+    "file": "course/zh-Hans/pawn-magic/15-389fe2ba0f7965dc.m4a",
+    "seconds": 4.903084,
+    "duration": 5.403084
+  },
+  "pawn-magic:16": {
+    "file": "course/zh-Hans/pawn-magic/16-37d5780e3ce80e59.m4a",
+    "seconds": 3.347347,
+    "duration": 3.847347
+  },
+  "pawn-magic:18": {
+    "file": "course/zh-Hans/pawn-magic/18-52895997a0289d83.m4a",
+    "seconds": 2.322404,
+    "duration": 2.822404
+  },
+  "pawn-magic:19": {
+    "file": "course/zh-Hans/pawn-magic/19-192a8de3fc97cca4.m4a",
+    "seconds": 2.419365,
+    "duration": 2.919365
+  },
+  "pawn-magic:20": {
+    "file": "course/zh-Hans/pawn-magic/20-5b014c2c99c05daf.m4a",
+    "seconds": 3.982313,
+    "duration": 4.4823129999999995
+  },
+  "pawn-magic:21": {
+    "file": "course/zh-Hans/pawn-magic/21-02e2b919f3a07e9c.m4a",
+    "seconds": 3.56712,
+    "duration": 4.06712
+  },
+  "pawn-magic:22": {
+    "file": "course/zh-Hans/pawn-magic/22-3711953971d9ab4c.m4a",
+    "seconds": 5.70966,
+    "duration": 6.20966
+  },
+  "pawn-magic:23": {
+    "file": "course/zh-Hans/pawn-magic/23-8deb535600165503.m4a",
+    "seconds": 2.958095,
+    "duration": 3.458095
+  },
+  "pawn-magic:24": {
+    "file": "course/zh-Hans/pawn-magic/24-de7556e475bb6840.m4a",
+    "seconds": 5.413107,
+    "duration": 5.913107
+  },
+  "pawn-magic:25": {
+    "file": "course/zh-Hans/pawn-magic/25-b18488b0e0644567.m4a",
+    "seconds": 4.037823,
+    "duration": 4.537823
+  },
+  "pawn-magic:26": {
+    "file": "course/zh-Hans/pawn-magic/26-bb2f87d4959ede55.m4a",
+    "seconds": 6.713424,
+    "duration": 7.213424
+  },
+  "pawn-magic:27": {
+    "file": "course/zh-Hans/pawn-magic/27-8df87e2b905ed0da.m4a",
+    "seconds": 7.723673,
+    "duration": 8.223673
+  },
+  "scoring-points:0": {
+    "file": "course/zh-Hans/scoring-points/0-f6aa4cd80e2e091f.m4a",
+    "seconds": 6.601134,
+    "duration": 7.101134
+  },
+  "scoring-points:1": {
+    "file": "course/zh-Hans/scoring-points/1-dfe8d95680d39bae.m4a",
+    "seconds": 5.45229,
+    "duration": 5.95229
+  },
+  "scoring-points:2": {
+    "file": "course/zh-Hans/scoring-points/2-98d45ef810ba5f1f.m4a",
+    "seconds": 1.546984,
+    "duration": 2.046984
+  },
+  "scoring-points:3": {
+    "file": "course/zh-Hans/scoring-points/3-ba23a5b323fea0b4.m4a",
+    "seconds": 1.64254,
+    "duration": 2.14254
+  },
+  "scoring-points:4": {
+    "file": "course/zh-Hans/scoring-points/4-ccf8acc446387132.m4a",
+    "seconds": 6.632971,
+    "duration": 7.132971
+  },
+  "scoring-points:5": {
+    "file": "course/zh-Hans/scoring-points/5-92afe28f8ac315c5.m4a",
+    "seconds": 2.360091,
+    "duration": 2.860091
+  },
+  "scoring-points:6": {
+    "file": "course/zh-Hans/scoring-points/6-00283c5579cde162.m4a",
+    "seconds": 1.634921,
+    "duration": 2.1349210000000003
+  },
+  "scoring-points:7": {
+    "file": "course/zh-Hans/scoring-points/7-e7f3db361e5e5e75.m4a",
+    "seconds": 1.783039,
+    "duration": 2.283039
+  },
+  "scoring-points:8": {
+    "file": "course/zh-Hans/scoring-points/8-809fafb8c1f9000e.m4a",
+    "seconds": 1.67551,
+    "duration": 2.17551
+  },
+  "scoring-points:9": {
+    "file": "course/zh-Hans/scoring-points/9-6f28ba89bb568441.m4a",
+    "seconds": 1.841088,
+    "duration": 2.341088
+  },
+  "scoring-points:10": {
+    "file": "course/zh-Hans/scoring-points/10-192ef68ae1a5cc17.m4a",
+    "seconds": 4.115102,
+    "duration": 4.615102
+  },
+  "scoring-points:11": {
+    "file": "course/zh-Hans/scoring-points/11-4bd1481fcbb37587.m4a",
+    "seconds": 2.617415,
+    "duration": 3.117415
+  },
+  "scoring-points:12": {
+    "file": "course/zh-Hans/scoring-points/12-7ac6d7f94c2a9d86.m4a",
+    "seconds": 5.164172,
+    "duration": 5.664172
+  },
+  "scoring-points:13": {
+    "file": "course/zh-Hans/scoring-points/13-2bcec2ce1bb16aa6.m4a",
+    "seconds": 3.963991,
+    "duration": 4.463991
+  },
+  "scoring-points:14": {
+    "file": "course/zh-Hans/scoring-points/14-020d7a91bfba0474.m4a",
+    "seconds": 4.128163,
+    "duration": 4.628163
+  },
+  "scoring-points:15": {
+    "file": "course/zh-Hans/scoring-points/15-3b490e8df4ed62a0.m4a",
+    "seconds": 1.170522,
+    "duration": 1.670522
+  },
+  "scoring-points:16": {
+    "file": "course/zh-Hans/scoring-points/16-f17b3a7cdd2d6ec6.m4a",
+    "seconds": 2.890975,
+    "duration": 3.390975
+  },
+  "scoring-points:18": {
+    "file": "course/zh-Hans/scoring-points/18-df63da332417d535.m4a",
+    "seconds": 4.903084,
+    "duration": 5.403084
+  },
+  "scoring-points:20": {
+    "file": "course/zh-Hans/scoring-points/20-731d46cb077f6640.m4a",
+    "seconds": 4.312789,
+    "duration": 4.812789
+  },
+  "scoring-points:21": {
+    "file": "course/zh-Hans/scoring-points/21-126640630006b518.m4a",
+    "seconds": 5.239773,
+    "duration": 5.739773
+  },
+  "playtime:0": {
+    "file": "course/zh-Hans/playtime/0-5c7c3965c7c8304f.m4a",
+    "seconds": 3.418367,
+    "duration": 3.918367
+  },
+  "playtime:1": {
+    "file": "course/zh-Hans/playtime/1-ef352ee4a1bec884.m4a",
+    "seconds": 2.775193,
+    "duration": 3.275193
+  },
+  "playtime:2": {
+    "file": "course/zh-Hans/playtime/2-7c1d9262982359b1.m4a",
+    "seconds": 5.807846,
+    "duration": 6.307846
+  },
+  "playtime:3": {
+    "file": "course/zh-Hans/playtime/3-d3eba7e5fe581edc.m4a",
+    "seconds": 4.437868,
+    "duration": 4.937868
+  },
+  "playtime:4": {
+    "file": "course/zh-Hans/playtime/4-a6f42c3a8702681b.m4a",
+    "seconds": 1.25932,
+    "duration": 1.75932
+  },
+  "playtime:5": {
+    "file": "course/zh-Hans/playtime/5-0e8207a98b971428.m4a",
+    "seconds": 2.500635,
+    "duration": 3.000635
+  },
+  "playtime:6": {
+    "file": "course/zh-Hans/playtime/6-bfd69e09514459ab.m4a",
+    "seconds": 3.36712,
+    "duration": 3.86712
+  },
+  "playtime:7": {
+    "file": "course/zh-Hans/playtime/7-f5af7e511b5573ef.m4a",
+    "seconds": 2.00059,
+    "duration": 2.50059
+  },
+  "playtime:8": {
+    "file": "course/zh-Hans/playtime/8-77db98c76e5d8b02.m4a",
+    "seconds": 4.369841,
+    "duration": 4.869841
+  },
+  "playtime:9": {
+    "file": "course/zh-Hans/playtime/9-560a9173ae48536e.m4a",
+    "seconds": 2.656599,
+    "duration": 3.156599
+  },
+  "playtime:10": {
+    "file": "course/zh-Hans/playtime/10-d539bef2f0a1fe91.m4a",
+    "seconds": 1.588481,
+    "duration": 2.088481
+  },
+  "playtime:11": {
+    "file": "course/zh-Hans/playtime/11-d709569c631cc014.m4a",
+    "seconds": 3.962676,
+    "duration": 4.462676
+  },
+  "playtime:12": {
+    "file": "course/zh-Hans/playtime/12-c1e9f27785f1a560.m4a",
+    "seconds": 1.65229,
+    "duration": 2.15229
+  },
+  "playtime:13": {
+    "file": "course/zh-Hans/playtime/13-9b55247623bf347c.m4a",
+    "seconds": 5.10195,
+    "duration": 5.60195
+  },
+  "playtime:14": {
+    "file": "course/zh-Hans/playtime/14-4122b11236064cfe.m4a",
+    "seconds": 4.93941,
+    "duration": 5.43941
+  },
+  "playtime:15": {
+    "file": "course/zh-Hans/playtime/15-592b903af1db2268.m4a",
+    "seconds": 4.26127,
+    "duration": 4.76127
+  },
+  "playtime:16": {
+    "file": "course/zh-Hans/playtime/16-02038ca23ed26de9.m4a",
+    "seconds": 1.995692,
+    "duration": 2.495692
+  },
+  "playtime:17": {
+    "file": "course/zh-Hans/playtime/17-4768263282059b2f.m4a",
+    "seconds": 2.131429,
+    "duration": 2.631429
+  },
+  "playtime:18": {
+    "file": "course/zh-Hans/playtime/18-7640361b71a272d7.m4a",
+    "seconds": 4.581134,
+    "duration": 5.081134
+  },
+  "playtime:19": {
+    "file": "course/zh-Hans/playtime/19-784ea394f8f6a9d0.m4a",
+    "seconds": 1.897868,
+    "duration": 2.397868
+  },
+  "playtime:20": {
+    "file": "course/zh-Hans/playtime/20-bff6762ecdbbb89f.m4a",
+    "seconds": 3.454966,
+    "duration": 3.954966
+  },
+  "playtime:21": {
+    "file": "course/zh-Hans/playtime/21-da320adbf52f422c.m4a",
+    "seconds": 2.406939,
+    "duration": 2.906939
+  },
+  "playtime:22": {
+    "file": "course/zh-Hans/playtime/22-cb786cd6010a560c.m4a",
+    "seconds": 3.327891,
+    "duration": 3.827891
+  },
+  "playtime:23": {
+    "file": "course/zh-Hans/playtime/23-8d04ecfc3791437e.m4a",
+    "seconds": 4.672381,
+    "duration": 5.172381
+  },
+  "playtime:24": {
+    "file": "course/zh-Hans/playtime/24-d068124bfacf3f8b.m4a",
+    "seconds": 1.716145,
+    "duration": 2.216145
+  },
+  "playtime:25": {
+    "file": "course/zh-Hans/playtime/25-bfa1ffdd25fbe4b3.m4a",
+    "seconds": 3.743583,
+    "duration": 4.243583
+  },
+  "playtime:26": {
+    "file": "course/zh-Hans/playtime/26-f3cee0187afe0b02.m4a",
+    "seconds": 5.247937,
+    "duration": 5.747937
+  },
+  "playtime:27": {
+    "file": "course/zh-Hans/playtime/27-9dbe44bb054b5440.m4a",
+    "seconds": 8.004263,
+    "duration": 8.504263
+  },
+  "playtime:29": {
+    "file": "course/zh-Hans/playtime/29-d539bef2f0a1fe91.m4a",
+    "seconds": 1.588481,
+    "duration": 2.088481
+  },
+  "playtime:31": {
+    "file": "course/zh-Hans/playtime/31-d5e6842664fdf0e2.m4a",
+    "seconds": 4.347619,
+    "duration": 4.847619
+  },
+  "playtime:32": {
+    "file": "course/zh-Hans/playtime/32-779d14f9963e8fbf.m4a",
+    "seconds": 4.783719,
+    "duration": 5.283719
+  },
+  "etiquette:0": {
+    "file": "course/zh-Hans/etiquette/0-f1a6b64f5d5c99b9.m4a",
+    "seconds": 3.42,
+    "duration": 3.92
+  },
+  "etiquette:1": {
+    "file": "course/zh-Hans/etiquette/1-e1386f099a7f1bff.m4a",
+    "seconds": 2.987438,
+    "duration": 3.487438
+  },
+  "etiquette:2": {
+    "file": "course/zh-Hans/etiquette/2-0ad09894aaa2b704.m4a",
+    "seconds": 4.985714,
+    "duration": 5.485714
+  },
+  "etiquette:3": {
+    "file": "course/zh-Hans/etiquette/3-07d7310645d7ef38.m4a",
+    "seconds": 4.807347,
+    "duration": 5.307347
+  },
+  "etiquette:4": {
+    "file": "course/zh-Hans/etiquette/4-404661a84f8d6cdd.m4a",
+    "seconds": 7.148889,
+    "duration": 7.648889
+  },
+  "etiquette:5": {
+    "file": "course/zh-Hans/etiquette/5-67ef6d4c06f85e53.m4a",
+    "seconds": 3.92,
+    "duration": 4.42
+  },
+  "etiquette:6": {
+    "file": "course/zh-Hans/etiquette/6-885b3ac8f7329674.m4a",
+    "seconds": 7.14381,
+    "duration": 7.64381
+  },
+  "etiquette:7": {
+    "file": "course/zh-Hans/etiquette/7-e2dacd8e67b528de.m4a",
+    "seconds": 4.852789,
+    "duration": 5.352789
+  },
+  "etiquette:8": {
+    "file": "course/zh-Hans/etiquette/8-d25ff237c6c05bd2.m4a",
+    "seconds": 5.329388,
+    "duration": 5.829388
+  },
+  "etiquette:9": {
+    "file": "course/zh-Hans/etiquette/9-9b3830996f3ab5fd.m4a",
+    "seconds": 5.022721,
+    "duration": 5.522721
+  },
+  "etiquette:10": {
+    "file": "course/zh-Hans/etiquette/10-d0c7729e37b1411d.m4a",
+    "seconds": 3.244399,
+    "duration": 3.744399
+  },
+  "etiquette:11": {
+    "file": "course/zh-Hans/etiquette/11-4612bad78a58541c.m4a",
+    "seconds": 5.05551,
+    "duration": 5.55551
+  },
+  "etiquette:12": {
+    "file": "course/zh-Hans/etiquette/12-f8415b00e92e7f0d.m4a",
+    "seconds": 4.313923,
+    "duration": 4.813923
+  },
+  "etiquette:13": {
+    "file": "course/zh-Hans/etiquette/13-d6d06c056cd3bf7a.m4a",
+    "seconds": 2.684762,
+    "duration": 3.184762
+  },
+  "etiquette:15": {
+    "file": "course/zh-Hans/etiquette/15-05f2ac1f76bd1bc6.m4a",
+    "seconds": 2.661542,
+    "duration": 3.161542
+  },
+  "etiquette:17": {
+    "file": "course/zh-Hans/etiquette/17-838a706c9edcae54.m4a",
+    "seconds": 4.208027,
+    "duration": 4.708027
+  },
+  "etiquette:18": {
+    "file": "course/zh-Hans/etiquette/18-67aefe97c1858b80.m4a",
+    "seconds": 5.524036,
+    "duration": 6.024036
+  },
+  "ways-to-draw:0": {
+    "file": "course/zh-Hans/ways-to-draw/0-4aae3b50fb19b738.m4a",
+    "seconds": 3.244354,
+    "duration": 3.744354
+  },
+  "ways-to-draw:1": {
+    "file": "course/zh-Hans/ways-to-draw/1-27ba08cc65b09219.m4a",
+    "seconds": 5.466168,
+    "duration": 5.966168
+  },
+  "ways-to-draw:2": {
+    "file": "course/zh-Hans/ways-to-draw/2-101f12fd4b18754b.m4a",
+    "seconds": 4.704898,
+    "duration": 5.204898
+  },
+  "ways-to-draw:3": {
+    "file": "course/zh-Hans/ways-to-draw/3-6aa07362f4bad128.m4a",
+    "seconds": 2.591882,
+    "duration": 3.091882
+  },
+  "ways-to-draw:4": {
+    "file": "course/zh-Hans/ways-to-draw/4-5f08197e83f96fdb.m4a",
+    "seconds": 4.444535,
+    "duration": 4.944535
+  },
+  "ways-to-draw:5": {
+    "file": "course/zh-Hans/ways-to-draw/5-f0e6a7fff5187817.m4a",
+    "seconds": 3.199546,
+    "duration": 3.699546
+  },
+  "ways-to-draw:6": {
+    "file": "course/zh-Hans/ways-to-draw/6-20c851318188bf7c.m4a",
+    "seconds": 4.420952,
+    "duration": 4.920952
+  },
+  "ways-to-draw:7": {
+    "file": "course/zh-Hans/ways-to-draw/7-9757e5ebd60208c6.m4a",
+    "seconds": 4.493469,
+    "duration": 4.993469
+  },
+  "ways-to-draw:8": {
+    "file": "course/zh-Hans/ways-to-draw/8-2c59fb90fe8ee375.m4a",
+    "seconds": 2.265624,
+    "duration": 2.765624
+  },
+  "ways-to-draw:9": {
+    "file": "course/zh-Hans/ways-to-draw/9-bc99f2f0c9c39d17.m4a",
+    "seconds": 7.059274,
+    "duration": 7.559274
+  },
+  "ways-to-draw:10": {
+    "file": "course/zh-Hans/ways-to-draw/10-67bf2d6691e2acd9.m4a",
+    "seconds": 6.634467,
+    "duration": 7.134467
+  },
+  "ways-to-draw:11": {
+    "file": "course/zh-Hans/ways-to-draw/11-cc4c49d6a0e8df4c.m4a",
+    "seconds": 1.579365,
+    "duration": 2.079365
+  },
+  "ways-to-draw:12": {
+    "file": "course/zh-Hans/ways-to-draw/12-2b430cc6ad6a8359.m4a",
+    "seconds": 5.589887,
+    "duration": 6.089887
+  },
+  "ways-to-draw:13": {
+    "file": "course/zh-Hans/ways-to-draw/13-5b79d84b6a9db79d.m4a",
+    "seconds": 5.07873,
+    "duration": 5.57873
+  },
+  "ways-to-draw:14": {
+    "file": "course/zh-Hans/ways-to-draw/14-b166e07addbee22f.m4a",
+    "seconds": 6.522358,
+    "duration": 7.022358
+  },
+  "ways-to-draw:15": {
+    "file": "course/zh-Hans/ways-to-draw/15-f8dd64b1ede86b40.m4a",
+    "seconds": 4.86712,
+    "duration": 5.36712
+  },
+  "ways-to-draw:16": {
+    "file": "course/zh-Hans/ways-to-draw/16-ae792d915d45ad37.m4a",
+    "seconds": 3.814875,
+    "duration": 4.314875
+  },
+  "ways-to-draw:18": {
+    "file": "course/zh-Hans/ways-to-draw/18-e61621289111b1e5.m4a",
+    "seconds": 5.143628,
+    "duration": 5.643628
+  },
+  "ways-to-draw:20": {
+    "file": "course/zh-Hans/ways-to-draw/20-9a35f0162a83cea4.m4a",
+    "seconds": 3.299864,
+    "duration": 3.799864
+  },
+  "ways-to-draw:21": {
+    "file": "course/zh-Hans/ways-to-draw/21-8ad004502faca7e5.m4a",
+    "seconds": 5.981995,
+    "duration": 6.481995
+  },
+  "tournaments:0": {
+    "file": "course/zh-Hans/tournaments/0-d8cbb47fd6e34427.m4a",
+    "seconds": 5.355057,
+    "duration": 5.855057
+  },
+  "tournaments:1": {
+    "file": "course/zh-Hans/tournaments/1-503211fa1016875e.m4a",
+    "seconds": 3.604127,
+    "duration": 4.104127
+  },
+  "tournaments:2": {
+    "file": "course/zh-Hans/tournaments/2-a5f8e54e2de01cd3.m4a",
+    "seconds": 4.502449,
+    "duration": 5.002449
+  },
+  "tournaments:3": {
+    "file": "course/zh-Hans/tournaments/3-dc336a84f53e7125.m4a",
+    "seconds": 7.108163,
+    "duration": 7.608163
+  },
+  "tournaments:4": {
+    "file": "course/zh-Hans/tournaments/4-2a4681843d5d4975.m4a",
+    "seconds": 3.997506,
+    "duration": 4.497506
+  },
+  "tournaments:5": {
+    "file": "course/zh-Hans/tournaments/5-e1783331b6cfbdc8.m4a",
+    "seconds": 4.479184,
+    "duration": 4.979184
+  },
+  "tournaments:6": {
+    "file": "course/zh-Hans/tournaments/6-41a31637c650fb69.m4a",
+    "seconds": 5.90449,
+    "duration": 6.40449
+  },
+  "tournaments:7": {
+    "file": "course/zh-Hans/tournaments/7-d8608b74a99ab820.m4a",
+    "seconds": 3.439184,
+    "duration": 3.939184
+  },
+  "tournaments:9": {
+    "file": "course/zh-Hans/tournaments/9-baf6c201d967f7d6.m4a",
+    "seconds": 6.011882,
+    "duration": 6.511882
+  },
+  "tournaments:10": {
+    "file": "course/zh-Hans/tournaments/10-1c1a6dbc3d72d1d7.m4a",
+    "seconds": 4.718639,
+    "duration": 5.218639
+  },
+  "tournaments:12": {
+    "file": "course/zh-Hans/tournaments/12-f7b844feb9012896.m4a",
+    "seconds": 3.569342,
+    "duration": 4.069342
+  },
+  "tournaments:13": {
+    "file": "course/zh-Hans/tournaments/13-e18789d2517530fc.m4a",
+    "seconds": 5.103583,
+    "duration": 5.603583
+  },
+  "tournaments:14": {
+    "file": "course/zh-Hans/tournaments/14-363fe7d4b6e4328d.m4a",
+    "seconds": 4.658141,
+    "duration": 5.158141
+  },
+  "tournaments:15": {
+    "file": "course/zh-Hans/tournaments/15-ac920986f1a70c40.m4a",
+    "seconds": 4.130839,
+    "duration": 4.630839
+  },
+  "chess-language:0": {
+    "file": "course/zh-Hans/chess-language/0-157628db8d4cbd3a.m4a",
+    "seconds": 3.39678,
+    "duration": 3.89678
+  },
+  "chess-language:1": {
+    "file": "course/zh-Hans/chess-language/1-1e2dbbab5a52bf7a.m4a",
+    "seconds": 2.791882,
+    "duration": 3.291882
+  },
+  "chess-language:2": {
+    "file": "course/zh-Hans/chess-language/2-e2d211997295b612.m4a",
+    "seconds": 4.290703,
+    "duration": 4.790703
+  },
+  "chess-language:3": {
+    "file": "course/zh-Hans/chess-language/3-4deebe6272675b14.m4a",
+    "seconds": 4.40059,
+    "duration": 4.90059
+  },
+  "chess-language:4": {
+    "file": "course/zh-Hans/chess-language/4-b35ffbb1215e20ae.m4a",
+    "seconds": 2.969297,
+    "duration": 3.469297
+  },
+  "chess-language:5": {
+    "file": "course/zh-Hans/chess-language/5-923827597417227e.m4a",
+    "seconds": 4.621179,
+    "duration": 5.121179
+  },
+  "chess-language:6": {
+    "file": "course/zh-Hans/chess-language/6-07257b4a284c89bb.m4a",
+    "seconds": 4.535238,
+    "duration": 5.035238
+  },
+  "chess-language:7": {
+    "file": "course/zh-Hans/chess-language/7-130ad4110173f548.m4a",
+    "seconds": 4.772109,
+    "duration": 5.272109
+  },
+  "chess-language:8": {
+    "file": "course/zh-Hans/chess-language/8-4c2f60496423ec4a.m4a",
+    "seconds": 4.899819,
+    "duration": 5.399819
+  },
+  "chess-language:10": {
+    "file": "course/zh-Hans/chess-language/10-fe0e807f45d983e5.m4a",
+    "seconds": 3.719683,
+    "duration": 4.219683
+  },
+  "chess-language:11": {
+    "file": "course/zh-Hans/chess-language/11-34046ad84fba952c.m4a",
+    "seconds": 3.460181,
+    "duration": 3.960181
+  },
+  "chess-language:12": {
+    "file": "course/zh-Hans/chess-language/12-324c0f06509baf3e.m4a",
+    "seconds": 1.857143,
+    "duration": 2.3571429999999998
+  },
+  "chess-language:13": {
+    "file": "course/zh-Hans/chess-language/13-d5dd08c525603450.m4a",
+    "seconds": 1.646531,
+    "duration": 2.146531
+  },
+  "chess-language:14": {
+    "file": "course/zh-Hans/chess-language/14-7fd1e7170efc0f64.m4a",
+    "seconds": 1.80322,
+    "duration": 2.30322
+  },
+  "chess-language:15": {
+    "file": "course/zh-Hans/chess-language/15-34d521a40b53209c.m4a",
+    "seconds": 4.069025,
+    "duration": 4.569025
+  },
+  "chess-language:16": {
+    "file": "course/zh-Hans/chess-language/16-7d569da5762fa955.m4a",
+    "seconds": 4.043129,
+    "duration": 4.543129
+  },
+  "chess-language:17": {
+    "file": "course/zh-Hans/chess-language/17-00bbce0d67f1041c.m4a",
+    "seconds": 2.392063,
+    "duration": 2.892063
+  },
+  "chess-language:18": {
+    "file": "course/zh-Hans/chess-language/18-b3fe3f4beba46e47.m4a",
+    "seconds": 5.822086,
+    "duration": 6.322086
+  },
+  "chess-language:20": {
+    "file": "course/zh-Hans/chess-language/20-31cdf55078ab983c.m4a",
+    "seconds": 3.506984,
+    "duration": 4.006984
+  },
+  "chess-language:21": {
+    "file": "course/zh-Hans/chess-language/21-65bcf1e132347b4c.m4a",
+    "seconds": 4.081723,
+    "duration": 4.581723
+  },
+  "chess-language:22": {
+    "file": "course/zh-Hans/chess-language/22-164ac79ff8204951.m4a",
+    "seconds": 2.222358,
+    "duration": 2.722358
+  },
+  "chess-language:23": {
+    "file": "course/zh-Hans/chess-language/23-2f765590e34699e7.m4a",
+    "seconds": 5.352426,
+    "duration": 5.852426
+  },
+  "good-start:0": {
+    "file": "course/zh-Hans/good-start/0-2e02c5f236a8756d.m4a",
+    "seconds": 2.444762,
+    "duration": 2.944762
+  },
+  "good-start:1": {
+    "file": "course/zh-Hans/good-start/1-a240487291b6de0e.m4a",
+    "seconds": 4.196236,
+    "duration": 4.696236
+  },
+  "good-start:2": {
+    "file": "course/zh-Hans/good-start/2-8bc47aa59f6657d4.m4a",
+    "seconds": 4.922449,
+    "duration": 5.422449
+  },
+  "good-start:3": {
+    "file": "course/zh-Hans/good-start/3-26f6c07c7bcabd88.m4a",
+    "seconds": 2.644807,
+    "duration": 3.144807
+  },
+  "good-start:4": {
+    "file": "course/zh-Hans/good-start/4-253d967074f09c98.m4a",
+    "seconds": 2.810023,
+    "duration": 3.310023
+  },
+  "good-start:5": {
+    "file": "course/zh-Hans/good-start/5-c5cc200eb5d995d1.m4a",
+    "seconds": 5.000816,
+    "duration": 5.500816
+  },
+  "good-start:6": {
+    "file": "course/zh-Hans/good-start/6-226c72ee4a976471.m4a",
+    "seconds": 4.778322,
+    "duration": 5.278322
+  },
+  "good-start:7": {
+    "file": "course/zh-Hans/good-start/7-101756e506e64121.m4a",
+    "seconds": 2.159864,
+    "duration": 2.659864
+  },
+  "good-start:8": {
+    "file": "course/zh-Hans/good-start/8-a5261289ec6e19f6.m4a",
+    "seconds": 2.314059,
+    "duration": 2.814059
+  },
+  "good-start:10": {
+    "file": "course/zh-Hans/good-start/10-9107d77b94f43a54.m4a",
+    "seconds": 3.65102,
+    "duration": 4.15102
+  },
+  "good-start:11": {
+    "file": "course/zh-Hans/good-start/11-b9ea62acc787dc2a.m4a",
+    "seconds": 1.48,
+    "duration": 1.98
+  },
+  "good-start:12": {
+    "file": "course/zh-Hans/good-start/12-95ec5f29fbac8a4e.m4a",
+    "seconds": 2.470658,
+    "duration": 2.970658
+  },
+  "good-start:13": {
+    "file": "course/zh-Hans/good-start/13-e1d27b5c93ed78c3.m4a",
+    "seconds": 4.21483,
+    "duration": 4.71483
+  },
+  "good-start:14": {
+    "file": "course/zh-Hans/good-start/14-6b8abf1ba9345b69.m4a",
+    "seconds": 3.274422,
+    "duration": 3.774422
+  },
+  "good-start:15": {
+    "file": "course/zh-Hans/good-start/15-de4eef927aac4056.m4a",
+    "seconds": 3.927846,
+    "duration": 4.427846000000001
+  },
+  "good-start:16": {
+    "file": "course/zh-Hans/good-start/16-88d64f715a1dbd11.m4a",
+    "seconds": 3.129705,
+    "duration": 3.629705
+  },
+  "good-start:17": {
+    "file": "course/zh-Hans/good-start/17-a3c9c386f54f0092.m4a",
+    "seconds": 4.286939,
+    "duration": 4.786939
+  },
+  "good-start:18": {
+    "file": "course/zh-Hans/good-start/18-a9a4265c5a3d0736.m4a",
+    "seconds": 5.498322,
+    "duration": 5.998322
+  },
+  "good-start:20": {
+    "file": "course/zh-Hans/good-start/20-df9ee7c1a76ce7a6.m4a",
+    "seconds": 3.639093,
+    "duration": 4.139093
+  },
+  "good-start:21": {
+    "file": "course/zh-Hans/good-start/21-e897c0e6bcf8fed7.m4a",
+    "seconds": 2.916961,
+    "duration": 3.416961
+  },
+  "good-start:22": {
+    "file": "course/zh-Hans/good-start/22-67f0c6080a70b03a.m4a",
+    "seconds": 5.774376,
+    "duration": 6.274376
+  },
+  "chess-maths:0": {
+    "file": "course/zh-Hans/chess-maths/0-da7d5d6c398ce82f.m4a",
+    "seconds": 2.756553,
+    "duration": 3.256553
+  },
+  "chess-maths:1": {
+    "file": "course/zh-Hans/chess-maths/1-570d749df246b819.m4a",
+    "seconds": 1.512154,
+    "duration": 2.0121539999999998
+  },
+  "chess-maths:2": {
+    "file": "course/zh-Hans/chess-maths/2-1e2165354ebb8d21.m4a",
+    "seconds": 2.234603,
+    "duration": 2.734603
+  },
+  "chess-maths:3": {
+    "file": "course/zh-Hans/chess-maths/3-d539bef2f0a1fe91.m4a",
+    "seconds": 1.588481,
+    "duration": 2.088481
+  },
+  "chess-maths:4": {
+    "file": "course/zh-Hans/chess-maths/4-c1e9f27785f1a560.m4a",
+    "seconds": 1.65229,
+    "duration": 2.15229
+  },
+  "chess-maths:5": {
+    "file": "course/zh-Hans/chess-maths/5-6d4fef5e9e03e4b8.m4a",
+    "seconds": 3.430113,
+    "duration": 3.930113
+  },
+  "chess-maths:6": {
+    "file": "course/zh-Hans/chess-maths/6-169c2840cb76f245.m4a",
+    "seconds": 4.344989,
+    "duration": 4.844989
+  },
+  "chess-maths:7": {
+    "file": "course/zh-Hans/chess-maths/7-b9e28e880a1992f4.m4a",
+    "seconds": 4.447029,
+    "duration": 4.947029
+  },
+  "chess-maths:8": {
+    "file": "course/zh-Hans/chess-maths/8-283f6b4b2693827f.m4a",
+    "seconds": 5.482766,
+    "duration": 5.982766
+  },
+  "chess-maths:9": {
+    "file": "course/zh-Hans/chess-maths/9-b4c3a03eff645fb3.m4a",
+    "seconds": 6.631837,
+    "duration": 7.131837
+  },
+  "chess-maths:10": {
+    "file": "course/zh-Hans/chess-maths/10-95d1b1f181bf5e82.m4a",
+    "seconds": 3.146712,
+    "duration": 3.646712
+  },
+  "chess-maths:11": {
+    "file": "course/zh-Hans/chess-maths/11-e06e2d8744f1a40a.m4a",
+    "seconds": 2.440952,
+    "duration": 2.940952
+  },
+  "chess-maths:12": {
+    "file": "course/zh-Hans/chess-maths/12-bb6b254bdb6f3125.m4a",
+    "seconds": 3.213515,
+    "duration": 3.713515
+  },
+  "chess-maths:13": {
+    "file": "course/zh-Hans/chess-maths/13-07cbe21e71b290bc.m4a",
+    "seconds": 3.021134,
+    "duration": 3.521134
+  },
+  "chess-maths:14": {
+    "file": "course/zh-Hans/chess-maths/14-e30739ccbd018d09.m4a",
+    "seconds": 3.149977,
+    "duration": 3.649977
+  },
+  "chess-maths:15": {
+    "file": "course/zh-Hans/chess-maths/15-4a95e7e70e848018.m4a",
+    "seconds": 2.231973,
+    "duration": 2.731973
+  },
+  "chess-maths:16": {
+    "file": "course/zh-Hans/chess-maths/16-e9b29692c0ecf458.m4a",
+    "seconds": 2.029297,
+    "duration": 2.529297
+  },
+  "chess-maths:17": {
+    "file": "course/zh-Hans/chess-maths/17-7b3d168cb605a357.m4a",
+    "seconds": 3.62517,
+    "duration": 4.12517
+  },
+  "chess-maths:19": {
+    "file": "course/zh-Hans/chess-maths/19-b079669f4c6f46c1.m4a",
+    "seconds": 2.371293,
+    "duration": 2.871293
+  },
+  "chess-maths:20": {
+    "file": "course/zh-Hans/chess-maths/20-281ce31d7b7eb033.m4a",
+    "seconds": 2.862857,
+    "duration": 3.362857
+  },
+  "chess-maths:21": {
+    "file": "course/zh-Hans/chess-maths/21-17d1576258ac5a2c.m4a",
+    "seconds": 3.927846,
+    "duration": 4.427846000000001
+  },
+  "chess-maths:23": {
+    "file": "course/zh-Hans/chess-maths/23-61d5f6a3ce1e83e3.m4a",
+    "seconds": 3.067891,
+    "duration": 3.567891
+  },
+  "chess-maths:24": {
+    "file": "course/zh-Hans/chess-maths/24-818d870e63ab924a.m4a",
+    "seconds": 3.074195,
+    "duration": 3.574195
+  },
+  "chess-maths:25": {
+    "file": "course/zh-Hans/chess-maths/25-575d212ab3639182.m4a",
+    "seconds": 4.797778,
+    "duration": 5.297778
+  },
+  "chess-maths:26": {
+    "file": "course/zh-Hans/chess-maths/26-eb1791586d32986d.m4a",
+    "seconds": 6.05542,
+    "duration": 6.55542
+  },
+  "classic-trick:0": {
+    "file": "course/zh-Hans/classic-trick/0-5170a3c9ce21a38f.m4a",
+    "seconds": 3.721859,
+    "duration": 4.221859
+  },
+  "classic-trick:1": {
+    "file": "course/zh-Hans/classic-trick/1-ab1c33ae76a2d961.m4a",
+    "seconds": 6.074875,
+    "duration": 6.574875
+  },
+  "classic-trick:2": {
+    "file": "course/zh-Hans/classic-trick/2-b3c9925ae1bfe1b2.m4a",
+    "seconds": 3.998866,
+    "duration": 4.498866
+  },
+  "classic-trick:3": {
+    "file": "course/zh-Hans/classic-trick/3-e0303e1d74181eb4.m4a",
+    "seconds": 3.278503,
+    "duration": 3.778503
+  },
+  "classic-trick:4": {
+    "file": "course/zh-Hans/classic-trick/4-d92402dd259f039d.m4a",
+    "seconds": 3.009841,
+    "duration": 3.509841
+  },
+  "classic-trick:5": {
+    "file": "course/zh-Hans/classic-trick/5-ba9a4c982df579e6.m4a",
+    "seconds": 2.011066,
+    "duration": 2.511066
+  },
+  "classic-trick:6": {
+    "file": "course/zh-Hans/classic-trick/6-ecf905324e8ada46.m4a",
+    "seconds": 2.313243,
+    "duration": 2.813243
+  },
+  "classic-trick:7": {
+    "file": "course/zh-Hans/classic-trick/7-f241727212701629.m4a",
+    "seconds": 1.054059,
+    "duration": 1.554059
+  },
+  "classic-trick:8": {
+    "file": "course/zh-Hans/classic-trick/8-436919e485ab67ab.m4a",
+    "seconds": 3.60195,
+    "duration": 4.10195
+  },
+  "classic-trick:9": {
+    "file": "course/zh-Hans/classic-trick/9-bf4c1fc0ea4cd959.m4a",
+    "seconds": 4.988118,
+    "duration": 5.488118
+  },
+  "classic-trick:10": {
+    "file": "course/zh-Hans/classic-trick/10-0d4cf0fccfd4e4ad.m4a",
+    "seconds": 4.002993,
+    "duration": 4.502993
+  },
+  "classic-trick:11": {
+    "file": "course/zh-Hans/classic-trick/11-f1e27101b6b09c74.m4a",
+    "seconds": 5.041587,
+    "duration": 5.541587
+  },
+  "classic-trick:12": {
+    "file": "course/zh-Hans/classic-trick/12-9dbceb9369f00212.m4a",
+    "seconds": 2.327029,
+    "duration": 2.827029
+  },
+  "classic-trick:13": {
+    "file": "course/zh-Hans/classic-trick/13-52aa6bc598b2190d.m4a",
+    "seconds": 1.650295,
+    "duration": 2.150295
+  },
+  "classic-trick:14": {
+    "file": "course/zh-Hans/classic-trick/14-e3816dc77500791d.m4a",
+    "seconds": 2.372109,
+    "duration": 2.872109
+  },
+  "classic-trick:16": {
+    "file": "course/zh-Hans/classic-trick/16-2707d873b619dd0f.m4a",
+    "seconds": 3.854921,
+    "duration": 4.354921
+  },
+  "classic-trick:17": {
+    "file": "course/zh-Hans/classic-trick/17-5e33577413f318d4.m4a",
+    "seconds": 3.208027,
+    "duration": 3.708027
+  },
+  "classic-trick:18": {
+    "file": "course/zh-Hans/classic-trick/18-20e49ffa3c67f12b.m4a",
+    "seconds": 3.852063,
+    "duration": 4.352062999999999
+  },
+  "classic-trick:19": {
+    "file": "course/zh-Hans/classic-trick/19-1e7a8f45c6206ff3.m4a",
+    "seconds": 5.84458,
+    "duration": 6.34458
+  },
+  "classic-trick:20": {
+    "file": "course/zh-Hans/classic-trick/20-78ef5a7b22fd29b9.m4a",
+    "seconds": 3.03542,
+    "duration": 3.53542
+  },
+  "classic-trick:22": {
+    "file": "course/zh-Hans/classic-trick/22-3b0a88a6dfe66553.m4a",
+    "seconds": 2.594059,
+    "duration": 3.094059
+  },
+  "classic-trick:23": {
+    "file": "course/zh-Hans/classic-trick/23-072a6732137dd1d6.m4a",
+    "seconds": 4.786984,
+    "duration": 5.286984
+  },
+  "classic-trick:24": {
+    "file": "course/zh-Hans/classic-trick/24-ec49e8985eb09a3f.m4a",
+    "seconds": 5.5239,
+    "duration": 6.0239
+  },
+  "classic-trick:25": {
+    "file": "course/zh-Hans/classic-trick/25-d80cbe2dd3d27dfc.m4a",
+    "seconds": 6.397914,
+    "duration": 6.897914
+  },
+  "fork:0": {
+    "file": "course/zh-Hans/fork/0-243d6eb8171a0f72.m4a",
+    "seconds": 3.977279,
+    "duration": 4.477278999999999
+  },
+  "fork:1": {
+    "file": "course/zh-Hans/fork/1-06051b3b4097381a.m4a",
+    "seconds": 5.289161,
+    "duration": 5.789161
+  },
+  "fork:2": {
+    "file": "course/zh-Hans/fork/2-eeca88cc5ffd1355.m4a",
+    "seconds": 3.540862,
+    "duration": 4.040862000000001
+  },
+  "fork:3": {
+    "file": "course/zh-Hans/fork/3-5db7e593208ec313.m4a",
+    "seconds": 2.861088,
+    "duration": 3.361088
+  },
+  "fork:4": {
+    "file": "course/zh-Hans/fork/4-59b07360f290c78a.m4a",
+    "seconds": 3.86898,
+    "duration": 4.3689800000000005
+  },
+  "fork:5": {
+    "file": "course/zh-Hans/fork/5-8f43479247527e06.m4a",
+    "seconds": 2.261497,
+    "duration": 2.761497
+  },
+  "fork:6": {
+    "file": "course/zh-Hans/fork/6-b11e4ba2fa5301cd.m4a",
+    "seconds": 3.042222,
+    "duration": 3.542222
+  },
+  "fork:7": {
+    "file": "course/zh-Hans/fork/7-25133cd466ed73e2.m4a",
+    "seconds": 1.050431,
+    "duration": 1.550431
+  },
+  "fork:8": {
+    "file": "course/zh-Hans/fork/8-725abb3b4e97b07b.m4a",
+    "seconds": 4.113197,
+    "duration": 4.613197
+  },
+  "fork:9": {
+    "file": "course/zh-Hans/fork/9-50e694605cd91a6a.m4a",
+    "seconds": 3.033878,
+    "duration": 3.533878
+  },
+  "fork:10": {
+    "file": "course/zh-Hans/fork/10-b4305b0298423f7a.m4a",
+    "seconds": 3.155465,
+    "duration": 3.655465
+  },
+  "fork:11": {
+    "file": "course/zh-Hans/fork/11-b969a4bdbf99a3f6.m4a",
+    "seconds": 1.211111,
+    "duration": 1.711111
+  },
+  "fork:12": {
+    "file": "course/zh-Hans/fork/12-05cffac1af181d91.m4a",
+    "seconds": 3.309252,
+    "duration": 3.809252
+  },
+  "fork:13": {
+    "file": "course/zh-Hans/fork/13-cc321295f0f9a0b4.m4a",
+    "seconds": 1.513787,
+    "duration": 2.0137869999999998
+  },
+  "fork:14": {
+    "file": "course/zh-Hans/fork/14-99f17e6c665618ad.m4a",
+    "seconds": 3.906304,
+    "duration": 4.406304
+  },
+  "fork:15": {
+    "file": "course/zh-Hans/fork/15-991e3987bfcf662f.m4a",
+    "seconds": 3.422494,
+    "duration": 3.922494
+  },
+  "fork:16": {
+    "file": "course/zh-Hans/fork/16-7ab26413069efeec.m4a",
+    "seconds": 2.955556,
+    "duration": 3.455556
+  },
+  "fork:17": {
+    "file": "course/zh-Hans/fork/17-a965aa6a486d59ac.m4a",
+    "seconds": 3.78771,
+    "duration": 4.287710000000001
+  },
+  "fork:18": {
+    "file": "course/zh-Hans/fork/18-db5b646cb4e1f6a7.m4a",
+    "seconds": 5.422268,
+    "duration": 5.922268
+  },
+  "fork:20": {
+    "file": "course/zh-Hans/fork/20-426d90c950abc9fa.m4a",
+    "seconds": 2.861497,
+    "duration": 3.361497
+  },
+  "fork:21": {
+    "file": "course/zh-Hans/fork/21-53bf874b148ff6b1.m4a",
+    "seconds": 2.373605,
+    "duration": 2.873605
+  },
+  "fork:23": {
+    "file": "course/zh-Hans/fork/23-18043848b9e97460.m4a",
+    "seconds": 2.731202,
+    "duration": 3.231202
+  },
+  "fork:24": {
+    "file": "course/zh-Hans/fork/24-b313facdf31853b1.m4a",
+    "seconds": 4.778367,
+    "duration": 5.278367
+  },
+  "pin:0": {
+    "file": "course/zh-Hans/pin/0-3b9195aac7d8f74f.m4a",
+    "seconds": 2.235782,
+    "duration": 2.735782
+  },
+  "pin:1": {
+    "file": "course/zh-Hans/pin/1-1a8f0a14f87cc542.m4a",
+    "seconds": 4.484308,
+    "duration": 4.984308
+  },
+  "pin:2": {
+    "file": "course/zh-Hans/pin/2-bd8bc7a9d20758cc.m4a",
+    "seconds": 6.415329,
+    "duration": 6.915329
+  },
+  "pin:3": {
+    "file": "course/zh-Hans/pin/3-0e62e2cf2a9fdfde.m4a",
+    "seconds": 3.201905,
+    "duration": 3.701905
+  },
+  "pin:4": {
+    "file": "course/zh-Hans/pin/4-dda83efa14775523.m4a",
+    "seconds": 4.275329,
+    "duration": 4.775329
+  },
+  "pin:5": {
+    "file": "course/zh-Hans/pin/5-522e7e44693d899e.m4a",
+    "seconds": 5.520272,
+    "duration": 6.020272
+  },
+  "pin:6": {
+    "file": "course/zh-Hans/pin/6-0c891f486fe95b11.m4a",
+    "seconds": 5.833651,
+    "duration": 6.333651
+  },
+  "pin:7": {
+    "file": "course/zh-Hans/pin/7-6152ca8a21f2bab4.m4a",
+    "seconds": 3.068707,
+    "duration": 3.568707
+  },
+  "pin:8": {
+    "file": "course/zh-Hans/pin/8-75567b227f41deed.m4a",
+    "seconds": 2.673968,
+    "duration": 3.173968
+  },
+  "pin:9": {
+    "file": "course/zh-Hans/pin/9-b1972eb0b1ba6471.m4a",
+    "seconds": 4.992698,
+    "duration": 5.492698
+  },
+  "pin:10": {
+    "file": "course/zh-Hans/pin/10-15805f2c31824365.m4a",
+    "seconds": 1.746939,
+    "duration": 2.2469390000000002
+  },
+  "pin:11": {
+    "file": "course/zh-Hans/pin/11-ccb656a643cec4a0.m4a",
+    "seconds": 6.76068,
+    "duration": 7.26068
+  },
+  "pin:12": {
+    "file": "course/zh-Hans/pin/12-2ee641bf096c5d85.m4a",
+    "seconds": 4.132698,
+    "duration": 4.632698
+  },
+  "pin:13": {
+    "file": "course/zh-Hans/pin/13-b476ccdf7bbe17f7.m4a",
+    "seconds": 3.587891,
+    "duration": 4.087891
+  },
+  "pin:14": {
+    "file": "course/zh-Hans/pin/14-4a69ea63460f8d1d.m4a",
+    "seconds": 7.567256,
+    "duration": 8.067256
+  },
+  "pin:15": {
+    "file": "course/zh-Hans/pin/15-e6e73aa081b253a5.m4a",
+    "seconds": 2.313243,
+    "duration": 2.813243
+  },
+  "pin:16": {
+    "file": "course/zh-Hans/pin/16-9a14e991f1a4c2a1.m4a",
+    "seconds": 4.525442,
+    "duration": 5.025442
+  },
+  "pin:17": {
+    "file": "course/zh-Hans/pin/17-d2d1cf571d1b13d9.m4a",
+    "seconds": 5.38458,
+    "duration": 5.88458
+  },
+  "pin:19": {
+    "file": "course/zh-Hans/pin/19-e9d152025f6da6bc.m4a",
+    "seconds": 3.291111,
+    "duration": 3.791111
+  },
+  "pin:21": {
+    "file": "course/zh-Hans/pin/21-70aa26c51100e4e8.m4a",
+    "seconds": 4.172971,
+    "duration": 4.672971
+  },
+  "pin:22": {
+    "file": "course/zh-Hans/pin/22-fc397582bb65acdb.m4a",
+    "seconds": 8.072608,
+    "duration": 8.572608
+  },
+  "skewer:0": {
+    "file": "course/zh-Hans/skewer/0-a6cda21e387cba0e.m4a",
+    "seconds": 2.305442,
+    "duration": 2.805442
+  },
+  "skewer:1": {
+    "file": "course/zh-Hans/skewer/1-389deb4c2ce389d6.m4a",
+    "seconds": 4.090385,
+    "duration": 4.590385
+  },
+  "skewer:2": {
+    "file": "course/zh-Hans/skewer/2-8128c1c29ed2fbaa.m4a",
+    "seconds": 5.849161,
+    "duration": 6.349161
+  },
+  "skewer:3": {
+    "file": "course/zh-Hans/skewer/3-01eacd5dec40f3f7.m4a",
+    "seconds": 2.714286,
+    "duration": 3.214286
+  },
+  "skewer:4": {
+    "file": "course/zh-Hans/skewer/4-c2b4d3c3aff81149.m4a",
+    "seconds": 2.900408,
+    "duration": 3.400408
+  },
+  "skewer:5": {
+    "file": "course/zh-Hans/skewer/5-cd041eeeb6ddeae6.m4a",
+    "seconds": 5.001451,
+    "duration": 5.501451
+  },
+  "skewer:6": {
+    "file": "course/zh-Hans/skewer/6-4e7692a00e71aa2b.m4a",
+    "seconds": 2.640635,
+    "duration": 3.140635
+  },
+  "skewer:7": {
+    "file": "course/zh-Hans/skewer/7-926da58e14fd5332.m4a",
+    "seconds": 1.077642,
+    "duration": 1.577642
+  },
+  "skewer:8": {
+    "file": "course/zh-Hans/skewer/8-218fa115f1608699.m4a",
+    "seconds": 5.335782,
+    "duration": 5.835782
+  },
+  "skewer:9": {
+    "file": "course/zh-Hans/skewer/9-d12e24135526ee5d.m4a",
+    "seconds": 5.326712,
+    "duration": 5.826712
+  },
+  "skewer:10": {
+    "file": "course/zh-Hans/skewer/10-d86b3ec16e5b98f8.m4a",
+    "seconds": 2.275964,
+    "duration": 2.775964
+  },
+  "skewer:11": {
+    "file": "course/zh-Hans/skewer/11-ec94b97baffd1ad6.m4a",
+    "seconds": 5.287029,
+    "duration": 5.787029
+  },
+  "skewer:12": {
+    "file": "course/zh-Hans/skewer/12-c531578154a668c4.m4a",
+    "seconds": 1.732744,
+    "duration": 2.2327440000000003
+  },
+  "skewer:13": {
+    "file": "course/zh-Hans/skewer/13-997d29d1e773d4ce.m4a",
+    "seconds": 1.68712,
+    "duration": 2.18712
+  },
+  "skewer:14": {
+    "file": "course/zh-Hans/skewer/14-c7250ce0e4efc62b.m4a",
+    "seconds": 3.726349,
+    "duration": 4.226349
+  },
+  "skewer:16": {
+    "file": "course/zh-Hans/skewer/16-4ff1d08e61c9c02c.m4a",
+    "seconds": 2.912018,
+    "duration": 3.412018
+  },
+  "skewer:17": {
+    "file": "course/zh-Hans/skewer/17-c797922415516ec4.m4a",
+    "seconds": 2.559365,
+    "duration": 3.059365
+  },
+  "skewer:19": {
+    "file": "course/zh-Hans/skewer/19-d55fee5385dd9c13.m4a",
+    "seconds": 7.779093,
+    "duration": 8.279093
+  },
+  "skewer:20": {
+    "file": "course/zh-Hans/skewer/20-0ee731f667528df0.m4a",
+    "seconds": 5.299637,
+    "duration": 5.799637
+  },
+  "discovered-attack:0": {
+    "file": "course/zh-Hans/discovered-attack/0-17d0307e86d4709b.m4a",
+    "seconds": 4.697098,
+    "duration": 5.197098
+  },
+  "discovered-attack:1": {
+    "file": "course/zh-Hans/discovered-attack/1-9bb3578b5054d28f.m4a",
+    "seconds": 3.327075,
+    "duration": 3.827075
+  },
+  "discovered-attack:2": {
+    "file": "course/zh-Hans/discovered-attack/2-fafede0e24e77850.m4a",
+    "seconds": 4.509841,
+    "duration": 5.009841
+  },
+  "discovered-attack:3": {
+    "file": "course/zh-Hans/discovered-attack/3-2b176dedc8004199.m4a",
+    "seconds": 2.626712,
+    "duration": 3.126712
+  },
+  "discovered-attack:4": {
+    "file": "course/zh-Hans/discovered-attack/4-67cd6cb33b618b12.m4a",
+    "seconds": 3.523265,
+    "duration": 4.023265
+  },
+  "discovered-attack:5": {
+    "file": "course/zh-Hans/discovered-attack/5-302684558b5a6865.m4a",
+    "seconds": 3.430476,
+    "duration": 3.930476
+  },
+  "discovered-attack:6": {
+    "file": "course/zh-Hans/discovered-attack/6-2a52ff7b3f9d0cb9.m4a",
+    "seconds": 3.675374,
+    "duration": 4.175374
+  },
+  "discovered-attack:7": {
+    "file": "course/zh-Hans/discovered-attack/7-83d456c6288f6d1f.m4a",
+    "seconds": 3.239592,
+    "duration": 3.739592
+  },
+  "discovered-attack:8": {
+    "file": "course/zh-Hans/discovered-attack/8-db33ad24112757e6.m4a",
+    "seconds": 1.804717,
+    "duration": 2.304717
+  },
+  "discovered-attack:9": {
+    "file": "course/zh-Hans/discovered-attack/9-4f7e7adfedc26309.m4a",
+    "seconds": 4.4961,
+    "duration": 4.9961
+  },
+  "discovered-attack:10": {
+    "file": "course/zh-Hans/discovered-attack/10-05c1107ca3a76b37.m4a",
+    "seconds": 3.344082,
+    "duration": 3.844082
+  },
+  "discovered-attack:11": {
+    "file": "course/zh-Hans/discovered-attack/11-cb655e26b4340896.m4a",
+    "seconds": 3.442041,
+    "duration": 3.942041
+  },
+  "discovered-attack:12": {
+    "file": "course/zh-Hans/discovered-attack/12-3e6c2bafae2ba31c.m4a",
+    "seconds": 3.457324,
+    "duration": 3.957324
+  },
+  "discovered-attack:13": {
+    "file": "course/zh-Hans/discovered-attack/13-63658643e8e76e82.m4a",
+    "seconds": 1.143311,
+    "duration": 1.643311
+  },
+  "discovered-attack:14": {
+    "file": "course/zh-Hans/discovered-attack/14-7997b388e43c02af.m4a",
+    "seconds": 5.88127,
+    "duration": 6.38127
+  },
+  "discovered-attack:16": {
+    "file": "course/zh-Hans/discovered-attack/16-faf79559b0e45c00.m4a",
+    "seconds": 4.545034,
+    "duration": 5.045034
+  },
+  "discovered-attack:18": {
+    "file": "course/zh-Hans/discovered-attack/18-f8fef564890ad66d.m4a",
+    "seconds": 2.0122,
+    "duration": 2.5122
+  },
+  "discovered-attack:19": {
+    "file": "course/zh-Hans/discovered-attack/19-1c4137a1e3dae131.m4a",
+    "seconds": 2.197959,
+    "duration": 2.697959
+  },
+  "discovered-attack:20": {
+    "file": "course/zh-Hans/discovered-attack/20-8e3e413472281688.m4a",
+    "seconds": 5.262358,
+    "duration": 5.762358
+  },
+  "removing-the-defender:0": {
+    "file": "course/zh-Hans/removing-the-defender/0-62c403990a16a74b.m4a",
+    "seconds": 4.058549,
+    "duration": 4.558549
+  },
+  "removing-the-defender:1": {
+    "file": "course/zh-Hans/removing-the-defender/1-eb5d7e4b1e001ccd.m4a",
+    "seconds": 5.648481,
+    "duration": 6.148481
+  },
+  "removing-the-defender:2": {
+    "file": "course/zh-Hans/removing-the-defender/2-b2c77e7a769f3a03.m4a",
+    "seconds": 4.821406,
+    "duration": 5.321406
+  },
+  "removing-the-defender:3": {
+    "file": "course/zh-Hans/removing-the-defender/3-4f4d330de853b811.m4a",
+    "seconds": 2.173923,
+    "duration": 2.673923
+  },
+  "removing-the-defender:4": {
+    "file": "course/zh-Hans/removing-the-defender/4-4bdc412f9dda2d71.m4a",
+    "seconds": 4.279274,
+    "duration": 4.779274
+  },
+  "removing-the-defender:5": {
+    "file": "course/zh-Hans/removing-the-defender/5-1bfc4725d5f901f9.m4a",
+    "seconds": 2.998231,
+    "duration": 3.498231
+  },
+  "removing-the-defender:6": {
+    "file": "course/zh-Hans/removing-the-defender/6-6d85258bf3d0ffaa.m4a",
+    "seconds": 2.164989,
+    "duration": 2.664989
+  },
+  "removing-the-defender:7": {
+    "file": "course/zh-Hans/removing-the-defender/7-e97044efaddbb964.m4a",
+    "seconds": 3.085805,
+    "duration": 3.585805
+  },
+  "removing-the-defender:8": {
+    "file": "course/zh-Hans/removing-the-defender/8-8722f824e1004f7b.m4a",
+    "seconds": 4.902268,
+    "duration": 5.402268
+  },
+  "removing-the-defender:9": {
+    "file": "course/zh-Hans/removing-the-defender/9-7d856517bdaec0e3.m4a",
+    "seconds": 2.449796,
+    "duration": 2.949796
+  },
+  "removing-the-defender:10": {
+    "file": "course/zh-Hans/removing-the-defender/10-475f415e5a52ebd7.m4a",
+    "seconds": 4.783719,
+    "duration": 5.283719
+  },
+  "removing-the-defender:11": {
+    "file": "course/zh-Hans/removing-the-defender/11-5c9ff272ab1c8325.m4a",
+    "seconds": 1.860454,
+    "duration": 2.360454
+  },
+  "removing-the-defender:12": {
+    "file": "course/zh-Hans/removing-the-defender/12-419962c74d90c674.m4a",
+    "seconds": 3.457324,
+    "duration": 3.957324
+  },
+  "removing-the-defender:13": {
+    "file": "course/zh-Hans/removing-the-defender/13-f60b26ada2f44805.m4a",
+    "seconds": 1.651474,
+    "duration": 2.1514740000000003
+  },
+  "removing-the-defender:14": {
+    "file": "course/zh-Hans/removing-the-defender/14-d6752ea09b2f2d3f.m4a",
+    "seconds": 5.006757,
+    "duration": 5.506757
+  },
+  "removing-the-defender:16": {
+    "file": "course/zh-Hans/removing-the-defender/16-3f90ebddb6f82297.m4a",
+    "seconds": 1.97737,
+    "duration": 2.47737
+  },
+  "removing-the-defender:18": {
+    "file": "course/zh-Hans/removing-the-defender/18-0f0659f327e889b0.m4a",
+    "seconds": 2.232789,
+    "duration": 2.732789
+  },
+  "removing-the-defender:19": {
+    "file": "course/zh-Hans/removing-the-defender/19-12205183e0dfe26d.m4a",
+    "seconds": 3.662313,
+    "duration": 4.162313
+  },
+  "removing-the-defender:20": {
+    "file": "course/zh-Hans/removing-the-defender/20-ef9807f2d9e9453d.m4a",
+    "seconds": 5.733061,
+    "duration": 6.233061
+  },
+  "walking-the-dog:0": {
+    "file": "course/zh-Hans/walking-the-dog/0-90904dda496b2b8d.m4a",
+    "seconds": 5.962585,
+    "duration": 6.462585
+  },
+  "walking-the-dog:1": {
+    "file": "course/zh-Hans/walking-the-dog/1-c970bd8997a75e07.m4a",
+    "seconds": 4.534059,
+    "duration": 5.034059
+  },
+  "walking-the-dog:2": {
+    "file": "course/zh-Hans/walking-the-dog/2-62cbc16a343a8db9.m4a",
+    "seconds": 4.670068,
+    "duration": 5.170068
+  },
+  "walking-the-dog:3": {
+    "file": "course/zh-Hans/walking-the-dog/3-db81d9cdc67dd634.m4a",
+    "seconds": 4.533061,
+    "duration": 5.033061
+  },
+  "walking-the-dog:4": {
+    "file": "course/zh-Hans/walking-the-dog/4-a7f794354510a803.m4a",
+    "seconds": 3.196417,
+    "duration": 3.696417
+  },
+  "walking-the-dog:5": {
+    "file": "course/zh-Hans/walking-the-dog/5-0b692779aebe0cd6.m4a",
+    "seconds": 2.981315,
+    "duration": 3.481315
+  },
+  "walking-the-dog:6": {
+    "file": "course/zh-Hans/walking-the-dog/6-478985fbc54cdc07.m4a",
+    "seconds": 4.76458,
+    "duration": 5.26458
+  },
+  "walking-the-dog:7": {
+    "file": "course/zh-Hans/walking-the-dog/7-47133d4f2523f0aa.m4a",
+    "seconds": 7.123447,
+    "duration": 7.623447
+  },
+  "walking-the-dog:8": {
+    "file": "course/zh-Hans/walking-the-dog/8-dae881ca71f730de.m4a",
+    "seconds": 4.033787,
+    "duration": 4.533787
+  },
+  "walking-the-dog:9": {
+    "file": "course/zh-Hans/walking-the-dog/9-57e8c57123d7e65d.m4a",
+    "seconds": 2.720408,
+    "duration": 3.220408
+  },
+  "walking-the-dog:10": {
+    "file": "course/zh-Hans/walking-the-dog/10-b9d6fb0650e1b056.m4a",
+    "seconds": 1.932426,
+    "duration": 2.432426
+  },
+  "walking-the-dog:11": {
+    "file": "course/zh-Hans/walking-the-dog/11-f0f67e3057c234ce.m4a",
+    "seconds": 2.037234,
+    "duration": 2.537234
+  },
+  "walking-the-dog:12": {
+    "file": "course/zh-Hans/walking-the-dog/12-5e262d613d81721e.m4a",
+    "seconds": 3.453333,
+    "duration": 3.953333
+  },
+  "walking-the-dog:14": {
+    "file": "course/zh-Hans/walking-the-dog/14-93ff3065dd9811f0.m4a",
+    "seconds": 5.844989,
+    "duration": 6.344989
+  },
+  "walking-the-dog:16": {
+    "file": "course/zh-Hans/walking-the-dog/16-5b2cf984413a7bfb.m4a",
+    "seconds": 3.707256,
+    "duration": 4.207256
+  },
+  "walking-the-dog:17": {
+    "file": "course/zh-Hans/walking-the-dog/17-4b52682ff744b614.m4a",
+    "seconds": 6.019048,
+    "duration": 6.519048
+  },
+  "kiss-of-death:0": {
+    "file": "course/zh-Hans/kiss-of-death/0-e697a5f4e3185988.m4a",
+    "seconds": 3.698639,
+    "duration": 4.198639
+  },
+  "kiss-of-death:1": {
+    "file": "course/zh-Hans/kiss-of-death/1-afe7e31a977e8a29.m4a",
+    "seconds": 4.569342,
+    "duration": 5.069342
+  },
+  "kiss-of-death:2": {
+    "file": "course/zh-Hans/kiss-of-death/2-72ace82d21d7850b.m4a",
+    "seconds": 4.403039,
+    "duration": 4.903039
+  },
+  "kiss-of-death:3": {
+    "file": "course/zh-Hans/kiss-of-death/3-fd564cf0a0615f21.m4a",
+    "seconds": 4.578005,
+    "duration": 5.078005
+  },
+  "kiss-of-death:4": {
+    "file": "course/zh-Hans/kiss-of-death/4-f4130e1088fdb959.m4a",
+    "seconds": 3.173197,
+    "duration": 3.673197
+  },
+  "kiss-of-death:5": {
+    "file": "course/zh-Hans/kiss-of-death/5-a0f87cf3dfdc368e.m4a",
+    "seconds": 3.440227,
+    "duration": 3.940227
+  },
+  "kiss-of-death:6": {
+    "file": "course/zh-Hans/kiss-of-death/6-a5d567dd8963274f.m4a",
+    "seconds": 4.136009,
+    "duration": 4.636009
+  },
+  "kiss-of-death:7": {
+    "file": "course/zh-Hans/kiss-of-death/7-8b10726626caa655.m4a",
+    "seconds": 3.441723,
+    "duration": 3.941723
+  },
+  "kiss-of-death:8": {
+    "file": "course/zh-Hans/kiss-of-death/8-7b587e0e99e99cf8.m4a",
+    "seconds": 2.853605,
+    "duration": 3.353605
+  },
+  "kiss-of-death:9": {
+    "file": "course/zh-Hans/kiss-of-death/9-04736516a497aa64.m4a",
+    "seconds": 4.312472,
+    "duration": 4.812472
+  },
+  "kiss-of-death:11": {
+    "file": "course/zh-Hans/kiss-of-death/11-f7afda14f55b1e5a.m4a",
+    "seconds": 5.139048,
+    "duration": 5.639048
+  },
+  "kiss-of-death:12": {
+    "file": "course/zh-Hans/kiss-of-death/12-1ade1aedac8afdf4.m4a",
+    "seconds": 6.211746,
+    "duration": 6.711746
+  },
+  "kiss-of-death:13": {
+    "file": "course/zh-Hans/kiss-of-death/13-a96a2736e4b3a365.m4a",
+    "seconds": 2.718413,
+    "duration": 3.218413
+  },
+  "kiss-of-death:14": {
+    "file": "course/zh-Hans/kiss-of-death/14-a627d776fd562a4d.m4a",
+    "seconds": 2.999048,
+    "duration": 3.499048
+  },
+  "kiss-of-death:15": {
+    "file": "course/zh-Hans/kiss-of-death/15-011d925e58bba03a.m4a",
+    "seconds": 4.264535,
+    "duration": 4.764535
+  },
+  "kiss-of-death:16": {
+    "file": "course/zh-Hans/kiss-of-death/16-4027165796d48aab.m4a",
+    "seconds": 3.242041,
+    "duration": 3.742041
+  },
+  "kiss-of-death:17": {
+    "file": "course/zh-Hans/kiss-of-death/17-72624f054d30aad9.m4a",
+    "seconds": 1.495238,
+    "duration": 1.995238
+  },
+  "kiss-of-death:19": {
+    "file": "course/zh-Hans/kiss-of-death/19-a0c80397161b3095.m4a",
+    "seconds": 6.316236,
+    "duration": 6.816236
+  },
+  "kiss-of-death:20": {
+    "file": "course/zh-Hans/kiss-of-death/20-d4e05cd0ad1dd987.m4a",
+    "seconds": 5.958776,
+    "duration": 6.458776
+  },
+  "kiss-of-death:21": {
+    "file": "course/zh-Hans/kiss-of-death/21-0acf023883b90e2f.m4a",
+    "seconds": 4.62381,
+    "duration": 5.12381
+  },
+  "kiss-of-death:22": {
+    "file": "course/zh-Hans/kiss-of-death/22-079c3e4ea30abfd4.m4a",
+    "seconds": 4.3322,
+    "duration": 4.8322
+  },
+  "kiss-of-death:23": {
+    "file": "course/zh-Hans/kiss-of-death/23-11bea69dd2a399b4.m4a",
+    "seconds": 5.611293,
+    "duration": 6.111293
+  },
+  "kiss-of-death:24": {
+    "file": "course/zh-Hans/kiss-of-death/24-f44f6d4dd6e89a91.m4a",
+    "seconds": 6.145351,
+    "duration": 6.645351
+  },
+  "box-them-in:0": {
+    "file": "course/zh-Hans/box-them-in/0-ce73bccd4080e1f7.m4a",
+    "seconds": 4.126395,
+    "duration": 4.626395
+  },
+  "box-them-in:1": {
+    "file": "course/zh-Hans/box-them-in/1-2aaf7240770340b5.m4a",
+    "seconds": 2.858912,
+    "duration": 3.358912
+  },
+  "box-them-in:2": {
+    "file": "course/zh-Hans/box-them-in/2-e624cf78396e816f.m4a",
+    "seconds": 5.884172,
+    "duration": 6.384172
+  },
+  "box-them-in:3": {
+    "file": "course/zh-Hans/box-them-in/3-269c66d37a9c25b8.m4a",
+    "seconds": 4.218095,
+    "duration": 4.718095
+  },
+  "box-them-in:4": {
+    "file": "course/zh-Hans/box-them-in/4-4f6d9a043789252c.m4a",
+    "seconds": 3.828844,
+    "duration": 4.328844
+  },
+  "box-them-in:5": {
+    "file": "course/zh-Hans/box-them-in/5-4c92c47c78cd6dcc.m4a",
+    "seconds": 4.549025,
+    "duration": 5.049025
+  },
+  "box-them-in:6": {
+    "file": "course/zh-Hans/box-them-in/6-b4c2e64e1d34fa1f.m4a",
+    "seconds": 0.984399,
+    "duration": 1.484399
+  },
+  "box-them-in:7": {
+    "file": "course/zh-Hans/box-them-in/7-8a4c7cc9ecd73d2d.m4a",
+    "seconds": 3.950249,
+    "duration": 4.4502489999999995
+  },
+  "box-them-in:8": {
+    "file": "course/zh-Hans/box-them-in/8-b69a44b6c7c3550c.m4a",
+    "seconds": 1.402358,
+    "duration": 1.902358
+  },
+  "box-them-in:9": {
+    "file": "course/zh-Hans/box-them-in/9-601b44a55596bc3a.m4a",
+    "seconds": 5.011338,
+    "duration": 5.511338
+  },
+  "box-them-in:10": {
+    "file": "course/zh-Hans/box-them-in/10-39debb259eb5d17d.m4a",
+    "seconds": 2.150703,
+    "duration": 2.650703
+  },
+  "box-them-in:11": {
+    "file": "course/zh-Hans/box-them-in/11-0ea91adb475f75a9.m4a",
+    "seconds": 1.170159,
+    "duration": 1.670159
+  },
+  "box-them-in:12": {
+    "file": "course/zh-Hans/box-them-in/12-1f27158e01673bd8.m4a",
+    "seconds": 3.846576,
+    "duration": 4.346576000000001
+  },
+  "box-them-in:13": {
+    "file": "course/zh-Hans/box-them-in/13-50c43241431b83e4.m4a",
+    "seconds": 5.32,
+    "duration": 5.82
+  },
+  "box-them-in:14": {
+    "file": "course/zh-Hans/box-them-in/14-432d1eb7b9776c36.m4a",
+    "seconds": 3.468934,
+    "duration": 3.968934
+  },
+  "box-them-in:15": {
+    "file": "course/zh-Hans/box-them-in/15-8b3fa68e4580d5b9.m4a",
+    "seconds": 3.318005,
+    "duration": 3.818005
+  },
+  "box-them-in:16": {
+    "file": "course/zh-Hans/box-them-in/16-dc281a212e9fc426.m4a",
+    "seconds": 6.253605,
+    "duration": 6.753605
+  },
+  "box-them-in:17": {
+    "file": "course/zh-Hans/box-them-in/17-c1de548629ded28f.m4a",
+    "seconds": 3.559229,
+    "duration": 4.059229
+  },
+  "box-them-in:18": {
+    "file": "course/zh-Hans/box-them-in/18-32f450e69a5cb549.m4a",
+    "seconds": 2.985442,
+    "duration": 3.485442
+  },
+  "box-them-in:19": {
+    "file": "course/zh-Hans/box-them-in/19-047fe1a0b2fca6ea.m4a",
+    "seconds": 1.897596,
+    "duration": 2.397596
+  },
+  "box-them-in:20": {
+    "file": "course/zh-Hans/box-them-in/20-3df70d73e95bd5e9.m4a",
+    "seconds": 2.818776,
+    "duration": 3.318776
+  },
+  "box-them-in:21": {
+    "file": "course/zh-Hans/box-them-in/21-bd94a0acb28c4d35.m4a",
+    "seconds": 5.575646,
+    "duration": 6.075646
+  },
+  "box-them-in:22": {
+    "file": "course/zh-Hans/box-them-in/22-ed048ed54af80197.m4a",
+    "seconds": 2.540136,
+    "duration": 3.040136
+  },
+  "box-them-in:24": {
+    "file": "course/zh-Hans/box-them-in/24-3d816a01a8e20bf6.m4a",
+    "seconds": 5.663583,
+    "duration": 6.163583
+  },
+  "box-them-in:25": {
+    "file": "course/zh-Hans/box-them-in/25-06562f42310f81bd.m4a",
+    "seconds": 5.419637,
+    "duration": 5.919637
+  },
+  "puzzles-winning-material:0": {
+    "file": "course/zh-Hans/puzzles-winning-material/0-55f6932159b36803.m4a",
+    "seconds": 4.161361,
+    "duration": 4.661361
+  },
+  "puzzles-winning-material:1": {
+    "file": "course/zh-Hans/puzzles-winning-material/1-7adc9ccb1185690d.m4a",
+    "seconds": 6.065578,
+    "duration": 6.565578
+  },
+  "puzzles-winning-material:2": {
+    "file": "course/zh-Hans/puzzles-winning-material/2-bff1b461c4604754.m4a",
+    "seconds": 1.999773,
+    "duration": 2.4997730000000002
+  },
+  "puzzles-winning-material:4": {
+    "file": "course/zh-Hans/puzzles-winning-material/4-2271c9e5bcec3c84.m4a",
+    "seconds": 2.615102,
+    "duration": 3.115102
+  },
+  "puzzles-winning-material:5": {
+    "file": "course/zh-Hans/puzzles-winning-material/5-aad2c5e54eb7212c.m4a",
+    "seconds": 3.329615,
+    "duration": 3.829615
+  },
+  "puzzles-winning-material:6": {
+    "file": "course/zh-Hans/puzzles-winning-material/6-e9ddde4664c6d6cd.m4a",
+    "seconds": 4.774558,
+    "duration": 5.274558
+  },
+  "puzzles-winning-material:8": {
+    "file": "course/zh-Hans/puzzles-winning-material/8-e64b6ca70e079dd8.m4a",
+    "seconds": 6.144535,
+    "duration": 6.644535
+  },
+  "puzzles-winning-material:9": {
+    "file": "course/zh-Hans/puzzles-winning-material/9-c8ab435bb14e3ed8.m4a",
+    "seconds": 5.065624,
+    "duration": 5.565624
+  },
+  "puzzles-winning-material:10": {
+    "file": "course/zh-Hans/puzzles-winning-material/10-ec33c3b9b70e743c.m4a",
+    "seconds": 3.165351,
+    "duration": 3.665351
+  },
+  "puzzles-winning-material:11": {
+    "file": "course/zh-Hans/puzzles-winning-material/11-a3f8eeb815965f55.m4a",
+    "seconds": 3.738821,
+    "duration": 4.238821
+  },
+  "puzzles-winning-material:13": {
+    "file": "course/zh-Hans/puzzles-winning-material/13-5aaa44c848ba4948.m4a",
+    "seconds": 3.90381,
+    "duration": 4.40381
+  },
+  "puzzles-winning-material:14": {
+    "file": "course/zh-Hans/puzzles-winning-material/14-f23ab6d83e7672af.m4a",
+    "seconds": 4.160045,
+    "duration": 4.660045
+  },
+  "puzzles-winning-material:15": {
+    "file": "course/zh-Hans/puzzles-winning-material/15-9d65eb70094d64d1.m4a",
+    "seconds": 4.023673,
+    "duration": 4.523673
+  },
+  "puzzles-winning-material:17": {
+    "file": "course/zh-Hans/puzzles-winning-material/17-b9d307a8843579ca.m4a",
+    "seconds": 2.844853,
+    "duration": 3.344853
+  },
+  "puzzles-winning-material:18": {
+    "file": "course/zh-Hans/puzzles-winning-material/18-38d28c6762dc3919.m4a",
+    "seconds": 3.348345,
+    "duration": 3.848345
+  },
+  "puzzles-winning-material:19": {
+    "file": "course/zh-Hans/puzzles-winning-material/19-6508021446620e09.m4a",
+    "seconds": 2.342766,
+    "duration": 2.842766
+  },
+  "puzzles-winning-material:20": {
+    "file": "course/zh-Hans/puzzles-winning-material/20-2d403501df63de19.m4a",
+    "seconds": 1.999773,
+    "duration": 2.4997730000000002
+  },
+  "puzzles-winning-material:21": {
+    "file": "course/zh-Hans/puzzles-winning-material/21-345b05760287c426.m4a",
+    "seconds": 4.220952,
+    "duration": 4.720952
+  },
+  "puzzles-winning-material:22": {
+    "file": "course/zh-Hans/puzzles-winning-material/22-3dd2c25939541d74.m4a",
+    "seconds": 3.724354,
+    "duration": 4.224354
+  },
+  "puzzles-winning-material:23": {
+    "file": "course/zh-Hans/puzzles-winning-material/23-e07ad3b88ec58367.m4a",
+    "seconds": 5.996236,
+    "duration": 6.496236
+  },
+  "puzzles-mate-in-one:0": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/0-057803fc3bbce86b.m4a",
+    "seconds": 4.650522,
+    "duration": 5.150522
+  },
+  "puzzles-mate-in-one:1": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/1-2e36274ab951dd38.m4a",
+    "seconds": 5.761406,
+    "duration": 6.261406
+  },
+  "puzzles-mate-in-one:3": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/3-fd875700feb0aa54.m4a",
+    "seconds": 4.13356,
+    "duration": 4.63356
+  },
+  "puzzles-mate-in-one:4": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/4-6d578d87eae0d174.m4a",
+    "seconds": 4.194875,
+    "duration": 4.694875
+  },
+  "puzzles-mate-in-one:5": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/5-700de4c3fd01a20c.m4a",
+    "seconds": 5.51229,
+    "duration": 6.01229
+  },
+  "puzzles-mate-in-one:6": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/6-c96e53e5f77a245c.m4a",
+    "seconds": 8.357052,
+    "duration": 8.857052
+  },
+  "puzzles-mate-in-one:8": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/8-61e3451aba10c348.m4a",
+    "seconds": 2.267619,
+    "duration": 2.767619
+  },
+  "puzzles-mate-in-one:9": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/9-1c8a4b956ba9f18c.m4a",
+    "seconds": 5.750612,
+    "duration": 6.250612
+  },
+  "puzzles-mate-in-one:10": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/10-850be4de247785fc.m4a",
+    "seconds": 2.696372,
+    "duration": 3.196372
+  },
+  "puzzles-mate-in-one:12": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/12-17abd7c7701e4c68.m4a",
+    "seconds": 2.661542,
+    "duration": 3.161542
+  },
+  "puzzles-mate-in-one:13": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/13-c85abeb70ab67690.m4a",
+    "seconds": 5.524263,
+    "duration": 6.024263
+  },
+  "puzzles-mate-in-one:14": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/14-94fdf377658b12f9.m4a",
+    "seconds": 2.569478,
+    "duration": 3.069478
+  },
+  "puzzles-mate-in-one:16": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/16-5dcaadcbb39d1315.m4a",
+    "seconds": 4.751338,
+    "duration": 5.251338
+  },
+  "puzzles-mate-in-one:17": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/17-5ce71c46c831af33.m4a",
+    "seconds": 6.978005,
+    "duration": 7.478005
+  },
+  "puzzles-mate-in-one:18": {
+    "file": "course/zh-Hans/puzzles-mate-in-one/18-2301a5f83874c3a0.m4a",
+    "seconds": 8.888254,
+    "duration": 9.388254
+  },
+  "master-game:0": {
+    "file": "course/zh-Hans/master-game/0-d07f307b0f425360.m4a",
+    "seconds": 5.054014,
+    "duration": 5.554014
+  },
+  "master-game:1": {
+    "file": "course/zh-Hans/master-game/1-461ba2305f6ac09d.m4a",
+    "seconds": 5.137732,
+    "duration": 5.637732
+  },
+  "master-game:2": {
+    "file": "course/zh-Hans/master-game/2-7ac9c9b76f30b344.m4a",
+    "seconds": 3.698141,
+    "duration": 4.198141
+  },
+  "master-game:3": {
+    "file": "course/zh-Hans/master-game/3-e2c7709431837de7.m4a",
+    "seconds": 4.70458,
+    "duration": 5.20458
+  },
+  "master-game:4": {
+    "file": "course/zh-Hans/master-game/4-110aa7cd993a4f21.m4a",
+    "seconds": 4.054739,
+    "duration": 4.554739
+  },
+  "master-game:5": {
+    "file": "course/zh-Hans/master-game/5-48513928378862bc.m4a",
+    "seconds": 3.172063,
+    "duration": 3.672063
+  },
+  "master-game:6": {
+    "file": "course/zh-Hans/master-game/6-f6c0e4eaf80d2f8f.m4a",
+    "seconds": 3.381361,
+    "duration": 3.881361
+  },
+  "master-game:7": {
+    "file": "course/zh-Hans/master-game/7-39990577e5a50b5d.m4a",
+    "seconds": 2.255193,
+    "duration": 2.755193
+  },
+  "master-game:8": {
+    "file": "course/zh-Hans/master-game/8-48963e025c90cd44.m4a",
+    "seconds": 5.703356,
+    "duration": 6.203356
+  },
+  "master-game:9": {
+    "file": "course/zh-Hans/master-game/9-9df7aae2e8edc68a.m4a",
+    "seconds": 6.057959,
+    "duration": 6.557959
+  },
+  "master-game:10": {
+    "file": "course/zh-Hans/master-game/10-8f3b5f6e8cbd9ed7.m4a",
+    "seconds": 4.275329,
+    "duration": 4.775329
+  },
+  "master-game:11": {
+    "file": "course/zh-Hans/master-game/11-c9394c9c2c730ffd.m4a",
+    "seconds": 5.117551,
+    "duration": 5.617551
+  },
+  "master-game:12": {
+    "file": "course/zh-Hans/master-game/12-9de98f7dafecab65.m4a",
+    "seconds": 4.275329,
+    "duration": 4.775329
+  },
+  "master-game:13": {
+    "file": "course/zh-Hans/master-game/13-03e029eb56cbb0c3.m4a",
+    "seconds": 1.802404,
+    "duration": 2.302404
+  },
+  "master-game:14": {
+    "file": "course/zh-Hans/master-game/14-dd8887763f66f67d.m4a",
+    "seconds": 1.564898,
+    "duration": 2.064898
+  },
+  "master-game:15": {
+    "file": "course/zh-Hans/master-game/15-4dcefe34d08e4cfb.m4a",
+    "seconds": 5.018367,
+    "duration": 5.518367
+  },
+  "master-game:16": {
+    "file": "course/zh-Hans/master-game/16-6889b346551616af.m4a",
+    "seconds": 2.296327,
+    "duration": 2.796327
+  },
+  "master-game:17": {
+    "file": "course/zh-Hans/master-game/17-c80b83b1e2cb1972.m4a",
+    "seconds": 3.927029,
+    "duration": 4.427029
+  },
+  "master-game:18": {
+    "file": "course/zh-Hans/master-game/18-2934579a56dc7b21.m4a",
+    "seconds": 4.112789,
+    "duration": 4.612789
+  },
+  "master-game:19": {
+    "file": "course/zh-Hans/master-game/19-9bb71b1b94d0ae17.m4a",
+    "seconds": 1.906893,
+    "duration": 2.406893
+  },
+  "master-game:20": {
+    "file": "course/zh-Hans/master-game/20-7947d55b4341ba81.m4a",
+    "seconds": 1.541678,
+    "duration": 2.041678
+  },
+  "master-game:22": {
+    "file": "course/zh-Hans/master-game/22-a7d624780a8a5a41.m4a",
+    "seconds": 4.890658,
+    "duration": 5.390658
+  },
+  "master-game:23": {
+    "file": "course/zh-Hans/master-game/23-f9e37402eb0e87f6.m4a",
+    "seconds": 3.422494,
+    "duration": 3.922494
+  },
+  "master-game:24": {
+    "file": "course/zh-Hans/master-game/24-7b6fdf72232ec306.m4a",
+    "seconds": 5.413107,
+    "duration": 5.913107
+  },
+  "master-game:25": {
+    "file": "course/zh-Hans/master-game/25-f897540512a8805b.m4a",
+    "seconds": 7.436508,
+    "duration": 7.936508
+  },
+  "master-game:26": {
+    "file": "course/zh-Hans/master-game/26-9754315b42d94713.m4a",
+    "seconds": 7.860363,
+    "duration": 8.360363
+  }
+}

@@ -1,7 +1,22 @@
 import Foundation
 import OSLog
 public enum NativeResources {
-    public static var root: URL { { let packaged=Bundle.main.resourceURL!.appendingPathComponent("Checkmate_CheckmateCore.bundle/Contents/Resources/Resources"); if FileManager.default.fileExists(atPath:packaged.appendingPathComponent("chess.js").path){return packaged}; return Bundle.module.resourceURL!.appendingPathComponent("Resources") }() }
+    public static var root: URL {
+        // Xcode's universal build and SwiftPM's native build use different
+        // resource bundle layouts. Resolve the installed app before Bundle.module,
+        // whose generated accessor can otherwise depend on the build directory.
+        if let resources = Bundle.main.resourceURL {
+            for suffix in ["Checkmate_CheckmateCore.bundle/Contents/Resources/Resources",
+                           "Checkmate_CheckmateCore.bundle/Contents/Resources",
+                           "Checkmate_CheckmateCore.bundle/Resources"] {
+                let candidate = resources.appendingPathComponent(suffix)
+                if FileManager.default.fileExists(atPath: candidate.appendingPathComponent("chess.js").path) { return candidate }
+            }
+        }
+        let resources = Bundle.module.resourceURL!
+        let nested = resources.appendingPathComponent("Resources")
+        return FileManager.default.fileExists(atPath: nested.appendingPathComponent("chess.js").path) ? nested : resources
+    }
     public static func url(_ path:String) -> URL {root.appendingPathComponent(path)}
 }
 public enum CheckmateError: Error, CustomStringConvertible {

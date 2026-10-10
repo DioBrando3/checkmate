@@ -4,17 +4,17 @@ struct ReviewWorkspaceContent:View {
     @ObservedObject var model:NativeModel
     var body:some View {VStack(spacing:Metrics.sectionGap){
         Image(systemName:"doc.text.magnifyingglass").font(.largeTitle).foregroundStyle(.secondary)
-        Text("Game review").font(.largeTitle.bold())
-        Text("Choose a game or position to explore.").foregroundStyle(.secondary)
+        Text(ChineseText.text("Game review")).font(.largeTitle.bold())
+        Text(ChineseText.text("Choose a game or position to explore.")).foregroundStyle(.secondary)
         VStack(spacing:Metrics.smallGap){
-            Button("Open PGN…"){model.openPGN()}
-            Button("Paste PGN or FEN"){model.pasteReview()}
+            Button(ChineseText.text("Open PGN…")){model.openPGN()}
+            Button(ChineseText.text("Paste PGN or FEN")){model.pasteReview()}
             Divider()
-            Button("Review Current Game"){model.reviewCurrent()}.disabled(model.session.rules.history.isEmpty)
-            if !model.session.state.practice.previousGame.isEmpty{Button("Review Previous Game"){model.reviewCurrent(previous:true)}}
+            Button(ChineseText.text("Review Current Game")){model.reviewCurrent()}.disabled(model.session.rules.history.isEmpty)
+            if !model.session.state.practice.previousGame.isEmpty{Button(ChineseText.text("Review Previous Game")){model.reviewCurrent(previous:true)}}
         }.fixedSize(horizontal:true,vertical:false)
-        if model.session.rules.history.isEmpty{Text("Play a move to review your current game.").font(.caption).foregroundStyle(.secondary)}
-        if !model.reviews.isEmpty{Text("Saved reviews are in the sidebar.").font(.caption).foregroundStyle(.secondary)}
+        if model.session.rules.history.isEmpty{Text(ChineseText.text("Play a move to review your current game.")).font(.caption).foregroundStyle(.secondary)}
+        if !model.reviews.isEmpty{Text(ChineseText.text("Saved reviews are in the sidebar.")).font(.caption).foregroundStyle(.secondary)}
     }.padding(Metrics.padding).frame(maxWidth:.infinity,maxHeight:.infinity)}
 }
 struct ReviewDetailContent:View {
@@ -27,43 +27,43 @@ struct ReviewDetailContent:View {
     var body:some View {VStack(alignment:.leading,spacing:Metrics.sectionGap){
         if let d=review.document {
             HStack{
-                Button("Choose Game…"){model.showReviewWorkspace()}
+                Button(ChineseText.text("Choose Game…")){model.showReviewWorkspace()}
                 Spacer()
-                if model.reviewDraft{Button("Save Review"){model.saveCurrentReview()}}
-                else{Menu("Review actions"){Button("Delete Saved Review…",role:.destructive){model.requestDeleteReview(d.id)}.disabled(model.deletingReviewID != nil)}.accessibilityIdentifier("review-document-actions")}
+                if model.reviewDraft{Button(ChineseText.text("Save Review")){model.saveCurrentReview()}}
+                else{Menu(ChineseText.text("Review actions")){Button(ChineseText.text("Delete Saved Review…"),role:.destructive){model.requestDeleteReview(d.id)}.disabled(model.deletingReviewID != nil)}.accessibilityIdentifier("review-document-actions")}
             }
-            Text(review.branch==nil ? "Review · Original":"Test my idea · Imagined").font(.caption).foregroundStyle(.secondary)
-            Text(review.explanation?.title ?? d.title).font(.title2.bold())
-            Text(review.explanation?.summary ?? "")
-            if let note=review.explanation?.historyNote{Text(note).foregroundStyle(.secondary)}
-            if review.nodeID==0{ForEach(Array((review.explanation?.takeaways ?? []).dropFirst()),id:\.self){Text("• "+$0)}}
-            if review.branch != nil {Text("Either side can make legal moves here. The imported game is preserved.");Button("Return to original"){review.clearBranch();model.saveReview()};Button("Analyze this idea"){review.analyze(using:model.reviewAnalyzer)}}
-            else{HStack{Button("Why?"){review.analyze(using:model.reviewAnalyzer)};Button("Look deeper"){review.analyze(using:model.reviewAnalyzer,budget:ReviewPolicy.deepBudget)};Button("Test my idea"){try? review.beginBranch()}}
-                if let pv=review.evidence?.root.lines.first?.pv,!pv.isEmpty{Button("Compare best line · before this move"){try? review.previewLine(pv,fromNode:d.nodes[review.nodeID].parent);review.seekBranch(0)}}
+            Text(ChineseText.text(review.branch==nil ? "Review · Original":"Test my idea · Imagined")).font(.caption).foregroundStyle(.secondary)
+            Text(ChineseText.text(review.explanation?.title ?? d.title)).font(.title2.bold())
+            Text(ChineseText.text(review.explanation?.summary ?? ""))
+            if let note=review.explanation?.historyNote{Text(ChineseText.text(note)).foregroundStyle(.secondary)}
+            if review.nodeID==0{ForEach(Array((review.explanation?.takeaways ?? []).dropFirst()),id:\.self){Text(ChineseText.text("• "+$0))}}
+            if review.branch != nil {Text(ChineseText.text("Either side can make legal moves here. The imported game is preserved."));Button(ChineseText.text("Return to original")){review.clearBranch();model.saveReview()};Button(ChineseText.text("Analyze this idea")){review.analyze(using:model.reviewAnalyzer)}}
+            else{HStack{Button(ChineseText.text("Why?")){review.analyze(using:model.reviewAnalyzer)};Button(ChineseText.text("Look deeper")){review.analyze(using:model.reviewAnalyzer,budget:ReviewPolicy.deepBudget)};Button(ChineseText.text("Test my idea")){try? review.beginBranch()}}
+                if let pv=review.evidence?.root.lines.first?.pv,!pv.isEmpty{Button(ChineseText.text("Compare best line · before this move")){try? review.previewLine(pv,fromNode:d.nodes[review.nodeID].parent);review.seekBranch(0)}}
             }
-            if review.analysisStatus=="pending"{ProgressView("Analyzing offline…")}
-            if let evidence=review.evidence{Text(evidence.provisional ? "Provisional engine estimate":"Deeper engine comparison").foregroundStyle(.secondary);DisclosureGroup("Engine evidence"){ForEach(Array(evidence.root.lines.enumerated()),id:\.offset){_,line in Text(line.san.joined(separator:" "))};Text("\(evidence.engineVersion) · \(evidence.budgetMs) ms · full strength")}}
-            if let error=review.error{Text(error).foregroundStyle(.secondary)}
-            DisclosureGroup("Verified board facts"){ForEach(review.explanation?.facts ?? []){fact in Text(fact.text).textSelection(.enabled)}}
-            Button("Analyze whole game offline"){analyzer.startBatch(d)}
-            if analyzer.batchDocument==d.id,["pending","deepening"].contains(analyzer.batchStatus){ProgressView(value:Double(analyzer.completed),total:Double(max(1,analyzer.total)));Text(analyzer.batchStatus=="deepening" ? "Checking the leading moment more deeply":"\(analyzer.completed) / \(analyzer.total) moves");Button("Cancel analysis"){analyzer.cancelBatch()}}
-            if analyzer.batchDocument==d.id,analyzer.batchStatus=="failed"{Text("Offline analysis is unavailable for this game. The record remains navigable; try again later.").foregroundStyle(Color(nsColor:NativeColors.error))}
-            else if analyzer.batchDocument==d.id,analyzer.batchStatus=="ready",analyzer.failed>0{Text("\(analyzer.failed) of \(analyzer.total) moves could not be analyzed.").foregroundStyle(.secondary)}
+            if review.analysisStatus=="pending"{ProgressView(ChineseText.text("Analyzing offline…"))}
+            if let evidence=review.evidence{Text(ChineseText.text(evidence.provisional ? "Provisional engine estimate":"Deeper engine comparison")).foregroundStyle(.secondary);DisclosureGroup(ChineseText.text("Engine evidence")){ForEach(Array(evidence.root.lines.enumerated()),id:\.offset){_,line in Text(ChineseText.text(line.san.joined(separator:" ")))};Text(ChineseText.text("\(evidence.engineVersion) · \(evidence.budgetMs) ms · full strength"))}}
+            if let error=review.error{Text(ChineseText.text(error)).foregroundStyle(.secondary)}
+            DisclosureGroup(ChineseText.text("Verified board facts")){ForEach(review.explanation?.facts ?? []){fact in Text(ChineseText.text(fact.text)).textSelection(.enabled)}}
+            Button(ChineseText.text("Analyze whole game offline")){analyzer.startBatch(d)}
+            if analyzer.batchDocument==d.id,["pending","deepening"].contains(analyzer.batchStatus){ProgressView(value:Double(analyzer.completed),total:Double(max(1,analyzer.total)));Text(ChineseText.text(analyzer.batchStatus=="deepening" ? "Checking the leading moment more deeply":"\(analyzer.completed) / \(analyzer.total) moves"));Button(ChineseText.text("Cancel analysis")){analyzer.cancelBatch()}}
+            if analyzer.batchDocument==d.id,analyzer.batchStatus=="failed"{Text(ChineseText.text("Offline analysis is unavailable for this game. The record remains navigable; try again later.")).foregroundStyle(Color(nsColor:NativeColors.error))}
+            else if analyzer.batchDocument==d.id,analyzer.batchStatus=="ready",analyzer.failed>0{Text(ChineseText.text("\(analyzer.failed) of \(analyzer.total) moves could not be analyzed.")).foregroundStyle(.secondary)}
             // Voice status and failures stay visible in review, transcript newest first.
             if voice.connected || !voice.history.isEmpty || voice.status != "Disconnected" {
-                Divider();Text("Voice coach").font(.headline);Text(voice.status).foregroundStyle(.secondary)
-                ForEach(Array(voice.history.reversed())){entry in VStack(alignment:.leading){Text(entry.role=="learner" ? "You":"Coach").font(.caption).foregroundStyle(.secondary);Text(entry.text).textSelection(.enabled)}}
+                Divider();Text(ChineseText.text("Voice coach")).font(.headline);Text(ChineseText.text(voice.status)).foregroundStyle(.secondary)
+                ForEach(Array(voice.history.reversed())){entry in VStack(alignment:.leading){Text(ChineseText.text(entry.role=="learner" ? "You":"Coach")).font(.caption).foregroundStyle(.secondary);Text(ChineseText.text(entry.text)).textSelection(.enabled)}}
             }
-            Divider();Toggle("All moves",isOn:$allMoves)
-            Text(allMoves ? "All recorded moves":"Important moments").font(.headline)
-            ForEach(allMoves ? d.mainline:scopedMoments(d).isEmpty ? important(d):scopedMoments(d).map(\.id),id:\.self){id in let n=d.nodes[id];Button("\(n.fullmove)\(n.side=="w" ? ".":"...") \(n.san ?? "")"){try? review.select(id);model.saveReview()}.buttonStyle(.plain).foregroundStyle(id==review.nodeID ? .primary:.secondary).accessibilityLabel("\(n.fullmove), \(n.side=="w" ? "White":"Black"), \(n.san ?? "")")}
-            if !allMoves{Text(scopedMoments(d).isEmpty ? "Start with checks, captures, promotions and the final position. Analyze the game for engine-selected moments.":"Moments selected from legal moves and recorded engine comparisons. Provisional estimates may change with deeper analysis.").font(.caption).foregroundStyle(.secondary)}
-            if !d.nodes[review.nodeID].children.isEmpty{DisclosureGroup("Recorded continuations"){ForEach(d.nodes[review.nodeID].children,id:\.self){id in Button(d.nodes[id].san ?? "Position"){try? review.select(id)}}}}
-            if !review.authoredBranches.isEmpty{DisclosureGroup("My imagined lines"){ForEach(review.authoredBranches,id:\.id){branch in Button("Idea from position \(branch.root) · \(branch.moves.count) moves"){try? review.openSavedBranch(branch.id)}}}}
+            Divider();Toggle(ChineseText.text("All moves"),isOn:$allMoves)
+            Text(ChineseText.text(allMoves ? "All recorded moves":"Important moments")).font(.headline)
+            ForEach(allMoves ? d.mainline:scopedMoments(d).isEmpty ? important(d):scopedMoments(d).map(\.id),id:\.self){id in let n=d.nodes[id];Button(ChineseText.text("\(n.fullmove)\(n.side=="w" ? ".":"...") \(n.san ?? "")")){try? review.select(id);model.saveReview()}.buttonStyle(.plain).foregroundStyle(id==review.nodeID ? .primary:.secondary).accessibilityLabel(ChineseText.text("\(n.fullmove), \(n.side=="w" ? "White":"Black"), \(n.san ?? "")"))}
+            if !allMoves{Text(ChineseText.text(scopedMoments(d).isEmpty ? "Start with checks, captures, promotions and the final position. Analyze the game for engine-selected moments.":"Moments selected from legal moves and recorded engine comparisons. Provisional estimates may change with deeper analysis.")).font(.caption).foregroundStyle(.secondary)}
+            if !d.nodes[review.nodeID].children.isEmpty{DisclosureGroup(ChineseText.text("Recorded continuations")){ForEach(d.nodes[review.nodeID].children,id:\.self){id in Button(ChineseText.text(d.nodes[id].san ?? "Position")){try? review.select(id)}}}}
+            if !review.authoredBranches.isEmpty{DisclosureGroup(ChineseText.text("My imagined lines")){ForEach(review.authoredBranches,id:\.id){branch in Button(ChineseText.text("Idea from position \(branch.root) · \(branch.moves.count) moves")){try? review.openSavedBranch(branch.id)}}}}
             // Availability follows the displayed position, including an imagined line from the parent.
-            Divider();HStack{Button("Practise here"){model.practiceFromReview()}.disabled(!review.practiceForkAvailable);Button("Export PGN…"){model.exportReview()}}
-            Button("Return to game"){model.returnToGame()}
-            if voice.connected{Text("Voice connected · only selected verified facts are shared").font(.caption);Button("Narrate verified facts"){voice.narrateReview()};Button("Disconnect voice"){voice.disconnect()}}else if ReviewRolloutPolicy.reviewVoiceEnabled{Button("Connect optional voice"){voice.connect()}}
+            Divider();HStack{Button(ChineseText.text("Practise here")){model.practiceFromReview()}.disabled(!review.practiceForkAvailable);Button(ChineseText.text("Export PGN…")){model.exportReview()}}
+            Button(ChineseText.text("Return to game")){model.returnToGame()}
+            if voice.connected{Text(ChineseText.text("Voice connected · only selected verified facts are shared")).font(.caption);Button(ChineseText.text("Narrate verified facts")){voice.narrateReview()};Button(ChineseText.text("Disconnect voice")){voice.disconnect()}}else if ReviewRolloutPolicy.reviewVoiceEnabled{Button(ChineseText.text("Connect optional voice")){voice.connect()}}
         }
     }.sheet(isPresented:$model.practiceForkRequested){ReviewPracticeSheet(model:model)}}
     private func scopedMoments(_ d:GameDocument)->[ReviewMoment]{analyzer.batchDocument==d.id ? analyzer.moments.filter{d.nodes.indices.contains($0.id)}:[]}
@@ -77,7 +77,7 @@ struct ReviewTransport:View {
         NativeIcon(symbol:review.playing ? "pause.fill":"play.fill",label:review.playing ? "Pause review":"Play review"){review.playing ? review.pause():review.play()}
         NativeIcon(symbol:"arrow.right",label:"Next review move"){review.step(1)}
         NativeIcon(symbol:"forward.end",label:"Last position"){review.last()}
-        Text(review.branch==nil ? "Original":"Imagined").font(.caption).foregroundStyle(.secondary)
+        Text(ChineseText.text(review.branch==nil ? "Original":"Imagined")).font(.caption).foregroundStyle(.secondary)
     }.padding(Metrics.padding)}
 }
 
@@ -94,24 +94,24 @@ struct OpponentSettingsContent:View {
     var body:some View {VStack(alignment:.leading,spacing:Metrics.smallGap){
         Grid(alignment:.leading,horizontalSpacing:Metrics.smallGap,verticalSpacing:Metrics.smallGap){
             GridRow {
-                Text("Opponent")
-                Picker("Opponent",selection:preset){
-                    if ReviewRolloutPolicy.beginnerOpponentEnabled{Text("First steps").tag("first_steps")}
-                    Text("Gentle").tag("gentle");Text("Club").tag("club");Text("Custom").tag("custom")
+                Text(ChineseText.text("Opponent"))
+                Picker(ChineseText.text("Opponent"),selection:preset){
+                    if ReviewRolloutPolicy.beginnerOpponentEnabled{Text(ChineseText.text("First steps")).tag("first_steps")}
+                    Text(ChineseText.text("Gentle")).tag("gentle");Text(ChineseText.text("Club")).tag("club");Text(ChineseText.text("Custom")).tag("custom")
                 }.labelsHidden().frame(maxWidth:.infinity)
             }
             if displayedPreset=="custom"{
                 GridRow {
-                    Text("Strength")
-                    Picker("Strength control",selection:mode){
-                        Text("Stockfish skill").tag("skill");Text("Estimated engine Elo").tag("elo")
-                        if ReviewRolloutPolicy.beginnerOpponentEnabled{Text("Beginner").tag("beginner")}
+                    Text(ChineseText.text("Strength"))
+                    Picker(ChineseText.text("Strength control"),selection:mode){
+                        Text(ChineseText.text("Stockfish skill")).tag("skill");Text(ChineseText.text("Estimated engine Elo")).tag("elo")
+                        if ReviewRolloutPolicy.beginnerOpponentEnabled{Text(ChineseText.text("Beginner")).tag("beginner")}
                     }.labelsHidden().frame(maxWidth:.infinity)
                 }
                 if displayedMode=="skill"{
                     GridRow {
-                        Text("Skill")
-                        Picker("Skill",selection:binding(\.skill)){ForEach(0...20,id:\.self){Text("Level \($0)").tag($0)}}
+                        Text(ChineseText.text("Skill"))
+                        Picker(ChineseText.text("Skill"),selection:binding(\.skill)){ForEach(0...20,id:\.self){Text(ChineseText.text("Level \($0)")).tag($0)}}
                             .labelsHidden().frame(maxWidth:.infinity)
                     }
                 }
@@ -120,15 +120,15 @@ struct OpponentSettingsContent:View {
                 }
             }
         }
-        if displayedPreset=="custom",displayedMode=="elo"{Text("An engine estimate, not a tournament rating.").font(.caption).foregroundStyle(.secondary)}
-        if displayedPreset=="first_steps" || (displayedPreset=="custom" && displayedMode=="beginner"){Text("First steps gives more opportunities to practise. You can always use hints or take back a move.").font(.caption).foregroundStyle(.secondary)}
+        if displayedPreset=="custom",displayedMode=="elo"{Text(ChineseText.text("An engine estimate, not a tournament rating.")).font(.caption).foregroundStyle(.secondary)}
+        if displayedPreset=="first_steps" || (displayedPreset=="custom" && displayedMode=="beginner"){Text(ChineseText.text("First steps gives more opportunities to practise. You can always use hints or take back a move.")).font(.caption).foregroundStyle(.secondary)}
     }}
 }
 struct EngineEloControl:View {
     @ObservedObject var engine:NativeEngine
     @Binding var value:Int
     @State private var unavailable=false
-    var body:some View {Group{if let range=engine.capabilities.eloRange{Stepper("Engine estimate: \(value)",value:$value,in:range,step:50)}else{Text(unavailable ? "This engine does not provide an Elo setting. Use Stockfish skill instead.":"Checking engine strength settings…").foregroundStyle(.secondary)}}.task{do{try await engine.prepare();unavailable=engine.capabilities.eloRange==nil}catch{unavailable=true}}}
+    var body:some View {Group{if let range=engine.capabilities.eloRange{Stepper(ChineseText.text("Engine estimate: \(value)"),value:$value,in:range,step:50)}else{Text(ChineseText.text(unavailable ? "This engine does not provide an Elo setting. Use Stockfish skill instead.":"Checking engine strength settings…")).foregroundStyle(.secondary)}}.task{do{try await engine.prepare();unavailable=engine.capabilities.eloRange==nil}catch{unavailable=true}}}
 }
 
 struct ReviewPracticeSheet:View {
@@ -136,11 +136,11 @@ struct ReviewPracticeSheet:View {
     @State private var side="w"
     @State private var preset="custom"
     var body:some View {VStack(alignment:.leading,spacing:Metrics.sectionGap){
-        Text("Practise from this position").font(.headline)
-        Text("Your current practice is backed up and becomes Previous game, replacing that shortcut’s older game. The imported record stays unchanged.")
-        Picker("Play as",selection:$side){Text("White").tag("w");Text("Black").tag("b")}
-        Picker("Opponent",selection:$preset){if ReviewRolloutPolicy.beginnerOpponentEnabled{Text("First steps").tag("first_steps")};Text("Gentle").tag("gentle");Text("Club").tag("club");Text("Keep custom settings").tag("custom")}
-        Button("Save this position for later"){model.saveReview();model.practiceForkRequested=false}
-        HStack{Spacer();Button("Cancel"){model.practiceForkRequested=false}.keyboardShortcut(.cancelAction);Button("Start practice"){model.confirmPracticeFork(side:side,preset:preset)}.keyboardShortcut(.defaultAction)}
+        Text(ChineseText.text("Practise from this position")).font(.headline)
+        Text(ChineseText.text("Your current practice is backed up and becomes Previous game, replacing that shortcut’s older game. The imported record stays unchanged."))
+        Picker(ChineseText.text("Play as"),selection:$side){Text(ChineseText.text("White")).tag("w");Text(ChineseText.text("Black")).tag("b")}
+        Picker(ChineseText.text("Opponent"),selection:$preset){if ReviewRolloutPolicy.beginnerOpponentEnabled{Text(ChineseText.text("First steps")).tag("first_steps")};Text(ChineseText.text("Gentle")).tag("gentle");Text(ChineseText.text("Club")).tag("club");Text(ChineseText.text("Keep custom settings")).tag("custom")}
+        Button(ChineseText.text("Save this position for later")){model.saveReview();model.practiceForkRequested=false}
+        HStack{Spacer();Button(ChineseText.text("Cancel")){model.practiceForkRequested=false}.keyboardShortcut(.cancelAction);Button(ChineseText.text("Start practice")){model.confirmPracticeFork(side:side,preset:preset)}.keyboardShortcut(.defaultAction)}
     }.padding(Metrics.padding).frame(minWidth:Metrics.right)}
 }

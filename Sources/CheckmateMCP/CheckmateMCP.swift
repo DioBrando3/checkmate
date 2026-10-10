@@ -1,6 +1,7 @@
 import Foundation
 import CheckmateMCPKit
 
+// An @main type must not live in main.swift when using Xcode's universal build.
 @main struct CheckmateMCP {
     static func main() async {
         var file = Discovery.defaultURL

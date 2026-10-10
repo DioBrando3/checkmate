@@ -22,16 +22,17 @@ struct SidebarContent:View {
     }
     var body:some View {List(selection:Binding<String?>(get:{selected},set:navigate)){
         Section {
-            Label("Practice a game",systemImage:"flag.checkered").tag("practice")
-            Label("Quick puzzles",systemImage:"lightbulb").tag("puzzles")
-            Label("Review game",systemImage:"doc.text.magnifyingglass").tag("review")
+            Button("棋子走法与规则",systemImage:"book.closed"){model.onPieceGuide?()}
+            Label(ChineseText.text("Practice a game"),systemImage:"flag.checkered").tag("practice")
+            Label(ChineseText.text("Quick puzzles"),systemImage:"lightbulb").tag("puzzles")
+            Label(ChineseText.text("Review game"),systemImage:"doc.text.magnifyingglass").tag("review")
         }
         if !model.reviews.isEmpty {
-            Section("Saved reviews"){ForEach(model.reviews){record in Label(record.title=="?" ? "Untitled game":record.title,systemImage:"doc.text").tag("review:"+record.id.uuidString)
-                .contextMenu{Button("Delete Saved Review…",role:.destructive){model.requestDeleteReview(record.id)}.disabled(model.deletingReviewID != nil)}}}
+            Section(ChineseText.text("Saved reviews")){ForEach(model.reviews){record in Label(ChineseText.text(record.title=="?" ? "Untitled game":record.title),systemImage:"doc.text").tag("review:"+record.id.uuidString)
+                .contextMenu{Button(ChineseText.text("Delete Saved Review…"),role:.destructive){model.requestDeleteReview(record.id)}.disabled(model.deletingReviewID != nil)}}}
         }
-        Section("Learn & explore") {ForEach(Array(learning.library.lessons.enumerated()),id:\.element.id){i,l in Label {Text(l.title)} icon:{Image(systemName:session.state.course.completed.contains(l.id) ? "checkmark.circle.fill":"book")}.tag("lesson:\(i)")}}
-    }.listStyle(.sidebar).scrollContentBackground(.hidden).overlay(alignment:.bottom){if model.importingReview{VStack{ProgressView("Importing review…");Button("Cancel import"){model.cancelReviewImport()}}.padding().background(.regularMaterial)}}}
+        Section(ChineseText.text("Learn & explore")) {ForEach(Array(learning.library.lessons.enumerated()),id:\.element.id){i,l in Label {Text(ChineseText.text(l.title))} icon:{Image(systemName:session.state.course.completed.contains(l.id) ? "checkmark.circle.fill":"book")}.tag("lesson:\(i)")}}
+    }.listStyle(.sidebar).scrollContentBackground(.hidden).overlay(alignment:.bottom){if model.importingReview{VStack{ProgressView(ChineseText.text("Importing review…"));Button(ChineseText.text("Cancel import")){model.cancelReviewImport()}}.padding().background(.regularMaterial)}}}
 }
 struct DetailContent:View {
     @ObservedObject var session:GameSession
@@ -42,67 +43,67 @@ struct DetailContent:View {
     let inspect:(RelationshipMode)->Void
     var body:some View {ScrollView {VStack(alignment:.leading,spacing:Metrics.sectionGap) {
         if model.reviewWorkspace {
-            Text("PGN game records").font(.headline)
-            Text("Open a finished or unfinished game, including its recorded moves and variations.")
-            Text("FEN positions").font(.headline)
-            Text("Explore a single board position. Earlier moves and repetition history are not included.").foregroundStyle(.secondary)
+            Text(ChineseText.text("PGN game records")).font(.headline)
+            Text(ChineseText.text("Open a finished or unfinished game, including its recorded moves and variations."))
+            Text(ChineseText.text("FEN positions")).font(.headline)
+            Text(ChineseText.text("Explore a single board position. Earlier moves and repetition history are not included.")).foregroundStyle(.secondary)
         } else if model.review.active{ReviewDetailContent(review:model.review,model:model)}else {
         if let label=relationships.selectedLabel{RelationshipContent(relationships:relationships,label:label,inspect:inspect);Divider()}
         if session.mode == .practice {
             if relationships.report==nil {
             if !session.presentationHidden,let d=session.demonstration {
-                Text(d.title).font(.title2.bold());Text("Imagined moves").foregroundStyle(.secondary)
-                Picker("Line",selection:Binding(get:{d.line},set:{try? session.seekDemo(line:$0,ply:0)})){ForEach(d.lines.indices,id:\.self){i in Text(d.lines[i].label).tag(i)}}
-                Text(d.lines[d.line].frames[d.ply].explanation)
-                Text("\(d.ply) / \(d.lines[d.line].frames.count-1)").foregroundStyle(.secondary)
+                Text(ChineseText.text(d.title)).font(.title2.bold());Text(ChineseText.text("Imagined moves")).foregroundStyle(.secondary)
+                Picker(ChineseText.text("Line"),selection:Binding(get:{d.line},set:{try? session.seekDemo(line:$0,ply:0)})){ForEach(d.lines.indices,id:\.self){i in Text(ChineseText.text(d.lines[i].label)).tag(i)}}
+                Text(ChineseText.text(d.lines[d.line].frames[d.ply].explanation))
+                Text(ChineseText.text("\(d.ply) / \(d.lines[d.line].frames.count-1)")).foregroundStyle(.secondary)
             } else if !session.presentationHidden,let p=session.preview {
-                Text("Try a move").font(.title2.bold());Text("This does not change your game.").foregroundStyle(.secondary)
-                if let candidate=p.candidate {Text(candidate.description)}else{Text("Select a piece, then a destination to test your idea.")}
-                if let e=p.evaluation {Text(e.comparison);Picker("Continuation",selection:Binding(get:{p.line},set:{try? session.previewAt(ply:0,line:$0)})){Text("Your move").tag("candidate");Text("Engine suggestion").tag("recommended")};Text(e.exchange.moves.joined(separator:" · "));Button("Play my move"){try? session.playCandidate()}}
-                if p.status=="analyzing"{ProgressView("Comparing moves…")};if let error=p.error{Text(error).foregroundStyle(.secondary)}
+                Text(ChineseText.text("Try a move")).font(.title2.bold());Text(ChineseText.text("This does not change your game.")).foregroundStyle(.secondary)
+                if let candidate=p.candidate {Text(ChineseText.text(candidate.description))}else{Text(ChineseText.text("Select a piece, then a destination to test your idea."))}
+                if let e=p.evaluation {Text(ChineseText.text(e.comparison));Picker(ChineseText.text("Continuation"),selection:Binding(get:{p.line},set:{try? session.previewAt(ply:0,line:$0)})){Text(ChineseText.text("Your move")).tag("candidate");Text(ChineseText.text("Engine suggestion")).tag("recommended")};Text(ChineseText.text(e.exchange.moves.joined(separator:" · ")));Button(ChineseText.text("Play my move")){try? session.playCandidate()}}
+                if p.status=="analyzing"{ProgressView(ChineseText.text("Comparing moves…"))};if let error=p.error{Text(ChineseText.text(error)).foregroundStyle(.secondary)}
             } else {
-                if session.explicitResumeRequired {Text("Game paused.").font(.title2.bold());Text(session.message);Text("Your game is paused because a saved review could not be restored.");Button("Return to game"){model.resumeAfterFailedRestore()}}
-                else {Text("Your next move.").font(.title2.bold());Text(session.message)}
-                if session.pausedOpponent {Text("The companion opponent disconnected.");Button("Continue with Stockfish"){model.companion.disable();session.continueWithStockfish()}}
+                if session.explicitResumeRequired {Text(ChineseText.text("Game paused.")).font(.title2.bold());Text(ChineseText.text(session.message));Text(ChineseText.text("Your game is paused because a saved review could not be restored."));Button(ChineseText.text("Return to game")){model.resumeAfterFailedRestore()}}
+                else {Text(ChineseText.text("Your next move.")).font(.title2.bold());Text(ChineseText.text(session.message))}
+                if session.pausedOpponent {Text(ChineseText.text("The companion opponent disconnected."));Button(ChineseText.text("Continue with Stockfish")){model.companion.disable();session.continueWithStockfish()}}
                 OpponentSettingsContent(session:session)
-                Text("Moves").font(.headline);Text(session.rules.history.isEmpty ? "Your story starts with one move.":session.rules.history.enumerated().map{($0.offset%2==0 ? "\($0.offset/2+1). ":"")+$0.element}.joined(separator:"  ")).textSelection(.enabled)
+                Text(ChineseText.text("Moves")).font(.headline);Text(ChineseText.text(session.rules.history.isEmpty ? "Your story starts with one move.":session.rules.history.enumerated().map{($0.offset%2==0 ? "\($0.offset/2+1). ":"")+$0.element}.joined(separator:"  "))).textSelection(.enabled)
             }
             }
-            if voice.connected || !voice.history.isEmpty {Divider();Text("Voice coach").font(.headline);Text(voice.status).foregroundStyle(.secondary);if voice.connected{HStack{Button("Recheck"){voice.recheck()};Button("Stop speaking"){voice.stopTurn()}}};ForEach(Array(voice.history.reversed())){entry in VStack(alignment:.leading){Text(entry.role=="learner" ? "You":"Coach").font(.caption).foregroundStyle(.secondary);Text(entry.text).textSelection(.enabled)}}}
-            if let error=session.error {Text(error).foregroundStyle(Color(nsColor:NativeColors.error));Button("Retry Stockfish"){session.retryEngine()}}
+            if voice.connected || !voice.history.isEmpty {Divider();Text(ChineseText.text("Voice coach")).font(.headline);Text(ChineseText.text(voice.status)).foregroundStyle(.secondary);if voice.connected{HStack{Button(ChineseText.text("Recheck")){voice.recheck()};Button(ChineseText.text("Stop speaking")){voice.stopTurn()}}};ForEach(Array(voice.history.reversed())){entry in VStack(alignment:.leading){Text(ChineseText.text(entry.role=="learner" ? "You":"Coach")).font(.caption).foregroundStyle(.secondary);Text(ChineseText.text(entry.text)).textSelection(.enabled)}}}
+            if let error=session.error {Text(ChineseText.text(error)).foregroundStyle(Color(nsColor:NativeColors.error));Button(ChineseText.text("Retry Stockfish")){session.retryEngine()}}
         } else if relationships.report==nil {
             if learning.mini {
-                Text(learning.miniStatus).font(.title2.bold())
+                Text(ChineseText.text(learning.miniStatus)).font(.title2.bold())
                 if !learning.miniKind.solo {
-                    Picker("Opponent",selection:Binding(get:{learning.miniGame?.computer ?? true},set:{learning.setMiniComputer($0)})){Text("Computer").tag(true);Text("Two players on this device").tag(false)}
-                    Picker("Difficulty",selection:Binding(get:{session.state.settings.miniOpponentProfile},set:{var settings=session.state.settings;settings.miniOpponentProfile=$0;session.updateSettings(settings)})){Text("Beginner").tag("beginner");Text("Standard").tag("standard");Text("Challenging").tag("challenging")}
-                    Text(learning.miniGame?.computer==true ? "You play White. Select a piece, then its destination. The computer plays Black.":"Take turns moving White and Black on this device.")
+                    Picker(ChineseText.text("Opponent"),selection:Binding(get:{learning.miniGame?.computer ?? true},set:{learning.setMiniComputer($0)})){Text(ChineseText.text("Computer")).tag(true);Text(ChineseText.text("Two players on this device")).tag(false)}
+                    Picker(ChineseText.text("Difficulty"),selection:Binding(get:{session.state.settings.miniOpponentProfile},set:{var settings=session.state.settings;settings.miniOpponentProfile=$0;session.updateSettings(settings)})){Text(ChineseText.text("Beginner")).tag("beginner");Text(ChineseText.text("Standard")).tag("standard");Text(ChineseText.text("Challenging")).tag("challenging")}
+                    Text(ChineseText.text(learning.miniGame?.computer==true ? "You play White. Select a piece, then its destination. The computer plays Black.":"Take turns moving White and Black on this device."))
                 }
-                Text(learning.miniKind.rules).foregroundStyle(.secondary)
-                if !learning.feedback.isEmpty{Text(learning.feedback)}
+                Text(ChineseText.text(learning.miniKind.rules)).foregroundStyle(.secondary)
+                if !learning.feedback.isEmpty{Text(ChineseText.text(learning.feedback))}
             }
             else if learning.activePuzzle != nil || session.mode == .lesson {
                 if session.mode == .lesson {
-                    Picker("Transcript",selection:Binding(get:{learning.step},set:{learning.seek(step:$0)})){ForEach(learning.current.beats.indices,id:\.self){i in Text("\(i+1). \(learning.library.stepTitles[learning.lessonIndex][i])").tag(i)}}
+                    Picker(ChineseText.text("Transcript"),selection:Binding(get:{learning.step},set:{learning.seek(step:$0)})){ForEach(learning.current.beats.indices,id:\.self){i in Text(ChineseText.text("\(i+1). \(learning.library.stepTitles[learning.lessonIndex][i])")).tag(i)}}
                         .labelsHidden()
-                    Text(learning.beat.say).textSelection(.enabled)
+                    Text(ChineseText.text(learning.beat.say)).textSelection(.enabled)
                 } else {
-                    if let prompt=learning.exercise?.prompt {Text(prompt).font(.title2.bold())}
-                    Text(learning.activePuzzle?.context ?? learning.beat.say).textSelection(.enabled)
+                    if let prompt=learning.exercise?.prompt {Text(ChineseText.text(prompt)).font(.title2.bold())}
+                    Text(ChineseText.text(learning.activePuzzle?.context ?? learning.beat.say)).textSelection(.enabled)
                 }
                 if let e=learning.activePuzzle?.exercise {
-                    if e.kind=="choice" {ForEach(e.choices ?? [],id:\.self){choice in Button(choice){learning.choose(choice)}.disabled(learning.passed)}}
-                    if e.kind=="squares" {if e.answers?.count != 1{Button("Check my answer"){learning.checkAnswer()}.disabled(learning.picked.isEmpty || learning.passed)};if e.allowNone==true{Button("No squares"){learning.noSquares()}.disabled(learning.passed)}}
-                    if e.kind=="path"{Button("Restart path"){learning.restartPath()}}
-                    Button("Reveal answer"){learning.reveal()}.disabled(learning.passed)
+                    if e.kind=="choice" {ForEach(e.choices ?? [],id:\.self){choice in Button(ChineseText.text(choice)){learning.choose(choice)}.disabled(learning.passed)}}
+                    if e.kind=="squares" {if e.answers?.count != 1{Button(ChineseText.text("Check my answer")){learning.checkAnswer()}.disabled(learning.picked.isEmpty || learning.passed)};if e.allowNone==true{Button(ChineseText.text("No squares")){learning.noSquares()}.disabled(learning.passed)}}
+                    if e.kind=="path"{Button(ChineseText.text("Restart path")){learning.restartPath()}}
+                    Button(ChineseText.text("Reveal answer")){learning.reveal()}.disabled(learning.passed)
                 }
-                if !learning.feedback.isEmpty{Text(learning.feedback).foregroundStyle(.secondary)}
+                if !learning.feedback.isEmpty{Text(ChineseText.text(learning.feedback)).foregroundStyle(.secondary)}
                 if session.mode == .lesson {
-                    DisclosureGroup("In this lesson"){ForEach(learning.current.teaches ?? [],id:\.self){Text($0)}}
-                    ForEach(MiniGameKind.available(lessonID:learning.current.id),id:\.self){kind in Button("Play \(kind.title)"){learning.startMini(kind)}}
-                    if session.state.course.completed.contains(learning.current.id),learning.lessonIndex<learning.library.lessons.count-1 {Button("Continue to \(learning.library.lessons[learning.lessonIndex+1].title)"){model.lesson(learning.lessonIndex+1);learning.play()}}
-                } else {Button("Next puzzle"){learning.next()}.disabled(!learning.passed)}
-            } else {Text("Quick puzzles").font(.title2.bold());Text("Choose an exercise from the library.")}
+                    DisclosureGroup(ChineseText.text("In this lesson")){ForEach(learning.current.teaches ?? [],id:\.self){Text(ChineseText.text($0))}}
+                    ForEach(MiniGameKind.available(lessonID:learning.current.id),id:\.self){kind in Button(ChineseText.text("Play \(kind.title)")){learning.startMini(kind)}}
+                    if session.state.course.completed.contains(learning.current.id),learning.lessonIndex<learning.library.lessons.count-1 {Button(ChineseText.text("Continue to \(learning.library.lessons[learning.lessonIndex+1].title)")){model.lesson(learning.lessonIndex+1);learning.play()}}
+                } else {Button(ChineseText.text("Next puzzle")){learning.next()}.disabled(!learning.passed)}
+            } else {Text(ChineseText.text("Quick puzzles")).font(.title2.bold());Text(ChineseText.text("Choose an exercise from the library."))}
         }
     }
     }.frame(maxWidth:.infinity,alignment:.leading).padding(Metrics.sectionGap)}}
@@ -115,19 +116,19 @@ struct StorageErrorBanner:View {
         if let message=model.storageError {
             HStack(alignment:.top,spacing:Metrics.smallGap){
                 Image(systemName:"exclamationmark.triangle.fill").foregroundStyle(Color(nsColor:NativeColors.error)).accessibilityHidden(true)
-                Text(message).textSelection(.enabled).fixedSize(horizontal:false,vertical:true).accessibilityIdentifier("storage-error-message")
+                Text(ChineseText.text(message)).textSelection(.enabled).fixedSize(horizontal:false,vertical:true).accessibilityIdentifier("storage-error-message")
                 Spacer(minLength:0)
-                if model.restoreResumePending {Button("Return to game"){model.resumeAfterFailedRestore()}}
-                Button("Dismiss"){model.dismissStorageError()}
+                if model.restoreResumePending {Button(ChineseText.text("Return to game")){model.resumeAfterFailedRestore()}}
+                Button(ChineseText.text("Dismiss")){model.dismissStorageError()}
             }
             .padding(Metrics.padding).background(.regularMaterial,in:RoundedRectangle(cornerRadius:8)).padding(Metrics.padding)
-            .accessibilityElement(children:.contain).accessibilityLabel("Problem").accessibilityIdentifier("storage-error-banner")
+            .accessibilityElement(children:.contain).accessibilityLabel(ChineseText.text("Problem")).accessibilityIdentifier("storage-error-banner")
         }
     }
 }
 struct TurnIndicator:View {
     let side:String,label:String
-    var body:some View {Circle().fill(Color(nsColor:side=="w" ? BoardPalette.lightPiece:BoardPalette.darkPiece)).overlay(Circle().stroke(Color(nsColor:NativeColors.secondaryText),lineWidth:Metrics.turnIndicatorOutline)).frame(width:Metrics.turnIndicatorSize,height:Metrics.turnIndicatorSize).help(label).accessibilityLabel(label)}
+    var body:some View {Circle().fill(Color(nsColor:side=="w" ? BoardPalette.lightPiece:BoardPalette.darkPiece)).overlay(Circle().stroke(Color(nsColor:NativeColors.secondaryText),lineWidth:Metrics.turnIndicatorOutline)).frame(width:Metrics.turnIndicatorSize,height:Metrics.turnIndicatorSize).help(ChineseText.text(label)).accessibilityLabel(ChineseText.text(label))}
 }
 struct TransportContent:View {
     @ObservedObject var session:GameSession
@@ -155,10 +156,10 @@ struct TransportContent:View {
                 NativeIcon(symbol:"arrow.uturn.backward",label:"Undo"){session.undo()}.disabled(session.rules.history.isEmpty)
                 NativeIcon(symbol:"flask",label:"Try a move"){try? session.beginPreview()}.disabled(session.rules.turn != session.humanSide || session.rules.over || session.busyReason == "opponent")
                 NativeIcon(symbol:"lightbulb",label:"Hint"){session.hint()}.disabled(session.busy || session.rules.turn != session.humanSide)
-                if session.busy {ProgressView().controlSize(.small).help("Stockfish is thinking")}
+                if session.busy {ProgressView().controlSize(.small).help(ChineseText.text("Stockfish is thinking"))}
             }
             if voice.connecting {
-                ProgressView().controlSize(.small).help(voice.status).accessibilityLabel(voice.status)
+                ProgressView().controlSize(.small).help(ChineseText.text(voice.status)).accessibilityLabel(ChineseText.text(voice.status))
                 NativeIcon(symbol:"xmark",label:"Cancel voice connection"){voice.disconnect()}
             } else if voice.connected {
                 NativeIcon(symbol:session.state.settings.voiceMicrophone ? "mic":"mic.slash",label:session.state.settings.voiceMicrophone ? "Mute microphone":"Enable microphone"){
@@ -205,20 +206,20 @@ struct LessonProgressContent:View {
             }
             .allowsHitTesting(false)
             .accessibilityElement(children:.ignore)
-            .accessibilityLabel(review.active ? "Review playback":"Transcript playback")
-            .accessibilityValue("\(Int(fraction*100)) percent")
+            .accessibilityLabel(ChineseText.text(review.active ? "Review playback":"Transcript playback"))
+            .accessibilityValue(ChineseText.text("\(Int(fraction*100)) percent"))
         }
     }
 }
 struct PuzzleLibraryContent:View {
     @ObservedObject var learning:LearningPlayer
     @ObservedObject var session:GameSession
-    var body:some View {VStack(alignment:.leading,spacing:Metrics.padding){Text("Quick puzzles").font(.largeTitle.bold());Text("\(session.state.puzzles.values.filter(\.solved).count) solved · \(session.state.puzzles.values.filter(\.review).count) to review").foregroundStyle(.secondary)
-        TextField("Search exercises",text:$learning.query).textFieldStyle(.roundedBorder)
-        HStack {Picker("Topic",selection:$learning.topic){Text("All topics").tag("All topics");ForEach(Array(Set(learning.library.puzzles.map(\.topic))).sorted(),id:\.self){Text($0).tag($0)}};Picker("Level",selection:$learning.level){ForEach(["All levels","Foundation","Developing"],id:\.self){Text($0).tag($0)}};Picker("Status",selection:$learning.filter){ForEach(["All","Unsolved","To review"],id:\.self){Text($0).tag($0)}}}
-        Text("\(learning.filteredPuzzles.count) exercises").foregroundStyle(.secondary)
-        List(learning.filteredPuzzles,id:\.id){p in Button{learning.openPuzzle(id:p.id)}label:{HStack{VStack(alignment:.leading){Text(p.title);Text(p.topic).font(.caption).foregroundStyle(.secondary)};Spacer();if session.state.puzzles[p.id]?.solved==true{Image(systemName:"checkmark.circle.fill").foregroundStyle(Color(nsColor:NativeColors.success))}}}.buttonStyle(.plain)}
-        if learning.filteredPuzzles.isEmpty{Text("No exercises match these filters.")}
+    var body:some View {VStack(alignment:.leading,spacing:Metrics.padding){Text(ChineseText.text("Quick puzzles")).font(.largeTitle.bold());Text(ChineseText.text("\(session.state.puzzles.values.filter(\.solved).count) solved · \(session.state.puzzles.values.filter(\.review).count) to review")).foregroundStyle(.secondary)
+        TextField(ChineseText.text("Search exercises"),text:$learning.query).textFieldStyle(.roundedBorder)
+        HStack {Picker(ChineseText.text("Topic"),selection:$learning.topic){Text(ChineseText.text("All topics")).tag("All topics");ForEach(Array(Set(learning.library.puzzles.map(\.topic))).sorted(),id:\.self){Text(ChineseText.text($0)).tag($0)}};Picker(ChineseText.text("Level"),selection:$learning.level){ForEach(["All levels","Foundation","Developing"],id:\.self){Text(ChineseText.text($0)).tag($0)}};Picker(ChineseText.text("Status"),selection:$learning.filter){ForEach(["All","Unsolved","To review"],id:\.self){Text(ChineseText.text($0)).tag($0)}}}
+        Text(ChineseText.text("\(learning.filteredPuzzles.count) exercises")).foregroundStyle(.secondary)
+        List(learning.filteredPuzzles,id:\.id){p in Button{learning.openPuzzle(id:p.id)}label:{HStack{VStack(alignment:.leading){Text(ChineseText.text(p.title));Text(ChineseText.text(p.topic)).font(.caption).foregroundStyle(.secondary)};Spacer();if session.state.puzzles[p.id]?.solved==true{Image(systemName:"checkmark.circle.fill").foregroundStyle(Color(nsColor:NativeColors.success))}}}.buttonStyle(.plain)}
+        if learning.filteredPuzzles.isEmpty{Text(ChineseText.text("No exercises match these filters."))}
     }.padding(Metrics.sectionGap)}
 }
-struct WelcomeContent:View {let title:String,goals:[String];var body:some View {VStack(spacing:Metrics.sectionGap){Image("LessonKnight",bundle:.main).resizable().renderingMode(.template).scaledToFit().foregroundStyle(.primary).frame(width:Metrics.mascotSize,height:Metrics.mascotSize).accessibilityHidden(true);Text(title).font(.largeTitle.bold())}.frame(maxWidth:.infinity,maxHeight:.infinity,alignment:.center)}}
+struct WelcomeContent:View {let title:String,goals:[String];var body:some View {VStack(spacing:Metrics.sectionGap){Image("LessonKnight",bundle:.main).resizable().renderingMode(.template).scaledToFit().foregroundStyle(.primary).frame(width:Metrics.mascotSize,height:Metrics.mascotSize).accessibilityHidden(true);Text(ChineseText.text(title)).font(.largeTitle.bold())}.frame(maxWidth:.infinity,maxHeight:.infinity,alignment:.center)}}

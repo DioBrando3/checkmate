@@ -10,15 +10,15 @@ public struct AppSettings:Codable,Equatable {
     public static let languages=["en":"English","zh":"Mandarin Chinese","es":"Spanish","fr":"French","de":"German","ja":"Japanese","ko":"Korean","pt":"Portuguese","it":"Italian","ar":"Arabic","hi":"Hindi"]
     public static let voices=["marin","cedar","alloy","ash","ballad","coral","echo","sage","shimmer","verse"]
     public static let themes=["wood":"Walnut","green":"Sage","blue":"Slate","neutral":"Graphite"]
-    public init() {}
+    public init() {if ChineseEdition.enabled {voiceLanguage="zh";voiceAutoConnect=false;companionAutoStart=false;voiceMicrophone=false}}
     public init(raw:[String:Any]) {
         func choice(_ k:String,_ allowed:[String],_ fallback:String)->String {let v=raw[k] as? String ?? fallback;return allowed.contains(v) ? v:fallback}
         func flag(_ k:String,_ fallback:Bool)->Bool {guard let n=raw[k] as? NSNumber,CFGetTypeID(n)==CFBooleanGetTypeID() else{return fallback};return n.boolValue}
         func integer(_ k:String,_ fallback:Int)->Int{guard let value=raw[k] as? NSNumber,CFGetTypeID(value) != CFBooleanGetTypeID() else{return fallback};let n=value.doubleValue;guard n.isFinite,floor(n)==n,abs(n)<=1_000_000 else{return fallback};return Int(n)}
         func level(_ k:String,_ fallback:Double)->Double {guard let v=raw[k] as? NSNumber,CFGetTypeID(v) != CFBooleanGetTypeID(),v.doubleValue.isFinite else{return fallback};return max(0,min(1,v.doubleValue))}
-        coachVoice=choice("coachVoice",Self.voices,"cedar");voiceLanguage=choice("voiceLanguage",Array(Self.languages.keys),"en")
+        coachVoice=choice("coachVoice",Self.voices,"cedar");voiceLanguage=choice("voiceLanguage",Array(Self.languages.keys),ChineseEdition.enabled ? "zh":"en")
         boardTheme=choice("boardTheme",Array(Self.themes.keys),"wood");coachingMode=choice("coachingMode",["guided","on_request","quiet"],"guided");companionRole=choice("companionRole",["coach","opponent"],"coach")
-        voiceAutoConnect=flag("voiceAutoConnect",true);companionAutoStart=flag("companionAutoStart",true);voiceMicrophone=flag("voiceMicrophone",true);voiceAssistMoves=flag("voiceAssistMoves",false)
+        voiceAutoConnect=flag("voiceAutoConnect",!ChineseEdition.enabled);companionAutoStart=flag("companionAutoStart",!ChineseEdition.enabled);voiceMicrophone=flag("voiceMicrophone",!ChineseEdition.enabled);voiceAssistMoves=flag("voiceAssistMoves",false)
         voiceInputDevice=String((raw["voiceInputDevice"] as? String ?? "").prefix(256));voiceVolume=level("voiceVolume",1)
         narration=flag("narration",true);volume=level("volume",1);autoAdvance=flag("autoAdvance",true);moveSounds=flag("moveSounds",true);effectsVolume=level("effectsVolume",0.5)
         pieceDuration=[0,300,500,700].contains(integer("pieceDuration",-1)) ? integer("pieceDuration",700):700
@@ -57,7 +57,8 @@ public final class StateStore {
     public var url:URL {directory.appendingPathComponent("state-v1.json")}
     public init(directory:URL){self.directory=directory}
     public static func dataDirectoryIdentifier(bundleIdentifier:String?)->String {
-        bundleIdentifier == "ai.xiaolai.checkmate" ? "ai.xiaolai.checkmate" : "ai.xiaolai.checkmate.native-development"
+        if bundleIdentifier == ChineseEdition.bundleIdentifier {return ChineseEdition.bundleIdentifier}
+        return bundleIdentifier == "ai.xiaolai.checkmate" ? "ai.xiaolai.checkmate" : "ai.xiaolai.checkmate.native-development"
     }
     public static func defaultDirectory()->URL {
         if let path=ProcessInfo.processInfo.environment["CHECKMATE_DATA_DIR"] {return URL(fileURLWithPath:path)}

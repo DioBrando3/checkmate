@@ -10,7 +10,7 @@ final class BoardWindow:NSWindow {
 }
 final class BoardTitleView:NSView {
     weak var board:NSView?
-    let label=textLabel("Practice · White vs Stockfish",15,.semibold),tabs=NSSegmentedControl(labels:["Game","Demonstration"],trackingMode:.selectOne,target:nil,action:nil)
+    let label=textLabel("Practice · White vs Stockfish",15,.semibold),tabs=NSSegmentedControl(labels:[ChineseText.text("Game"),ChineseText.text("Demonstration")],trackingMode:.selectOne,target:nil,action:nil)
     override init(frame:NSRect){super.init(frame:frame);addSubview(label);addSubview(tabs);label.alignment = .center;tabs.isHidden=true}
     required init?(coder:NSCoder){fatalError()}
     override var mouseDownCanMoveWindow:Bool {true}
@@ -35,15 +35,16 @@ final class BoardTitleView:NSView {
     private var fullscreenWidth:NSLayoutConstraint?
     var desiredLeft=false,desiredRight=false,animating=false,fixedBoardWidth:NSLayoutConstraint?,settings:SettingsWindow?
     private var observations:Set<AnyCancellable>=[]
+    private var pieceGuide:PieceGuideWindow?
     private var coreFrame:NSRect?
     private var fittedLayout=false
     private var announcedReviewIdentity=""
     private(set) var errorBanner:NSHostingView<StorageErrorBanner>?
     func setCoreFrame(_ frame:NSRect){coreFrame=frame;fixedBoardWidth?.constant=frame.width;fixedBoardWidth?.isActive=true;window?.setFrame(frame,display:true);window?.contentView?.layoutSubtreeIfNeeded()}
-    private let sidebarID=NSToolbarItem.Identifier("checkmate.sidebar"),inspectorID=NSToolbarItem.Identifier("checkmate.inspector"),titleID=NSToolbarItem.Identifier("checkmate.title"),settingsID=NSToolbarItem.Identifier("checkmate.settings")
+    private let sidebarID=NSToolbarItem.Identifier("checkmate.sidebar"),inspectorID=NSToolbarItem.Identifier("checkmate.inspector"),titleID=NSToolbarItem.Identifier("checkmate.title"),settingsID=NSToolbarItem.Identifier("checkmate.settings"),guideID=NSToolbarItem.Identifier("checkmate.rules")
     init(model:NativeModel){self.model=model
         let w=BoardWindow(contentRect:NSRect(x:0,y:0,width:Metrics.core,height:Metrics.core),styleMask:[.titled,.closable,.miniaturizable,.resizable,.fullSizeContentView],backing:.buffered,defer:false)
-        super.init(window:w);w.title="Checkmate";w.isMovableByWindowBackground=true;w.titleVisibility = .hidden;w.titlebarSeparatorStyle = .none;w.titlebarAppearsTransparent=true;w.isReleasedWhenClosed=false;w.isRestorable=false;w.delegate=self;w.autorecalculatesKeyViewLoop=true;w.identifier=NSUserInterfaceItemIdentifier("main");w.collectionBehavior=[.fullScreenPrimary]
+        super.init(window:w);w.title=ChineseEdition.enabled ? "Checkmate 中文版":"Checkmate";w.isMovableByWindowBackground=true;w.titleVisibility = .hidden;w.titlebarSeparatorStyle = .none;w.titlebarAppearsTransparent=true;w.isReleasedWhenClosed=false;w.isRestorable=false;w.delegate=self;w.autorecalculatesKeyViewLoop=true;w.identifier=NSUserInterfaceItemIdentifier("main");w.collectionBehavior=[.fullScreenPrimary]
         main.view=BackgroundView();navigation=NSHostingController(rootView:SidebarContent(session:model.session,learning:model.learning,model:model));inspector=NSHostingController(rootView:DetailContent(session:model.session,learning:model.learning,model:model,voice:model.voice,relationships:relationships,inspect:{[weak self] mode in self?.toggleRelationship(mode)}))
         _ = split.view;split.splitView.autoresizingMask=[.width,.height];split.splitView.isVertical=true;split.splitView.dividerStyle = .thin
         sidebarItem=NSSplitViewItem(sidebarWithViewController:navigation);boardItem=NSSplitViewItem(viewController:main);inspectorItem=NSSplitViewItem(inspectorWithViewController:inspector)
@@ -51,6 +52,7 @@ final class BoardTitleView:NSView {
         boardItem.minimumThickness=Metrics.minimum;boardItem.titlebarSeparatorStyle = .none;split.addSplitViewItem(sidebarItem);split.addSplitViewItem(boardItem);split.addSplitViewItem(inspectorItem);w.contentViewController=split
         let leftLimit=navigation.view.widthAnchor.constraint(lessThanOrEqualToConstant:Metrics.left),rightLimit=inspector.view.widthAnchor.constraint(lessThanOrEqualToConstant:Metrics.right);leftLimit.priority=NSLayoutConstraint.Priority(999);rightLimit.priority=NSLayoutConstraint.Priority(999);NSLayoutConstraint.activate([leftLimit,rightLimit])
         let toolbar=NSToolbar(identifier:"Checkmate.Native.Toolbar");toolbar.delegate=self;toolbar.displayMode = .iconOnly;toolbar.allowsUserCustomization=false;w.toolbar=toolbar;w.toolbarStyle = .unified
+        model.onPieceGuide={[weak self] in self?.showPieceGuide()}
         model.learning.onLessonOpened={[weak self] in self?.relationships.dismiss();self?.board.cancelAnimation();self?.showDetails();self?.refresh()}
         model.onReview={[weak self] in self?.relationships.dismiss();self?.board.cancelAnimation();self?.showDetails();self?.refresh()}
         board.reviewKey={[weak self] key in guard let self=self,self.model.review.active,self.model.review.branch==nil else{return false};switch key{case 123:self.model.review.step(-1);case 124:self.model.review.step(1);case 125:self.model.review.last();case 126:self.model.review.first();case 49:self.model.review.playing ? self.model.review.pause():self.model.review.play();default:return false};self.refresh();return true}
@@ -84,14 +86,16 @@ final class BoardTitleView:NSView {
         DispatchQueue.main.async{self.boardItem.minimumThickness=Metrics.minimum;self.animateDrawers();self.model.session.reply()}
     }
     required init?(coder:NSCoder){fatalError()}
-    func toolbarDefaultItemIdentifiers(_ t:NSToolbar)->[NSToolbarItem.Identifier]{[.flexibleSpace,sidebarID,.sidebarTrackingSeparator,.flexibleSpace,titleID,.flexibleSpace,settingsID,.inspectorTrackingSeparator,inspectorID,.flexibleSpace]}
+    func toolbarDefaultItemIdentifiers(_ t:NSToolbar)->[NSToolbarItem.Identifier]{[.flexibleSpace,sidebarID,.sidebarTrackingSeparator,.flexibleSpace,titleID,.flexibleSpace,guideID,settingsID,.inspectorTrackingSeparator,inspectorID,.flexibleSpace]}
     func toolbarAllowedItemIdentifiers(_ t:NSToolbar)->[NSToolbarItem.Identifier]{toolbarDefaultItemIdentifiers(t)}
     func toolbar(_ t:NSToolbar,itemForItemIdentifier id:NSToolbarItem.Identifier,willBeInsertedIntoToolbar:Bool)->NSToolbarItem? {
         if id == .sidebarTrackingSeparator{return NSTrackingSeparatorToolbarItem(identifier:id,splitView:split.splitView,dividerIndex:0)};if id == .inspectorTrackingSeparator{return NSTrackingSeparatorToolbarItem(identifier:id,splitView:split.splitView,dividerIndex:1)}
         let item=NSToolbarItem(itemIdentifier:id)
-        if id==titleID{item.view=titleView;item.isBordered=false;item.label="Current activity";return item}
-        item.image=NSImage(systemSymbolName:id==sidebarID ? "sidebar.left":id==inspectorID ? "sidebar.right":"gearshape",accessibilityDescription:nil);item.label=id==sidebarID ? "Toggle Sidebar":id==inspectorID ? "Toggle Game Details":"Settings";item.toolTip=item.label;item.target=self;item.action=id==sidebarID ? #selector(toggleLeft):id==inspectorID ? #selector(toggleRight):#selector(showSettings);item.isBordered=true;return item
+        if id==guideID {item.image=NSImage(systemSymbolName:"book.closed",accessibilityDescription:"棋子走法");item.label="棋子走法";item.toolTip="棋子走法与普通话讲解";item.target=self;item.action=#selector(showPieceGuide);item.isBordered=true;return item}
+        if id==titleID{item.view=titleView;item.isBordered=false;item.label=ChineseText.text("Current activity");return item}
+        item.image=NSImage(systemSymbolName:id==sidebarID ? "sidebar.left":id==inspectorID ? "sidebar.right":"gearshape",accessibilityDescription:nil);item.label=id==sidebarID ? "Toggle Sidebar":id==inspectorID ? "Toggle Game Details":"Settings";item.label=ChineseText.text(item.label);item.toolTip=item.label;item.target=self;item.action=id==sidebarID ? #selector(toggleLeft):id==inspectorID ? #selector(toggleRight):#selector(showSettings);item.isBordered=true;return item
     }
+    @objc func showPieceGuide(){do{if pieceGuide==nil{pieceGuide=PieceGuideWindow(entries:try PieceGuideEntry.load())};pieceGuide?.showWindow(nil);pieceGuide?.window?.makeKeyAndOrderFront(nil)}catch{showError("无法加载棋子规则，请检查应用资源。")}}
     @objc func toggleLeft(){desiredLeft.toggle();rememberPanes();animateDrawers()}
     @objc func toggleRight(){desiredRight.toggle();rememberPanes();animateDrawers()}
     private func rememberPanes(){model.session.state.window.left=desiredLeft;model.session.state.window.right=desiredRight;model.session.emit(semantic:false,save:true)}
@@ -130,11 +134,11 @@ final class BoardTitleView:NSView {
 
     @objc func selectTab(){model.session.selectPresentation(titleView.tabs.selectedSegment==1)}
     func select(_ sq:String){
-        if model.review.active{if let from=model.review.selected,model.review.branch != nil,model.review.displayRules?.moves(from).contains(where:{$0.to==sq && $0.promotion != nil})==true{let menu=NSMenu();for (title,piece) in [("Queen","q"),("Rook","r"),("Bishop","b"),("Knight","n")]{let item=NSMenuItem(title:title,action:#selector(promoteReview(_:)),keyEquivalent:"");item.target=self;item.representedObject=[sq,piece];menu.addItem(item)};menu.popUp(positioning:nil,at:board.squareRect(sq).origin,in:board);return};try? model.review.selectSquare(sq);refresh();return}
+        if model.review.active{if let from=model.review.selected,model.review.branch != nil,model.review.displayRules?.moves(from).contains(where:{$0.to==sq && $0.promotion != nil})==true{let menu=NSMenu();for (title,piece) in [("Queen","q"),("Rook","r"),("Bishop","b"),("Knight","n")]{let item=NSMenuItem(title:ChineseText.text(title),action:#selector(promoteReview(_:)),keyEquivalent:"");item.target=self;item.representedObject=[sq,piece];menu.addItem(item)};menu.popUp(positioning:nil,at:board.squareRect(sq).origin,in:board);return};try? model.review.selectSquare(sq);refresh();return}
 
         if relationships.mode != nil{if model.session.mode == .practice{try? model.session.inspectPiece(sq)};relationships.select(board.position[sq] == nil ? nil:sq);refresh();return}
         let s=model.session;if s.mode == .practice {
-        if let from=s.selected,s.inspection?.legalNow==true,s.destinations.contains(sq),(s.presentationHidden || s.preview==nil && s.demonstration==nil) {let promotion=s.rules.moves(from).contains{$0.to==sq && $0.promotion != nil};if promotion {let menu=NSMenu();for (title,piece) in [("Queen","q"),("Rook","r"),("Bishop","b"),("Knight","n")] {let item=NSMenuItem(title:title,action:#selector(promote(_:)),keyEquivalent:"");item.target=self;item.representedObject=[from,sq,piece];menu.addItem(item)};menu.popUp(positioning:nil,at:board.squareRect(sq).origin,in:board);return}}
+        if let from=s.selected,s.inspection?.legalNow==true,s.destinations.contains(sq),(s.presentationHidden || s.preview==nil && s.demonstration==nil) {let promotion=s.rules.moves(from).contains{$0.to==sq && $0.promotion != nil};if promotion {let menu=NSMenu();for (title,piece) in [("Queen","q"),("Rook","r"),("Bishop","b"),("Knight","n")] {let item=NSMenuItem(title:ChineseText.text(title),action:#selector(promote(_:)),keyEquivalent:"");item.target=self;item.representedObject=[from,sq,piece];menu.addItem(item)};menu.popUp(positioning:nil,at:board.squareRect(sq).origin,in:board);return}}
         do{try s.select(sq)}catch{showError(String(describing:error))}
     }else{model.learning.click(sq)};refresh()}
     @objc func promoteReview(_ item:NSMenuItem){guard let values=item.representedObject as? [String] else{return};try? model.review.selectSquare(values[0],promotion:values[1]);refresh()}
@@ -168,20 +172,20 @@ final class BoardTitleView:NSView {
         board.isHidden=library || titlecard;puzzles.isHidden = !library;welcome.isHidden = !titlecard
         if titlecard {welcome.rootView=WelcomeContent(title:l.library.stepTitles[l.lessonIndex][l.step],goals:l.current.teaches ?? [])}
         titleView.label.stringValue=s.mode == .practice ? "Practice · \(s.humanSide=="b" ? "Black":"White") vs Stockfish":s.mode == .puzzles ? "Quick puzzles":l.mini ? l.miniKind.title:l.current.title
-        let temporary=s.preview != nil || s.demonstration != nil;titleView.label.isHidden=temporary;titleView.tabs.isHidden = !temporary;titleView.tabs.setLabel(s.demonstration != nil ? "Demonstration":"Try a move",forSegment:1);titleView.tabs.selectedSegment=s.presentationHidden ? 0:1;titleView.needsLayout=true
+        let temporary=s.preview != nil || s.demonstration != nil;titleView.label.isHidden=temporary;titleView.tabs.isHidden = !temporary;titleView.tabs.setLabel(ChineseText.text(s.demonstration != nil ? "Demonstration":"Try a move"),forSegment:1);titleView.tabs.selectedSegment=s.presentationHidden ? 0:1;titleView.needsLayout=true
     }
     func validateMenuItem(_ item:NSMenuItem)->Bool {if [#selector(showProtection),#selector(showAttacks),#selector(dismissInspection)].contains(item.action){if item.action == #selector(dismissInspection){return relationships.mode != nil};item.state=(item.action == #selector(showProtection) && relationships.mode == .protected || item.action == #selector(showAttacks) && relationships.mode == .attacked) ? .on:.off;return board.selected.flatMap{board.position[$0]} != nil && !board.isHidden};guard [#selector(newGame),#selector(undo),#selector(restorePrevious)].contains(item.action) else{return true};guard !model.review.active,!model.reviewWorkspace,model.session.mode == .practice else{return false};if item.action == #selector(undo){return !model.session.rules.history.isEmpty};if item.action == #selector(restorePrevious){return !model.session.state.practice.previousGame.isEmpty};return true}
     @objc func newGame(){
         guard !model.review.active,!model.reviewWorkspace else{return}
         if model.learning.mini,model.session.mode == .lesson {
             if model.learning.miniGame?.history.isEmpty != false{model.learning.restartMini();return}
-            let alert=NSAlert();alert.messageText="Start a new \(model.learning.miniKind.title) game?";alert.informativeText="This replaces the current mini-game.";alert.addButton(withTitle:"New Game");alert.addButton(withTitle:"Cancel");alert.beginSheetModal(for:window!){[weak self] response in if response == .alertFirstButtonReturn{self?.model.learning.restartMini()}};return
+            let alert=ChineseAlert();alert.messageText="Start a new \(model.learning.miniKind.title) game?";alert.informativeText="This replaces the current mini-game.";alert.addButton(withTitle:ChineseText.text("New Game"));alert.addButton(withTitle:ChineseText.text("Cancel"));alert.beginSheetModal(for:window!){[weak self] response in if response == .alertFirstButtonReturn{self?.model.learning.restartMini()}};return
         }
-        guard model.session.mode == .practice else{return};let a=NSAlert();a.messageText="Start a new game?";a.informativeText="Your current game will be available under Restore Previous Game.";a.addButton(withTitle:"New Game");a.addButton(withTitle:"Cancel");a.beginSheetModal(for:window!){r in if r == .alertFirstButtonReturn{self.board.cancelAnimation();self.model.session.newGame()}}}
+        guard model.session.mode == .practice else{return};let a=ChineseAlert();a.messageText="Start a new game?";a.informativeText="Your current game will be available under Restore Previous Game.";a.addButton(withTitle:ChineseText.text("New Game"));a.addButton(withTitle:ChineseText.text("Cancel"));a.beginSheetModal(for:window!){r in if r == .alertFirstButtonReturn{self.board.cancelAnimation();self.model.session.newGame()}}}
     @objc func showSettings(){if settings==nil{settings=SettingsWindow(model:model)};settings?.showWindow(nil);settings?.window?.makeKeyAndOrderFront(nil)}
     @objc func undo(){guard !model.review.active,!model.reviewWorkspace else{return};board.cancelAnimation();if model.learning.mini,model.session.mode == .lesson{model.learning.undoMini()}else{model.session.undo()}}
     @objc func restorePrevious(){guard !model.review.active,!model.reviewWorkspace else{return};try? model.session.restorePrevious()}
-    func showError(_ message:String){let alert=NSAlert();alert.messageText=message;alert.beginSheetModal(for:window!)}
+    func showError(_ message:String){let alert=ChineseAlert();alert.messageText=message;alert.beginSheetModal(for:window!)}
     func windowWillResize(_ sender:NSWindow,to frameSize:NSSize)->NSSize {if sender.inLiveResize && !animating && !fullscreen && !fullscreenTransition{fixedBoardWidth?.constant=max(Metrics.minimum,frameSize.width-(sidebarItem.isCollapsed ? 0:leftExtent)-(inspectorItem.isCollapsed ? 0:rightExtent))};return sender.inLiveResize && sidebarItem.isCollapsed && inspectorItem.isCollapsed && !fullscreen && !fullscreenTransition && !animating ? NSSize(width:frameSize.width,height:frameSize.width):frameSize}
     func window(_ window:NSWindow,willUseFullScreenContentSize proposedSize:NSSize)->NSSize {window.screen?.frame.size ?? proposedSize}
     func windowWillEnterFullScreen(_ notification:Notification){(window as? BoardWindow)?.drawerOrigins=nil;(window as? BoardWindow)?.drawerViewport=nil;if NativePolicy.silent{print("fullscreen: will enter")};guard let window=window else{return};fullscreenTransition=true;fullscreen=true;normalCoreFrame=coreFrame;fixedBoardWidth?.isActive=false;if let screen=window.screen{fixedBoardWidth?.constant=screen.frame.width-(sidebarItem.isCollapsed ? 0:leftExtent)-(inspectorItem.isCollapsed ? 0:rightExtent);fixedBoardWidth?.isActive=true;fullscreenWidth=split.view.widthAnchor.constraint(equalToConstant:screen.frame.width);fullscreenWidth?.isActive=true;sidebarItem.preferredThicknessFraction=Metrics.left/screen.frame.width;inspectorItem.preferredThicknessFraction=Metrics.right/screen.frame.width};sidebarItem.collapseBehavior = .preferResizingSiblingsWithFixedSplitView;inspectorItem.collapseBehavior = .preferResizingSiblingsWithFixedSplitView}

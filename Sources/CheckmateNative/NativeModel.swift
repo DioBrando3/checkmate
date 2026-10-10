@@ -29,6 +29,7 @@ import CheckmateCore
     private static let progressSaveFailure="Your progress could not be saved. Export it before quitting."
     private var shuttingDown=false
     private var connectionStartup:ConnectionStartup?
+    var onPieceGuide:(()->Void)?
     var onReview:(()->Void)?
     @Published var storageError:String?
     var onImport:(()->Void)?
@@ -69,6 +70,7 @@ import CheckmateCore
     }
     func startConnections(){
         guard connectionStartup==nil,!NativePolicy.silent else{return}
+        if ChineseEdition.enabled,!session.state.settings.voiceAutoConnect,!session.state.settings.companionAutoStart{return}
         let activity=activityGeneration,voiceGeneration=voice.connectionGeneration,brokerGeneration=companion.connectionGeneration
         connectionStartup=ConnectionStartup(
             settings:{[weak self] in self?.session.state.settings ?? AppSettings()},
@@ -105,19 +107,19 @@ import CheckmateCore
             do {
                 let archive=try Data(contentsOf:url);var state=self.session.state
                 let report=try LegacyImporter.apply(archive,to:&state,course:self.learning.library)
-                let alert=NSAlert()
+                let alert=ChineseAlert()
                 if report.duplicate {alert.messageText="Already imported";alert.informativeText=report.summary;alert.runModal();return}
                 alert.messageText="Import game and progress?"
                 alert.informativeText=report.summary+" A separate copy of your current state will be kept in Backups."
-                let text=NSTextView(frame:NSRect(x:0,y:0,width:480,height:180));text.string=report.details;text.isEditable=false;text.isSelectable=true;text.font = .systemFont(ofSize:NSFont.systemFontSize);text.textContainerInset=NSSize(width:8,height:8);text.setAccessibilityLabel("Import recovery report")
+                let text=NSTextView(frame:NSRect(x:0,y:0,width:480,height:180));text.string=report.details;text.isEditable=false;text.isSelectable=true;text.font = .systemFont(ofSize:NSFont.systemFontSize);text.textContainerInset=NSSize(width:8,height:8);text.setAccessibilityLabel(ChineseText.text("Import recovery report"))
                 let scroll=NSScrollView(frame:text.frame);scroll.hasVerticalScroller=true;scroll.borderType = .noBorder;scroll.documentView=text;alert.accessoryView=scroll
-                alert.addButton(withTitle:"Import");alert.addButton(withTitle:"Cancel")
+                alert.addButton(withTitle:ChineseText.text("Import"));alert.addButton(withTitle:ChineseText.text("Cancel"))
                 guard alert.runModal() == .alertFirstButtonReturn else{return}
                 state=self.session.state
                 let finalReport=try LegacyImporter.apply(archive,to:&state,course:self.learning.library)
                 if finalReport.duplicate{return}
                 let backup=try self.installImport(state)
-                let result=NSAlert();result.messageText="Progress imported";result.informativeText=finalReport.summary;result.addButton(withTitle:"Done");result.addButton(withTitle:"Show Backup")
+                let result=ChineseAlert();result.messageText="Progress imported";result.informativeText=finalReport.summary;result.addButton(withTitle:ChineseText.text("Done"));result.addButton(withTitle:ChineseText.text("Show Backup"))
                 if result.runModal() == .alertSecondButtonReturn {NSWorkspace.shared.activateFileViewerSelecting([backup])}
             }catch {self.storageError=userFacingMessage(error,fallback:"The progress file could not be imported. Your current progress is unchanged.")}
         }
@@ -179,10 +181,10 @@ import CheckmateCore
     }
     func requestDeleteReview(_ id:UUID){
         guard deletingReviewID==nil,let record=reviews.first(where:{$0.id==id}) else{return}
-        let alert=NSAlert();alert.messageText="Delete “\(record.title)”?"
+        let alert=ChineseAlert();alert.messageText="Delete “\(record.title)”?"
         alert.informativeText="This removes the saved review and its imagined lines. Your current game and the original imported file are kept."
-        let delete=alert.addButton(withTitle:"Delete");delete.keyEquivalent=""
-        let cancel=alert.addButton(withTitle:"Cancel");cancel.keyEquivalent="\r"
+        let delete=alert.addButton(withTitle:ChineseText.text("Delete"));delete.keyEquivalent=""
+        let cancel=alert.addButton(withTitle:ChineseText.text("Cancel"));cancel.keyEquivalent="\r"
         alert.window.defaultButtonCell=cancel.cell as? NSButtonCell
         if let window=NSApp.mainWindow{alert.beginSheetModal(for:window){[weak self] response in if response == .alertFirstButtonReturn{self?.deleteReview(id)}}}
         else if alert.runModal() == .alertFirstButtonReturn{deleteReview(id)}
@@ -207,7 +209,7 @@ import CheckmateCore
         }
     }
     func reviewCurrent(previous:Bool=false){do{let data=previous ? try ReviewRecordSource.data(previousGame:session.state.practice.previousGame):try ReviewRecordSource.data(session.rules);openReview(try PGNImporter.parse(data,provenance:previous ? "Previous game":"Current game")[0],draft:true)}catch{storageError=userFacingMessage(error,fallback:"This game could not be opened for review. Your practice is unchanged.")}}
-    func importReviewData(_ data:Data){reviewOpenGeneration+=1;cancelReviewImport();cancelReviewImport();let token=ReviewImportCancellation();reviewImportCancellation=token;importingReview=true;let delay=NativePolicy.silent ? min(2000,max(0,automationReviewImportDelayMs)):0;reviewImportTask=Task{do{if delay>0{try await Task.sleep(for:.milliseconds(delay))};let documents=try await withTaskCancellationHandler(operation:{try await Task.detached{try PGNImporter.parse(data,cancelled:{token.cancelled || Task.isCancelled})}.value},onCancel:{token.cancel()});guard !Task.isCancelled else{return};importingReview=false;guard !documents.isEmpty else{throw CheckmateError.invalid("No games found in this record.")};if documents.count==1{openReview(documents[0],draft:true)}else{let alert=NSAlert();alert.messageText="Choose a game to review";let picker=NSPopUpButton(frame:NSRect(x:0,y:0,width:440,height:28));picker.setAccessibilityLabel("Game to review");for (recordIndex,d) in documents.enumerated(){let label="\(recordIndex+1). \(d.header("White") ?? "White") – \(d.header("Black") ?? "Black") · \(d.result) · \(d.header("Date") ?? "Unknown date")";picker.addItem(withTitle:String(label.prefix(256)))};alert.accessoryView=picker;alert.addButton(withTitle:"Review");alert.addButton(withTitle:"Cancel")
+    func importReviewData(_ data:Data){reviewOpenGeneration+=1;cancelReviewImport();cancelReviewImport();let token=ReviewImportCancellation();reviewImportCancellation=token;importingReview=true;let delay=NativePolicy.silent ? min(2000,max(0,automationReviewImportDelayMs)):0;reviewImportTask=Task{do{if delay>0{try await Task.sleep(for:.milliseconds(delay))};let documents=try await withTaskCancellationHandler(operation:{try await Task.detached{try PGNImporter.parse(data,cancelled:{token.cancelled || Task.isCancelled})}.value},onCancel:{token.cancel()});guard !Task.isCancelled else{return};importingReview=false;guard !documents.isEmpty else{throw CheckmateError.invalid("No games found in this record.")};if documents.count==1{openReview(documents[0],draft:true)}else{let alert=ChineseAlert();alert.messageText="Choose a game to review";let picker=NSPopUpButton(frame:NSRect(x:0,y:0,width:440,height:28));picker.setAccessibilityLabel(ChineseText.text("Game to review"));for (recordIndex,d) in documents.enumerated(){let label="\(recordIndex+1). \(d.header("White") ?? "White") – \(d.header("Black") ?? "Black") · \(d.result) · \(d.header("Date") ?? "Unknown date")";picker.addItem(withTitle:ChineseText.text(String(label.prefix(256))))};alert.accessoryView=picker;alert.addButton(withTitle:ChineseText.text("Review"));alert.addButton(withTitle:ChineseText.text("Cancel"))
                 // Main-actor work (MCP, saved loads, timers) can run during the modal loop; a choice made
                 // after another activity was selected must not replace it.
                 let chooserGeneration=reviewOpenGeneration;let response=alert.runModal()
@@ -219,7 +221,7 @@ import CheckmateCore
     func exportReview(){
         guard let d=review.document else{return};let branches=review.branchesForSaving
         let panel=NSSavePanel();panel.nameFieldStringValue=Self.exportName(d,ideas:false)
-        let choice=NSPopUpButton(frame:NSRect(x:0,y:0,width:260,height:28));choice.addItems(withTitles:["Original record","Original and my imagined lines"]);choice.setAccessibilityLabel("Export contents")
+        let choice=NSPopUpButton(frame:NSRect(x:0,y:0,width:260,height:28));choice.addItems(withTitles:["Original record","Original and my imagined lines"]);choice.setAccessibilityLabel(ChineseText.text("Export contents"))
         // A FEN-only original exports as FEN; adding ideas always produces PGN records.
         let naming=ExportNaming(panel:panel,document:d);choice.target=naming;choice.action=#selector(ExportNaming.choiceChanged(_:))
         if branches.contains(where:{!$0.moves.isEmpty}){panel.accessoryView=choice}
