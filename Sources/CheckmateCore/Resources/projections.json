@@ -439,7 +439,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "intro",
       "title": "Introduction",
       "step": 17,
@@ -479,106 +479,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Can you find the white king? Click it on the board."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "intro",
       "title": "Introduction",
       "step": 18,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "quiz",
-      "lessonId": "intro",
-      "title": "Introduction",
-      "step": 19,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "The king is attacked, and there's no way to make it safe. What do we call that? Choose an answer.",
-      "choices": [
-        "Check",
-        "Checkmate",
-        "A draw"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "intro",
-      "title": "Introduction",
-      "step": 20,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -588,7 +495,7 @@
       "mode": "lesson",
       "lessonId": "intro",
       "title": "Introduction",
-      "step": 21,
+      "step": 19,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -781,20 +688,14 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "battlefield",
       "title": "The Battlefield",
       "step": 18,
       "pieces": {},
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "What is the marked square's name? Find its letter and number, then choose an answer.",
-      "choices": [
-        "g2",
-        "b7",
-        "g7"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -807,27 +708,87 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "battlefield",
       "title": "The Battlefield",
       "step": 20,
-      "pieces": {},
+      "pieces": {
+        "a1": "wr",
+        "b1": "wn",
+        "c1": "wb",
+        "d1": "wq",
+        "e1": "wk",
+        "f1": "wb",
+        "g1": "wn",
+        "h1": "wr",
+        "a2": "wp",
+        "b2": "wp",
+        "c2": "wp",
+        "d2": "wp",
+        "e2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp",
+        "a7": "bp",
+        "b7": "bp",
+        "c7": "bp",
+        "d7": "bp",
+        "e7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "h7": "bp",
+        "a8": "br",
+        "b8": "bn",
+        "c8": "bb",
+        "d8": "bq",
+        "e8": "bk",
+        "f8": "bb",
+        "g8": "bn",
+        "h8": "br"
+      },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Is the marked line a file, a rank, or a diagonal? Choose an answer.",
-      "choices": [
-        "File",
-        "Rank",
-        "Diagonal"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "battlefield",
       "title": "The Battlefield",
       "step": 21,
-      "pieces": {},
+      "pieces": {
+        "a1": "wr",
+        "b1": "wn",
+        "c1": "wb",
+        "d1": "wq",
+        "e1": "wk",
+        "f1": "wb",
+        "g1": "wn",
+        "h1": "wr",
+        "a2": "wp",
+        "b2": "wp",
+        "c2": "wp",
+        "d2": "wp",
+        "e2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp",
+        "a7": "bp",
+        "b7": "bp",
+        "c7": "bp",
+        "d7": "bp",
+        "e7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "h7": "bp",
+        "a8": "br",
+        "b8": "bn",
+        "c8": "bb",
+        "d8": "bq",
+        "e8": "bk",
+        "f8": "bb",
+        "g8": "bn",
+        "h8": "br"
+      },
       "playing": false,
       "narrationActive": false,
       "moving": false
@@ -837,92 +798,6 @@
       "lessonId": "battlefield",
       "title": "The Battlefield",
       "step": 22,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "battlefield",
-      "title": "The Battlefield",
-      "step": 23,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "battlefield",
-      "title": "The Battlefield",
-      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -1270,7 +1145,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pawn",
       "title": "The Pawn",
       "step": 22,
@@ -1279,8 +1154,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "This pawn hasn't moved yet. Select both squares it can move to, then check your answer."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -1288,14 +1162,16 @@
       "title": "The Pawn",
       "step": 23,
       "pieces": {
-        "c2": "wp"
+        "e4": "wp",
+        "e5": "bp",
+        "f5": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pawn",
       "title": "The Pawn",
       "step": 24,
@@ -1306,42 +1182,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which black pawn can White capture? Select that pawn."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "pawn",
       "title": "The Pawn",
       "step": 25,
-      "pieces": {
-        "e4": "wp",
-        "e5": "bp",
-        "f5": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pawn",
-      "title": "The Pawn",
-      "step": 26,
-      "pieces": {
-        "e4": "wp",
-        "e5": "bp",
-        "f5": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pawn",
-      "title": "The Pawn",
-      "step": 27,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -1665,7 +1512,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pawn-wars",
       "title": "Pawn Wars",
       "step": 19,
@@ -1675,8 +1522,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "White can capture Black's last pawn. Make that winning move."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -1697,15 +1543,15 @@
       "title": "Pawn Wars",
       "step": 21,
       "pieces": {
-        "d5": "wp",
-        "e6": "bp"
+        "a4": "wp",
+        "h3": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pawn-wars",
       "title": "Pawn Wars",
       "step": 22,
@@ -1715,44 +1561,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Who wins this race? White moves first. Count how many moves each pawn needs, then choose an answer.",
-      "choices": [
-        "White",
-        "Black"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "pawn-wars",
       "title": "Pawn Wars",
       "step": 23,
-      "pieces": {
-        "a4": "wp",
-        "h3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pawn-wars",
-      "title": "Pawn Wars",
-      "step": 24,
-      "pieces": {
-        "a4": "wp",
-        "h3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pawn-wars",
-      "title": "Pawn Wars",
-      "step": 25,
       "pieces": {
         "h2": "bp",
         "a6": "wp"
@@ -1765,7 +1580,7 @@
       "mode": "lesson",
       "lessonId": "pawn-wars",
       "title": "Pawn Wars",
-      "step": 26,
+      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -1944,7 +1759,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "rook",
       "title": "The Rook",
       "step": 14,
@@ -1956,8 +1771,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Select all the black pawns this rook can capture, then check your answer."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -1980,49 +1794,19 @@
       "title": "The Rook",
       "step": 16,
       "pieces": {
-        "a2": "wr",
-        "a6": "bp",
-        "c4": "bp",
-        "e2": "bp"
+        "e2": "wr",
+        "e5": "wp",
+        "e7": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "rook",
       "title": "The Rook",
       "step": 17,
-      "pieces": {
-        "e2": "wr",
-        "e5": "wp",
-        "e7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Which pieces can this rook capture now? Select them, or choose No squares if none can be captured."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "rook",
-      "title": "The Rook",
-      "step": 18,
-      "pieces": {
-        "e2": "wr",
-        "e5": "wp",
-        "e7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "rook",
-      "title": "The Rook",
-      "step": 19,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -2491,7 +2275,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "rampant-rooks",
       "title": "Rampant Rooks",
       "step": 22,
@@ -2507,8 +2291,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "In Pawn Hunt, which pawns can this rook capture? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -2516,51 +2299,18 @@
       "title": "Rampant Rooks",
       "step": 23,
       "pieces": {
-        "a1": "wr",
-        "b3": "wp",
-        "e7": "wp",
-        "g5": "wp",
-        "a5": "bp",
-        "d4": "bp",
-        "f1": "bp",
-        "h8": "br"
+        "g8": "wp",
+        "b1": "br"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "rampant-rooks",
       "title": "Rampant Rooks",
       "step": 24,
-      "pieces": {
-        "g8": "wp",
-        "b1": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "In Rooks and Pawns, can Black capture the pawn that just reached the end? Select any available capture, or choose No squares."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "rampant-rooks",
-      "title": "Rampant Rooks",
-      "step": 25,
-      "pieces": {
-        "g8": "wp",
-        "b1": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "rampant-rooks",
-      "title": "Rampant Rooks",
-      "step": 26,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -2795,7 +2545,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "bishop",
       "title": "The Bishop",
       "step": 18,
@@ -2806,8 +2556,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which pawn can this bishop capture? Select it on the board."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -2829,50 +2578,18 @@
       "title": "The Bishop",
       "step": 20,
       "pieces": {
-        "f1": "wb",
-        "b5": "bp",
-        "f4": "bp"
+        "c1": "wb",
+        "h3": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "bishop",
       "title": "The Bishop",
       "step": 21,
-      "pieces": {
-        "c1": "wb",
-        "h3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Could this bishop ever capture the pawn if it stays on that light square? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "bishop",
-      "title": "The Bishop",
-      "step": 22,
-      "pieces": {
-        "c1": "wb",
-        "h3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "bishop",
-      "title": "The Bishop",
-      "step": 23,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -3130,7 +2847,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "busy-bishops",
       "title": "Busy Bishops",
       "step": 12,
@@ -3158,8 +2875,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which black pawns can White's bishops capture now? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -3197,37 +2913,6 @@
       "lessonId": "busy-bishops",
       "title": "Busy Bishops",
       "step": 14,
-      "pieces": {
-        "c1": "wb",
-        "f1": "wb",
-        "c8": "bb",
-        "f8": "bb",
-        "b2": "wp",
-        "g2": "wp",
-        "a3": "wp",
-        "d3": "wp",
-        "f4": "wp",
-        "c5": "wp",
-        "e5": "wp",
-        "g6": "wp",
-        "e3": "bp",
-        "a4": "bp",
-        "h4": "bp",
-        "d5": "bp",
-        "f5": "bp",
-        "b6": "bp",
-        "e7": "bp",
-        "h7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "busy-bishops",
-      "title": "Busy Bishops",
-      "step": 15,
       "pieces": {
         "f1": "wb",
         "c8": "bb",
@@ -3257,6 +2942,37 @@
       "mode": "lesson",
       "lessonId": "busy-bishops",
       "title": "Busy Bishops",
+      "step": 15,
+      "pieces": {
+        "c1": "wb",
+        "f1": "wb",
+        "c8": "bb",
+        "f8": "bb",
+        "a2": "wp",
+        "b2": "wp",
+        "c2": "wp",
+        "d2": "wp",
+        "e2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp",
+        "a7": "bp",
+        "b7": "bp",
+        "c7": "bp",
+        "d7": "bp",
+        "e7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "h7": "bp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "busy-bishops",
+      "title": "Busy Bishops",
       "step": 16,
       "pieces": {
         "c1": "wb",
@@ -3360,7 +3076,6 @@
         "b2": "wp",
         "c2": "wp",
         "d2": "wp",
-        "e2": "wp",
         "f2": "wp",
         "g2": "wp",
         "h2": "wp",
@@ -3371,7 +3086,8 @@
         "e7": "bp",
         "f7": "bp",
         "g7": "bp",
-        "h7": "bp"
+        "h7": "bp",
+        "e3": "wp"
       },
       "playing": false,
       "narrationActive": false,
@@ -3428,37 +3144,6 @@
         "a7": "bp",
         "b7": "bp",
         "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "e3": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "busy-bishops",
-      "title": "Busy Bishops",
-      "step": 22,
-      "pieces": {
-        "c1": "wb",
-        "f1": "wb",
-        "c8": "bb",
-        "f8": "bb",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
         "e7": "bp",
         "f7": "bp",
         "g7": "bp",
@@ -3471,7 +3156,22 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
+      "lessonId": "busy-bishops",
+      "title": "Busy Bishops",
+      "step": 22,
+      "pieces": {
+        "d2": "wb",
+        "a5": "bp",
+        "d5": "bp",
+        "g5": "bp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
       "lessonId": "busy-bishops",
       "title": "Busy Bishops",
       "step": 23,
@@ -3483,44 +3183,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which pawns can this bishop capture? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "busy-bishops",
       "title": "Busy Bishops",
       "step": 24,
-      "pieces": {
-        "d2": "wb",
-        "a5": "bp",
-        "d5": "bp",
-        "g5": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "busy-bishops",
-      "title": "Busy Bishops",
-      "step": 25,
-      "pieces": {
-        "d2": "wb",
-        "a5": "bp",
-        "d5": "bp",
-        "g5": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "busy-bishops",
-      "title": "Busy Bishops",
-      "step": 26,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -3699,7 +3368,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "queen",
       "title": "The Queen",
       "step": 14,
@@ -3712,8 +3381,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which black piece is safe from this queen? Select that piece."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -3721,18 +3389,17 @@
       "title": "The Queen",
       "step": 15,
       "pieces": {
-        "c2": "wq",
-        "c7": "bp",
-        "f5": "bp",
-        "h2": "bp",
-        "e5": "bn"
+        "a1": "wq",
+        "a4": "wp",
+        "a7": "br",
+        "h8": "bb"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "queen",
       "title": "The Queen",
       "step": 16,
@@ -3744,44 +3411,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which pieces can the queen capture now? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "queen",
       "title": "The Queen",
       "step": 17,
-      "pieces": {
-        "a1": "wq",
-        "a4": "wp",
-        "a7": "br",
-        "h8": "bb"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "queen",
-      "title": "The Queen",
-      "step": 18,
-      "pieces": {
-        "a1": "wq",
-        "a4": "wp",
-        "a7": "br",
-        "h8": "bb"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "queen",
-      "title": "The Queen",
-      "step": 19,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -4033,7 +3669,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "quirky-queens",
       "title": "Quirky Queens",
       "step": 15,
@@ -4045,8 +3681,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "One of these captures loses the queen. Make the capture that keeps it safe."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -4084,17 +3719,15 @@
       "title": "Quirky Queens",
       "step": 18,
       "pieces": {
-        "d6": "bq",
-        "b4": "wp",
-        "a3": "wp",
-        "g6": "wp"
+        "b1": "bq",
+        "h7": "wp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "quirky-queens",
       "title": "Quirky Queens",
       "step": 19,
@@ -4104,40 +3737,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Black to move. Which pawns can the queen capture now? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "quirky-queens",
       "title": "Quirky Queens",
       "step": 20,
-      "pieces": {
-        "b1": "bq",
-        "h7": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "quirky-queens",
-      "title": "Quirky Queens",
-      "step": 21,
-      "pieces": {
-        "b1": "bq",
-        "h7": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "quirky-queens",
-      "title": "Quirky Queens",
-      "step": 22,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -4424,7 +4030,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "knight",
       "title": "The Knight",
       "step": 19,
@@ -4437,8 +4043,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which white pieces can this black knight capture? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -4462,46 +4067,17 @@
       "title": "The Knight",
       "step": 21,
       "pieces": {
-        "e4": "bn",
-        "d6": "wr",
-        "g5": "wr",
-        "e5": "wb",
-        "e3": "wp"
+        "a1": "wn"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "knight",
       "title": "The Knight",
       "step": 22,
-      "pieces": {
-        "a1": "wn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Select all the squares this knight can move to from the corner."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "knight",
-      "title": "The Knight",
-      "step": 23,
-      "pieces": {
-        "a1": "wn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "knight",
-      "title": "The Knight",
-      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -4715,7 +4291,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "hungry-horses",
       "title": "Hungry Horses",
       "step": 6,
@@ -4751,8 +4327,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "White moves first. Select all the pieces its knight can capture now."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -4802,12 +4377,11 @@
         "a8": "br",
         "c8": "bb",
         "d8": "bq",
-        "e8": "wn",
         "f8": "bb",
         "h8": "br",
         "a7": "bp",
         "b7": "bp",
-        "c7": "bp",
+        "c7": "wn",
         "d7": "bp",
         "e7": "bp",
         "f7": "bp",
@@ -4853,7 +4427,7 @@
         "h7": "bp",
         "a2": "wp",
         "b2": "wp",
-        "c2": "wp",
+        "c2": "bn",
         "d2": "wp",
         "e2": "wp",
         "f2": "wp",
@@ -4862,7 +4436,6 @@
         "a1": "wr",
         "c1": "wb",
         "d1": "wq",
-        "e1": "bn",
         "f1": "wb",
         "h1": "wr"
       },
@@ -4912,43 +4485,6 @@
       "lessonId": "hungry-horses",
       "title": "Hungry Horses",
       "step": 11,
-      "pieces": {
-        "a8": "br",
-        "c8": "bb",
-        "d8": "bq",
-        "f8": "bb",
-        "h8": "br",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "wn",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "bn",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a1": "wr",
-        "c1": "wb",
-        "d1": "wq",
-        "f1": "wb",
-        "h1": "wr"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "hungry-horses",
-      "title": "Hungry Horses",
-      "step": 12,
       "pieces": {
         "a8": "wn",
         "c8": "bb",
@@ -4984,6 +4520,22 @@
       "mode": "lesson",
       "lessonId": "hungry-horses",
       "title": "Hungry Horses",
+      "step": 12,
+      "pieces": {
+        "a1": "wn",
+        "c3": "bp",
+        "f3": "bp",
+        "c6": "bp",
+        "f6": "bp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "hungry-horses",
+      "title": "Hungry Horses",
       "step": 13,
       "pieces": {
         "a1": "wn",
@@ -5082,22 +4634,6 @@
       "title": "Hungry Horses",
       "step": 19,
       "pieces": {
-        "a1": "wn",
-        "c3": "bp",
-        "f3": "bp",
-        "c6": "bp",
-        "f6": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "hungry-horses",
-      "title": "Hungry Horses",
-      "step": 20,
-      "pieces": {
         "c3": "bp",
         "f3": "bp",
         "c6": "bp",
@@ -5109,23 +4645,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "hungry-horses",
-      "title": "Hungry Horses",
-      "step": 21,
-      "pieces": {
-        "c6": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Which two squares does this black pawn attack? Select both."
-    },
-    {
       "mode": "lesson",
       "lessonId": "hungry-horses",
       "title": "Hungry Horses",
-      "step": 22,
+      "step": 20,
       "pieces": {
         "c6": "bp"
       },
@@ -5137,7 +4660,7 @@
       "mode": "lesson",
       "lessonId": "hungry-horses",
       "title": "Hungry Horses",
-      "step": 23,
+      "step": 21,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -5282,7 +4805,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "king",
       "title": "The King",
       "step": 11,
@@ -5293,8 +4816,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Select every square where this king can move safely."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -5316,9 +4838,8 @@
       "title": "The King",
       "step": 13,
       "pieces": {
-        "c4": "wk",
-        "b6": "bq",
-        "d7": "br"
+        "d4": "wk",
+        "d6": "bk"
       },
       "playing": false,
       "narrationActive": false,
@@ -5343,8 +4864,8 @@
       "title": "The King",
       "step": 15,
       "pieces": {
-        "d4": "wk",
-        "d6": "bk"
+        "d1": "wq",
+        "e1": "wk"
       },
       "playing": false,
       "narrationActive": false,
@@ -5356,76 +4877,31 @@
       "title": "The King",
       "step": 16,
       "pieces": {
-        "d1": "wq",
-        "e1": "wk"
+        "e1": "wk",
+        "a2": "br"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "king",
       "title": "The King",
       "step": 17,
       "pieces": {
-        "e1": "wk",
-        "a2": "br"
+        "e4": "wk",
+        "e6": "bk"
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which squares can this king move to safely? Select all of them."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "king",
       "title": "The King",
       "step": 18,
-      "pieces": {
-        "e1": "wk",
-        "a2": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "quiz",
-      "lessonId": "king",
-      "title": "The King",
-      "step": 19,
-      "pieces": {
-        "e4": "wk",
-        "e6": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Can White's king move to the marked square beside Black's king? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "king",
-      "title": "The King",
-      "step": 20,
-      "pieces": {
-        "e4": "wk",
-        "e6": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "king",
-      "title": "The King",
-      "step": 21,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -5611,7 +5087,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
       "step": 14,
@@ -5621,12 +5097,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "The rook attacks this row. May the king move onto the marked square? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -5647,8 +5118,18 @@
       "title": "Mine Alert",
       "step": 16,
       "pieces": {
-        "e4": "wk",
-        "a5": "br"
+        "b1": "wk",
+        "c7": "bk",
+        "a6": "bp",
+        "g6": "bn",
+        "e5": "bp",
+        "f5": "bp",
+        "g5": "bb",
+        "h5": "bb",
+        "a4": "br",
+        "b4": "bp",
+        "e4": "bp",
+        "d3": "bn"
       },
       "playing": false,
       "narrationActive": false,
@@ -5678,7 +5159,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
       "step": 18,
@@ -5698,60 +5179,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move the king towards e8, choosing one safe neighbouring square at a time."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
       "step": 19,
-      "pieces": {
-        "b1": "wk",
-        "c7": "bk",
-        "a6": "bp",
-        "g6": "bn",
-        "e5": "bp",
-        "f5": "bp",
-        "g5": "bb",
-        "h5": "bb",
-        "a4": "br",
-        "b4": "bp",
-        "e4": "bp",
-        "d3": "bn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "mine-alert",
-      "title": "Mine Alert",
-      "step": 20,
-      "pieces": {
-        "b1": "wk",
-        "c7": "bk",
-        "a6": "bp",
-        "g6": "bn",
-        "e5": "bp",
-        "f5": "bp",
-        "g5": "bb",
-        "h5": "bb",
-        "a4": "br",
-        "b4": "bp",
-        "e4": "bp",
-        "d3": "bn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "mine-alert",
-      "title": "Mine Alert",
-      "step": 21,
       "pieces": {
         "c7": "bk",
         "a6": "bp",
@@ -5774,7 +5208,7 @@
       "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
-      "step": 22,
+      "step": 20,
       "pieces": {
         "c7": "bk",
         "a6": "bp",
@@ -5797,7 +5231,7 @@
       "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
-      "step": 23,
+      "step": 21,
       "pieces": {
         "c7": "bk",
         "a6": "bp",
@@ -5820,7 +5254,7 @@
       "mode": "lesson",
       "lessonId": "mine-alert",
       "title": "Mine Alert",
-      "step": 24,
+      "step": 22,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -5931,25 +5365,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "catch-the-king",
-      "title": "Check and Checkmate",
-      "step": 8,
-      "pieces": {
-        "e4": "wp",
-        "d3": "wp",
-        "d5": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Can Black's king capture anything safely here? Select any available captures, or choose No squares."
-    },
-    {
       "mode": "lesson",
       "lessonId": "catch-the-king",
       "title": "Check and Checkmate",
-      "step": 9,
+      "step": 8,
       "pieces": {
         "e4": "wp",
         "d3": "wp",
@@ -5963,10 +5382,26 @@
       "mode": "lesson",
       "lessonId": "catch-the-king",
       "title": "Check and Checkmate",
-      "step": 10,
+      "step": 9,
       "pieces": {
         "e4": "wk",
         "e6": "bk"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "catch-the-king",
+      "title": "Check and Checkmate",
+      "step": 10,
+      "pieces": {
+        "b8": "wq",
+        "f8": "bk",
+        "g6": "wk",
+        "h2": "bb",
+        "e1": "br"
       },
       "playing": false,
       "narrationActive": false,
@@ -6105,13 +5540,7 @@
       "lessonId": "catch-the-king",
       "title": "Check and Checkmate",
       "step": 19,
-      "pieces": {
-        "b8": "wq",
-        "f8": "bk",
-        "g6": "wk",
-        "h2": "bb",
-        "e1": "br"
-      },
+      "pieces": null,
       "playing": false,
       "narrationActive": false,
       "moving": false
@@ -6121,7 +5550,11 @@
       "lessonId": "catch-the-king",
       "title": "Check and Checkmate",
       "step": 20,
-      "pieces": null,
+      "pieces": {
+        "a5": "bk",
+        "b5": "wq",
+        "c5": "wk"
+      },
       "playing": false,
       "narrationActive": false,
       "moving": false
@@ -6188,20 +5621,6 @@
       "title": "Check and Checkmate",
       "step": 25,
       "pieces": {
-        "a5": "bk",
-        "b5": "wq",
-        "c5": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "quiz",
-      "lessonId": "catch-the-king",
-      "title": "Check and Checkmate",
-      "step": 26,
-      "pieces": {
         "b8": "wq",
         "f8": "bk",
         "g6": "wk",
@@ -6210,13 +5629,21 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which three responses can get a king out of check? Choose an answer.",
-      "choices": [
-        "Avoid, block, capture",
-        "Jump, castle, pass",
-        "Trade, promote, draw"
-      ]
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "catch-the-king",
+      "title": "Check and Checkmate",
+      "step": 26,
+      "pieces": {
+        "a5": "bk",
+        "b5": "wq",
+        "h1": "wk"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -6224,70 +5651,19 @@
       "title": "Check and Checkmate",
       "step": 27,
       "pieces": {
-        "b8": "wq",
-        "f8": "bk",
-        "g6": "wk",
-        "h2": "bb",
-        "e1": "br"
+        "a5": "bk",
+        "b5": "wq",
+        "h1": "wk"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "catch-the-king",
       "title": "Check and Checkmate",
       "step": 28,
-      "pieces": {
-        "a5": "bk",
-        "b5": "wq",
-        "h1": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Look at this position. Is Black in check, checkmate, or stalemate? Choose an answer.",
-      "choices": [
-        "normal",
-        "check",
-        "checkmate",
-        "stalemate"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "catch-the-king",
-      "title": "Check and Checkmate",
-      "step": 29,
-      "pieces": {
-        "a5": "bk",
-        "b5": "wq",
-        "h1": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "catch-the-king",
-      "title": "Check and Checkmate",
-      "step": 30,
-      "pieces": {
-        "a5": "bk",
-        "b5": "wq",
-        "h1": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "catch-the-king",
-      "title": "Check and Checkmate",
-      "step": 31,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -6548,7 +5924,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "king-safety",
       "title": "Getting Your King Safe",
       "step": 18,
@@ -6558,8 +5934,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Select the square where White's king will land after castling."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -6581,6 +5956,7 @@
       "step": 20,
       "pieces": {
         "e1": "wk",
+        "g1": "wn",
         "h1": "wr"
       },
       "playing": false,
@@ -6588,7 +5964,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "king-safety",
       "title": "Getting Your King Safe",
       "step": 21,
@@ -6599,46 +5975,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Can White castle kingside in this position? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "king-safety",
       "title": "Getting Your King Safe",
       "step": 22,
-      "pieces": {
-        "e1": "wk",
-        "g1": "wn",
-        "h1": "wr"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "king-safety",
-      "title": "Getting Your King Safe",
-      "step": 23,
-      "pieces": {
-        "e1": "wk",
-        "g1": "wn",
-        "h1": "wr"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "king-safety",
-      "title": "Getting Your King Safe",
-      "step": 24,
       "pieces": {
         "e1": "wk",
         "h1": "wr",
@@ -6652,7 +5995,7 @@
       "mode": "lesson",
       "lessonId": "king-safety",
       "title": "Getting Your King Safe",
-      "step": 25,
+      "step": 23,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -6992,36 +6335,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "setting-up",
-      "title": "Setting Up the Board Correctly",
-      "step": 15,
-      "pieces": {
-        "a1": "wr",
-        "h1": "wr",
-        "a8": "br",
-        "h8": "br",
-        "b1": "wn",
-        "g1": "wn",
-        "b8": "bn",
-        "g8": "bn",
-        "c1": "wb",
-        "f1": "wb",
-        "c8": "bb",
-        "f8": "bb",
-        "e1": "wk",
-        "e8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Where does White's queen start? Select its square."
-    },
-    {
       "mode": "lesson",
       "lessonId": "setting-up",
       "title": "Setting Up the Board Correctly",
-      "step": 16,
+      "step": 15,
       "pieces": {
         "a1": "wr",
         "h1": "wr",
@@ -7046,7 +6363,7 @@
       "mode": "lesson",
       "lessonId": "setting-up",
       "title": "Setting Up the Board Correctly",
-      "step": 17,
+      "step": 16,
       "pieces": {
         "a1": "wr",
         "h1": "wr",
@@ -7070,26 +6387,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "setting-up",
-      "title": "Setting Up the Board Correctly",
-      "step": 18,
-      "pieces": {},
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Which reminder helps you face the board correctly? Choose an answer.",
-      "choices": [
-        "Light on the right",
-        "Dark on the right",
-        "Queen on the right"
-      ]
-    },
-    {
       "mode": "lesson",
       "lessonId": "setting-up",
       "title": "Setting Up the Board Correctly",
-      "step": 19,
+      "step": 17,
       "pieces": {},
       "playing": false,
       "narrationActive": false,
@@ -7099,7 +6400,7 @@
       "mode": "lesson",
       "lessonId": "setting-up",
       "title": "Setting Up the Board Correctly",
-      "step": 20,
+      "step": 18,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -7613,7 +6914,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "why-castle",
       "title": "Why We Should Castle",
       "step": 14,
@@ -7651,12 +6952,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which king is safer in this position? Choose an answer.",
-      "choices": [
-        "White",
-        "Black"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -7664,84 +6960,21 @@
       "title": "Why We Should Castle",
       "step": 15,
       "pieces": {
-        "a8": "br",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "h8": "br",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "c6": "bn",
-        "c5": "bb",
-        "d5": "bn",
-        "e5": "bp",
-        "c4": "wb",
-        "c3": "wp",
-        "f3": "wn",
-        "a2": "wp",
-        "b2": "wp",
-        "d2": "wp",
+        "g1": "wk",
+        "f1": "wr",
         "f2": "wp",
         "g2": "wp",
-        "h2": "wp",
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wr",
-        "g1": "wk"
+        "h2": "wp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "why-castle",
       "title": "Why We Should Castle",
       "step": 16,
-      "pieces": {
-        "g1": "wk",
-        "f1": "wr",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "How many pawns form White's king shelter? Choose an answer.",
-      "choices": [
-        "2",
-        "3",
-        "4"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "why-castle",
-      "title": "Why We Should Castle",
-      "step": 17,
-      "pieces": {
-        "g1": "wk",
-        "f1": "wr",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "why-castle",
-      "title": "Why We Should Castle",
-      "step": 18,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -8127,7 +7360,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "when-castle",
       "title": "When You Can or Can't Castle",
       "step": 14,
@@ -8138,12 +7371,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Can White castle kingside here? Look at the bishop's diagonal, then choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -8153,14 +7381,14 @@
       "pieces": {
         "e1": "wk",
         "h1": "wr",
-        "c4": "bb"
+        "d8": "br"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "when-castle",
       "title": "When You Can or Can't Castle",
       "step": 16,
@@ -8171,46 +7399,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Can White castle kingside in this position? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "when-castle",
       "title": "When You Can or Can't Castle",
       "step": 17,
-      "pieces": {
-        "e1": "wk",
-        "h1": "wr",
-        "d8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "when-castle",
-      "title": "When You Can or Can't Castle",
-      "step": 18,
-      "pieces": {
-        "e1": "wk",
-        "h1": "wr",
-        "d8": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "when-castle",
-      "title": "When You Can or Can't Castle",
-      "step": 19,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -8437,7 +7632,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pawn-magic",
       "title": "Pawn Magic",
       "step": 17,
@@ -8448,8 +7643,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Select the pawn that is one move away from promotion."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -8471,9 +7665,24 @@
       "title": "Pawn Magic",
       "step": 19,
       "pieces": {
-        "b7": "wp",
+        "e8": "bk",
+        "a7": "bp",
+        "e7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "b6": "bp",
+        "d6": "bp",
+        "h6": "bp",
+        "c5": "bp",
+        "d5": "wp",
+        "c4": "wp",
         "e4": "wp",
-        "h2": "wp"
+        "h4": "wp",
+        "b3": "wp",
+        "f3": "wp",
+        "g3": "wp",
+        "a2": "wp",
+        "e1": "wk"
       },
       "playing": false,
       "narrationActive": false,
@@ -8574,7 +7783,6 @@
       "pieces": {
         "e8": "bk",
         "a7": "bp",
-        "e7": "bp",
         "f7": "bp",
         "g7": "bp",
         "b6": "bp",
@@ -8589,7 +7797,8 @@
         "f3": "wp",
         "g3": "wp",
         "a2": "wp",
-        "e1": "wk"
+        "e1": "wk",
+        "e5": "bp"
       },
       "playing": false,
       "narrationActive": false,
@@ -8638,35 +7847,6 @@
         "d6": "bp",
         "h6": "bp",
         "c5": "bp",
-        "d5": "wp",
-        "c4": "wp",
-        "e4": "wp",
-        "h4": "wp",
-        "b3": "wp",
-        "f3": "wp",
-        "g3": "wp",
-        "a2": "wp",
-        "e1": "wk",
-        "e5": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pawn-magic",
-      "title": "Pawn Magic",
-      "step": 26,
-      "pieces": {
-        "e8": "bk",
-        "a7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "b6": "bp",
-        "d6": "bp",
-        "h6": "bp",
-        "c5": "bp",
         "c4": "wp",
         "e4": "wp",
         "h4": "wp",
@@ -8685,7 +7865,7 @@
       "mode": "lesson",
       "lessonId": "pawn-magic",
       "title": "Pawn Magic",
-      "step": 27,
+      "step": 26,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -8938,7 +8118,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "scoring-points",
       "title": "Scoring Points",
       "step": 17,
@@ -8949,13 +8129,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "You captured a queen; your friend captured a knight and a pawn. Who captured more material? Choose an answer.",
-      "choices": [
-        "You: the queen",
-        "Your friend: knight and pawn",
-        "The same"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -8963,55 +8137,20 @@
       "title": "Scoring Points",
       "step": 18,
       "pieces": {
-        "b6": "bq",
-        "e3": "wn",
-        "g3": "wp"
+        "c6": "br",
+        "e3": "bn",
+        "f3": "bp",
+        "g3": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "scoring-points",
       "title": "Scoring Points",
       "step": 19,
-      "pieces": {
-        "c6": "br",
-        "e3": "bn",
-        "f3": "bp",
-        "g3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Which group has the greater usual value: a rook, or a knight and two pawns? Choose an answer.",
-      "choices": [
-        "The rook",
-        "The knight and two pawns",
-        "The same"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "scoring-points",
-      "title": "Scoring Points",
-      "step": 20,
-      "pieces": {
-        "c6": "br",
-        "e3": "bn",
-        "f3": "bp",
-        "g3": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "scoring-points",
-      "title": "Scoring Points",
-      "step": 21,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -9459,7 +8598,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "playtime",
       "title": "Playtime",
       "step": 28,
@@ -9471,8 +8610,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Select the piece usually worth five points."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -9490,41 +8628,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "playtime",
       "title": "Playtime",
       "step": 30,
-      "pieces": {
-        "b4": "wn",
-        "d4": "wb",
-        "f4": "wr",
-        "h4": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Select the piece that can jump over others in an ordinary move."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "playtime",
-      "title": "Playtime",
-      "step": 31,
-      "pieces": {
-        "b4": "wn",
-        "d4": "wb",
-        "f4": "wr",
-        "h4": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "playtime",
-      "title": "Playtime",
-      "step": 32,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -9933,7 +9040,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "etiquette",
       "title": "Chess Etiquette",
       "step": 14,
@@ -9973,88 +9080,23 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "At a real board, you deliberately touched a knight that can move. What must you do? Choose an answer.",
-      "choices": [
-        "Move the knight",
-        "Move a pawn",
-        "Take the move back"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "etiquette",
       "title": "Chess Etiquette",
       "step": 15,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br"
-      },
+      "pieces": null,
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "etiquette",
       "title": "Chess Etiquette",
       "step": 16,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "You've lost an over-the-board game. Which response shows good sportsmanship? Choose an answer.",
-      "choices": [
-        "Shake hands and say well done",
-        "Refuse to shake hands",
-        "Blame your opponent"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "etiquette",
-      "title": "Chess Etiquette",
-      "step": 17,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "etiquette",
-      "title": "Chess Etiquette",
-      "step": 18,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -10283,7 +9325,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "ways-to-draw",
       "title": "Ways to Draw",
       "step": 17,
@@ -10294,14 +9336,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Black to move. Is this checkmate or stalemate? Check whether the king is attacked and whether Black has any legal move.",
-      "choices": [
-        "normal",
-        "check",
-        "checkmate",
-        "stalemate"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -10309,50 +9344,18 @@
       "title": "Ways to Draw",
       "step": 18,
       "pieces": {
-        "a8": "bk",
-        "c7": "wk",
-        "b6": "wq"
+        "d4": "wk",
+        "f7": "bk"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "ways-to-draw",
       "title": "Ways to Draw",
       "step": 19,
-      "pieces": {
-        "d4": "wk",
-        "f7": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Can either player win when only the two kings remain? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "ways-to-draw",
-      "title": "Ways to Draw",
-      "step": 20,
-      "pieces": {
-        "d4": "wk",
-        "f7": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "ways-to-draw",
-      "title": "Ways to Draw",
-      "step": 21,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -10485,7 +9488,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "tournaments",
       "title": "Chess Tournaments",
       "step": 8,
@@ -10502,34 +9505,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "White can checkmate in one move here. Make that move."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "tournaments",
-      "title": "Chess Tournaments",
-      "step": 9,
-      "pieces": {
-        "a1": "wr",
-        "g1": "wk",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "g8": "bk",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
       "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "tournaments",
       "title": "Chess Tournaments",
-      "step": 10,
+      "step": 9,
       "pieces": {
         "g1": "wk",
         "f2": "wp",
@@ -10546,10 +9528,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "tournaments",
       "title": "Chess Tournaments",
-      "step": 11,
+      "step": 10,
       "pieces": {
         "e1": "wk",
         "e2": "wp",
@@ -10560,27 +9542,24 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "You deliberately picked up a knight that has a legal move. What must you do? Choose an answer.",
-      "choices": [
-        "Move the knight",
-        "Move the pawn",
-        "Skip your turn"
-      ]
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "tournaments",
+      "title": "Chess Tournaments",
+      "step": 11,
+      "pieces": null,
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "tournaments",
       "title": "Chess Tournaments",
       "step": 12,
-      "pieces": {
-        "e1": "wk",
-        "e2": "wp",
-        "d1": "wq",
-        "b1": "wn",
-        "e8": "bk",
-        "d7": "bp"
-      },
+      "pieces": null,
       "playing": false,
       "narrationActive": false,
       "moving": false
@@ -10590,26 +9569,6 @@
       "lessonId": "tournaments",
       "title": "Chess Tournaments",
       "step": 13,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "tournaments",
-      "title": "Chess Tournaments",
-      "step": 14,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "tournaments",
-      "title": "Chess Tournaments",
-      "step": 15,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -10712,28 +9671,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "chess-language",
-      "title": "Chess Language",
-      "step": 9,
-      "pieces": {
-        "g6": "bq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Which square is Black's queen on? Choose its name.",
-      "choices": [
-        "g6",
-        "f7",
-        "g3"
-      ]
-    },
-    {
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 10,
+      "step": 9,
       "pieces": {
         "g6": "bq"
       },
@@ -10745,7 +9686,7 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 11,
+      "step": 10,
       "pieces": {
         "e1": "wk"
       },
@@ -10757,7 +9698,7 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 12,
+      "step": 11,
       "pieces": {
         "d1": "wq"
       },
@@ -10769,7 +9710,7 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 13,
+      "step": 12,
       "pieces": {
         "a1": "wr"
       },
@@ -10781,7 +9722,7 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 14,
+      "step": 13,
       "pieces": {
         "c1": "wb"
       },
@@ -10793,7 +9734,7 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
-      "step": 15,
+      "step": 14,
       "pieces": {
         "g1": "wn"
       },
@@ -10805,8 +9746,21 @@
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
+      "step": 15,
+      "pieces": {
+        "e2": "wp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "chess-language",
+      "title": "Chess Language",
       "step": 16,
       "pieces": {
+        "g1": "wn",
         "e2": "wp"
       },
       "playing": false,
@@ -10820,7 +9774,7 @@
       "step": 17,
       "pieces": {
         "g1": "wn",
-        "e2": "wp"
+        "e4": "wp"
       },
       "playing": false,
       "narrationActive": false,
@@ -10832,39 +9786,28 @@
       "title": "Chess Language",
       "step": 18,
       "pieces": {
-        "g1": "wn",
-        "e4": "wp"
+        "c4": "wb"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
       "step": 19,
-      "pieces": {
-        "c4": "wb"
-      },
+      "pieces": null,
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which notation names this bishop and its square? Choose an answer.",
-      "choices": [
-        "Bc4",
-        "Nc4",
-        "Bd4"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "chess-language",
       "title": "Chess Language",
       "step": 20,
-      "pieces": {
-        "c4": "wb"
-      },
+      "pieces": null,
       "playing": false,
       "narrationActive": false,
       "moving": false
@@ -10874,26 +9817,6 @@
       "lessonId": "chess-language",
       "title": "Chess Language",
       "step": 21,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "chess-language",
-      "title": "Chess Language",
-      "step": 22,
-      "pieces": null,
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "chess-language",
-      "title": "Chess Language",
-      "step": 23,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -11111,7 +10034,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "good-start",
       "title": "Getting Off to a Good Start",
       "step": 9,
@@ -11120,8 +10043,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move this knight towards the centre rather than the edge."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -11141,7 +10063,22 @@
       "title": "Getting Off to a Good Start",
       "step": 11,
       "pieces": {
-        "g1": "wn"
+        "a1": "wr",
+        "d1": "wq",
+        "e1": "wk",
+        "h1": "wr",
+        "a2": "wp",
+        "b2": "wp",
+        "c2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp",
+        "c3": "wn",
+        "f3": "wn",
+        "c4": "wb",
+        "d4": "wp",
+        "e4": "wp",
+        "f4": "wb"
       },
       "playing": false,
       "narrationActive": false,
@@ -11182,8 +10119,6 @@
       "pieces": {
         "a1": "wr",
         "d1": "wq",
-        "e1": "wk",
-        "h1": "wr",
         "a2": "wp",
         "b2": "wp",
         "c2": "wp",
@@ -11195,7 +10130,9 @@
         "c4": "wb",
         "d4": "wp",
         "e4": "wp",
-        "f4": "wb"
+        "f4": "wb",
+        "g1": "wk",
+        "f1": "wr"
       },
       "playing": false,
       "narrationActive": false,
@@ -11235,33 +10172,6 @@
       "step": 15,
       "pieces": {
         "a1": "wr",
-        "d1": "wq",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "c3": "wn",
-        "f3": "wn",
-        "c4": "wb",
-        "d4": "wp",
-        "e4": "wp",
-        "f4": "wb",
-        "g1": "wk",
-        "f1": "wr"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "good-start",
-      "title": "Getting Off to a Good Start",
-      "step": 16,
-      "pieces": {
-        "a1": "wr",
         "a2": "wp",
         "b2": "wp",
         "c2": "wp",
@@ -11286,7 +10196,7 @@
       "mode": "lesson",
       "lessonId": "good-start",
       "title": "Getting Off to a Good Start",
-      "step": 17,
+      "step": 16,
       "pieces": {
         "a2": "wp",
         "b2": "wp",
@@ -11313,14 +10223,41 @@
       "mode": "lesson",
       "lessonId": "good-start",
       "title": "Getting Off to a Good Start",
-      "step": 18,
+      "step": 17,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
+      "lessonId": "good-start",
+      "title": "Getting Off to a Good Start",
+      "step": 18,
+      "pieces": {
+        "a1": "wr",
+        "b1": "wn",
+        "c1": "wb",
+        "d1": "wq",
+        "e1": "wk",
+        "f1": "wb",
+        "g1": "wn",
+        "h1": "wr",
+        "a2": "wp",
+        "b2": "wp",
+        "c2": "wp",
+        "d2": "wp",
+        "e2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
       "lessonId": "good-start",
       "title": "Getting Off to a Good Start",
       "step": 19,
@@ -11344,68 +10281,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Make a first pawn move that occupies one of the four central squares."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "good-start",
       "title": "Getting Off to a Good Start",
       "step": 20,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "good-start",
-      "title": "Getting Off to a Good Start",
-      "step": 21,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "d1": "wq",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "e2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "good-start",
-      "title": "Getting Off to a Good Start",
-      "step": 22,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -11646,29 +10528,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "chess-maths",
-      "title": "Chess Maths",
-      "step": 18,
-      "pieces": {
-        "d2": "wq",
-        "d6": "bp",
-        "c7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Should the queen capture this pawn? Consider the other black pawn's reply, then choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
       "mode": "lesson",
       "lessonId": "chess-maths",
       "title": "Chess Maths",
-      "step": 19,
+      "step": 18,
       "pieces": {
         "d2": "wq",
         "d6": "bp",
@@ -11682,7 +10545,7 @@
       "mode": "lesson",
       "lessonId": "chess-maths",
       "title": "Chess Maths",
-      "step": 20,
+      "step": 19,
       "pieces": {
         "d6": "wq",
         "c7": "bp"
@@ -11695,7 +10558,7 @@
       "mode": "lesson",
       "lessonId": "chess-maths",
       "title": "Chess Maths",
-      "step": 21,
+      "step": 20,
       "pieces": {
         "d6": "bp"
       },
@@ -11704,7 +10567,24 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
+      "lessonId": "chess-maths",
+      "title": "Chess Maths",
+      "step": 21,
+      "pieces": {
+        "d1": "wq",
+        "a2": "wp",
+        "g1": "wk",
+        "a8": "br",
+        "f8": "bb",
+        "g8": "bk"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
       "lessonId": "chess-maths",
       "title": "Chess Maths",
       "step": 22,
@@ -11718,13 +10598,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Who has the greater usual material value here? Don't count the kings. Choose an answer.",
-      "choices": [
-        "White",
-        "Black",
-        "The same"
-      ]
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -11748,40 +10622,6 @@
       "lessonId": "chess-maths",
       "title": "Chess Maths",
       "step": 24,
-      "pieces": {
-        "d1": "wq",
-        "a2": "wp",
-        "g1": "wk",
-        "a8": "br",
-        "f8": "bb",
-        "g8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "chess-maths",
-      "title": "Chess Maths",
-      "step": 25,
-      "pieces": {
-        "d1": "wq",
-        "a2": "wp",
-        "g1": "wk",
-        "a8": "br",
-        "f8": "bb",
-        "g8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "chess-maths",
-      "title": "Chess Maths",
-      "step": 26,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -12336,54 +11176,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "classic-trick",
-      "title": "The Classic Trick",
-      "step": 15,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "e1": "wk",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br",
-        "e4": "wp",
-        "e5": "bp",
-        "c4": "wb",
-        "c6": "bn",
-        "h5": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Move a pawn to block the queen's path and stop the immediate threat."
-    },
-    {
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 16,
+      "step": 15,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12426,7 +11222,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 17,
+      "step": 16,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12469,7 +11265,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 18,
+      "step": 17,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12512,7 +11308,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 19,
+      "step": 18,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12555,7 +11351,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 20,
+      "step": 19,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12595,58 +11391,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "classic-trick",
-      "title": "The Classic Trick",
-      "step": 21,
-      "pieces": {
-        "a1": "wr",
-        "b1": "wn",
-        "c1": "wb",
-        "e1": "wk",
-        "f1": "wb",
-        "g1": "wn",
-        "h1": "wr",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "d2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "b7": "bp",
-        "c7": "bp",
-        "d7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a8": "br",
-        "b8": "bn",
-        "c8": "bb",
-        "d8": "bq",
-        "e8": "bk",
-        "f8": "bb",
-        "g8": "bn",
-        "h8": "br",
-        "e4": "wp",
-        "e5": "bp",
-        "h5": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Should Black advance the marked pawn to attack the queen here? Check the unprotected central pawn, then choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 22,
+      "step": 20,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12689,7 +11437,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 23,
+      "step": 21,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12732,7 +11480,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 24,
+      "step": 22,
       "pieces": {
         "a1": "wr",
         "b1": "wn",
@@ -12774,7 +11522,7 @@
       "mode": "lesson",
       "lessonId": "classic-trick",
       "title": "The Classic Trick",
-      "step": 25,
+      "step": 23,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -13155,7 +11903,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "fork",
       "title": "The Fork",
       "step": 19,
@@ -13166,8 +11914,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move White's knight to give check and attack the rook at the same time."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -13175,9 +11922,9 @@
       "title": "The Fork",
       "step": 20,
       "pieces": {
-        "b5": "wn",
         "e8": "bk",
-        "a8": "br"
+        "a8": "br",
+        "c7": "wn"
       },
       "playing": false,
       "narrationActive": false,
@@ -13189,48 +11936,19 @@
       "title": "The Fork",
       "step": 21,
       "pieces": {
-        "e8": "bk",
-        "a8": "br",
-        "c7": "wn"
+        "d4": "wp",
+        "c6": "bn",
+        "e6": "br"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "fork",
       "title": "The Fork",
       "step": 22,
-      "pieces": {
-        "d4": "wp",
-        "c6": "bn",
-        "e6": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Make a pawn move that attacks both the knight and rook."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "fork",
-      "title": "The Fork",
-      "step": 23,
-      "pieces": {
-        "d4": "wp",
-        "c6": "bn",
-        "e6": "br"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "fork",
-      "title": "The Fork",
-      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -13486,7 +12204,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pin",
       "title": "The Pin",
       "step": 18,
@@ -13498,8 +12216,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which black piece is pinned? Select it on the board."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -13507,53 +12224,19 @@
       "title": "The Pin",
       "step": 19,
       "pieces": {
-        "b5": "wb",
-        "c6": "bn",
-        "e8": "bk",
-        "h7": "bp"
+        "a5": "wr",
+        "d5": "bb",
+        "h5": "bq"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "pin",
       "title": "The Pin",
       "step": 20,
-      "pieces": {
-        "a5": "wr",
-        "d5": "bb",
-        "h5": "bq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "This bishop is pinned to the queen, not the king. Is it legally allowed to move? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pin",
-      "title": "The Pin",
-      "step": 21,
-      "pieces": {
-        "a5": "wr",
-        "d5": "bb",
-        "h5": "bq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "pin",
-      "title": "The Pin",
-      "step": 22,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -13758,7 +12441,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "skewer",
       "title": "The Skewer",
       "step": 15,
@@ -13769,8 +12452,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move White's rook to give check along the line with Black's queen behind the king."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -13778,9 +12460,9 @@
       "title": "The Skewer",
       "step": 16,
       "pieces": {
-        "h1": "wr",
         "b5": "bk",
-        "b8": "bq"
+        "b8": "bq",
+        "b1": "wr"
       },
       "playing": false,
       "narrationActive": false,
@@ -13792,58 +12474,22 @@
       "title": "The Skewer",
       "step": 17,
       "pieces": {
-        "b5": "bk",
-        "b8": "bq",
-        "b1": "wr"
+        "c3": "wb",
+        "b2": "wp",
+        "d4": "bq",
+        "h8": "br",
+        "d6": "bp",
+        "h7": "bp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "skewer",
       "title": "The Skewer",
       "step": 18,
-      "pieces": {
-        "c3": "wb",
-        "b2": "wp",
-        "d4": "bq",
-        "h8": "br",
-        "d6": "bp",
-        "h7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Is the marked attack a pin or a skewer? Look at which piece is in front, then choose an answer.",
-      "choices": [
-        "Pin",
-        "Skewer"
-      ]
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "skewer",
-      "title": "The Skewer",
-      "step": 19,
-      "pieces": {
-        "c3": "wb",
-        "b2": "wp",
-        "d4": "bq",
-        "h8": "br",
-        "d6": "bp",
-        "h7": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "skewer",
-      "title": "The Skewer",
-      "step": 20,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -14109,7 +12755,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "discovered-attack",
       "title": "The Discovered Attack or Check",
       "step": 15,
@@ -14121,8 +12767,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move the knight to capture the queen and open the bishop's line to the king."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -14130,17 +12775,16 @@
       "title": "The Discovered Attack or Check",
       "step": 16,
       "pieces": {
-        "a1": "wb",
-        "d4": "wn",
-        "h8": "bk",
-        "c6": "bq"
+        "a8": "wr",
+        "c8": "wb",
+        "h8": "bk"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "discovered-attack",
       "title": "The Discovered Attack or Check",
       "step": 17,
@@ -14151,42 +12795,13 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which white piece blocks the rook's line to Black's king? Select that piece."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "discovered-attack",
       "title": "The Discovered Attack or Check",
       "step": 18,
-      "pieces": {
-        "a8": "wr",
-        "c8": "wb",
-        "h8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "discovered-attack",
-      "title": "The Discovered Attack or Check",
-      "step": 19,
-      "pieces": {
-        "a8": "wr",
-        "c8": "wb",
-        "h8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "discovered-attack",
-      "title": "The Discovered Attack or Check",
-      "step": 20,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -14451,7 +13066,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "removing-the-defender",
       "title": "Removing the Defender",
       "step": 15,
@@ -14464,8 +13079,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Which black piece protects the knight White wants to capture? Select that piece."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -14484,43 +13098,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "removing-the-defender",
       "title": "Removing the Defender",
       "step": 17,
-      "pieces": {
-        "a1": "wr",
-        "h3": "wq",
-        "a6": "bn",
-        "c8": "bb",
-        "e8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Make a move that captures the bishop defending the knight."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "removing-the-defender",
-      "title": "Removing the Defender",
-      "step": 18,
-      "pieces": {
-        "a1": "wr",
-        "h3": "wq",
-        "a6": "bn",
-        "c8": "bb",
-        "e8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "removing-the-defender",
-      "title": "Removing the Defender",
-      "step": 19,
       "pieces": {
         "a1": "wr",
         "a6": "bn",
@@ -14535,7 +13116,7 @@
       "mode": "lesson",
       "lessonId": "removing-the-defender",
       "title": "Removing the Defender",
-      "step": 20,
+      "step": 18,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -14729,7 +13310,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "walking-the-dog",
       "title": "Walking the Dog",
       "step": 13,
@@ -14741,8 +13322,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Make the rook move that gives checkmate."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -14750,51 +13330,20 @@
       "title": "Walking the Dog",
       "step": 14,
       "pieces": {
+        "a5": "wr",
+        "h4": "wr",
         "g1": "wk",
-        "a6": "wr",
-        "h7": "wr",
-        "d8": "bk"
+        "d6": "bk"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "walking-the-dog",
       "title": "Walking the Dog",
       "step": 15,
-      "pieces": {
-        "a5": "wr",
-        "h4": "wr",
-        "g1": "wk",
-        "d6": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Keep the fence rook in place. Move the other rook up to give check."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "walking-the-dog",
-      "title": "Walking the Dog",
-      "step": 16,
-      "pieces": {
-        "a5": "wr",
-        "h4": "wr",
-        "g1": "wk",
-        "d6": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "walking-the-dog",
-      "title": "Walking the Dog",
-      "step": 17,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -14935,29 +13484,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "kiss-of-death",
-      "title": "Queen and King Checkmate",
-      "step": 10,
-      "pieces": {
-        "e1": "wk",
-        "b7": "bk",
-        "d6": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Should the queen follow again now that the king is in the corner? Choose an answer.",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    {
       "mode": "lesson",
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
-      "step": 11,
+      "step": 10,
       "pieces": {
         "e1": "wk",
         "d6": "wq",
@@ -14971,11 +13501,25 @@
       "mode": "lesson",
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
-      "step": 12,
+      "step": 11,
       "pieces": {
         "e1": "wk",
         "a8": "bk",
         "c7": "wq"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "kiss-of-death",
+      "title": "Queen and King Checkmate",
+      "step": 12,
+      "pieces": {
+        "a8": "bk",
+        "d6": "wq",
+        "e1": "wk"
       },
       "playing": false,
       "narrationActive": false,
@@ -15002,20 +13546,6 @@
       "step": 14,
       "pieces": {
         "a8": "bk",
-        "d6": "wq",
-        "e1": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "kiss-of-death",
-      "title": "Queen and King Checkmate",
-      "step": 15,
-      "pieces": {
-        "a8": "bk",
         "e1": "wk",
         "d7": "wq"
       },
@@ -15027,7 +13557,7 @@
       "mode": "lesson",
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
-      "step": 16,
+      "step": 15,
       "pieces": {
         "d7": "wq",
         "a8": "bk",
@@ -15041,7 +13571,7 @@
       "mode": "lesson",
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
-      "step": 17,
+      "step": 16,
       "pieces": {
         "d7": "wq",
         "b8": "bk",
@@ -15052,10 +13582,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
-      "step": 18,
+      "step": 17,
       "pieces": {
         "d7": "wq",
         "b6": "wk",
@@ -15063,8 +13593,21 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Find a queen move that checkmates Black's king in one move."
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "kiss-of-death",
+      "title": "Queen and King Checkmate",
+      "step": 18,
+      "pieces": {
+        "b6": "wk",
+        "a8": "bk",
+        "b7": "wq"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -15072,9 +13615,9 @@
       "title": "Queen and King Checkmate",
       "step": 19,
       "pieces": {
-        "d7": "wq",
         "b6": "wk",
-        "a8": "bk"
+        "a8": "bk",
+        "b7": "wq"
       },
       "playing": false,
       "narrationActive": false,
@@ -15086,9 +13629,9 @@
       "title": "Queen and King Checkmate",
       "step": 20,
       "pieces": {
-        "b6": "wk",
         "a8": "bk",
-        "b7": "wq"
+        "d7": "wq",
+        "b6": "wk"
       },
       "playing": false,
       "narrationActive": false,
@@ -15100,9 +13643,9 @@
       "title": "Queen and King Checkmate",
       "step": 21,
       "pieces": {
-        "b6": "wk",
         "a8": "bk",
-        "b7": "wq"
+        "d7": "wq",
+        "b6": "wk"
       },
       "playing": false,
       "narrationActive": false,
@@ -15113,34 +13656,6 @@
       "lessonId": "kiss-of-death",
       "title": "Queen and King Checkmate",
       "step": 22,
-      "pieces": {
-        "a8": "bk",
-        "d7": "wq",
-        "b6": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "kiss-of-death",
-      "title": "Queen and King Checkmate",
-      "step": 23,
-      "pieces": {
-        "a8": "bk",
-        "d7": "wq",
-        "b6": "wk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "kiss-of-death",
-      "title": "Queen and King Checkmate",
-      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -15467,25 +13982,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "box-them-in",
-      "title": "Box Them In",
-      "step": 23,
-      "pieces": {
-        "g6": "wk",
-        "f1": "wr",
-        "h8": "bk"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Find the rook move that gives checkmate."
-    },
-    {
       "mode": "lesson",
       "lessonId": "box-them-in",
       "title": "Box Them In",
-      "step": 24,
+      "step": 23,
       "pieces": {
         "g6": "wk",
         "f1": "wr",
@@ -15499,7 +13999,7 @@
       "mode": "lesson",
       "lessonId": "box-them-in",
       "title": "Box Them In",
-      "step": 25,
+      "step": 24,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -15553,36 +14053,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 3,
-      "pieces": {
-        "g7": "bk",
-        "d5": "bb",
-        "f6": "bn",
-        "a7": "bp",
-        "f7": "bp",
-        "b6": "bp",
-        "g6": "bp",
-        "h5": "bp",
-        "g1": "wk",
-        "d1": "wr",
-        "h4": "wb",
-        "b2": "wp",
-        "f2": "wp",
-        "g3": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "First, capture the knight that protects the bishop. Make that move on the board."
-    },
-    {
       "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
-      "step": 4,
+      "step": 3,
       "pieces": {
         "g7": "bk",
         "d5": "bb",
@@ -15607,7 +14081,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
-      "step": 5,
+      "step": 4,
       "pieces": {
         "g7": "bk",
         "d5": "bb",
@@ -15631,7 +14105,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
-      "step": 6,
+      "step": 5,
       "pieces": {
         "d5": "bb",
         "f6": "bk",
@@ -15651,10 +14125,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
-      "step": 7,
+      "step": 6,
       "pieces": {
         "g7": "bk",
         "e5": "bq",
@@ -15681,8 +14155,40 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move the bishop to pin Black's queen to its king."
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "puzzles-winning-material",
+      "title": "Puzzle Section 1: Winning Material",
+      "step": 7,
+      "pieces": {
+        "g7": "bk",
+        "e5": "bq",
+        "a8": "br",
+        "f8": "br",
+        "d6": "bb",
+        "b7": "bp",
+        "c7": "bp",
+        "f7": "bp",
+        "h7": "bp",
+        "a6": "bp",
+        "g6": "bp",
+        "g1": "wk",
+        "d2": "wq",
+        "a1": "wr",
+        "f1": "wr",
+        "a2": "wp",
+        "f2": "wp",
+        "g2": "wp",
+        "h2": "wp",
+        "b3": "wp",
+        "e3": "wp",
+        "b2": "wb"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -15705,13 +14211,13 @@
         "d2": "wq",
         "a1": "wr",
         "f1": "wr",
-        "c1": "wb",
         "a2": "wp",
         "f2": "wp",
         "g2": "wp",
         "h2": "wp",
         "b3": "wp",
-        "e3": "wp"
+        "e3": "wp",
+        "b2": "wb"
       },
       "playing": false,
       "narrationActive": false,
@@ -15756,28 +14262,22 @@
       "title": "Puzzle Section 1: Winning Material",
       "step": 10,
       "pieces": {
-        "g7": "bk",
-        "e5": "bq",
-        "a8": "br",
-        "f8": "br",
-        "d6": "bb",
-        "b7": "bp",
-        "c7": "bp",
+        "a8": "bk",
+        "b5": "br",
+        "d5": "br",
+        "a7": "bp",
+        "e7": "bp",
         "f7": "bp",
-        "h7": "bp",
-        "a6": "bp",
+        "d6": "bp",
         "g6": "bp",
-        "g1": "wk",
-        "d2": "wq",
-        "a1": "wr",
-        "f1": "wr",
-        "a2": "wp",
+        "h5": "bp",
+        "g2": "wk",
+        "e4": "wq",
+        "b2": "wp",
+        "c2": "wp",
         "f2": "wp",
-        "g2": "wp",
         "h2": "wp",
-        "b3": "wp",
-        "e3": "wp",
-        "b2": "wb"
+        "g3": "wp"
       },
       "playing": false,
       "narrationActive": false,
@@ -15789,35 +14289,29 @@
       "title": "Puzzle Section 1: Winning Material",
       "step": 11,
       "pieces": {
-        "g7": "bk",
-        "e5": "bq",
-        "a8": "br",
-        "f8": "br",
-        "d6": "bb",
-        "b7": "bp",
-        "c7": "bp",
+        "a8": "bk",
+        "b5": "br",
+        "d5": "br",
+        "a7": "bp",
+        "e7": "bp",
         "f7": "bp",
-        "h7": "bp",
-        "a6": "bp",
+        "d6": "bp",
         "g6": "bp",
-        "g1": "wk",
-        "d2": "wq",
-        "a1": "wr",
-        "f1": "wr",
-        "a2": "wp",
+        "h5": "bp",
+        "g2": "wk",
+        "e4": "wq",
+        "b2": "wp",
         "f2": "wp",
-        "g2": "wp",
         "h2": "wp",
-        "b3": "wp",
-        "e3": "wp",
-        "b2": "wb"
+        "g3": "wp",
+        "c4": "wp"
       },
       "playing": false,
       "narrationActive": false,
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
       "step": 12,
@@ -15834,102 +14328,20 @@
         "g2": "wk",
         "e4": "wq",
         "b2": "wp",
-        "c2": "wp",
         "f2": "wp",
         "h2": "wp",
-        "g3": "wp"
+        "g3": "wp",
+        "c4": "wp"
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Advance the pawn to attack both black rooks at once."
+      "moving": false
     },
     {
       "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
       "step": 13,
-      "pieces": {
-        "a8": "bk",
-        "b5": "br",
-        "d5": "br",
-        "a7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "d6": "bp",
-        "g6": "bp",
-        "h5": "bp",
-        "g2": "wk",
-        "e4": "wq",
-        "b2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "h2": "wp",
-        "g3": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 14,
-      "pieces": {
-        "a8": "bk",
-        "b5": "br",
-        "d5": "br",
-        "a7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "d6": "bp",
-        "g6": "bp",
-        "h5": "bp",
-        "g2": "wk",
-        "e4": "wq",
-        "b2": "wp",
-        "f2": "wp",
-        "h2": "wp",
-        "g3": "wp",
-        "c4": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 15,
-      "pieces": {
-        "a8": "bk",
-        "b5": "br",
-        "d5": "br",
-        "a7": "bp",
-        "e7": "bp",
-        "f7": "bp",
-        "d6": "bp",
-        "g6": "bp",
-        "h5": "bp",
-        "g2": "wk",
-        "e4": "wq",
-        "b2": "wp",
-        "f2": "wp",
-        "h2": "wp",
-        "g3": "wp",
-        "c4": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "quiz",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 16,
       "pieces": {
         "h7": "bk",
         "d5": "bq",
@@ -15960,8 +14372,117 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Make a knight move that gives check and helps win Black's unprotected queen."
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "puzzles-winning-material",
+      "title": "Puzzle Section 1: Winning Material",
+      "step": 14,
+      "pieces": {
+        "h7": "bk",
+        "d5": "bq",
+        "f8": "br",
+        "d7": "br",
+        "b7": "bn",
+        "e7": "bb",
+        "c7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "b6": "bp",
+        "d6": "bp",
+        "h6": "bp",
+        "a5": "bp",
+        "e5": "bp",
+        "g1": "wk",
+        "f3": "wq",
+        "a1": "wr",
+        "e1": "wr",
+        "e3": "wb",
+        "a4": "wp",
+        "c3": "wp",
+        "g3": "wp",
+        "h3": "wp",
+        "b2": "wp",
+        "f2": "wp",
+        "f6": "wn"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "puzzles-winning-material",
+      "title": "Puzzle Section 1: Winning Material",
+      "step": 15,
+      "pieces": {
+        "h7": "bk",
+        "d5": "bq",
+        "f8": "br",
+        "d7": "br",
+        "b7": "bn",
+        "e7": "bb",
+        "c7": "bp",
+        "f7": "bp",
+        "g7": "bp",
+        "b6": "bp",
+        "d6": "bp",
+        "h6": "bp",
+        "a5": "bp",
+        "e5": "bp",
+        "g1": "wk",
+        "f3": "wq",
+        "a1": "wr",
+        "e1": "wr",
+        "e3": "wb",
+        "a4": "wp",
+        "c3": "wp",
+        "g3": "wp",
+        "h3": "wp",
+        "b2": "wp",
+        "f2": "wp",
+        "f6": "wn"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "puzzles-winning-material",
+      "title": "Puzzle Section 1: Winning Material",
+      "step": 16,
+      "pieces": {
+        "h7": "bk",
+        "d5": "bq",
+        "f8": "br",
+        "d7": "br",
+        "b7": "bn",
+        "e7": "bb",
+        "c7": "bp",
+        "f7": "bp",
+        "b6": "bp",
+        "d6": "bp",
+        "h6": "bp",
+        "a5": "bp",
+        "e5": "bp",
+        "g1": "wk",
+        "f3": "wq",
+        "a1": "wr",
+        "e1": "wr",
+        "e3": "wb",
+        "a4": "wp",
+        "c3": "wp",
+        "g3": "wp",
+        "h3": "wp",
+        "b2": "wp",
+        "f2": "wp",
+        "f6": "bp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -16031,153 +14552,6 @@
         "h3": "wp",
         "b2": "wp",
         "f2": "wp",
-        "f6": "wn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 19,
-      "pieces": {
-        "h7": "bk",
-        "d5": "bq",
-        "f8": "br",
-        "d7": "br",
-        "b7": "bn",
-        "e7": "bb",
-        "c7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "b6": "bp",
-        "d6": "bp",
-        "h6": "bp",
-        "a5": "bp",
-        "e5": "bp",
-        "g1": "wk",
-        "f3": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "e3": "wb",
-        "a4": "wp",
-        "c3": "wp",
-        "g3": "wp",
-        "h3": "wp",
-        "b2": "wp",
-        "f2": "wp",
-        "f6": "wn"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 20,
-      "pieces": {
-        "h7": "bk",
-        "d5": "bq",
-        "f8": "br",
-        "d7": "br",
-        "b7": "bn",
-        "e7": "bb",
-        "c7": "bp",
-        "f7": "bp",
-        "b6": "bp",
-        "d6": "bp",
-        "h6": "bp",
-        "a5": "bp",
-        "e5": "bp",
-        "g1": "wk",
-        "f3": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "e3": "wb",
-        "a4": "wp",
-        "c3": "wp",
-        "g3": "wp",
-        "h3": "wp",
-        "b2": "wp",
-        "f2": "wp",
-        "f6": "bp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 21,
-      "pieces": {
-        "h7": "bk",
-        "d5": "bq",
-        "f8": "br",
-        "d7": "br",
-        "b7": "bn",
-        "e7": "bb",
-        "c7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "b6": "bp",
-        "d6": "bp",
-        "h6": "bp",
-        "a5": "bp",
-        "e5": "bp",
-        "g1": "wk",
-        "f3": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "e4": "wn",
-        "e3": "wb",
-        "a4": "wp",
-        "c3": "wp",
-        "g3": "wp",
-        "h3": "wp",
-        "b2": "wp",
-        "f2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-winning-material",
-      "title": "Puzzle Section 1: Winning Material",
-      "step": 22,
-      "pieces": {
-        "h7": "bk",
-        "d5": "bq",
-        "f8": "br",
-        "d7": "br",
-        "b7": "bn",
-        "e7": "bb",
-        "c7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "b6": "bp",
-        "d6": "bp",
-        "h6": "bp",
-        "a5": "bp",
-        "e5": "bp",
-        "g1": "wk",
-        "f3": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "e3": "wb",
-        "a4": "wp",
-        "c3": "wp",
-        "g3": "wp",
-        "h3": "wp",
-        "b2": "wp",
-        "f2": "wp",
         "g5": "wn"
       },
       "playing": false,
@@ -16188,7 +14562,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-winning-material",
       "title": "Puzzle Section 1: Winning Material",
-      "step": 23,
+      "step": 19,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -16217,7 +14591,7 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
       "step": 2,
@@ -16241,8 +14615,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Find a move that checkmates Black's king. There may be more than one solution."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -16286,13 +14659,13 @@
         "g6": "bp",
         "c5": "bp",
         "g1": "wk",
-        "h6": "wq",
         "d1": "wr",
         "e7": "wp",
         "f6": "wp",
         "b3": "wp",
         "g3": "wp",
-        "a2": "wp"
+        "a2": "wp",
+        "f8": "wq"
       },
       "playing": false,
       "narrationActive": false,
@@ -16313,33 +14686,6 @@
         "g6": "bp",
         "c5": "bp",
         "g1": "wk",
-        "d1": "wr",
-        "e7": "wp",
-        "f6": "wp",
-        "b3": "wp",
-        "g3": "wp",
-        "a2": "wp",
-        "f8": "wq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 6,
-      "pieces": {
-        "g8": "bk",
-        "e4": "bq",
-        "h7": "br",
-        "b7": "bb",
-        "a7": "bp",
-        "f7": "bp",
-        "g6": "bp",
-        "c5": "bp",
-        "g1": "wk",
         "h6": "wq",
         "d1": "wr",
         "e7": "wp",
@@ -16353,46 +14699,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 7,
-      "pieces": {
-        "c7": "bk",
-        "d7": "bq",
-        "c8": "br",
-        "e8": "br",
-        "b8": "bn",
-        "b7": "bb",
-        "a7": "bp",
-        "f7": "bp",
-        "h7": "bp",
-        "c6": "bp",
-        "d6": "bp",
-        "g6": "bp",
-        "g1": "wk",
-        "f3": "wq",
-        "d1": "wr",
-        "f1": "wr",
-        "d2": "wb",
-        "f4": "wn",
-        "c4": "wp",
-        "h3": "wp",
-        "a2": "wp",
-        "b2": "wp",
-        "f2": "wp",
-        "g2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Find a bishop move that checkmates Black's king."
-    },
-    {
       "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
-      "step": 8,
+      "step": 6,
       "pieces": {
         "c7": "bk",
         "d7": "bq",
@@ -16427,7 +14737,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
-      "step": 9,
+      "step": 7,
       "pieces": {
         "c7": "bk",
         "d7": "bq",
@@ -16462,7 +14772,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
-      "step": 10,
+      "step": 8,
       "pieces": {
         "h8": "bk",
         "a8": "br",
@@ -16490,7 +14800,68 @@
       "moving": false
     },
     {
-      "mode": "quiz",
+      "mode": "lesson",
+      "lessonId": "puzzles-mate-in-one",
+      "title": "Puzzle Section 2: Mate in One",
+      "step": 9,
+      "pieces": {
+        "h8": "bk",
+        "a8": "br",
+        "e8": "br",
+        "e6": "bb",
+        "a7": "bp",
+        "b7": "bp",
+        "h7": "bp",
+        "c6": "bp",
+        "f5": "bp",
+        "g4": "bp",
+        "g1": "wk",
+        "d4": "wr",
+        "d1": "wr",
+        "c3": "wb",
+        "b3": "wp",
+        "g3": "wp",
+        "a2": "wp",
+        "c2": "wp",
+        "f2": "wp",
+        "h2": "wp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
+      "lessonId": "puzzles-mate-in-one",
+      "title": "Puzzle Section 2: Mate in One",
+      "step": 10,
+      "pieces": {
+        "h8": "bk",
+        "a8": "br",
+        "e8": "br",
+        "e6": "bb",
+        "a7": "bp",
+        "b7": "bp",
+        "h7": "bp",
+        "c6": "bp",
+        "f5": "bp",
+        "g4": "wr",
+        "g1": "wk",
+        "d1": "wr",
+        "c3": "wb",
+        "b3": "wp",
+        "g3": "wp",
+        "a2": "wp",
+        "c2": "wp",
+        "f2": "wp",
+        "h2": "wp"
+      },
+      "playing": false,
+      "narrationActive": false,
+      "moving": false
+    },
+    {
+      "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
       "step": 11,
@@ -16504,9 +14875,8 @@
         "h7": "bp",
         "c6": "bp",
         "f5": "bp",
-        "g4": "bp",
+        "g4": "wr",
         "g1": "wk",
-        "d4": "wr",
         "d1": "wr",
         "c3": "wb",
         "b3": "wp",
@@ -16518,8 +14888,7 @@
       },
       "playing": false,
       "narrationActive": false,
-      "moving": false,
-      "prompt": "Move the rook to uncover checkmate from the bishop."
+      "moving": false
     },
     {
       "mode": "lesson",
@@ -16527,25 +14896,36 @@
       "title": "Puzzle Section 2: Mate in One",
       "step": 12,
       "pieces": {
-        "h8": "bk",
+        "e8": "bk",
+        "d8": "bq",
         "a8": "br",
-        "e8": "br",
-        "e6": "bb",
-        "a7": "bp",
-        "b7": "bp",
+        "h8": "br",
+        "b8": "bn",
+        "f8": "bb",
+        "b7": "bb",
+        "g4": "bn",
+        "c7": "bp",
+        "d7": "bp",
+        "f7": "bp",
+        "g7": "bp",
         "h7": "bp",
-        "c6": "bp",
-        "f5": "bp",
-        "g4": "bp",
+        "a6": "bp",
+        "b5": "bp",
+        "f3": "bp",
         "g1": "wk",
-        "d4": "wr",
-        "d1": "wr",
-        "c3": "wb",
-        "b3": "wp",
-        "g3": "wp",
+        "d1": "wq",
+        "a1": "wr",
+        "e1": "wr",
+        "b3": "wb",
+        "f4": "wb",
+        "c3": "wn",
+        "e6": "wp",
+        "d4": "wp",
         "a2": "wp",
+        "b2": "wp",
         "c2": "wp",
         "f2": "wp",
+        "g2": "wp",
         "h2": "wp"
       },
       "playing": false,
@@ -16557,151 +14937,6 @@
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
       "step": 13,
-      "pieces": {
-        "h8": "bk",
-        "a8": "br",
-        "e8": "br",
-        "e6": "bb",
-        "a7": "bp",
-        "b7": "bp",
-        "h7": "bp",
-        "c6": "bp",
-        "f5": "bp",
-        "g4": "wr",
-        "g1": "wk",
-        "d1": "wr",
-        "c3": "wb",
-        "b3": "wp",
-        "g3": "wp",
-        "a2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 14,
-      "pieces": {
-        "h8": "bk",
-        "a8": "br",
-        "e8": "br",
-        "e6": "bb",
-        "a7": "bp",
-        "b7": "bp",
-        "h7": "bp",
-        "c6": "bp",
-        "f5": "bp",
-        "g4": "wr",
-        "g1": "wk",
-        "d1": "wr",
-        "c3": "wb",
-        "b3": "wp",
-        "g3": "wp",
-        "a2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "quiz",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 15,
-      "pieces": {
-        "e8": "bk",
-        "d8": "bq",
-        "a8": "br",
-        "h8": "br",
-        "b8": "bn",
-        "f8": "bb",
-        "b7": "bb",
-        "g4": "bn",
-        "c7": "bp",
-        "d7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a6": "bp",
-        "b5": "bp",
-        "f3": "bp",
-        "g1": "wk",
-        "d1": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "b3": "wb",
-        "f4": "wb",
-        "c3": "wn",
-        "e6": "wp",
-        "d4": "wp",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Find a pawn capture that gives checkmate in this position."
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 16,
-      "pieces": {
-        "e8": "bk",
-        "d8": "bq",
-        "a8": "br",
-        "h8": "br",
-        "b8": "bn",
-        "f8": "bb",
-        "b7": "bb",
-        "g4": "bn",
-        "c7": "bp",
-        "d7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "a6": "bp",
-        "b5": "bp",
-        "f3": "bp",
-        "g1": "wk",
-        "d1": "wq",
-        "a1": "wr",
-        "e1": "wr",
-        "b3": "wb",
-        "f4": "wb",
-        "c3": "wn",
-        "e6": "wp",
-        "d4": "wp",
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false
-    },
-    {
-      "mode": "lesson",
-      "lessonId": "puzzles-mate-in-one",
-      "title": "Puzzle Section 2: Mate in One",
-      "step": 17,
       "pieces": {
         "e8": "bk",
         "d8": "bq",
@@ -16742,7 +14977,7 @@
       "mode": "lesson",
       "lessonId": "puzzles-mate-in-one",
       "title": "Puzzle Section 2: Mate in One",
-      "step": 18,
+      "step": 14,
       "pieces": null,
       "playing": false,
       "narrationActive": false,
@@ -17498,43 +15733,10 @@
       "moving": false
     },
     {
-      "mode": "quiz",
-      "lessonId": "master-game",
-      "title": "Master Game",
-      "step": 21,
-      "pieces": {
-        "a2": "wp",
-        "b2": "wp",
-        "c2": "wp",
-        "f2": "wp",
-        "g2": "wp",
-        "h2": "wp",
-        "a7": "bp",
-        "f7": "bp",
-        "g7": "bp",
-        "h7": "bp",
-        "e8": "bk",
-        "f8": "bb",
-        "h8": "br",
-        "e4": "wp",
-        "e5": "bp",
-        "b3": "wq",
-        "g5": "wb",
-        "d7": "bn",
-        "c1": "wk",
-        "d1": "wr",
-        "e6": "bq"
-      },
-      "playing": false,
-      "narrationActive": false,
-      "moving": false,
-      "prompt": "Move White's queen to the top rank to give check and set up a forced mate."
-    },
-    {
       "mode": "lesson",
       "lessonId": "master-game",
       "title": "Master Game",
-      "step": 22,
+      "step": 21,
       "pieces": {
         "a2": "wp",
         "b2": "wp",
@@ -17566,7 +15768,7 @@
       "mode": "lesson",
       "lessonId": "master-game",
       "title": "Master Game",
-      "step": 23,
+      "step": 22,
       "pieces": {
         "a2": "wp",
         "b2": "wp",
@@ -17598,7 +15800,7 @@
       "mode": "lesson",
       "lessonId": "master-game",
       "title": "Master Game",
-      "step": 24,
+      "step": 23,
       "pieces": {
         "a2": "wp",
         "b2": "wp",
@@ -17629,7 +15831,7 @@
       "mode": "lesson",
       "lessonId": "master-game",
       "title": "Master Game",
-      "step": 25,
+      "step": 24,
       "pieces": {
         "a2": "wp",
         "b2": "wp",
@@ -17660,7 +15862,7 @@
       "mode": "lesson",
       "lessonId": "master-game",
       "title": "Master Game",
-      "step": 26,
+      "step": 25,
       "pieces": null,
       "playing": false,
       "narrationActive": false,

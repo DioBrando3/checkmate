@@ -37,13 +37,16 @@ def validate(content, source):
     assert content['sourceResourceSHA256'] == hashlib.sha256(SOURCE.read_bytes()).hexdigest(), 'Immutable baseline changed; review action/answer parity before rebasing the scripts.'
     assert 'voices' not in content, 'Editorial source must not carry generated narration metadata.'
     assert [l['id'] for l in content['lessons']] == [l['id'] for l in source['lessons']]
-    assert set(content['exercises']) == set(source['exercises'])
+    retired = set(content.get('retiredExerciseIDs', []))
+    assert retired == set(source['exercises']), 'Every embedded quiz must be retired.'
+    assert not content['exercises'], 'Lessons are continuous narration; exercises belong in Quick puzzles.'
     ids = set()
     for new, old in zip(content['lessons'], source['lessons']):
         assert without(new, ['beats', 'teaches']) == without(old, ['beats', 'teaches'])
         assert new['teaches'] and all(isinstance(t, str) and t.strip() for t in new['teaches'])
-        assert len(new['beats']) == len(old['beats'])
-        for i, (beat, original) in enumerate(zip(new['beats'], old['beats'])):
+        retained = [(i, b) for i, b in enumerate(old['beats']) if f"{new['id']}:{i}" not in retired]
+        assert len(new['beats']) == len(retained)
+        for beat, (i, original) in zip(new['beats'], retained):
             key = f"{new['id']}:{i}"
             assert beat['id'] == key and key not in ids
             ids.add(key)
@@ -51,11 +54,7 @@ def validate(content, source):
             assert isinstance(beat['speak'], str) and beat['speak'].strip()
             assert not re.search(r'pause the video|bye bye|hello(?: again)?, chess friends|when you are bigger|every green dot|it changes colour', beat['say'], re.I), key
             assert without(beat, ['id', 'say', 'speak', 'quiz']) == without(original, ['say', 'speak', 'quiz']), f'Board action changed: {key}'
-            assert ('quiz' in beat) == ('quiz' in original)
-            if 'quiz' in beat:
-                assert without(beat['quiz'], ['why']) == without(original['quiz'], ['why']), f'Quiz mechanics changed: {key}'
-                assert beat['quiz']['why'].strip()
-                assert content['exercises'][key]['prompt'] == beat['say']
+            assert 'quiz' not in beat
     for key, exercise in content['exercises'].items():
         assert without(exercise, ['prompt']) == without(source['exercises'][key], ['prompt']), f'Answer changed: {key}'
     assert [p['id'] for p in content['puzzles']] == [p['id'] for p in source['puzzles']]
@@ -66,17 +65,14 @@ def validate(content, source):
         assert not re.search(r'^(Naming |Finding a piece|Asks |Yes/no |Rule question:|Spotting |Which pawn .*not a move)', puzzle['explanation'])
         if puzzle['id'].startswith('course:'):
             key = puzzle['id'].removeprefix('course:')
-            lesson_id, index = key.rsplit(':', 1)
-            lesson = next(l for l in content['lessons'] if l['id'] == lesson_id)
-            assert puzzle['exercise'] == content['exercises'][key]
-            assert puzzle['explanation'] == lesson['beats'][int(index)]['quiz']['why']
+            assert key in retired
     return ids
 
 
 def outputs(content):
     lines = ['# Checkmate lesson scripts — British English', '',
              ('Published native course text with Cedar narration.' if content['publicationState'] == 'published' else 'Rewritten text for recording. Status: awaiting recordings. This is not the currently bundled narration.'), '',
-             'Segment IDs retain the existing zero-based beat indices. Board actions and answer keys are unchanged.', '']
+             'Lessons play continuously without embedded quizzes. Segment IDs retain their original recording identifiers; standalone puzzles remain separate.', '']
     narration = []
     for number, lesson in enumerate(content['lessons'], 1):
         lines += [f"## {number}. {lesson['title']}", '', '### Takeaways', '']
@@ -86,11 +82,9 @@ def outputs(content):
             lines += [f"**{beat['id']}**", '', beat['say'], '']
             if beat['speak'] != beat['say']:
                 lines += ['Recording text: ' + beat['speak'], '']
-            if 'quiz' in beat:
-                lines += ['Answer explanation: ' + beat['quiz']['why'], '']
-            narration.append({'id': beat['id'], 'lessonId': lesson['id'], 'beatIndex': i,
+            narration.append({'id': beat['id'], 'lessonId': lesson['id'], 'beatIndex': int(beat['id'].rsplit(':', 1)[1]),
                               'locale': content['locale'], 'displayText': beat['say'], 'text': beat['speak'],
-                              'sha256': sha(beat['speak']), 'outputStem': f"voice-v2/{lesson['id']}/{i:02d}"})
+                              'sha256': sha(beat['speak']), 'outputStem': f"voice-v2/{lesson['id']}/{int(beat['id'].rsplit(':', 1)[1]):02d}"})
     lines += ['## Standalone puzzle feedback', '']
     feedback = []
     for puzzle in content['puzzles']:
@@ -98,7 +92,7 @@ def outputs(content):
         if puzzle['context']:
             lines += ['Context: ' + puzzle['context'], '']
         lines += ['Answer explanation: ' + puzzle['explanation'], '']
-        # Optional feedback audio is separate from the 947 sequential lesson clips.
+        # Optional feedback audio is separate from sequential lesson clips.
         text = speech_text(puzzle['explanation'])
         feedback.append({'id': puzzle['id'] + ':feedback', 'locale': content['locale'],
                          'displayText': puzzle['explanation'], 'text': text, 'sha256': sha(text), 'delivery': 'optional_feedback'})
@@ -124,10 +118,11 @@ def main():
             path.write_text(text)
     stats = {'lessons': len(content['lessons']), 'segments': len(ids),
              'exercises': len(content['exercises']), 'puzzles': len(content['puzzles']),
-             'rewrittenSegments': sum(n['say'] != o['say'] for nl, ol in zip(content['lessons'], source['lessons']) for n, o in zip(nl['beats'], ol['beats'])),
+             'rewrittenSegments': sum(n['say'] != ol['beats'][int(n['id'].rsplit(':', 1)[1])]['say'] for nl, ol in zip(content['lessons'], source['lessons']) for n in nl['beats']),
              'originalWords': sum(len(b['say'].split()) for l in source['lessons'] for b in l['beats']),
              'rewrittenWords': sum(len(b['say'].split()) for l in content['lessons'] for b in l['beats']),
-             'boardActionsAndAnswerKeysUnchanged': True,
+             'retainedActionsAndStandaloneAnswersUnchanged': True,
+             'retiredLessonQuestions': len(content['retiredExerciseIDs']),
              'runtimeResourceUnchanged': RUNTIME.read_bytes() == SOURCE.read_bytes(),
              'publicationState': content['publicationState']}
     print(json.dumps(stats, indent=2))

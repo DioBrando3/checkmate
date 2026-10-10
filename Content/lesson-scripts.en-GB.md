@@ -2,7 +2,7 @@
 
 Published native course text with Cedar narration.
 
-Segment IDs retain the existing zero-based beat indices. Board actions and answer keys are unchanged.
+Lessons play continuously without embedded quizzes. Segment IDs retain their original recording identifiers; standalone puzzles remain separate.
 
 ## 1. Introduction
 
@@ -84,23 +84,11 @@ It began in India, travelled through Persia, and later reached Europe. Today, pe
 
 Chess gives you practice thinking ahead and paying attention to what's on the board.
 
-**intro:17**
-
-Can you find the white king? Click it on the board.
-
-Answer explanation: The white king is on e1. Look for the little cross on its crown.
-
 **intro:18**
 
 The white king is on e1, with a little cross on its crown.
 
 Recording text: The white king is on E one, with a little cross on its crown.
-
-**intro:19**
-
-The king is attacked, and there's no way to make it safe. What do we call that? Choose an answer.
-
-Answer explanation: That's checkmate: the king is attacked, and no legal response can make it safe.
 
 **intro:20**
 
@@ -203,23 +191,11 @@ So the king is on c6.
 
 Recording text: So the king is on C six.
 
-**battlefield:18**
-
-What is the marked square's name? Find its letter and number, then choose an answer.
-
-Answer explanation: The square is g2: file g, rank two. Read the letter first, then the number.
-
 **battlefield:19**
 
 It's g2: file g, rank two.
 
 Recording text: It's G two: file g, rank two.
-
-**battlefield:20**
-
-Is the marked line a file, a rank, or a diagonal? Choose an answer.
-
-Answer explanation: It's a file, running up and down the board. This one is the d-file.
 
 **battlefield:21**
 
@@ -340,21 +316,9 @@ A pawn is usually worth one point. Piece values help us compare what we gain or 
 
 Eight pawns add up to eight points. They can also help protect one another.
 
-**pawn:22**
-
-This pawn hasn't moved yet. Select both squares it can move to, then check your answer.
-
-Answer explanation: The pawn can move to c3 or c4. Its first move may be one or two squares because both are empty.
-
 **pawn:23**
 
 It can move one square forward or, on its first move, two squares forward.
-
-**pawn:24**
-
-Which black pawn can White capture? Select that pawn.
-
-Answer explanation: White can capture the pawn on f5, one square diagonally forward. The pawn directly ahead can't be captured.
 
 **pawn:25**
 
@@ -456,12 +420,6 @@ White moves the other pawn. Now Black has no move, so White wins.
 
 Blocking a pawn also blocks your own pawn's forward move. Both may still capture diagonally.
 
-**pawn-wars:19**
-
-White can capture Black's last pawn. Make that winning move.
-
-Answer explanation: The pawn on d5 captures the pawn on e6. Black has no pawns left, so White wins Pawn Wars.
-
 **pawn-wars:20**
 
 The black pawn is diagonally ahead, so White can capture it.
@@ -469,12 +427,6 @@ The black pawn is diagonally ahead, so White can capture it.
 **pawn-wars:21**
 
 Black has no pawns left. White wins.
-
-**pawn-wars:22**
-
-Who wins this race? White moves first. Count how many moves each pawn needs, then choose an answer.
-
-Answer explanation: Black wins this race. Its pawn needs two moves, while White's needs four, even though White moves first.
 
 **pawn-wars:23**
 
@@ -559,12 +511,6 @@ The pawn comes off the board. The rook stays on its square.
 
 A rook moves and captures along straight lines. A pawn moves straight but captures diagonally.
 
-**rook:14**
-
-Select all the black pawns this rook can capture, then check your answer.
-
-Answer explanation: The rook can capture on a6 along its file and on e2 along its rank. It can't capture diagonally.
-
 **rook:15**
 
 It can capture the pawns on its file and rank, but not the one on the diagonal.
@@ -572,12 +518,6 @@ It can capture the pawns on its file and rank, but not the one on the diagonal.
 **rook:16**
 
 The rook takes a pawn along the line.
-
-**rook:17**
-
-Which pieces can this rook capture now? Select them, or choose No squares if none can be captured.
-
-Answer explanation: There are no captures here. The rook's own pawn blocks its line to the black pawn.
 
 **rook:18**
 
@@ -687,21 +627,9 @@ Another white pawn reaches the end. Can the rook capture it in one move?
 
 No. It would need to turn a corner, which a rook can't do in one move. White wins.
 
-**rampant-rooks:22**
-
-In Pawn Hunt, which pawns can this rook capture? Select all of them.
-
-Answer explanation: The rook on a1 can capture on a5 or f1 along clear straight lines. The diagonal pawn is out of reach.
-
 **rampant-rooks:23**
 
 The pawns on its file and rank can be captured. The diagonal pawn cannot.
-
-**rampant-rooks:24**
-
-In Rooks and Pawns, can Black capture the pawn that just reached the end? Select any available capture, or choose No squares.
-
-Answer explanation: There is no capture of the pawn in one rook move. The pawn survives at the far end, so White wins this game.
 
 **rampant-rooks:25**
 
@@ -794,12 +722,6 @@ No. They're on light squares, and this bishop stays on dark squares.
 
 A bishop can travel a long way, but it can only visit half the board's squares.
 
-**bishop:18**
-
-Which pawn can this bishop capture? Select it on the board.
-
-Answer explanation: The bishop can capture on b5 along its diagonal. It can't capture straight ahead.
-
 **bishop:19**
 
 It can capture the pawn on its diagonal, but not the one straight ahead.
@@ -807,12 +729,6 @@ It can capture the pawn on its diagonal, but not the one straight ahead.
 **bishop:20**
 
 The bishop moves along the diagonal and takes the pawn.
-
-**bishop:21**
-
-Could this bishop ever capture the pawn if it stays on that light square? Choose an answer.
-
-Answer explanation: No. The bishop stays on dark squares, so it can't reach that pawn while the pawn stays on a light square.
 
 **bishop:22**
 
@@ -886,12 +802,6 @@ Take turns trying to capture all the other player's pawns. If you have no move o
 
 Bishops can capture each other too. Losing both bishops leaves you with no move in this game.
 
-**busy-bishops:12**
-
-Which black pawns can White's bishops capture now? Select all of them.
-
-Answer explanation: The bishop on c1 can capture the pawn on e3 along its diagonal.
-
 **busy-bishops:13**
 
 The bishop on c1 can capture this pawn along its diagonal.
@@ -933,12 +843,6 @@ Black opens a diagonal too.
 **busy-bishops:22**
 
 Win by capturing every opposing piece or getting a pawn safely to the far end. Having no move on your turn is a loss.
-
-**busy-bishops:23**
-
-Which pawns can this bishop capture? Select all of them.
-
-Answer explanation: The bishop on d2 can capture the pawns on a5 and g5. Both are on clear diagonals.
 
 **busy-bishops:24**
 
@@ -1020,21 +924,9 @@ A pawn is usually worth one point. A queen is usually worth nine.
 
 Before moving your queen, check whether the other player could capture it.
 
-**queen:14**
-
-Which black piece is safe from this queen? Select that piece.
-
-Answer explanation: The knight on e5 is safe from this queen. They don't share a file, rank, or diagonal.
-
 **queen:15**
 
 The horse-shaped piece is safe from this queen. It isn't on a shared file, rank, or diagonal.
-
-**queen:16**
-
-Which pieces can the queen capture now? Select all of them.
-
-Answer explanation: The queen can capture the bishop on h8. Its own pawn blocks the line to the rook.
 
 **queen:17**
 
@@ -1122,12 +1014,6 @@ The queen must watch for pawn captures too. Don't leave it diagonally ahead of a
 
 The pawn captures the queen, so the pawns win this game.
 
-**quirky-queens:15**
-
-One of these captures loses the queen. Make the capture that keeps it safe.
-
-Answer explanation: Queen to g6 is the safe capture here. Capturing on b4 would let the pawn on a3 capture the queen in reply.
-
 **quirky-queens:16**
 
 This pawn is protected. Taking it would let the other pawn capture the queen.
@@ -1139,12 +1025,6 @@ The other pawn can be taken safely: no pawn can capture the queen on that square
 **quirky-queens:18**
 
 The queen makes the safe capture.
-
-**quirky-queens:19**
-
-Black to move. Which pawns can the queen capture now? Select all of them.
-
-Answer explanation: The queen can capture the pawn on h7 along its diagonal, stopping that pawn from reaching the end.
 
 **quirky-queens:20**
 
@@ -1245,12 +1125,6 @@ Does it capture the pieces it jumps over? Watch this move.
 
 No. Those pawns stay on the board. The knight captures only the bishop on its landing square.
 
-**knight:19**
-
-Which white pieces can this black knight capture? Select all of them.
-
-Answer explanation: The knight can capture the rooks on d6 and g5. Both are an L-shaped move from e4.
-
 **knight:20**
 
 Both rooks are an L-shaped move away. The bishop and pawn are not.
@@ -1258,12 +1132,6 @@ Both rooks are an L-shaped move away. The bishop and pawn are not.
 **knight:21**
 
 The knight takes a rook on its landing square.
-
-**knight:22**
-
-Select all the squares this knight can move to from the corner.
-
-Answer explanation: From a1, the knight can move to b3 or c2. Each destination is an L-shaped move away.
 
 **knight:23**
 
@@ -1308,12 +1176,6 @@ Only the knights move. All the other pieces stay where they are.
 **hungry-horses:5**
 
 Capture all the opposing pieces to win. In this game, losing your knight or having no knight move on your turn is a loss.
-
-**hungry-horses:6**
-
-White moves first. Select all the pieces its knight can capture now.
-
-Answer explanation: The knight on e8 can capture the pawns on c7 and g7. Both are legal L-shaped destinations in this challenge.
 
 **hungry-horses:7**
 
@@ -1370,12 +1232,6 @@ One, two, three, four, five moves. The knight reaches the corner.
 **hungry-horses:20**
 
 On your own board, try continuing to the other corners and back home.
-
-**hungry-horses:21**
-
-Which two squares does this black pawn attack? Select both.
-
-Answer explanation: The pawn attacks b5 and d5, the two squares diagonally forward from c6.
 
 **hungry-horses:22**
 
@@ -1441,12 +1297,6 @@ The rook attacks this line, so the king can't move onto those squares.
 
 The queen attacks these squares too.
 
-**king:11**
-
-Select every square where this king can move safely.
-
-Answer explanation: The king can move safely to c3. The other neighbouring destinations are attacked or unavailable.
-
 **king:12**
 
 This square isn't attacked by either piece.
@@ -1467,21 +1317,9 @@ These squares are too close to Black's king, so White can't move there.
 
 To tell the king from the queen, look for the little cross on its crown.
 
-**king:17**
-
-Which squares can this king move to safely? Select all of them.
-
-Answer explanation: The king can move safely to d1 or f1. The rook attacks the neighbouring squares on the rank above.
-
 **king:18**
 
 The rook attacks the squares ahead. Both marked squares to the side are safe here.
-
-**king:19**
-
-Can White's king move to the marked square beside Black's king? Choose an answer.
-
-Answer explanation: No. Moving to e5 would put the kings on neighbouring squares, which isn't allowed.
 
 **king:20**
 
@@ -1558,12 +1396,6 @@ The king moves sideways around the obstacle, then back towards the middle.
 
 Two more safe steps bring it to the target.
 
-**mine-alert:14**
-
-The rook attacks this row. May the king move onto the marked square? Choose an answer.
-
-Answer explanation: No. The rook attacks e5, so that square isn't a safe destination for the king.
-
 **mine-alert:15**
 
 No. That square is attacked by the rook.
@@ -1575,14 +1407,6 @@ The marked safe squares are available for the king to move to.
 **mine-alert:17**
 
 Now try a longer route. The king starts at the bottom and needs to reach the target at the top.
-
-**mine-alert:18**
-
-Move the king towards e8, choosing one safe neighbouring square at a time.
-
-Recording text: Move the king towards E eight, choosing one safe neighbouring square at a time.
-
-Answer explanation: The route reaches e8 using safe neighbouring squares. In this challenge, avoid the black pieces and every square they attack.
 
 **mine-alert:19**
 
@@ -1652,12 +1476,6 @@ Black's knight gives check with its L-shaped attack.
 
 A pawn can give check too. This one attacks Black's king diagonally.
 
-**catch-the-king:8**
-
-Can Black's king capture anything safely here? Select any available captures, or choose No squares.
-
-Answer explanation: The king has no safe capture here. The checking pawn is protected by another pawn.
-
 **catch-the-king:9**
 
 It can't take the checking pawn. The other white pawn protects it.
@@ -1726,21 +1544,9 @@ Can the king capture the queen? No. White's king protects it.
 
 None of those responses works. Black is checkmated, and White wins.
 
-**catch-the-king:26**
-
-Which three responses can get a king out of check? Choose an answer.
-
-Answer explanation: Avoid, block, capture: move the king to safety, block the attacker's line, or capture the checking piece with a legal move.
-
 **catch-the-king:27**
 
 Avoid, block, capture: move to safety, block the line, or take the attacker.
-
-**catch-the-king:28**
-
-Look at this position. Is Black in check, checkmate, or stalemate? Choose an answer.
-
-Answer explanation: It's check, not checkmate. The queen is unprotected here, so the king can capture it and get out of check.
 
 **catch-the-king:29**
 
@@ -1838,12 +1644,6 @@ Castling often places your king behind a group of pawns, away from the open cent
 
 This king has no pawn shelter. It needs more care when lines open nearby.
 
-**king-safety:18**
-
-Select the square where White's king will land after castling.
-
-Answer explanation: The king lands on g1, two squares towards the kingside rook. The rook then moves to f1.
-
 **king-safety:19**
 
 The king lands two squares towards the rook.
@@ -1851,12 +1651,6 @@ The king lands two squares towards the rook.
 **king-safety:20**
 
 The rook moves to the square beside it.
-
-**king-safety:21**
-
-Can White castle kingside in this position? Choose an answer.
-
-Answer explanation: No. The knight is between the king and rook. That path must be clear before White can castle.
 
 **king-safety:22**
 
@@ -1946,12 +1740,6 @@ Let's count White's pieces: one, two, three, four, five, six, seven, eight, nine
 
 Sixteen pieces for White and sixteen for Black. The board is ready.
 
-**setting-up:15**
-
-Where does White's queen start? Select its square.
-
-Answer explanation: White's queen starts on d1, a light square. Remember: the queen starts on its own colour.
-
 **setting-up:16**
 
 White's queen starts on d1, a light square.
@@ -1963,12 +1751,6 @@ Recording text: White's queen starts on D one, a light square.
 Black's queen starts on d8, a dark square.
 
 Recording text: Black's queen starts on D eight, a dark square.
-
-**setting-up:18**
-
-Which reminder helps you face the board correctly? Choose an answer.
-
-Answer explanation: Light on the right. The nearest right-hand corner should be light when you face the board.
 
 **setting-up:19**
 
@@ -2045,21 +1827,9 @@ These pawns help shelter the castled king. Before moving one, check what it leav
 
 Moving those pawns can open lines towards the king.
 
-**why-castle:14**
-
-Which king is safer in this position? Choose an answer.
-
-Answer explanation: White's king is safer in this position. It has castled behind its pawns, away from the central action.
-
 **why-castle:15**
 
 White's king has more shelter here: it has castled behind its pawns.
-
-**why-castle:16**
-
-How many pawns form White's king shelter? Choose an answer.
-
-Answer explanation: Three pawns form the shelter in front of White's king.
 
 **why-castle:17**
 
@@ -2137,21 +1907,9 @@ The rook attacks that crossing square, even though the landing square is safe.
 
 Remember: you can't castle out of check, through check, or into check.
 
-**when-castle:14**
-
-Can White castle kingside here? Look at the bishop's diagonal, then choose an answer.
-
-Answer explanation: No. The bishop attacks the square the king would cross. You can't castle through check.
-
 **when-castle:15**
 
 No. The bishop attacks the square the king would cross.
-
-**when-castle:16**
-
-Can White castle kingside in this position? Choose an answer.
-
-Answer explanation: Yes. The king and rook are unmoved, the path is clear, and the king's starting, crossing, and landing squares are safe.
 
 **when-castle:17**
 
@@ -2244,12 +2002,6 @@ The promoted piece takes effect immediately, as part of that same move.
 **pawn-magic:16**
 
 The new queen already attacks the king. That's check.
-
-**pawn-magic:17**
-
-Select the pawn that is one move away from promotion.
-
-Answer explanation: The pawn on b7 is one square from the last rank. Reaching that rank requires promotion.
 
 **pawn-magic:18**
 
@@ -2370,21 +2122,9 @@ The rook is worth five points.
 
 Add one for the pawn: six points of material.
 
-**scoring-points:17**
-
-You captured a queen; your friend captured a knight and a pawn. Who captured more material? Choose an answer.
-
-Answer explanation: You captured more material. The queen is worth about nine points; a knight and pawn add up to about four.
-
 **scoring-points:18**
 
 The queen is worth nine. The knight and pawn add up to four, so you captured more.
-
-**scoring-points:19**
-
-Which group has the greater usual value: a rook, or a knight and two pawns? Choose an answer.
-
-Answer explanation: The groups have the same usual value: a rook is five, and a knight plus two pawns is three plus one plus one.
 
 **scoring-points:20**
 
@@ -2519,21 +2259,9 @@ The rook crosses the king only during castling. Here, the king ends up behind it
 
 To castle, the king and that rook must be unmoved, with a clear path. The king can't start, cross, or finish on an attacked square.
 
-**playtime:28**
-
-Select the piece usually worth five points.
-
-Answer explanation: The rook on f4 is the piece usually worth five points.
-
 **playtime:29**
 
 The rook is usually worth five points.
-
-**playtime:30**
-
-Select the piece that can jump over others in an ordinary move.
-
-Answer explanation: The knight on b4 can jump over pieces in an ordinary move. A rook crosses the king only during castling.
 
 **playtime:31**
 
@@ -2611,21 +2339,9 @@ After playing, help put the pieces back so the board is ready for the next game.
 
 Put each back-rank piece in its starting place.
 
-**etiquette:14**
-
-At a real board, you deliberately touched a knight that can move. What must you do? Choose an answer.
-
-Answer explanation: Move the knight. At a real board using touch-move, deliberately touching a piece with a legal move commits you to moving it.
-
 **etiquette:15**
 
 You must move the knight. That's the touch-move rule.
-
-**etiquette:16**
-
-You've lost an over-the-board game. Which response shows good sportsmanship? Choose an answer.
-
-Answer explanation: A handshake and a kind comment show respect after the game, whether you won or lost.
 
 **etiquette:17**
 
@@ -2715,21 +2431,9 @@ Players can also agree to a draw. You can offer one during a game.
 
 If the other player accepts, the game ends in a draw. Otherwise, keep playing.
 
-**ways-to-draw:17**
-
-Black to move. Is this checkmate or stalemate? Check whether the king is attacked and whether Black has any legal move.
-
-Answer explanation: It's stalemate. Black's king isn't in check, but Black has no legal move, so the game is a draw.
-
 **ways-to-draw:18**
 
 It's stalemate: the king isn't in check, but Black has no legal move.
-
-**ways-to-draw:19**
-
-Can either player win when only the two kings remain? Choose an answer.
-
-Answer explanation: No. Two kings alone can never checkmate each other, so the game is drawn.
 
 **ways-to-draw:20**
 
@@ -2783,12 +2487,6 @@ A chess clock tracks each player's time. After moving, press your clock button w
 
 If you're unsure about a rule, raise your hand and ask the tournament helper or arbiter.
 
-**tournaments:8**
-
-White can checkmate in one move here. Make that move.
-
-Answer explanation: Rook to a8 is checkmate. The rook attacks the king along the back rank, and Black has no legal escape, block, or capture.
-
 **tournaments:9**
 
 The rook attacks the king, which has no escape. No piece can block or capture the rook. Checkmate.
@@ -2796,12 +2494,6 @@ The rook attacks the king, which has no escape. No piece can block or capture th
 **tournaments:10**
 
 You can announce checkmate calmly. Be considerate of your opponent and nearby players.
-
-**tournaments:11**
-
-You deliberately picked up a knight that has a legal move. What must you do? Choose an answer.
-
-Answer explanation: Move the knight. Deliberately picking it up in a touch-move game requires a legal knight move.
 
 **tournaments:12**
 
@@ -2875,12 +2567,6 @@ This rook is in file b, rank three: b3.
 
 Recording text: This rook is in file b, rank three: B three.
 
-**chess-language:9**
-
-Which square is Black's queen on? Choose its name.
-
-Answer explanation: The queen is on g6: file g, rank six.
-
 **chess-language:10**
 
 It's on g6: file g, rank six.
@@ -2922,12 +2608,6 @@ Recording text: This pawn moves to E four, written E four.
 This knight moves to f3, written Nf3. We can say knight to f3.
 
 Recording text: This knight moves to F three, written capital N, F three. We can say knight to F three.
-
-**chess-language:19**
-
-Which notation names this bishop and its square? Choose an answer.
-
-Answer explanation: Bc4 names a bishop on c4. B is the bishop's letter; c4 is its square.
 
 **chess-language:20**
 
@@ -2995,12 +2675,6 @@ These knights move towards the centre.
 
 The bishops come out on open diagonals.
 
-**good-start:9**
-
-Move this knight towards the centre rather than the edge.
-
-Answer explanation: Knight to f3 develops towards the centre. Here, it has more useful options than on the edge.
-
 **good-start:10**
 
 Near the centre, a knight usually has more useful squares available.
@@ -3036,12 +2710,6 @@ White has central pawns, developed knights and bishops, and a sheltered king.
 **good-start:18**
 
 Your opponent is developing too. Use each move to improve your position while watching their threats.
-
-**good-start:19**
-
-Make a first pawn move that occupies one of the four central squares.
-
-Answer explanation: Both e2 to e4 and d2 to d4 occupy a central square. Either is an accepted opening move in this exercise.
 
 **good-start:20**
 
@@ -3139,12 +2807,6 @@ Black recaptures the pawn, worth about one.
 
 White gains more material than it loses. Here, that trade benefits White.
 
-**chess-maths:18**
-
-Should the queen capture this pawn? Consider the other black pawn's reply, then choose an answer.
-
-Answer explanation: No. Taking that pawn lets the other pawn capture the queen, losing about nine points to gain one.
-
 **chess-maths:19**
 
 The queen captures a pawn, worth about one point.
@@ -3156,12 +2818,6 @@ But Black's other pawn can capture the queen, worth about nine.
 **chess-maths:21**
 
 That capture loses much more material than it gains. In this position, leave the pawn alone.
-
-**chess-maths:22**
-
-Who has the greater usual material value here? Don't count the kings. Choose an answer.
-
-Answer explanation: White has ten points of material: queen nine plus pawn one. Black has eight: rook five plus bishop three.
 
 **chess-maths:23**
 
@@ -3250,12 +2906,6 @@ We'll return to the earlier position.
 
 The queen and bishop are threatening the pawn again.
 
-**classic-trick:15**
-
-Move a pawn to block the queen's path and stop the immediate threat.
-
-Answer explanation: The pawn moves from g7 to g6, blocking the queen's line to f7 and attacking the queen.
-
 **classic-trick:16**
 
 This pawn moves forward, blocking the line and attacking the queen.
@@ -3275,12 +2925,6 @@ When you see this threat, check how to block it or defend the target. Keep your 
 **classic-trick:20**
 
 Sometimes White brings the queen out before the bishop.
-
-**classic-trick:21**
-
-Should Black advance the marked pawn to attack the queen here? Check the unprotected central pawn, then choose an answer.
-
-Answer explanation: No. The pawn push would allow the queen to capture the unprotected central pawn with check and attack the corner rook.
 
 **classic-trick:22**
 
@@ -3385,12 +3029,6 @@ The pawn advances, attacking both the rook and knight diagonally.
 
 Here, Black can't save both targets, so White can capture one.
 
-**fork:19**
-
-Move White's knight to give check and attack the rook at the same time.
-
-Answer explanation: Knight to c7 gives check and attacks the rook at the same time. In this position, White wins the rook after Black answers check.
-
 **fork:20**
 
 The knight's new square attacks both targets.
@@ -3398,12 +3036,6 @@ The knight's new square attacks both targets.
 **fork:21**
 
 After the king moves, the knight captures the rook.
-
-**fork:22**
-
-Make a pawn move that attacks both the knight and rook.
-
-Answer explanation: Pawn to d5 attacks the knight and rook diagonally. That's a pawn fork.
 
 **fork:23**
 
@@ -3496,21 +3128,9 @@ Black moves the king out of the pin. White's pawn can now capture the knight.
 
 Black recaptures the pawn, and White's rook takes that pawn. White gains more material than it loses.
 
-**pin:18**
-
-Which black piece is pinned? Select it on the board.
-
-Answer explanation: The knight on c6 is pinned to its king along the bishop's diagonal. Moving off that line would expose check.
-
 **pin:19**
 
 The knight is on the bishop's line in front of the king.
-
-**pin:20**
-
-This bishop is pinned to the queen, not the king. Is it legally allowed to move? Choose an answer.
-
-Answer explanation: Yes. The bishop is pinned to the queen, not the king. Moving may be costly, but it isn't forbidden by king safety here.
 
 **pin:21**
 
@@ -3591,12 +3211,6 @@ The bishop captures the knight behind it.
 
 The queen, rook, and bishop can skewer along their movement lines.
 
-**skewer:15**
-
-Move White's rook to give check along the line with Black's queen behind the king.
-
-Answer explanation: Rook to b1 gives check with Black's queen behind the king. When the king leaves the file, the queen becomes exposed.
-
 **skewer:16**
 
 The rook reaches the file shared by the king and queen.
@@ -3604,12 +3218,6 @@ The rook reaches the file shared by the king and queen.
 **skewer:17**
 
 The king moves out of check, and the rook captures the queen.
-
-**skewer:18**
-
-Is the marked attack a pin or a skewer? Look at which piece is in front, then choose an answer.
-
-Answer explanation: It's a skewer. The queen is attacked in front of the rook; moving it exposes the rook behind.
 
 **skewer:19**
 
@@ -3690,21 +3298,9 @@ The knight captures it.
 
 Before moving, look behind your pieces. A blocked line may be useful once it opens.
 
-**discovered-attack:15**
-
-Move the knight to capture the queen and open the bishop's line to the king.
-
-Answer explanation: The knight captures the queen on c6 and opens the bishop's diagonal, giving discovered check at the same time.
-
 **discovered-attack:16**
 
 The knight captures the queen, uncovering check from the bishop.
-
-**discovered-attack:17**
-
-Which white piece blocks the rook's line to Black's king? Select that piece.
-
-Answer explanation: The bishop on c8 blocks the rook's line. Moving it away uncovers the rook's check.
 
 **discovered-attack:18**
 
@@ -3789,21 +3385,9 @@ White's rook captures Black's rook.
 
 White gives up a bishop but gains a pawn and a rook: about three points for six.
 
-**removing-the-defender:15**
-
-Which black piece protects the knight White wants to capture? Select that piece.
-
-Answer explanation: The bishop on c8 protects the knight on a6 along its diagonal.
-
 **removing-the-defender:16**
 
 The bishop protects the knight along its diagonal.
-
-**removing-the-defender:17**
-
-Make a move that captures the bishop defending the knight.
-
-Answer explanation: The queen captures the bishop on c8 with check. After Black responds, the rook can capture the knight that bishop was protecting.
 
 **removing-the-defender:18**
 
@@ -3880,21 +3464,9 @@ The rooks keep taking turns, with another check.
 
 The king reaches the top rank. Now the rooks can finish the mate.
 
-**walking-the-dog:13**
-
-Make the rook move that gives checkmate.
-
-Answer explanation: Rook to a8 checks along the top rank. The other rook cuts off the rank below, leaving the king no escape. Checkmate.
-
 **walking-the-dog:14**
 
 One rook checks along the top rank; the other cuts off the rank below. The king has no escape.
-
-**walking-the-dog:15**
-
-Keep the fence rook in place. Move the other rook up to give check.
-
-Answer explanation: Rook to h6 gives check while the rook on a5 keeps its fence. That forces the king further towards the edge.
 
 **walking-the-dog:16**
 
@@ -3955,12 +3527,6 @@ They move again, with the queen maintaining its distance.
 
 The king moves sideways. The queen follows, gradually restricting it near the edge.
 
-**kiss-of-death:10**
-
-Should the queen follow again now that the king is in the corner? Choose an answer.
-
-Answer explanation: No. Following again would remove the king's last move without giving check. That would be stalemate, a draw.
-
 **kiss-of-death:11**
 
 If it does, the king won't be in check, but it will have no move.
@@ -3988,12 +3554,6 @@ White's king moves closer as Black's king moves back and forth.
 **kiss-of-death:17**
 
 Black's king now moves into the corner.
-
-**kiss-of-death:18**
-
-Find a queen move that checkmates Black's king in one move.
-
-Answer explanation: Queen to b7 or a7 mates close to the king. Queen to c8, d8, or e8 mates along the top rank. Each gives check with no legal escape.
 
 **kiss-of-death:19**
 
@@ -4123,12 +3683,6 @@ White moves the rook along its rank, preserving the wall and passing the turn ba
 
 Black's only move returns it to the corner.
 
-**box-them-in:23**
-
-Find the rook move that gives checkmate.
-
-Answer explanation: Rook to f8 gives check along the top rank. White's king controls the escape squares, so it's checkmate.
-
 **box-them-in:24**
 
 The rook checks along the top rank. White's king controls the escape squares, so Black is checkmated.
@@ -4160,12 +3714,6 @@ Winning material means gaining more than you give up. Look at the opponent's rep
 
 White's rook would like to capture this bishop.
 
-**puzzles-winning-material:3**
-
-First, capture the knight that protects the bishop. Make that move on the board.
-
-Answer explanation: The bishop captures the knight on f6 with check. After the king recaptures, the rook can take the bishop on d5, which has lost its defender.
-
 **puzzles-winning-material:4**
 
 White's bishop captures the knight with check.
@@ -4177,12 +3725,6 @@ Black's king captures the bishop, leaving the other bishop unprotected.
 **puzzles-winning-material:6**
 
 White's rook captures that bishop. Removing the defender made the second capture possible.
-
-**puzzles-winning-material:7**
-
-Move the bishop to pin Black's queen to its king.
-
-Answer explanation: Bishop to b2 pins the queen to the king. Here, the queen can't escape along the diagonal without losing material.
 
 **puzzles-winning-material:8**
 
@@ -4200,12 +3742,6 @@ If Black's queen captures the bishop, White's queen can recapture.
 
 White gives up a bishop and gains a queen in that line.
 
-**puzzles-winning-material:12**
-
-Advance the pawn to attack both black rooks at once.
-
-Answer explanation: Pawn to c4 forks the rooks on b5 and d5. In this position, Black can't save both, and one rook is also pinned.
-
 **puzzles-winning-material:13**
 
 The pawn moves two squares, attacking the rooks diagonally.
@@ -4217,12 +3753,6 @@ That's a fork. In this position, Black can't save both rooks.
 **puzzles-winning-material:15**
 
 One rook is also pinned to its king, which limits its replies.
-
-**puzzles-winning-material:16**
-
-Make a knight move that gives check and helps win Black's unprotected queen.
-
-Answer explanation: Knight to f6 or g5 gives check and opens the queen's diagonal towards d5. In the demonstrated reply, Black captures the knight and White captures the queen.
 
 **puzzles-winning-material:17**
 
@@ -4272,12 +3802,6 @@ Let's solve mate-in-one puzzles. Each has a move that checkmates Black's king im
 
 White moves first. Check that your move gives check and leaves no legal escape.
 
-**puzzles-mate-in-one:2**
-
-Find a move that checkmates Black's king. There may be more than one solution.
-
-Answer explanation: Queen to f8 is mate, with the pawn protecting the queen. Rook to d8 also mates: the queen and pawn cover g7, and Black can't block or capture the rook.
-
 **puzzles-mate-in-one:3**
 
 This queen move isn't mate: the black rook could capture it.
@@ -4296,12 +3820,6 @@ There's another mate: the rook checks along the top rank. The queen and pawn cov
 
 Recording text: There's another mate: the rook checks along the top rank. The queen and pawn cover G seven, and Black can't block or capture the rook.
 
-**puzzles-mate-in-one:7**
-
-Find a bishop move that checkmates Black's king.
-
-Answer explanation: Bishop to a5 gives check. The bishop controls the open escape squares, and Black's own pieces block the others. Checkmate.
-
 **puzzles-mate-in-one:8**
 
 The bishop moves along the diagonal and gives check.
@@ -4314,12 +3832,6 @@ It controls these escape squares, while Black's own pieces block the others. Che
 
 White's rook blocks the bishop's line to Black's king.
 
-**puzzles-mate-in-one:11**
-
-Move the rook to uncover checkmate from the bishop.
-
-Answer explanation: The rook captures on g4, opening the bishop's check and controlling the king's escape line. Black has no legal response. Checkmate.
-
 **puzzles-mate-in-one:12**
 
 The rook captures a pawn, opening the bishop's diagonal.
@@ -4331,12 +3843,6 @@ It also controls the king's escape line. Black has no legal response, so it's ch
 **puzzles-mate-in-one:14**
 
 The bishop's newly opened attack is a discovered check.
-
-**puzzles-mate-in-one:15**
-
-Find a pawn capture that gives checkmate in this position.
-
-Answer explanation: The pawn captures on f7, checking the king and uncovering check from the rook. No legal king move answers both attacks. Checkmate.
 
 **puzzles-mate-in-one:16**
 
@@ -4444,12 +3950,6 @@ White's bishop captures the rook with check.
 **master-game:20**
 
 Black's knight recaptures the bishop.
-
-**master-game:21**
-
-Move White's queen to the top rank to give check and set up a forced mate.
-
-Answer explanation: Queen to b8 gives check and forces the knight to capture it. White then plays rook to d8, protected by the bishop, giving checkmate.
 
 **master-game:22**
 

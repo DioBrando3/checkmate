@@ -378,51 +378,6 @@
           "speak": "Chess gives you practice thinking ahead and paying attention to what's on the board."
         },
         {
-          "set": {
-            "a1": "wr",
-            "b1": "wn",
-            "c1": "wb",
-            "d1": "wq",
-            "e1": "wk",
-            "f1": "wb",
-            "g1": "wn",
-            "h1": "wr",
-            "a2": "wp",
-            "b2": "wp",
-            "c2": "wp",
-            "d2": "wp",
-            "e2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp",
-            "a7": "bp",
-            "b7": "bp",
-            "c7": "bp",
-            "d7": "bp",
-            "e7": "bp",
-            "f7": "bp",
-            "g7": "bp",
-            "h7": "bp",
-            "a8": "br",
-            "b8": "bn",
-            "c8": "bb",
-            "d8": "bq",
-            "e8": "bk",
-            "f8": "bb",
-            "g8": "bn",
-            "h8": "br"
-          },
-          "big": "Quiz time!",
-          "say": "Can you find the white king? Click it on the board.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The white king is on e1. Look for the little cross on its crown."
-          },
-          "id": "intro:17",
-          "speak": "Can you find the white king? Click it on the board."
-        },
-        {
           "hl": [
             {
               "sq": "e1",
@@ -432,18 +387,6 @@
           "say": "The white king is on e1, with a little cross on its crown.",
           "id": "intro:18",
           "speak": "The white king is on E one, with a little cross on its crown."
-        },
-        {
-          "hl": [],
-          "big": "",
-          "say": "The king is attacked, and there's no way to make it safe. What do we call that? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "That's checkmate: the king is attacked, and no legal response can make it safe."
-          },
-          "id": "intro:19",
-          "speak": "The king is attacked, and there's no way to make it safe. What do we call that? Choose an answer."
         },
         {
           "set": null,
@@ -787,24 +730,6 @@
           "speak": "So the king is on C six."
         },
         {
-          "set": {},
-          "hl": [
-            {
-              "sq": "g2",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "What is the marked square's name? Find its letter and number, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The square is g2: file g, rank two. Read the letter first, then the number."
-          },
-          "id": "battlefield:18",
-          "speak": "What is the marked square's name? Find its letter and number, then choose an answer."
-        },
-        {
           "arrows": [
             [
               "g2",
@@ -819,52 +744,6 @@
           "say": "It's g2: file g, rank two.",
           "id": "battlefield:19",
           "speak": "It's G two: file g, rank two."
-        },
-        {
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "d1",
-              "kind": "focus"
-            },
-            {
-              "sq": "d2",
-              "kind": "focus"
-            },
-            {
-              "sq": "d3",
-              "kind": "focus"
-            },
-            {
-              "sq": "d4",
-              "kind": "focus"
-            },
-            {
-              "sq": "d5",
-              "kind": "focus"
-            },
-            {
-              "sq": "d6",
-              "kind": "focus"
-            },
-            {
-              "sq": "d7",
-              "kind": "focus"
-            },
-            {
-              "sq": "d8",
-              "kind": "focus"
-            }
-          ],
-          "big": "",
-          "say": "Is the marked line a file, a rank, or a diagonal? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "It's a file, running up and down the board. This one is the d-file."
-          },
-          "id": "battlefield:20",
-          "speak": "Is the marked line a file, a rank, or a diagonal? Choose an answer."
         },
         {
           "big": "File",
@@ -1310,31 +1189,6 @@
           "speak": "Eight pawns add up to eight points. They can also help protect one another."
         },
         {
-          "set": {
-            "c2": "wp"
-          },
-          "big": "Quiz time!",
-          "hl": [
-            {
-              "sq": "c2",
-              "kind": "focus"
-            }
-          ],
-          "say": "This pawn hasn't moved yet. Select both squares it can move to, then check your answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "reach",
-            "piece": "c2",
-            "answers": [
-              "c3",
-              "c4"
-            ],
-            "why": "The pawn can move to c3 or c4. Its first move may be one or two squares because both are empty."
-          },
-          "id": "pawn:22",
-          "speak": "This pawn hasn't moved yet. Select both squares it can move to, then check your answer."
-        },
-        {
           "hl": [
             {
               "sq": "c3",
@@ -1348,26 +1202,6 @@
           "say": "It can move one square forward or, on its first move, two squares forward.",
           "id": "pawn:23",
           "speak": "It can move one square forward or, on its first move, two squares forward."
-        },
-        {
-          "set": {
-            "e4": "wp",
-            "e5": "bp",
-            "f5": "bp"
-          },
-          "hl": [],
-          "say": "Which black pawn can White capture? Select that pawn.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "e4",
-            "answers": [
-              "f5"
-            ],
-            "why": "White can capture the pawn on f5, one square diagonally forward. The pawn directly ahead can't be captured."
-          },
-          "id": "pawn:24",
-          "speak": "Which black pawn can White capture? Select that pawn."
         },
         {
           "hl": [
@@ -1670,22 +1504,6 @@
           "speak": "Blocking a pawn also blocks your own pawn's forward move. Both may still capture diagonally."
         },
         {
-          "set": {
-            "d5": "wp",
-            "e6": "bp"
-          },
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "White can capture Black's last pawn. Make that winning move.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The pawn on d5 captures the pawn on e6. Black has no pawns left, so White wins Pawn Wars."
-          },
-          "id": "pawn-wars:19",
-          "speak": "White can capture Black's last pawn. Make that winning move."
-        },
-        {
           "hl": [
             {
               "sq": "e6",
@@ -1708,20 +1526,6 @@
           "say": "Black has no pawns left. White wins.",
           "id": "pawn-wars:21",
           "speak": "Black has no pawns left. White wins."
-        },
-        {
-          "set": {
-            "a4": "wp",
-            "h3": "bp"
-          },
-          "say": "Who wins this race? White moves first. Count how many moves each pawn needs, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Black wins this race. Its pawn needs two moves, while White's needs four, even though White moves first."
-          },
-          "id": "pawn-wars:22",
-          "speak": "Who wins this race? White moves first. Count how many moves each pawn needs, then choose an answer."
         },
         {
           "arrows": [
@@ -2068,28 +1872,6 @@
           "speak": "A rook moves and captures along straight lines. A pawn moves straight but captures diagonally."
         },
         {
-          "set": {
-            "a2": "wr",
-            "a6": "bp",
-            "c4": "bp",
-            "e2": "bp"
-          },
-          "big": "Quiz time!",
-          "say": "Select all the black pawns this rook can capture, then check your answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "a2",
-            "answers": [
-              "a6",
-              "e2"
-            ],
-            "why": "The rook can capture on a6 along its file and on e2 along its rank. It can't capture diagonally."
-          },
-          "id": "rook:14",
-          "speak": "Select all the black pawns this rook can capture, then check your answer."
-        },
-        {
           "hl": [
             {
               "sq": "a6",
@@ -2131,23 +1913,6 @@
           "say": "The rook takes a pawn along the line.",
           "id": "rook:16",
           "speak": "The rook takes a pawn along the line."
-        },
-        {
-          "set": {
-            "e2": "wr",
-            "e5": "wp",
-            "e7": "bp"
-          },
-          "say": "Which pieces can this rook capture now? Select them, or choose No squares if none can be captured.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "e2",
-            "answers": [],
-            "why": "There are no captures here. The rook's own pawn blocks its line to the black pawn."
-          },
-          "id": "rook:17",
-          "speak": "Which pieces can this rook capture now? Select them, or choose No squares if none can be captured."
         },
         {
           "hl": [
@@ -2480,35 +2245,6 @@
           "speak": "No. It would need to turn a corner, which a rook can't do in one move. White wins."
         },
         {
-          "set": {
-            "a1": "wr",
-            "b3": "wp",
-            "e7": "wp",
-            "g5": "wp",
-            "a5": "bp",
-            "d4": "bp",
-            "f1": "bp",
-            "h8": "br"
-          },
-          "arrows": [],
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "In Pawn Hunt, which pawns can this rook capture? Select all of them.",
-          "miniGame": true,
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "a1",
-            "answers": [
-              "a5",
-              "f1"
-            ],
-            "why": "The rook on a1 can capture on a5 or f1 along clear straight lines. The diagonal pawn is out of reach."
-          },
-          "id": "rampant-rooks:22",
-          "speak": "In Pawn Hunt, which pawns can this rook capture? Select all of them."
-        },
-        {
           "hl": [
             {
               "sq": "a5",
@@ -2538,30 +2274,6 @@
           "miniGame": true,
           "id": "rampant-rooks:23",
           "speak": "The pawns on its file and rank can be captured. The diagonal pawn cannot."
-        },
-        {
-          "set": {
-            "g8": "wp",
-            "b1": "br"
-          },
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "g8",
-              "kind": "focus"
-            }
-          ],
-          "say": "In Rooks and Pawns, can Black capture the pawn that just reached the end? Select any available capture, or choose No squares.",
-          "miniGame": true,
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "b1",
-            "answers": [],
-            "why": "There is no capture of the pawn in one rook move. The pawn survives at the far end, so White wins this game."
-          },
-          "id": "rampant-rooks:24",
-          "speak": "In Rooks and Pawns, can Black capture the pawn that just reached the end? Select any available capture, or choose No squares."
         },
         {
           "arrows": [
@@ -2890,26 +2602,6 @@
           "speak": "A bishop can travel a long way, but it can only visit half the board's squares."
         },
         {
-          "set": {
-            "f1": "wb",
-            "b5": "bp",
-            "f4": "bp"
-          },
-          "big": "Quiz time!",
-          "say": "Which pawn can this bishop capture? Select it on the board.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "f1",
-            "answers": [
-              "b5"
-            ],
-            "why": "The bishop can capture on b5 along its diagonal. It can't capture straight ahead."
-          },
-          "id": "bishop:18",
-          "speak": "Which pawn can this bishop capture? Select it on the board."
-        },
-        {
           "arrows": [
             [
               "f1",
@@ -2943,26 +2635,6 @@
           "say": "The bishop moves along the diagonal and takes the pawn.",
           "id": "bishop:20",
           "speak": "The bishop moves along the diagonal and takes the pawn."
-        },
-        {
-          "set": {
-            "c1": "wb",
-            "h3": "bp"
-          },
-          "hl": [
-            {
-              "sq": "c1",
-              "kind": "focus"
-            }
-          ],
-          "say": "Could this bishop ever capture the pawn if it stays on that light square? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. The bishop stays on dark squares, so it can't reach that pawn while the pawn stays on a light square."
-          },
-          "id": "bishop:21",
-          "speak": "Could this bishop ever capture the pawn if it stays on that light square? Choose an answer."
         },
         {
           "hl": [
@@ -3170,24 +2842,6 @@
           "speak": "Bishops can capture each other too. Losing both bishops leaves you with no move in this game."
         },
         {
-          "big": "Quiz time!",
-          "say": "Which black pawns can White's bishops capture now? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": [
-              "c1",
-              "f1"
-            ],
-            "answers": [
-              "e3"
-            ],
-            "why": "The bishop on c1 can capture the pawn on e3 along its diagonal."
-          },
-          "id": "busy-bishops:12",
-          "speak": "Which black pawns can White's bishops capture now? Select all of them."
-        },
-        {
           "big": "",
           "arrows": [
             [
@@ -3345,34 +2999,6 @@
           "say": "Win by capturing every opposing piece or getting a pawn safely to the far end. Having no move on your turn is a loss.",
           "id": "busy-bishops:22",
           "speak": "Win by capturing every opposing piece or getting a pawn safely to the far end. Having no move on your turn is a loss."
-        },
-        {
-          "set": {
-            "d2": "wb",
-            "a5": "bp",
-            "d5": "bp",
-            "g5": "bp"
-          },
-          "hl": [
-            {
-              "sq": "d2",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Which pawns can this bishop capture? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "d2",
-            "answers": [
-              "a5",
-              "g5"
-            ],
-            "why": "The bishop on d2 can capture the pawns on a5 and g5. Both are on clear diagonals."
-          },
-          "id": "busy-bishops:23",
-          "speak": "Which pawns can this bishop capture? Select all of them."
         },
         {
           "big": "",
@@ -3769,30 +3395,6 @@
           "speak": "Before moving your queen, check whether the other player could capture it."
         },
         {
-          "set": {
-            "c2": "wq",
-            "c7": "bp",
-            "f5": "bp",
-            "h2": "bp",
-            "e5": "bn"
-          },
-          "big": "Quiz time!",
-          "say": "Which black piece is safe from this queen? Select that piece.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "c2",
-            "answers": [
-              "c7",
-              "f5",
-              "h2"
-            ],
-            "why": "The knight on e5 is safe from this queen. They don't share a file, rank, or diagonal."
-          },
-          "id": "queen:14",
-          "speak": "Which black piece is safe from this queen? Select that piece."
-        },
-        {
           "big": "",
           "arrows": [
             [
@@ -3829,28 +3431,6 @@
           "say": "The horse-shaped piece is safe from this queen. It isn't on a shared file, rank, or diagonal.",
           "id": "queen:15",
           "speak": "The horse-shaped piece is safe from this queen. It isn't on a shared file, rank, or diagonal."
-        },
-        {
-          "set": {
-            "a1": "wq",
-            "a4": "wp",
-            "a7": "br",
-            "h8": "bb"
-          },
-          "arrows": [],
-          "hl": [],
-          "say": "Which pieces can the queen capture now? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "a1",
-            "answers": [
-              "h8"
-            ],
-            "why": "The queen can capture the bishop on h8. Its own pawn blocks the line to the rook."
-          },
-          "id": "queen:16",
-          "speak": "Which pieces can the queen capture now? Select all of them."
         },
         {
           "hl": [
@@ -4115,30 +3695,6 @@
           "speak": "The pawn captures the queen, so the pawns win this game."
         },
         {
-          "set": {
-            "d6": "bq",
-            "b4": "wp",
-            "a3": "wp",
-            "g6": "wp"
-          },
-          "big": "Quiz time!",
-          "say": "One of these captures loses the queen. Make the capture that keeps it safe.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "b",
-            "answers": [
-              [
-                "d6",
-                "g6"
-              ]
-            ],
-            "why": "Queen to g6 is the safe capture here. Capturing on b4 would let the pawn on a3 capture the queen in reply."
-          },
-          "id": "quirky-queens:15",
-          "speak": "One of these captures loses the queen. Make the capture that keeps it safe."
-        },
-        {
           "big": "",
           "arrows": [
             [
@@ -4179,30 +3735,6 @@
           "say": "The queen makes the safe capture.",
           "id": "quirky-queens:18",
           "speak": "The queen makes the safe capture."
-        },
-        {
-          "set": {
-            "b1": "bq",
-            "h7": "wp"
-          },
-          "hl": [
-            {
-              "sq": "h7",
-              "kind": "focus"
-            }
-          ],
-          "say": "Black to move. Which pawns can the queen capture now? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "b1",
-            "answers": [
-              "h7"
-            ],
-            "why": "The queen can capture the pawn on h7 along its diagonal, stopping that pawn from reaching the end."
-          },
-          "id": "quirky-queens:19",
-          "speak": "Black to move. Which pawns can the queen capture now? Select all of them."
         },
         {
           "hl": [],
@@ -4613,35 +4145,6 @@
           "speak": "No. Those pawns stay on the board. The knight captures only the bishop on its landing square."
         },
         {
-          "set": {
-            "e4": "bn",
-            "d6": "wr",
-            "g5": "wr",
-            "e5": "wb",
-            "e3": "wp"
-          },
-          "hl": [
-            {
-              "sq": "e4",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Which white pieces can this black knight capture? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "e4",
-            "answers": [
-              "d6",
-              "g5"
-            ],
-            "why": "The knight can capture the rooks on d6 and g5. Both are an L-shaped move from e4."
-          },
-          "id": "knight:19",
-          "speak": "Which white pieces can this black knight capture? Select all of them."
-        },
-        {
           "big": "",
           "arrows": [
             [
@@ -4687,30 +4190,6 @@
           "say": "The knight takes a rook on its landing square.",
           "id": "knight:21",
           "speak": "The knight takes a rook on its landing square."
-        },
-        {
-          "set": {
-            "a1": "wn"
-          },
-          "hl": [
-            {
-              "sq": "a1",
-              "kind": "focus"
-            }
-          ],
-          "say": "Select all the squares this knight can move to from the corner.",
-          "pause": 3,
-          "quiz": {
-            "ask": "reach",
-            "piece": "a1",
-            "answers": [
-              "b3",
-              "c2"
-            ],
-            "why": "From a1, the knight can move to b3 or c2. Each destination is an L-shaped move away."
-          },
-          "id": "knight:22",
-          "speak": "Select all the squares this knight can move to from the corner."
         },
         {
           "hl": [
@@ -4835,28 +4314,6 @@
           "say": "Capture all the opposing pieces to win. In this game, losing your knight or having no knight move on your turn is a loss.",
           "id": "hungry-horses:5",
           "speak": "Capture all the opposing pieces to win. In this game, losing your knight or having no knight move on your turn is a loss."
-        },
-        {
-          "big": "Quiz time!",
-          "hl": [
-            {
-              "sq": "e8",
-              "kind": "focus"
-            }
-          ],
-          "say": "White moves first. Select all the pieces its knight can capture now.",
-          "pause": 3,
-          "quiz": {
-            "ask": "capture",
-            "piece": "e8",
-            "answers": [
-              "c7",
-              "g7"
-            ],
-            "why": "The knight on e8 can capture the pawns on c7 and g7. Both are legal L-shaped destinations in this challenge."
-          },
-          "id": "hungry-horses:6",
-          "speak": "White moves first. Select all the pieces its knight can capture now."
         },
         {
           "big": "",
@@ -5104,26 +4561,6 @@
           "say": "On your own board, try continuing to the other corners and back home.",
           "id": "hungry-horses:20",
           "speak": "On your own board, try continuing to the other corners and back home."
-        },
-        {
-          "set": {
-            "c6": "bp"
-          },
-          "hl": [
-            {
-              "sq": "c6",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Which two squares does this black pawn attack? Select both.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The pawn attacks b5 and d5, the two squares diagonally forward from c6."
-          },
-          "id": "hungry-horses:21",
-          "speak": "Which two squares does this black pawn attack? Select both."
         },
         {
           "big": "",
@@ -5412,51 +4849,6 @@
           "speak": "The queen attacks these squares too."
         },
         {
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "d3",
-              "kind": "no"
-            },
-            {
-              "sq": "d4",
-              "kind": "no"
-            },
-            {
-              "sq": "d5",
-              "kind": "no"
-            },
-            {
-              "sq": "b3",
-              "kind": "no"
-            },
-            {
-              "sq": "b4",
-              "kind": "no"
-            },
-            {
-              "sq": "b5",
-              "kind": "no"
-            },
-            {
-              "sq": "c5",
-              "kind": "no"
-            }
-          ],
-          "say": "Select every square where this king can move safely.",
-          "pause": 3,
-          "quiz": {
-            "ask": "reach",
-            "piece": "c4",
-            "answers": [
-              "c3"
-            ],
-            "why": "The king can move safely to c3. The other neighbouring destinations are attacked or unavailable."
-          },
-          "id": "king:11",
-          "speak": "Select every square where this king can move safely."
-        },
-        {
           "hl": [
             {
               "sq": "c3",
@@ -5523,33 +4915,6 @@
           "speak": "To tell the king from the queen, look for the little cross on its crown."
         },
         {
-          "set": {
-            "e1": "wk",
-            "a2": "br"
-          },
-          "hl": [],
-          "big": "Quiz time!",
-          "arrows": [
-            [
-              "a2",
-              "h2"
-            ]
-          ],
-          "say": "Which squares can this king move to safely? Select all of them.",
-          "pause": 3,
-          "quiz": {
-            "ask": "reach",
-            "piece": "e1",
-            "answers": [
-              "d1",
-              "f1"
-            ],
-            "why": "The king can move safely to d1 or f1. The rook attacks the neighbouring squares on the rank above."
-          },
-          "id": "king:17",
-          "speak": "Which squares can this king move to safely? Select all of them."
-        },
-        {
           "big": "",
           "hl": [
             {
@@ -5576,27 +4941,6 @@
           "say": "The rook attacks the squares ahead. Both marked squares to the side are safe here.",
           "id": "king:18",
           "speak": "The rook attacks the squares ahead. Both marked squares to the side are safe here."
-        },
-        {
-          "set": {
-            "e4": "wk",
-            "e6": "bk"
-          },
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "e5",
-              "kind": "focus"
-            }
-          ],
-          "say": "Can White's king move to the marked square beside Black's king? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. Moving to e5 would put the kings on neighbouring squares, which isn't allowed."
-          },
-          "id": "king:19",
-          "speak": "Can White's king move to the marked square beside Black's king? Choose an answer."
         },
         {
           "hl": [
@@ -6007,28 +5351,6 @@
           "speak": "Two more safe steps bring it to the target."
         },
         {
-          "set": {
-            "e4": "wk",
-            "a5": "br"
-          },
-          "big": "Quiz time!",
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "e5",
-              "kind": "focus"
-            }
-          ],
-          "say": "The rook attacks this row. May the king move onto the marked square? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. The rook attacks e5, so that square isn't a safe destination for the king."
-          },
-          "id": "mine-alert:14",
-          "speak": "The rook attacks this row. May the king move onto the marked square? Choose an answer."
-        },
-        {
           "arrows": [
             [
               "a5",
@@ -6122,16 +5444,6 @@
           "say": "Now try a longer route. The king starts at the bottom and needs to reach the target at the top.",
           "id": "mine-alert:17",
           "speak": "Now try a longer route. The king starts at the bottom and needs to reach the target at the top."
-        },
-        {
-          "say": "Move the king towards e8, choosing one safe neighbouring square at a time.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The route reaches e8 using safe neighbouring squares. In this challenge, avoid the black pieces and every square they attack."
-          },
-          "id": "mine-alert:18",
-          "speak": "Move the king towards E eight, choosing one safe neighbouring square at a time."
         },
         {
           "big": "",
@@ -6398,28 +5710,6 @@
           "say": "A pawn can give check too. This one attacks Black's king diagonally.",
           "id": "catch-the-king:7",
           "speak": "A pawn can give check too. This one attacks Black's king diagonally."
-        },
-        {
-          "hl": [
-            {
-              "sq": "d5",
-              "kind": "check"
-            },
-            {
-              "sq": "e4",
-              "kind": "focus"
-            }
-          ],
-          "say": "Can Black's king capture anything safely here? Select any available captures, or choose No squares.",
-          "pause": 2,
-          "quiz": {
-            "ask": "capture",
-            "piece": "d5",
-            "answers": [],
-            "why": "The king has no safe capture here. The checking pawn is protected by another pawn."
-          },
-          "id": "catch-the-king:8",
-          "speak": "Can Black's king capture anything safely here? Select any available captures, or choose No squares."
         },
         {
           "arrows": [
@@ -6729,36 +6019,6 @@
           "speak": "None of those responses works. Black is checkmated, and White wins."
         },
         {
-          "set": {
-            "b8": "wq",
-            "f8": "bk",
-            "g6": "wk",
-            "h2": "bb",
-            "e1": "br"
-          },
-          "big": "Quiz time!",
-          "arrows": [
-            [
-              "b8",
-              "f8"
-            ]
-          ],
-          "hl": [
-            {
-              "sq": "f8",
-              "kind": "check"
-            }
-          ],
-          "say": "Which three responses can get a king out of check? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Avoid, block, capture: move the king to safety, block the attacker's line, or capture the checking piece with a legal move."
-          },
-          "id": "catch-the-king:26",
-          "speak": "Which three responses can get a king out of check? Choose an answer."
-        },
-        {
           "arrows": [
             [
               "b8",
@@ -6794,36 +6054,6 @@
           "say": "Avoid, block, capture: move to safety, block the line, or take the attacker.",
           "id": "catch-the-king:27",
           "speak": "Avoid, block, capture: move to safety, block the line, or take the attacker."
-        },
-        {
-          "set": {
-            "a5": "bk",
-            "b5": "wq",
-            "h1": "wk"
-          },
-          "big": "",
-          "arrows": [
-            [
-              "b5",
-              "a5"
-            ]
-          ],
-          "hl": [
-            {
-              "sq": "a5",
-              "kind": "check"
-            }
-          ],
-          "say": "Look at this position. Is Black in check, checkmate, or stalemate? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "status",
-            "side": "b",
-            "answer": "check",
-            "why": "It's check, not checkmate. The queen is unprotected here, so the king can capture it and get out of check."
-          },
-          "id": "catch-the-king:28",
-          "speak": "Look at this position. Is Black in check, checkmate, or stalemate? Choose an answer."
         },
         {
           "hl": [
@@ -7388,22 +6618,6 @@
           "speak": "This king has no pawn shelter. It needs more care when lines open nearby."
         },
         {
-          "set": {
-            "e1": "wk",
-            "h1": "wr"
-          },
-          "big": "Quiz time!",
-          "hl": [],
-          "say": "Select the square where White's king will land after castling.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The king lands on g1, two squares towards the kingside rook. The rook then moves to f1."
-          },
-          "id": "king-safety:18",
-          "speak": "Select the square where White's king will land after castling."
-        },
-        {
           "hl": [
             {
               "sq": "g1",
@@ -7429,25 +6643,6 @@
           "say": "The rook moves to the square beside it.",
           "id": "king-safety:20",
           "speak": "The rook moves to the square beside it."
-        },
-        {
-          "set": {
-            "e1": "wk",
-            "g1": "wn",
-            "h1": "wr"
-          },
-          "big": "",
-          "say": "Can White castle kingside in this position? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "castle",
-            "side": "w",
-            "wing": "king",
-            "answer": false,
-            "why": "No. The knight is between the king and rook. That path must be clear before White can castle."
-          },
-          "id": "king-safety:21",
-          "speak": "Can White castle kingside in this position? Choose an answer."
         },
         {
           "hl": [
@@ -7811,34 +7006,6 @@
           "speak": "Sixteen pieces for White and sixteen for Black. The board is ready."
         },
         {
-          "set": {
-            "a1": "wr",
-            "h1": "wr",
-            "a8": "br",
-            "h8": "br",
-            "b1": "wn",
-            "g1": "wn",
-            "b8": "bn",
-            "g8": "bn",
-            "c1": "wb",
-            "f1": "wb",
-            "c8": "bb",
-            "f8": "bb",
-            "e1": "wk",
-            "e8": "bk"
-          },
-          "big": "Quiz time!",
-          "hl": [],
-          "say": "Where does White's queen start? Select its square.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "White's queen starts on d1, a light square. Remember: the queen starts on its own colour."
-          },
-          "id": "setting-up:15",
-          "speak": "Where does White's queen start? Select its square."
-        },
-        {
           "hl": [
             {
               "sq": "d1",
@@ -7881,19 +7048,6 @@
           "say": "Black's queen starts on d8, a dark square.",
           "id": "setting-up:17",
           "speak": "Black's queen starts on D eight, a dark square."
-        },
-        {
-          "set": {},
-          "big": "",
-          "hl": [],
-          "say": "Which reminder helps you face the board correctly? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Light on the right. The nearest right-hand corner should be light when you face the board."
-          },
-          "id": "setting-up:18",
-          "speak": "Which reminder helps you face the board correctly? Choose an answer."
         },
         {
           "hl": [
@@ -8256,51 +7410,6 @@
           "speak": "Moving those pawns can open lines towards the king."
         },
         {
-          "set": {
-            "a8": "br",
-            "c8": "bb",
-            "d8": "bq",
-            "e8": "bk",
-            "h8": "br",
-            "a7": "bp",
-            "b7": "bp",
-            "c7": "bp",
-            "f7": "bp",
-            "g7": "bp",
-            "h7": "bp",
-            "c6": "bn",
-            "c5": "bb",
-            "d5": "bn",
-            "e5": "bp",
-            "c4": "wb",
-            "c3": "wp",
-            "f3": "wn",
-            "a2": "wp",
-            "b2": "wp",
-            "d2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp",
-            "a1": "wr",
-            "b1": "wn",
-            "c1": "wb",
-            "d1": "wq",
-            "e1": "wr",
-            "g1": "wk"
-          },
-          "big": "Quiz time!",
-          "arrows": [],
-          "hl": [],
-          "say": "Which king is safer in this position? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "White's king is safer in this position. It has castled behind its pawns, away from the central action."
-          },
-          "id": "why-castle:14",
-          "speak": "Which king is safer in this position? Choose an answer."
-        },
-        {
           "hl": [
             {
               "sq": "g1",
@@ -8310,25 +7419,6 @@
           "say": "White's king has more shelter here: it has castled behind its pawns.",
           "id": "why-castle:15",
           "speak": "White's king has more shelter here: it has castled behind its pawns."
-        },
-        {
-          "set": {
-            "g1": "wk",
-            "f1": "wr",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp"
-          },
-          "big": "",
-          "hl": [],
-          "say": "How many pawns form White's king shelter? Choose an answer.",
-          "pause": 2,
-          "quiz": {
-            "ask": "open",
-            "why": "Three pawns form the shelter in front of White's king."
-          },
-          "id": "why-castle:16",
-          "speak": "How many pawns form White's king shelter? Choose an answer."
         },
         {
           "count": [
@@ -8658,25 +7748,6 @@
           "speak": "Remember: you can't castle out of check, through check, or into check."
         },
         {
-          "set": {
-            "e1": "wk",
-            "h1": "wr",
-            "c4": "bb"
-          },
-          "big": "Quiz time!",
-          "say": "Can White castle kingside here? Look at the bishop's diagonal, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "castle",
-            "side": "w",
-            "wing": "king",
-            "answer": false,
-            "why": "No. The bishop attacks the square the king would cross. You can't castle through check."
-          },
-          "id": "when-castle:14",
-          "speak": "Can White castle kingside here? Look at the bishop's diagonal, then choose an answer."
-        },
-        {
           "arrows": [
             [
               "c4",
@@ -8692,27 +7763,6 @@
           "say": "No. The bishop attacks the square the king would cross.",
           "id": "when-castle:15",
           "speak": "No. The bishop attacks the square the king would cross."
-        },
-        {
-          "set": {
-            "e1": "wk",
-            "h1": "wr",
-            "d8": "br"
-          },
-          "big": "",
-          "arrows": [],
-          "hl": [],
-          "say": "Can White castle kingside in this position? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "castle",
-            "side": "w",
-            "wing": "king",
-            "answer": true,
-            "why": "Yes. The king and rook are unmoved, the path is clear, and the king's starting, crossing, and landing squares are safe."
-          },
-          "id": "when-castle:16",
-          "speak": "Can White castle kingside in this position? Choose an answer."
         },
         {
           "arrows": [
@@ -9036,22 +8086,6 @@
           "say": "The new queen already attacks the king. That's check.",
           "id": "pawn-magic:16",
           "speak": "The new queen already attacks the king. That's check."
-        },
-        {
-          "set": {
-            "b7": "wp",
-            "e4": "wp",
-            "h2": "wp"
-          },
-          "big": "Quiz time!",
-          "say": "Select the pawn that is one move away from promotion.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The pawn on b7 is one square from the last rank. Reaching that rank requires promotion."
-          },
-          "id": "pawn-magic:17",
-          "speak": "Select the pawn that is one move away from promotion."
         },
         {
           "hl": [
@@ -9420,23 +8454,6 @@
           "speak": "Add one for the pawn: six points of material."
         },
         {
-          "set": {
-            "b6": "bq",
-            "e3": "wn",
-            "g3": "wp"
-          },
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "You captured a queen; your friend captured a knight and a pawn. Who captured more material? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "You captured more material. The queen is worth about nine points; a knight and pawn add up to about four."
-          },
-          "id": "scoring-points:17",
-          "speak": "You captured a queen; your friend captured a knight and a pawn. Who captured more material? Choose an answer."
-        },
-        {
           "hl": [
             {
               "sq": "b6",
@@ -9447,41 +8464,6 @@
           "say": "The queen is worth nine. The knight and pawn add up to four, so you captured more.",
           "id": "scoring-points:18",
           "speak": "The queen is worth nine. The knight and pawn add up to four, so you captured more."
-        },
-        {
-          "set": {
-            "c6": "br",
-            "e3": "bn",
-            "f3": "bp",
-            "g3": "bp"
-          },
-          "hl": [
-            {
-              "sq": "c6",
-              "kind": "focus"
-            },
-            {
-              "sq": "e3",
-              "kind": "focus"
-            },
-            {
-              "sq": "f3",
-              "kind": "focus"
-            },
-            {
-              "sq": "g3",
-              "kind": "focus"
-            }
-          ],
-          "big": "",
-          "say": "Which group has the greater usual value: a rook, or a knight and two pawns? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The groups have the same usual value: a rook is five, and a knight plus two pawns is three plus one plus one."
-          },
-          "id": "scoring-points:19",
-          "speak": "Which group has the greater usual value: a rook, or a knight and two pawns? Choose an answer."
         },
         {
           "hl": [
@@ -10049,23 +9031,6 @@
           "speak": "To castle, the king and that rook must be unmoved, with a clear path. The king can't start, cross, or finish on an attacked square."
         },
         {
-          "set": {
-            "b4": "wn",
-            "d4": "wb",
-            "f4": "wr",
-            "h4": "wq"
-          },
-          "big": "Quiz time!",
-          "say": "Select the piece usually worth five points.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The rook on f4 is the piece usually worth five points."
-          },
-          "id": "playtime:28",
-          "speak": "Select the piece usually worth five points."
-        },
-        {
           "hl": [
             {
               "sq": "f4",
@@ -10076,18 +9041,6 @@
           "say": "The rook is usually worth five points.",
           "id": "playtime:29",
           "speak": "The rook is usually worth five points."
-        },
-        {
-          "hl": [],
-          "big": "",
-          "say": "Select the piece that can jump over others in an ordinary move.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The knight on b4 can jump over pieces in an ordinary move. A rook crosses the king only during castling."
-          },
-          "id": "playtime:30",
-          "speak": "Select the piece that can jump over others in an ordinary move."
         },
         {
           "hl": [
@@ -10320,57 +9273,6 @@
           "speak": "Put each back-rank piece in its starting place."
         },
         {
-          "set": {
-            "a1": "wr",
-            "b1": "wn",
-            "c1": "wb",
-            "d1": "wq",
-            "e1": "wk",
-            "f1": "wb",
-            "g1": "wn",
-            "h1": "wr",
-            "a2": "wp",
-            "b2": "wp",
-            "c2": "wp",
-            "d2": "wp",
-            "e2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp",
-            "a7": "bp",
-            "b7": "bp",
-            "c7": "bp",
-            "d7": "bp",
-            "e7": "bp",
-            "f7": "bp",
-            "g7": "bp",
-            "h7": "bp",
-            "a8": "br",
-            "b8": "bn",
-            "c8": "bb",
-            "d8": "bq",
-            "e8": "bk",
-            "f8": "bb",
-            "g8": "bn",
-            "h8": "br"
-          },
-          "hl": [
-            {
-              "sq": "b1",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "At a real board, you deliberately touched a knight that can move. What must you do? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Move the knight. At a real board using touch-move, deliberately touching a piece with a legal move commits you to moving it."
-          },
-          "id": "etiquette:14",
-          "speak": "At a real board, you deliberately touched a knight that can move. What must you do? Choose an answer."
-        },
-        {
           "moves": [
             [
               "b1",
@@ -10382,18 +9284,6 @@
           "say": "You must move the knight. That's the touch-move rule.",
           "id": "etiquette:15",
           "speak": "You must move the knight. That's the touch-move rule."
-        },
-        {
-          "set": null,
-          "big": "Quiz time!",
-          "say": "You've lost an over-the-board game. Which response shows good sportsmanship? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "A handshake and a kind comment show respect after the game, whether you won or lost."
-          },
-          "id": "etiquette:16",
-          "speak": "You've lost an over-the-board game. Which response shows good sportsmanship? Choose an answer."
         },
         {
           "big": "Well done!",
@@ -10620,24 +9510,6 @@
           "speak": "If the other player accepts, the game ends in a draw. Otherwise, keep playing."
         },
         {
-          "set": {
-            "a8": "bk",
-            "c7": "wk",
-            "b6": "wq"
-          },
-          "big": "Quiz time!",
-          "say": "Black to move. Is this checkmate or stalemate? Check whether the king is attacked and whether Black has any legal move.",
-          "pause": 3,
-          "quiz": {
-            "ask": "status",
-            "side": "b",
-            "answer": "stalemate",
-            "why": "It's stalemate. Black's king isn't in check, but Black has no legal move, so the game is a draw."
-          },
-          "id": "ways-to-draw:17",
-          "speak": "Black to move. Is this checkmate or stalemate? Check whether the king is attacked and whether Black has any legal move."
-        },
-        {
           "hl": [
             {
               "sq": "a8",
@@ -10660,22 +9532,6 @@
           "say": "It's stalemate: the king isn't in check, but Black has no legal move.",
           "id": "ways-to-draw:18",
           "speak": "It's stalemate: the king isn't in check, but Black has no legal move."
-        },
-        {
-          "set": {
-            "d4": "wk",
-            "f7": "bk"
-          },
-          "hl": [],
-          "big": "",
-          "say": "Can either player win when only the two kings remain? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. Two kings alone can never checkmate each other, so the game is drawn."
-          },
-          "id": "ways-to-draw:19",
-          "speak": "Can either player win when only the two kings remain? Choose an answer."
         },
         {
           "big": "Draw",
@@ -10785,35 +9641,6 @@
           "speak": "If you're unsure about a rule, raise your hand and ask the tournament helper or arbiter."
         },
         {
-          "set": {
-            "a1": "wr",
-            "g1": "wk",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp",
-            "g8": "bk",
-            "f7": "bp",
-            "g7": "bp",
-            "h7": "bp"
-          },
-          "big": "",
-          "say": "White can checkmate in one move here. Make that move.",
-          "pause": 3,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "a1",
-                "a8"
-              ]
-            ],
-            "why": "Rook to a8 is checkmate. The rook attacks the king along the back rank, and Black has no legal escape, block, or capture."
-          },
-          "id": "tournaments:8",
-          "speak": "White can checkmate in one move here. Make that move."
-        },
-        {
           "moves": [
             [
               "a1",
@@ -10840,32 +9667,6 @@
           "say": "You can announce checkmate calmly. Be considerate of your opponent and nearby players.",
           "id": "tournaments:10",
           "speak": "You can announce checkmate calmly. Be considerate of your opponent and nearby players."
-        },
-        {
-          "set": {
-            "e1": "wk",
-            "e2": "wp",
-            "d1": "wq",
-            "b1": "wn",
-            "e8": "bk",
-            "d7": "bp"
-          },
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "b1",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "You deliberately picked up a knight that has a legal move. What must you do? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Move the knight. Deliberately picking it up in a touch-move game requires a legal knight move."
-          },
-          "id": "tournaments:11",
-          "speak": "You deliberately picked up a knight that has a legal move. What must you do? Choose an answer."
         },
         {
           "moves": [
@@ -11141,26 +9942,6 @@
           "speak": "This rook is in file b, rank three: B three."
         },
         {
-          "set": {
-            "g6": "bq"
-          },
-          "hl": [
-            {
-              "sq": "g6",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Which square is Black's queen on? Choose its name.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The queen is on g6: file g, rank six."
-          },
-          "id": "chess-language:9",
-          "speak": "Which square is Black's queen on? Choose its name."
-        },
-        {
           "hl": [
             {
               "sq": "g6",
@@ -11254,20 +10035,6 @@
           "say": "This knight moves to f3, written Nf3. We can say knight to f3.",
           "id": "chess-language:18",
           "speak": "This knight moves to F three, written capital N, F three. We can say knight to F three."
-        },
-        {
-          "set": {
-            "c4": "wb"
-          },
-          "big": "Quiz time!",
-          "say": "Which notation names this bishop and its square? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Bc4 names a bishop on c4. B is the bishop's letter; c4 is its square."
-          },
-          "id": "chess-language:19",
-          "speak": "Which notation names this bishop and its square? Choose an answer."
         },
         {
           "hl": [
@@ -11471,41 +10238,6 @@
           "speak": "The bishops come out on open diagonals."
         },
         {
-          "set": {
-            "g1": "wn"
-          },
-          "hl": [
-            {
-              "sq": "g1",
-              "kind": "focus"
-            },
-            {
-              "sq": "f3",
-              "kind": "focus"
-            },
-            {
-              "sq": "h3",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Move this knight towards the centre rather than the edge.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "g1",
-                "f3"
-              ]
-            ],
-            "why": "Knight to f3 develops towards the centre. Here, it has more useful options than on the edge."
-          },
-          "id": "good-start:9",
-          "speak": "Move this knight towards the centre rather than the edge."
-        },
-        {
           "hl": [
             {
               "sq": "f3",
@@ -11656,46 +10388,6 @@
           "say": "Your opponent is developing too. Use each move to improve your position while watching their threats.",
           "id": "good-start:18",
           "speak": "Your opponent is developing too. Use each move to improve your position while watching their threats."
-        },
-        {
-          "set": {
-            "a1": "wr",
-            "b1": "wn",
-            "c1": "wb",
-            "d1": "wq",
-            "e1": "wk",
-            "f1": "wb",
-            "g1": "wn",
-            "h1": "wr",
-            "a2": "wp",
-            "b2": "wp",
-            "c2": "wp",
-            "d2": "wp",
-            "e2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp"
-          },
-          "big": "Quiz time!",
-          "say": "Make a first pawn move that occupies one of the four central squares.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "e2",
-                "e4"
-              ],
-              [
-                "d2",
-                "d4"
-              ]
-            ],
-            "why": "Both e2 to e4 and d2 to d4 occupy a central square. Either is an accepted opening move in this exercise."
-          },
-          "id": "good-start:19",
-          "speak": "Make a first pawn move that occupies one of the four central squares."
         },
         {
           "hl": [
@@ -11966,28 +10658,6 @@
           "speak": "White gains more material than it loses. Here, that trade benefits White."
         },
         {
-          "set": {
-            "d2": "wq",
-            "d6": "bp",
-            "c7": "bp"
-          },
-          "big": "Quiz time!",
-          "arrows": [
-            [
-              "d2",
-              "d6"
-            ]
-          ],
-          "say": "Should the queen capture this pawn? Consider the other black pawn's reply, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. Taking that pawn lets the other pawn capture the queen, losing about nine points to gain one."
-          },
-          "id": "chess-maths:18",
-          "speak": "Should the queen capture this pawn? Consider the other black pawn's reply, then choose an answer."
-        },
-        {
           "moves": [
             [
               "d2",
@@ -12017,25 +10687,6 @@
           "say": "That capture loses much more material than it gains. In this position, leave the pawn alone.",
           "id": "chess-maths:21",
           "speak": "That capture loses much more material than it gains. In this position, leave the pawn alone."
-        },
-        {
-          "set": {
-            "d1": "wq",
-            "a2": "wp",
-            "g1": "wk",
-            "a8": "br",
-            "f8": "bb",
-            "g8": "bk"
-          },
-          "big": "Quiz time!",
-          "say": "Who has the greater usual material value here? Don't count the kings. Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "White has ten points of material: queen nine plus pawn one. Black has eight: rook five plus bishop three."
-          },
-          "id": "chess-maths:22",
-          "speak": "Who has the greater usual material value here? Don't count the kings. Choose an answer."
         },
         {
           "count": [
@@ -12391,24 +11042,6 @@
           "speak": "The queen and bishop are threatening the pawn again."
         },
         {
-          "big": "Quiz time!",
-          "say": "Move a pawn to block the queen's path and stop the immediate threat.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "b",
-            "answers": [
-              [
-                "g7",
-                "g6"
-              ]
-            ],
-            "why": "The pawn moves from g7 to g6, blocking the queen's line to f7 and attacking the queen."
-          },
-          "id": "classic-trick:15",
-          "speak": "Move a pawn to block the queen's path and stop the immediate threat."
-        },
-        {
           "moves": [
             [
               "g7",
@@ -12542,33 +11175,6 @@
           "say": "Sometimes White brings the queen out before the bishop.",
           "id": "classic-trick:20",
           "speak": "Sometimes White brings the queen out before the bishop."
-        },
-        {
-          "hl": [
-            {
-              "sq": "e5",
-              "kind": "focus"
-            },
-            {
-              "sq": "g7",
-              "kind": "focus"
-            }
-          ],
-          "arrows": [
-            [
-              "g7",
-              "g6"
-            ]
-          ],
-          "big": "Quiz time!",
-          "say": "Should Black advance the marked pawn to attack the queen here? Check the unprotected central pawn, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. The pawn push would allow the queen to capture the unprotected central pawn with check and attack the corner rook."
-          },
-          "id": "classic-trick:21",
-          "speak": "Should Black advance the marked pawn to attack the queen here? Check the unprotected central pawn, then choose an answer."
         },
         {
           "moves": [
@@ -12982,32 +11588,6 @@
           "speak": "Here, Black can't save both targets, so White can capture one."
         },
         {
-          "set": {
-            "b5": "wn",
-            "e8": "bk",
-            "a8": "br"
-          },
-          "arrows": [],
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "Move White's knight to give check and attack the rook at the same time.",
-          "pause": 3,
-          "quiz": {
-            "ask": "fork",
-            "side": "w",
-            "piece": "b5",
-            "answers": [
-              [
-                "b5",
-                "c7"
-              ]
-            ],
-            "why": "Knight to c7 gives check and attacks the rook at the same time. In this position, White wins the rook after Black answers check."
-          },
-          "id": "fork:19",
-          "speak": "Move White's knight to give check and attack the rook at the same time."
-        },
-        {
           "moves": [
             [
               "b5",
@@ -13055,30 +11635,6 @@
           "say": "After the king moves, the knight captures the rook.",
           "id": "fork:21",
           "speak": "After the king moves, the knight captures the rook."
-        },
-        {
-          "set": {
-            "d4": "wp",
-            "c6": "bn",
-            "e6": "br"
-          },
-          "big": "Quiz time!",
-          "say": "Make a pawn move that attacks both the knight and rook.",
-          "pause": 3,
-          "quiz": {
-            "ask": "fork",
-            "side": "w",
-            "piece": "d4",
-            "answers": [
-              [
-                "d4",
-                "d5"
-              ]
-            ],
-            "why": "Pawn to d5 attacks the knight and rook diagonally. That's a pawn fork."
-          },
-          "id": "fork:22",
-          "speak": "Make a pawn move that attacks both the knight and rook."
         },
         {
           "moves": [
@@ -13391,23 +11947,6 @@
           "speak": "Black recaptures the pawn, and White's rook takes that pawn. White gains more material than it loses."
         },
         {
-          "set": {
-            "b5": "wb",
-            "c6": "bn",
-            "e8": "bk",
-            "h7": "bp"
-          },
-          "big": "Quiz time!",
-          "say": "Which black piece is pinned? Select it on the board.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The knight on c6 is pinned to its king along the bishop's diagonal. Moving off that line would expose check."
-          },
-          "id": "pin:18",
-          "speak": "Which black piece is pinned? Select it on the board."
-        },
-        {
           "arrows": [
             [
               "b5",
@@ -13428,24 +11967,6 @@
           "say": "The knight is on the bishop's line in front of the king.",
           "id": "pin:19",
           "speak": "The knight is on the bishop's line in front of the king."
-        },
-        {
-          "set": {
-            "a5": "wr",
-            "d5": "bb",
-            "h5": "bq"
-          },
-          "arrows": [],
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "This bishop is pinned to the queen, not the king. Is it legally allowed to move? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "Yes. The bishop is pinned to the queen, not the king. Moving may be costly, but it isn't forbidden by king safety here."
-          },
-          "id": "pin:20",
-          "speak": "This bishop is pinned to the queen, not the king. Is it legally allowed to move? Choose an answer."
         },
         {
           "arrows": [
@@ -13667,29 +12188,6 @@
           "speak": "The queen, rook, and bishop can skewer along their movement lines."
         },
         {
-          "set": {
-            "h1": "wr",
-            "b5": "bk",
-            "b8": "bq"
-          },
-          "big": "Quiz time!",
-          "say": "Move White's rook to give check along the line with Black's queen behind the king.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "h1",
-                "b1"
-              ]
-            ],
-            "why": "Rook to b1 gives check with Black's queen behind the king. When the king leaves the file, the queen becomes exposed."
-          },
-          "id": "skewer:15",
-          "speak": "Move White's rook to give check along the line with Black's queen behind the king."
-        },
-        {
           "moves": [
             [
               "h1",
@@ -13733,25 +12231,6 @@
           "say": "The king moves out of check, and the rook captures the queen.",
           "id": "skewer:17",
           "speak": "The king moves out of check, and the rook captures the queen."
-        },
-        {
-          "set": {
-            "c3": "wb",
-            "b2": "wp",
-            "d4": "bq",
-            "h8": "br",
-            "d6": "bp",
-            "h7": "bp"
-          },
-          "big": "Quiz time!",
-          "say": "Is the marked attack a pin or a skewer? Look at which piece is in front, then choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "It's a skewer. The queen is attacked in front of the rook; moving it exposes the rook behind."
-          },
-          "id": "skewer:18",
-          "speak": "Is the marked attack a pin or a skewer? Look at which piece is in front, then choose an answer."
         },
         {
           "arrows": [
@@ -14001,30 +12480,6 @@
           "speak": "Before moving, look behind your pieces. A blocked line may be useful once it opens."
         },
         {
-          "set": {
-            "a1": "wb",
-            "d4": "wn",
-            "h8": "bk",
-            "c6": "bq"
-          },
-          "big": "Quiz time!",
-          "say": "Move the knight to capture the queen and open the bishop's line to the king.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "d4",
-                "c6"
-              ]
-            ],
-            "why": "The knight captures the queen on c6 and opens the bishop's diagonal, giving discovered check at the same time."
-          },
-          "id": "discovered-attack:15",
-          "speak": "Move the knight to capture the queen and open the bishop's line to the king."
-        },
-        {
           "moves": [
             [
               "d4",
@@ -14047,24 +12502,6 @@
           "say": "The knight captures the queen, uncovering check from the bishop.",
           "id": "discovered-attack:16",
           "speak": "The knight captures the queen, uncovering check from the bishop."
-        },
-        {
-          "set": {
-            "a8": "wr",
-            "c8": "wb",
-            "h8": "bk"
-          },
-          "arrows": [],
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "Which white piece blocks the rook's line to Black's king? Select that piece.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The bishop on c8 blocks the rook's line. Moving it away uncovers the rook's check."
-          },
-          "id": "discovered-attack:17",
-          "speak": "Which white piece blocks the rook's line to Black's king? Select that piece."
         },
         {
           "hl": [
@@ -14379,24 +12816,6 @@
           "speak": "White gives up a bishop but gains a pawn and a rook: about three points for six."
         },
         {
-          "set": {
-            "a1": "wr",
-            "h3": "wq",
-            "a6": "bn",
-            "c8": "bb",
-            "e8": "bk"
-          },
-          "big": "Quiz time!",
-          "say": "Which black piece protects the knight White wants to capture? Select that piece.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "The bishop on c8 protects the knight on a6 along its diagonal."
-          },
-          "id": "removing-the-defender:15",
-          "speak": "Which black piece protects the knight White wants to capture? Select that piece."
-        },
-        {
           "arrows": [
             [
               "c8",
@@ -14413,24 +12832,6 @@
           "say": "The bishop protects the knight along its diagonal.",
           "id": "removing-the-defender:16",
           "speak": "The bishop protects the knight along its diagonal."
-        },
-        {
-          "big": "Quiz time!",
-          "say": "Make a move that captures the bishop defending the knight.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "h3",
-                "c8"
-              ]
-            ],
-            "why": "The queen captures the bishop on c8 with check. After Black responds, the rook can capture the knight that bishop was protecting."
-          },
-          "id": "removing-the-defender:17",
-          "speak": "Make a move that captures the bishop defending the knight."
         },
         {
           "moves": [
@@ -14873,25 +13274,6 @@
           "speak": "The king reaches the top rank. Now the rooks can finish the mate."
         },
         {
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "Make the rook move that gives checkmate.",
-          "pause": 3,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "a6",
-                "a8"
-              ]
-            ],
-            "why": "Rook to a8 checks along the top rank. The other rook cuts off the rank below, leaving the king no escape. Checkmate."
-          },
-          "id": "walking-the-dog:13",
-          "speak": "Make the rook move that gives checkmate."
-        },
-        {
           "moves": [
             [
               "a6",
@@ -14942,65 +13324,6 @@
           "say": "One rook checks along the top rank; the other cuts off the rank below. The king has no escape.",
           "id": "walking-the-dog:14",
           "speak": "One rook checks along the top rank; the other cuts off the rank below. The king has no escape."
-        },
-        {
-          "set": {
-            "a5": "wr",
-            "h4": "wr",
-            "g1": "wk",
-            "d6": "bk"
-          },
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "b5",
-              "kind": "no"
-            },
-            {
-              "sq": "c5",
-              "kind": "no"
-            },
-            {
-              "sq": "d5",
-              "kind": "no"
-            },
-            {
-              "sq": "e5",
-              "kind": "no"
-            },
-            {
-              "sq": "f5",
-              "kind": "no"
-            },
-            {
-              "sq": "g5",
-              "kind": "no"
-            },
-            {
-              "sq": "h5",
-              "kind": "no"
-            },
-            {
-              "sq": "a5",
-              "kind": "focus"
-            }
-          ],
-          "big": "Quiz time!",
-          "say": "Keep the fence rook in place. Move the other rook up to give check.",
-          "pause": 3,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "h4",
-                "h6"
-              ]
-            ],
-            "why": "Rook to h6 gives check while the rook on a5 keeps its fence. That forces the king further towards the edge."
-          },
-          "id": "walking-the-dog:15",
-          "speak": "Keep the fence rook in place. Move the other rook up to give check."
         },
         {
           "moves": [
@@ -15207,22 +13530,6 @@
         {
           "moves": [
             [
-              "b7",
-              "a8"
-            ]
-          ],
-          "say": "Should the queen follow again now that the king is in the corner? Choose an answer.",
-          "pause": 3,
-          "quiz": {
-            "ask": "open",
-            "why": "No. Following again would remove the king's last move without giving check. That would be stalemate, a draw."
-          },
-          "id": "kiss-of-death:10",
-          "speak": "Should the queen follow again now that the king is in the corner? Choose an answer."
-        },
-        {
-          "moves": [
-            [
               "d6",
               "c7"
             ]
@@ -15362,41 +13669,6 @@
           "say": "Black's king now moves into the corner.",
           "id": "kiss-of-death:17",
           "speak": "Black's king now moves into the corner."
-        },
-        {
-          "hl": [],
-          "big": "Quiz time!",
-          "say": "Find a queen move that checkmates Black's king in one move.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "d7",
-                "b7"
-              ],
-              [
-                "d7",
-                "a7"
-              ],
-              [
-                "d7",
-                "c8"
-              ],
-              [
-                "d7",
-                "d8"
-              ],
-              [
-                "d7",
-                "e8"
-              ]
-            ],
-            "why": "Queen to b7 or a7 mates close to the king. Queen to c8, d8, or e8 mates along the top rank. Each gives check with no legal escape."
-          },
-          "id": "kiss-of-death:18",
-          "speak": "Find a queen move that checkmates Black's king in one move."
         },
         {
           "moves": [
@@ -15892,25 +14164,6 @@
           "speak": "Black's only move returns it to the corner."
         },
         {
-          "arrows": [],
-          "big": "Quiz time!",
-          "say": "Find the rook move that gives checkmate.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "f1",
-                "f8"
-              ]
-            ],
-            "why": "Rook to f8 gives check along the top rank. White's king controls the escape squares, so it's checkmate."
-          },
-          "id": "box-them-in:23",
-          "speak": "Find the rook move that gives checkmate."
-        },
-        {
           "moves": [
             [
               "f1",
@@ -16011,33 +14264,6 @@
           "speak": "White's rook would like to capture this bishop."
         },
         {
-          "arrows": [
-            [
-              "d1",
-              "d5"
-            ],
-            [
-              "f6",
-              "d5"
-            ]
-          ],
-          "say": "First, capture the knight that protects the bishop. Make that move on the board.",
-          "pause": 4,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "h4",
-                "f6"
-              ]
-            ],
-            "why": "The bishop captures the knight on f6 with check. After the king recaptures, the rook can take the bishop on d5, which has lost its defender."
-          },
-          "id": "puzzles-winning-material:3",
-          "speak": "First, capture the knight that protects the bishop. Make that move on the board."
-        },
-        {
           "big": "",
           "hl": [
             {
@@ -16078,58 +14304,6 @@
           "say": "White's rook captures that bishop. Removing the defender made the second capture possible.",
           "id": "puzzles-winning-material:6",
           "speak": "White's rook captures that bishop. Removing the defender made the second capture possible."
-        },
-        {
-          "set": {
-            "g7": "bk",
-            "e5": "bq",
-            "a8": "br",
-            "f8": "br",
-            "d6": "bb",
-            "b7": "bp",
-            "c7": "bp",
-            "f7": "bp",
-            "h7": "bp",
-            "a6": "bp",
-            "g6": "bp",
-            "g1": "wk",
-            "d2": "wq",
-            "a1": "wr",
-            "f1": "wr",
-            "c1": "wb",
-            "a2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp",
-            "b3": "wp",
-            "e3": "wp"
-          },
-          "big": "Puzzle 2",
-          "hl": [
-            {
-              "sq": "e5",
-              "kind": "focus"
-            },
-            {
-              "sq": "g7",
-              "kind": "focus"
-            }
-          ],
-          "say": "Move the bishop to pin Black's queen to its king.",
-          "pause": 4,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "c1",
-                "b2"
-              ]
-            ],
-            "why": "Bishop to b2 pins the queen to the king. Here, the queen can't escape along the diagonal without losing material."
-          },
-          "id": "puzzles-winning-material:7",
-          "speak": "Move the bishop to pin Black's queen to its king."
         },
         {
           "big": "",
@@ -16186,52 +14360,6 @@
           "speak": "White gives up a bishop and gains a queen in that line."
         },
         {
-          "set": {
-            "a8": "bk",
-            "b5": "br",
-            "d5": "br",
-            "a7": "bp",
-            "e7": "bp",
-            "f7": "bp",
-            "d6": "bp",
-            "g6": "bp",
-            "h5": "bp",
-            "g2": "wk",
-            "e4": "wq",
-            "b2": "wp",
-            "c2": "wp",
-            "f2": "wp",
-            "h2": "wp",
-            "g3": "wp"
-          },
-          "big": "Puzzle 3",
-          "hl": [
-            {
-              "sq": "b5",
-              "kind": "focus"
-            },
-            {
-              "sq": "d5",
-              "kind": "focus"
-            }
-          ],
-          "say": "Advance the pawn to attack both black rooks at once.",
-          "pause": 4,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "c2",
-                "c4"
-              ]
-            ],
-            "why": "Pawn to c4 forks the rooks on b5 and d5. In this position, Black can't save both, and one rook is also pinned."
-          },
-          "id": "puzzles-winning-material:12",
-          "speak": "Advance the pawn to attack both black rooks at once."
-        },
-        {
           "big": "",
           "hl": [],
           "moves": [
@@ -16285,63 +14413,6 @@
           "say": "One rook is also pinned to its king, which limits its replies.",
           "id": "puzzles-winning-material:15",
           "speak": "One rook is also pinned to its king, which limits its replies."
-        },
-        {
-          "set": {
-            "h7": "bk",
-            "d5": "bq",
-            "f8": "br",
-            "d7": "br",
-            "b7": "bn",
-            "e7": "bb",
-            "c7": "bp",
-            "f7": "bp",
-            "g7": "bp",
-            "b6": "bp",
-            "d6": "bp",
-            "h6": "bp",
-            "a5": "bp",
-            "e5": "bp",
-            "g1": "wk",
-            "f3": "wq",
-            "a1": "wr",
-            "e1": "wr",
-            "e4": "wn",
-            "e3": "wb",
-            "a4": "wp",
-            "c3": "wp",
-            "g3": "wp",
-            "h3": "wp",
-            "b2": "wp",
-            "f2": "wp"
-          },
-          "big": "Puzzle 4",
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "d5",
-              "kind": "focus"
-            }
-          ],
-          "say": "Make a knight move that gives check and helps win Black's unprotected queen.",
-          "pause": 4,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "e4",
-                "f6"
-              ],
-              [
-                "e4",
-                "g5"
-              ]
-            ],
-            "why": "Knight to f6 or g5 gives check and opens the queen's diagonal towards d5. In the demonstrated reply, Black captures the knight and White captures the queen."
-          },
-          "id": "puzzles-winning-material:16",
-          "speak": "Make a knight move that gives check and helps win Black's unprotected queen."
         },
         {
           "big": "",
@@ -16522,52 +14593,6 @@
           "speak": "White moves first. Check that your move gives check and leaves no legal escape."
         },
         {
-          "set": {
-            "g8": "bk",
-            "e4": "bq",
-            "h7": "br",
-            "b7": "bb",
-            "a7": "bp",
-            "f7": "bp",
-            "g6": "bp",
-            "c5": "bp",
-            "g1": "wk",
-            "h6": "wq",
-            "d1": "wr",
-            "e7": "wp",
-            "f6": "wp",
-            "b3": "wp",
-            "g3": "wp",
-            "a2": "wp"
-          },
-          "big": "Puzzle 1",
-          "hl": [
-            {
-              "sq": "g8",
-              "kind": "focus"
-            }
-          ],
-          "say": "Find a move that checkmates Black's king. There may be more than one solution.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "h6",
-                "f8"
-              ],
-              [
-                "d1",
-                "d8"
-              ]
-            ],
-            "why": "Queen to f8 is mate, with the pawn protecting the queen. Rook to d8 also mates: the queen and pawn cover g7, and Black can't block or capture the rook."
-          },
-          "id": "puzzles-mate-in-one:2",
-          "speak": "Find a move that checkmates Black's king. There may be more than one solution."
-        },
-        {
           "big": "",
           "hl": [
             {
@@ -16682,57 +14707,6 @@
           "speak": "There's another mate: the rook checks along the top rank. The queen and pawn cover G seven, and Black can't block or capture the rook."
         },
         {
-          "set": {
-            "c7": "bk",
-            "d7": "bq",
-            "c8": "br",
-            "e8": "br",
-            "b8": "bn",
-            "b7": "bb",
-            "a7": "bp",
-            "f7": "bp",
-            "h7": "bp",
-            "c6": "bp",
-            "d6": "bp",
-            "g6": "bp",
-            "g1": "wk",
-            "f3": "wq",
-            "d1": "wr",
-            "f1": "wr",
-            "d2": "wb",
-            "f4": "wn",
-            "c4": "wp",
-            "h3": "wp",
-            "a2": "wp",
-            "b2": "wp",
-            "f2": "wp",
-            "g2": "wp"
-          },
-          "big": "Puzzle 2",
-          "hl": [
-            {
-              "sq": "c7",
-              "kind": "focus"
-            }
-          ],
-          "arrows": [],
-          "say": "Find a bishop move that checkmates Black's king.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "d2",
-                "a5"
-              ]
-            ],
-            "why": "Bishop to a5 gives check. The bishop controls the open escape squares, and Black's own pieces block the others. Checkmate."
-          },
-          "id": "puzzles-mate-in-one:7",
-          "speak": "Find a bishop move that checkmates Black's king."
-        },
-        {
           "big": "",
           "moves": [
             [
@@ -16817,23 +14791,6 @@
           "speak": "White's rook blocks the bishop's line to Black's king."
         },
         {
-          "say": "Move the rook to uncover checkmate from the bishop.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "d4",
-                "g4"
-              ]
-            ],
-            "why": "The rook captures on g4, opening the bishop's check and controlling the king's escape line. Black has no legal response. Checkmate."
-          },
-          "id": "puzzles-mate-in-one:11",
-          "speak": "Move the rook to uncover checkmate from the bishop."
-        },
-        {
           "moves": [
             [
               "d4",
@@ -16885,68 +14842,6 @@
           "say": "The bishop's newly opened attack is a discovered check.",
           "id": "puzzles-mate-in-one:14",
           "speak": "The bishop's newly opened attack is a discovered check."
-        },
-        {
-          "set": {
-            "e8": "bk",
-            "d8": "bq",
-            "a8": "br",
-            "h8": "br",
-            "b8": "bn",
-            "f8": "bb",
-            "b7": "bb",
-            "g4": "bn",
-            "c7": "bp",
-            "d7": "bp",
-            "f7": "bp",
-            "g7": "bp",
-            "h7": "bp",
-            "a6": "bp",
-            "b5": "bp",
-            "f3": "bp",
-            "g1": "wk",
-            "d1": "wq",
-            "a1": "wr",
-            "e1": "wr",
-            "b3": "wb",
-            "f4": "wb",
-            "c3": "wn",
-            "e6": "wp",
-            "d4": "wp",
-            "a2": "wp",
-            "b2": "wp",
-            "c2": "wp",
-            "f2": "wp",
-            "g2": "wp",
-            "h2": "wp"
-          },
-          "big": "Puzzle 4",
-          "arrows": [],
-          "hl": [
-            {
-              "sq": "e8",
-              "kind": "focus"
-            },
-            {
-              "sq": "e1",
-              "kind": "focus"
-            }
-          ],
-          "say": "Find a pawn capture that gives checkmate in this position.",
-          "pause": 4,
-          "quiz": {
-            "ask": "mate",
-            "side": "w",
-            "answers": [
-              [
-                "e6",
-                "f7"
-              ]
-            ],
-            "why": "The pawn captures on f7, checking the king and uncovering check from the rook. No legal king move answers both attacks. Checkmate."
-          },
-          "id": "puzzles-mate-in-one:15",
-          "speak": "Find a pawn capture that gives checkmate in this position."
         },
         {
           "big": "",
@@ -17389,25 +15284,6 @@
           "speak": "Black's knight recaptures the bishop."
         },
         {
-          "big": "Quiz time!",
-          "say": "Move White's queen to the top rank to give check and set up a forced mate.",
-          "hypothetical": true,
-          "pause": 4,
-          "quiz": {
-            "ask": "best",
-            "side": "w",
-            "answers": [
-              [
-                "b3",
-                "b8"
-              ]
-            ],
-            "why": "Queen to b8 gives check and forces the knight to capture it. White then plays rook to d8, protected by the bishop, giving checkmate."
-          },
-          "id": "master-game:21",
-          "speak": "Move White's queen to the top rank to give check and set up a forced mate."
-        },
-        {
           "big": "",
           "moves": [
             [
@@ -17495,826 +15371,7 @@
       ]
     }
   ],
-  "exercises": {
-    "intro:17": {
-      "kind": "squares",
-      "prompt": "Can you find the white king? Click it on the board.",
-      "answers": [
-        "e1"
-      ]
-    },
-    "intro:19": {
-      "kind": "choice",
-      "prompt": "The king is attacked, and there's no way to make it safe. What do we call that? Choose an answer.",
-      "answer": "Checkmate",
-      "choices": [
-        "Check",
-        "Checkmate",
-        "A draw"
-      ]
-    },
-    "battlefield:18": {
-      "kind": "choice",
-      "prompt": "What is the marked square's name? Find its letter and number, then choose an answer.",
-      "answer": "g2",
-      "choices": [
-        "g2",
-        "b7",
-        "g7"
-      ]
-    },
-    "battlefield:20": {
-      "kind": "choice",
-      "prompt": "Is the marked line a file, a rank, or a diagonal? Choose an answer.",
-      "answer": "File",
-      "choices": [
-        "File",
-        "Rank",
-        "Diagonal"
-      ]
-    },
-    "pawn:22": {
-      "kind": "squares",
-      "prompt": "This pawn hasn't moved yet. Select both squares it can move to, then check your answer.",
-      "answers": [
-        "c3",
-        "c4"
-      ]
-    },
-    "pawn:24": {
-      "kind": "squares",
-      "prompt": "Which black pawn can White capture? Select that pawn.",
-      "answers": [
-        "f5"
-      ]
-    },
-    "pawn-wars:19": {
-      "kind": "move",
-      "from": "d5",
-      "to": "e6",
-      "prompt": "White can capture Black's last pawn. Make that winning move."
-    },
-    "pawn-wars:22": {
-      "kind": "choice",
-      "prompt": "Who wins this race? White moves first. Count how many moves each pawn needs, then choose an answer.",
-      "answer": "Black",
-      "choices": [
-        "White",
-        "Black"
-      ]
-    },
-    "rook:14": {
-      "kind": "squares",
-      "answers": [
-        "a6",
-        "e2"
-      ],
-      "allowNone": true,
-      "prompt": "Select all the black pawns this rook can capture, then check your answer."
-    },
-    "rook:17": {
-      "kind": "squares",
-      "answers": [],
-      "allowNone": true,
-      "prompt": "Which pieces can this rook capture now? Select them, or choose No squares if none can be captured."
-    },
-    "rampant-rooks:22": {
-      "kind": "squares",
-      "answers": [
-        "a5",
-        "f1"
-      ],
-      "allowNone": true,
-      "prompt": "In Pawn Hunt, which pawns can this rook capture? Select all of them."
-    },
-    "rampant-rooks:24": {
-      "kind": "squares",
-      "answers": [],
-      "allowNone": true,
-      "prompt": "In Rooks and Pawns, can Black capture the pawn that just reached the end? Select any available capture, or choose No squares."
-    },
-    "bishop:18": {
-      "kind": "squares",
-      "answers": [
-        "b5"
-      ],
-      "allowNone": true,
-      "prompt": "Which pawn can this bishop capture? Select it on the board."
-    },
-    "bishop:21": {
-      "kind": "choice",
-      "prompt": "Could this bishop ever capture the pawn if it stays on that light square? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "busy-bishops:12": {
-      "kind": "squares",
-      "answers": [
-        "e3"
-      ],
-      "allowNone": true,
-      "prompt": "Which black pawns can White's bishops capture now? Select all of them."
-    },
-    "busy-bishops:23": {
-      "kind": "squares",
-      "answers": [
-        "a5",
-        "g5"
-      ],
-      "allowNone": true,
-      "prompt": "Which pawns can this bishop capture? Select all of them."
-    },
-    "queen:14": {
-      "kind": "squares",
-      "prompt": "Which black piece is safe from this queen? Select that piece.",
-      "answers": [
-        "e5"
-      ]
-    },
-    "queen:16": {
-      "kind": "squares",
-      "answers": [
-        "h8"
-      ],
-      "allowNone": true,
-      "prompt": "Which pieces can the queen capture now? Select all of them."
-    },
-    "quirky-queens:15": {
-      "kind": "move",
-      "from": "d6",
-      "to": "g6",
-      "alternatives": [
-        [
-          "d6",
-          "g6"
-        ]
-      ],
-      "prompt": "One of these captures loses the queen. Make the capture that keeps it safe."
-    },
-    "quirky-queens:19": {
-      "kind": "squares",
-      "answers": [
-        "h7"
-      ],
-      "allowNone": true,
-      "prompt": "Black to move. Which pawns can the queen capture now? Select all of them."
-    },
-    "knight:19": {
-      "kind": "squares",
-      "answers": [
-        "d6",
-        "g5"
-      ],
-      "allowNone": true,
-      "prompt": "Which white pieces can this black knight capture? Select all of them."
-    },
-    "knight:22": {
-      "kind": "squares",
-      "answers": [
-        "b3",
-        "c2"
-      ],
-      "allowNone": true,
-      "prompt": "Select all the squares this knight can move to from the corner."
-    },
-    "hungry-horses:6": {
-      "kind": "squares",
-      "answers": [
-        "c7",
-        "g7"
-      ],
-      "allowNone": true,
-      "prompt": "White moves first. Select all the pieces its knight can capture now."
-    },
-    "hungry-horses:21": {
-      "kind": "squares",
-      "prompt": "Which two squares does this black pawn attack? Select both.",
-      "answers": [
-        "b5",
-        "d5"
-      ]
-    },
-    "king:11": {
-      "kind": "squares",
-      "answers": [
-        "c3"
-      ],
-      "allowNone": true,
-      "prompt": "Select every square where this king can move safely."
-    },
-    "king:17": {
-      "kind": "squares",
-      "answers": [
-        "d1",
-        "f1"
-      ],
-      "allowNone": true,
-      "prompt": "Which squares can this king move to safely? Select all of them."
-    },
-    "king:19": {
-      "kind": "choice",
-      "prompt": "Can White's king move to the marked square beside Black's king? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "mine-alert:14": {
-      "kind": "choice",
-      "prompt": "The rook attacks this row. May the king move onto the marked square? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "mine-alert:18": {
-      "kind": "path",
-      "from": "b1",
-      "to": "e8",
-      "prompt": "Move the king towards e8, choosing one safe neighbouring square at a time."
-    },
-    "catch-the-king:8": {
-      "kind": "squares",
-      "answers": [],
-      "allowNone": true,
-      "prompt": "Can Black's king capture anything safely here? Select any available captures, or choose No squares."
-    },
-    "catch-the-king:26": {
-      "kind": "choice",
-      "prompt": "Which three responses can get a king out of check? Choose an answer.",
-      "answer": "Avoid, block, capture",
-      "choices": [
-        "Avoid, block, capture",
-        "Jump, castle, pass",
-        "Trade, promote, draw"
-      ]
-    },
-    "catch-the-king:28": {
-      "kind": "choice",
-      "prompt": "Look at this position. Is Black in check, checkmate, or stalemate? Choose an answer.",
-      "answer": "check",
-      "choices": [
-        "normal",
-        "check",
-        "checkmate",
-        "stalemate"
-      ]
-    },
-    "king-safety:18": {
-      "kind": "squares",
-      "prompt": "Select the square where White's king will land after castling.",
-      "answers": [
-        "g1"
-      ]
-    },
-    "king-safety:21": {
-      "kind": "choice",
-      "prompt": "Can White castle kingside in this position? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "setting-up:15": {
-      "kind": "squares",
-      "prompt": "Where does White's queen start? Select its square.",
-      "answers": [
-        "d1"
-      ]
-    },
-    "setting-up:18": {
-      "kind": "choice",
-      "prompt": "Which reminder helps you face the board correctly? Choose an answer.",
-      "answer": "Light on the right",
-      "choices": [
-        "Light on the right",
-        "Dark on the right",
-        "Queen on the right"
-      ]
-    },
-    "why-castle:14": {
-      "kind": "choice",
-      "prompt": "Which king is safer in this position? Choose an answer.",
-      "answer": "White",
-      "choices": [
-        "White",
-        "Black"
-      ]
-    },
-    "why-castle:16": {
-      "kind": "choice",
-      "prompt": "How many pawns form White's king shelter? Choose an answer.",
-      "answer": "3",
-      "choices": [
-        "2",
-        "3",
-        "4"
-      ]
-    },
-    "when-castle:14": {
-      "kind": "choice",
-      "prompt": "Can White castle kingside here? Look at the bishop's diagonal, then choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "when-castle:16": {
-      "kind": "choice",
-      "prompt": "Can White castle kingside in this position? Choose an answer.",
-      "answer": "Yes",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "pawn-magic:17": {
-      "kind": "squares",
-      "prompt": "Select the pawn that is one move away from promotion.",
-      "answers": [
-        "b7"
-      ]
-    },
-    "scoring-points:17": {
-      "kind": "choice",
-      "prompt": "You captured a queen; your friend captured a knight and a pawn. Who captured more material? Choose an answer.",
-      "answer": "You: the queen",
-      "choices": [
-        "You: the queen",
-        "Your friend: knight and pawn",
-        "The same"
-      ]
-    },
-    "scoring-points:19": {
-      "kind": "choice",
-      "prompt": "Which group has the greater usual value: a rook, or a knight and two pawns? Choose an answer.",
-      "answer": "The same",
-      "choices": [
-        "The rook",
-        "The knight and two pawns",
-        "The same"
-      ]
-    },
-    "playtime:28": {
-      "kind": "squares",
-      "prompt": "Select the piece usually worth five points.",
-      "answers": [
-        "f4"
-      ]
-    },
-    "playtime:30": {
-      "kind": "squares",
-      "prompt": "Select the piece that can jump over others in an ordinary move.",
-      "answers": [
-        "b4"
-      ]
-    },
-    "etiquette:14": {
-      "kind": "choice",
-      "prompt": "At a real board, you deliberately touched a knight that can move. What must you do? Choose an answer.",
-      "answer": "Move the knight",
-      "choices": [
-        "Move the knight",
-        "Move a pawn",
-        "Take the move back"
-      ]
-    },
-    "etiquette:16": {
-      "kind": "choice",
-      "prompt": "You've lost an over-the-board game. Which response shows good sportsmanship? Choose an answer.",
-      "answer": "Shake hands and say well done",
-      "choices": [
-        "Shake hands and say well done",
-        "Refuse to shake hands",
-        "Blame your opponent"
-      ]
-    },
-    "ways-to-draw:17": {
-      "kind": "choice",
-      "prompt": "Black to move. Is this checkmate or stalemate? Check whether the king is attacked and whether Black has any legal move.",
-      "answer": "stalemate",
-      "choices": [
-        "normal",
-        "check",
-        "checkmate",
-        "stalemate"
-      ]
-    },
-    "ways-to-draw:19": {
-      "kind": "choice",
-      "prompt": "Can either player win when only the two kings remain? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "tournaments:8": {
-      "kind": "move",
-      "from": "a1",
-      "to": "a8",
-      "alternatives": [
-        [
-          "a1",
-          "a8"
-        ]
-      ],
-      "prompt": "White can checkmate in one move here. Make that move."
-    },
-    "tournaments:11": {
-      "kind": "choice",
-      "prompt": "You deliberately picked up a knight that has a legal move. What must you do? Choose an answer.",
-      "answer": "Move the knight",
-      "choices": [
-        "Move the knight",
-        "Move the pawn",
-        "Skip your turn"
-      ]
-    },
-    "chess-language:9": {
-      "kind": "choice",
-      "prompt": "Which square is Black's queen on? Choose its name.",
-      "answer": "g6",
-      "choices": [
-        "g6",
-        "f7",
-        "g3"
-      ]
-    },
-    "chess-language:19": {
-      "kind": "choice",
-      "prompt": "Which notation names this bishop and its square? Choose an answer.",
-      "answer": "Bc4",
-      "choices": [
-        "Bc4",
-        "Nc4",
-        "Bd4"
-      ]
-    },
-    "good-start:9": {
-      "kind": "move",
-      "from": "g1",
-      "to": "f3",
-      "alternatives": [
-        [
-          "g1",
-          "f3"
-        ]
-      ],
-      "prompt": "Move this knight towards the centre rather than the edge."
-    },
-    "good-start:19": {
-      "kind": "move",
-      "from": "e2",
-      "to": "e4",
-      "alternatives": [
-        [
-          "e2",
-          "e4"
-        ],
-        [
-          "d2",
-          "d4"
-        ]
-      ],
-      "prompt": "Make a first pawn move that occupies one of the four central squares."
-    },
-    "chess-maths:18": {
-      "kind": "choice",
-      "prompt": "Should the queen capture this pawn? Consider the other black pawn's reply, then choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "chess-maths:22": {
-      "kind": "choice",
-      "prompt": "Who has the greater usual material value here? Don't count the kings. Choose an answer.",
-      "answer": "White",
-      "choices": [
-        "White",
-        "Black",
-        "The same"
-      ]
-    },
-    "classic-trick:15": {
-      "kind": "move",
-      "from": "g7",
-      "to": "g6",
-      "alternatives": [
-        [
-          "g7",
-          "g6"
-        ]
-      ],
-      "prompt": "Move a pawn to block the queen's path and stop the immediate threat."
-    },
-    "classic-trick:21": {
-      "kind": "choice",
-      "prompt": "Should Black advance the marked pawn to attack the queen here? Check the unprotected central pawn, then choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "fork:19": {
-      "kind": "move",
-      "from": "b5",
-      "to": "c7",
-      "alternatives": [
-        [
-          "b5",
-          "c7"
-        ]
-      ],
-      "prompt": "Move White's knight to give check and attack the rook at the same time."
-    },
-    "fork:22": {
-      "kind": "move",
-      "from": "d4",
-      "to": "d5",
-      "alternatives": [
-        [
-          "d4",
-          "d5"
-        ]
-      ],
-      "prompt": "Make a pawn move that attacks both the knight and rook."
-    },
-    "pin:18": {
-      "kind": "squares",
-      "prompt": "Which black piece is pinned? Select it on the board.",
-      "answers": [
-        "c6"
-      ]
-    },
-    "pin:20": {
-      "kind": "choice",
-      "prompt": "This bishop is pinned to the queen, not the king. Is it legally allowed to move? Choose an answer.",
-      "answer": "Yes",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "skewer:15": {
-      "kind": "move",
-      "from": "h1",
-      "to": "b1",
-      "alternatives": [
-        [
-          "h1",
-          "b1"
-        ]
-      ],
-      "prompt": "Move White's rook to give check along the line with Black's queen behind the king."
-    },
-    "skewer:18": {
-      "kind": "choice",
-      "prompt": "Is the marked attack a pin or a skewer? Look at which piece is in front, then choose an answer.",
-      "answer": "Skewer",
-      "choices": [
-        "Pin",
-        "Skewer"
-      ]
-    },
-    "discovered-attack:15": {
-      "kind": "move",
-      "from": "d4",
-      "to": "c6",
-      "alternatives": [
-        [
-          "d4",
-          "c6"
-        ]
-      ],
-      "prompt": "Move the knight to capture the queen and open the bishop's line to the king."
-    },
-    "discovered-attack:17": {
-      "kind": "squares",
-      "prompt": "Which white piece blocks the rook's line to Black's king? Select that piece.",
-      "answers": [
-        "c8"
-      ]
-    },
-    "removing-the-defender:15": {
-      "kind": "squares",
-      "prompt": "Which black piece protects the knight White wants to capture? Select that piece.",
-      "answers": [
-        "c8"
-      ]
-    },
-    "removing-the-defender:17": {
-      "kind": "move",
-      "from": "h3",
-      "to": "c8",
-      "alternatives": [
-        [
-          "h3",
-          "c8"
-        ]
-      ],
-      "prompt": "Make a move that captures the bishop defending the knight."
-    },
-    "walking-the-dog:13": {
-      "kind": "move",
-      "from": "a6",
-      "to": "a8",
-      "alternatives": [
-        [
-          "a6",
-          "a8"
-        ]
-      ],
-      "prompt": "Make the rook move that gives checkmate."
-    },
-    "walking-the-dog:15": {
-      "kind": "move",
-      "from": "h4",
-      "to": "h6",
-      "alternatives": [
-        [
-          "h4",
-          "h6"
-        ]
-      ],
-      "prompt": "Keep the fence rook in place. Move the other rook up to give check."
-    },
-    "kiss-of-death:10": {
-      "kind": "choice",
-      "prompt": "Should the queen follow again now that the king is in the corner? Choose an answer.",
-      "answer": "No",
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-    "kiss-of-death:18": {
-      "kind": "move",
-      "from": "d7",
-      "to": "b7",
-      "alternatives": [
-        [
-          "d7",
-          "b7"
-        ],
-        [
-          "d7",
-          "a7"
-        ],
-        [
-          "d7",
-          "c8"
-        ],
-        [
-          "d7",
-          "d8"
-        ],
-        [
-          "d7",
-          "e8"
-        ]
-      ],
-      "prompt": "Find a queen move that checkmates Black's king in one move."
-    },
-    "box-them-in:23": {
-      "kind": "move",
-      "from": "f1",
-      "to": "f8",
-      "alternatives": [
-        [
-          "f1",
-          "f8"
-        ]
-      ],
-      "prompt": "Find the rook move that gives checkmate."
-    },
-    "puzzles-winning-material:3": {
-      "kind": "move",
-      "from": "h4",
-      "to": "f6",
-      "alternatives": [
-        [
-          "h4",
-          "f6"
-        ]
-      ],
-      "prompt": "First, capture the knight that protects the bishop. Make that move on the board."
-    },
-    "puzzles-winning-material:7": {
-      "kind": "move",
-      "from": "c1",
-      "to": "b2",
-      "alternatives": [
-        [
-          "c1",
-          "b2"
-        ]
-      ],
-      "prompt": "Move the bishop to pin Black's queen to its king."
-    },
-    "puzzles-winning-material:12": {
-      "kind": "move",
-      "from": "c2",
-      "to": "c4",
-      "alternatives": [
-        [
-          "c2",
-          "c4"
-        ]
-      ],
-      "prompt": "Advance the pawn to attack both black rooks at once."
-    },
-    "puzzles-winning-material:16": {
-      "kind": "move",
-      "from": "e4",
-      "to": "f6",
-      "alternatives": [
-        [
-          "e4",
-          "f6"
-        ],
-        [
-          "e4",
-          "g5"
-        ]
-      ],
-      "prompt": "Make a knight move that gives check and helps win Black's unprotected queen."
-    },
-    "puzzles-mate-in-one:2": {
-      "kind": "move",
-      "from": "h6",
-      "to": "f8",
-      "alternatives": [
-        [
-          "h6",
-          "f8"
-        ],
-        [
-          "d1",
-          "d8"
-        ]
-      ],
-      "prompt": "Find a move that checkmates Black's king. There may be more than one solution."
-    },
-    "puzzles-mate-in-one:7": {
-      "kind": "move",
-      "from": "d2",
-      "to": "a5",
-      "alternatives": [
-        [
-          "d2",
-          "a5"
-        ]
-      ],
-      "prompt": "Find a bishop move that checkmates Black's king."
-    },
-    "puzzles-mate-in-one:11": {
-      "kind": "move",
-      "from": "d4",
-      "to": "g4",
-      "alternatives": [
-        [
-          "d4",
-          "g4"
-        ]
-      ],
-      "prompt": "Move the rook to uncover checkmate from the bishop."
-    },
-    "puzzles-mate-in-one:15": {
-      "kind": "move",
-      "from": "e6",
-      "to": "f7",
-      "alternatives": [
-        [
-          "e6",
-          "f7"
-        ]
-      ],
-      "prompt": "Find a pawn capture that gives checkmate in this position."
-    },
-    "master-game:21": {
-      "kind": "move",
-      "from": "b3",
-      "to": "b8",
-      "alternatives": [
-        [
-          "b3",
-          "b8"
-        ]
-      ],
-      "prompt": "Move White's queen to the top rank to give check and set up a forced mate."
-    }
-  },
+  "exercises": {},
   "puzzles": [
     {
       "id": "rook",
@@ -21095,5 +18152,90 @@
       "context": "",
       "explanation": "Queen to b8 gives check and forces the knight to capture it. White then plays rook to d8, protected by the bishop, giving checkmate."
     }
+  ],
+  "retiredExerciseIDs": [
+    "battlefield:18",
+    "battlefield:20",
+    "bishop:18",
+    "bishop:21",
+    "box-them-in:23",
+    "busy-bishops:12",
+    "busy-bishops:23",
+    "catch-the-king:26",
+    "catch-the-king:28",
+    "catch-the-king:8",
+    "chess-language:19",
+    "chess-language:9",
+    "chess-maths:18",
+    "chess-maths:22",
+    "classic-trick:15",
+    "classic-trick:21",
+    "discovered-attack:15",
+    "discovered-attack:17",
+    "etiquette:14",
+    "etiquette:16",
+    "fork:19",
+    "fork:22",
+    "good-start:19",
+    "good-start:9",
+    "hungry-horses:21",
+    "hungry-horses:6",
+    "intro:17",
+    "intro:19",
+    "king-safety:18",
+    "king-safety:21",
+    "king:11",
+    "king:17",
+    "king:19",
+    "kiss-of-death:10",
+    "kiss-of-death:18",
+    "knight:19",
+    "knight:22",
+    "master-game:21",
+    "mine-alert:14",
+    "mine-alert:18",
+    "pawn-magic:17",
+    "pawn-wars:19",
+    "pawn-wars:22",
+    "pawn:22",
+    "pawn:24",
+    "pin:18",
+    "pin:20",
+    "playtime:28",
+    "playtime:30",
+    "puzzles-mate-in-one:11",
+    "puzzles-mate-in-one:15",
+    "puzzles-mate-in-one:2",
+    "puzzles-mate-in-one:7",
+    "puzzles-winning-material:12",
+    "puzzles-winning-material:16",
+    "puzzles-winning-material:3",
+    "puzzles-winning-material:7",
+    "queen:14",
+    "queen:16",
+    "quirky-queens:15",
+    "quirky-queens:19",
+    "rampant-rooks:22",
+    "rampant-rooks:24",
+    "removing-the-defender:15",
+    "removing-the-defender:17",
+    "rook:14",
+    "rook:17",
+    "scoring-points:17",
+    "scoring-points:19",
+    "setting-up:15",
+    "setting-up:18",
+    "skewer:15",
+    "skewer:18",
+    "tournaments:11",
+    "tournaments:8",
+    "walking-the-dog:13",
+    "walking-the-dog:15",
+    "ways-to-draw:17",
+    "ways-to-draw:19",
+    "when-castle:14",
+    "when-castle:16",
+    "why-castle:14",
+    "why-castle:16"
   ]
 }
