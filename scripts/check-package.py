@@ -131,4 +131,12 @@ if '--release' in sys.argv:
     signature = subprocess.run(['codesign', '-d', '--verbose=4', str(app)], capture_output=True, text=True, check=True).stderr
     if '(runtime)' not in signature or 'Timestamp=' not in signature:
         raise RuntimeError('Release must use hardened runtime and a secure timestamp')
+    team = next((line for line in signature.splitlines() if line.startswith('TeamIdentifier=')), '')
+    if 'Authority=Developer ID Application: ' not in signature or not team or team.endswith('not set'):
+        raise RuntimeError('Release requires a Developer ID Application identity')
+    for binary in (helper, resources / 'stockfish'):
+        nested_signature = subprocess.run(['codesign', '-d', '--verbose=4', str(binary)], capture_output=True, text=True, check=True).stderr
+        if ('Authority=Developer ID Application: ' not in nested_signature or team not in nested_signature.splitlines()
+                or '(runtime)' not in nested_signature or 'Timestamp=' not in nested_signature):
+            raise RuntimeError(f'Nested code must use the same Developer ID, hardened runtime and timestamp: {binary.name}')
 print(json.dumps({'passed': True, 'iconFormat': 'Icon Composer with legacy fallback', 'architectures': ['arm64', 'x86_64'], 'minimumMacOS': settings['CHECKMATE_MINIMUM_MACOS'], 'lessons': 40, 'audioFiles': 864, 'narrationVoice': 'cedar', 'audioHashesVerified': True, 'puzzles': 87, 'webRuntime': False, 'engineHasSystemDependenciesOnly': True, **chinese_result}))

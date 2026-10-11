@@ -18,7 +18,7 @@
 
 ## 开发与重建
 
-直接安装请前往 [Releases](https://github.com/DioBrando3/checkmate/releases/latest) 下载通用 DMG；参见[安装说明](install.zh-Hans.txt)与[中文版发布流程](chinese-releases.md)。当前发行包为临时签名，未经 Apple 公证。
+直接安装请前往 [Releases](https://github.com/DioBrando3/checkmate/releases/latest) 下载通用 DMG；参见[安装说明](install-notarized.zh-Hans.txt)与[中文版发布流程](chinese-releases.md)。从 v0.3.4-zh.2 起，发行包使用 Developer ID 签名，通过 Apple 公证并附加票据。
 
 ```sh
 # 重新录制时需要本机已安装的婷婷普通话语音；按内容哈希复用已有录音。
@@ -31,7 +31,7 @@ open build/CheckmateChinese.app
 
 `Content/zh-Hans/lessons.txt` 是逐段课程脚本，`puzzles.txt` 是习题文本，`interface.tsv` 是界面翻译表。发布脚本生成独立的 `course.zh-Hans.json`，不覆盖英文课件。原有测试继续使用英文资源，中文专项测试显式加载中文资源并检查两版的棋盘与答案一致性。
 
-走法规则参考 [FIDE 国际象棋规则](https://handbook.fide.com/chapter/E012023)。本地代码和内容修改沿用仓库 GPL-3.0-or-later 许可；原项目和第三方声明随应用保留。本构建使用本机临时签名，不冒充上游正式发布包。
+走法规则参考 [FIDE 国际象棋规则](https://handbook.fide.com/chapter/E012023)。本地代码和内容修改沿用仓库 GPL-3.0-or-later 许可；原项目和第三方声明随应用保留。上面的源码构建命令使用本机临时签名，正式发行另需执行签名和公证流程。
 
 ## 本机验证（2026-10-10）
 

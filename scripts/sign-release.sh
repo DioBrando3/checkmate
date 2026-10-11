@@ -8,10 +8,10 @@ engine=$(find "$app/Contents/Resources" -type f -name stockfish)
 # A secure timestamp is a network request. Retry transport failures, then fail loudly.
 sign() {
     local attempt
-    local options=()
+    local options=(--force --options runtime --timestamp --sign "$identity")
     if [[ "$1" == "$app" ]]; then options+=(--entitlements "$entitlements"); fi
     for attempt in 1 2 3 4 5; do
-        if codesign --force --options runtime --timestamp --sign "$identity" "${options[@]}" "$1"; then return; fi
+        if codesign "${options[@]}" "$1"; then return; fi
         (( attempt < 5 )) || return 1
         sleep "$attempt"
     done
@@ -22,7 +22,7 @@ sign "$engine"
 python3 - "$engine" <<'PY'
 import hashlib,json,pathlib,sys
 engine=pathlib.Path(sys.argv[1]); manifest=engine.with_name('stockfish-build.json')
-data=json.loads(manifest.read_text());data['unsignedBinarySHA256']=data['binarySHA256']
+data=json.loads(manifest.read_text());data.setdefault('unsignedBinarySHA256',data['binarySHA256'])
 data['binarySHA256']=hashlib.sha256(engine.read_bytes()).hexdigest()
 manifest.write_text(json.dumps(data,indent=2)+'\n')
 PY

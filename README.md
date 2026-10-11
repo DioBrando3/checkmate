@@ -24,7 +24,7 @@
 2. 打开 DMG，将 **CheckmateChinese.app** 拖到 **Applications（应用程序）**。
 3. 推出磁盘映像，从“应用程序”打开 **Checkmate 中文版**。
 
-当前中文发行包采用临时签名，**尚未经过 Apple Developer ID 签名和公证**。如果首次打开时提示无法验证开发者或无法检查恶意软件，请确认来源后，到“系统设置 → 隐私与安全性”点击这款应用旁的“仍要打开”，按提示确认。详见 [Apple 官方说明](https://support.apple.com/zh-cn/102445) 和[完整安装说明](docs/install.zh-Hans.txt)。如果系统提示包含恶意软件、将损坏电脑或文件已损坏，请停止安装并反馈。
+**从 v0.3.4-zh.2 起，中文发行包已通过 Apple Developer ID 签名和公证**，应用与 DMG 均附加公证票据，并通过 macOS Gatekeeper 检查。首次打开仍可能出现普通的“从互联网下载”确认，无需执行“仍要打开”。请重新下载新版 DMG；旧版文件不会自动获得公证。详见[完整安装说明](docs/install-notarized.zh-Hans.txt)。
 
 Release 同时提供 `SHA256SUMS.txt` 和对应源码。更新前退出旧版，将新版拖入“应用程序”替换即可，学习进度会保留。
 
@@ -83,6 +83,7 @@ bash scripts/build-chinese.sh
 - `Sources/`、`Tests/`：应用、MCP 助手与测试。
 - `scripts/build-chinese.sh`：中文版构建入口。
 - `scripts/package-chinese.sh`：中文版通用 DMG 打包入口（优化构建、资源校验与 SHA-256）。
+- `scripts/notarize-chinese.sh`：正式发行入口，使用自己的 Developer ID 与钥匙串凭据完成签名、公证及安装验证。
 - `docs/`：棋规、中文定制、开发与发布文档。
 
 本机验证记录：完整测试 262 项，5 项长期校准与性能测试按项目设置跳过，0 失败；中文版安装包、Stockfish、离线旁白及在线普通话教练均已实际验证。详情见[验证说明](docs/chinese-edition.md#本机验证2026-10-10)。
