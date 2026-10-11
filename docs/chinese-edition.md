@@ -18,6 +18,8 @@
 
 ## 开发与重建
 
+直接安装请前往 [Releases](https://github.com/DioBrando3/checkmate/releases/latest) 下载通用 DMG；参见[安装说明](install.zh-Hans.txt)与[中文版发布流程](chinese-releases.md)。当前发行包为临时签名，未经 Apple 公证。
+
 ```sh
 # 重新录制时需要本机已安装的婷婷普通话语音；按内容哈希复用已有录音。
 python3 scripts/build-chinese-course.py

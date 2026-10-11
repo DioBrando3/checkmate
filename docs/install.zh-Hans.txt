@@ -1,0 +1,29 @@
+Checkmate 中文版 — 安装说明
+
+运行要求：macOS 14 或更新版本，Apple Silicon 或 Intel Mac。
+不需要安装 Xcode 或编程工具。
+
+1. 将 CheckmateChinese.app 拖到旁边的 Applications（应用程序）文件夹。
+2. 推出磁盘映像，然后从“应用程序”打开“Checkmate 中文版”。
+3. 本版本采用临时签名，尚未经过 Apple Developer ID 签名与公证。
+   如果系统提示无法验证开发者或无法检查恶意软件，确认下载来自下方仓库后，
+   打开“系统设置 → 隐私与安全性”，在这款应用的提示旁点击“仍要打开”，
+   再按系统提示确认。该操作只为这款应用添加例外，不需关闭系统安全保护。
+   如果提示包含恶意软件、将损坏电脑或文件已损坏，请停止安装并反馈。
+
+开始学习：
+- 侧边栏选择课程，40 节课的普通话录音无需联网。
+- 按 ⌘⇧R 查看“棋子走法与特殊规则”，支持普通话朗读。
+- 在线教练需要每位使用者自己的 Codex 登录及实时语音权限。
+  选择“对弈练习”，到“设置 → 语音教练”确认“普通话”，开启麦克风并连接。
+  安装包不包含发布者的账号、凭据或学习进度。
+
+更新：退出旧版后，将新版拖入“应用程序”替换；学习进度保留在独立数据目录。
+
+项目与下载：https://github.com/DioBrando3/checkmate/releases
+问题反馈：https://github.com/DioBrando3/checkmate/issues
+Apple 首次打开说明：https://support.apple.com/zh-cn/102445
+
+这是基于 xiaolai/checkmate 的中文分支。代码和课程依 GPL-3.0-or-later 发布；
+第三方许可见同盘 LICENSE.txt 与“第三方许可.txt”。
+每个 Release 提供对应版本的源码归档，包含 Stockfish 源码及构建配方。

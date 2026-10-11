@@ -53,7 +53,37 @@ for li, lesson in enumerate(course['voices']):
             raise RuntimeError(voice['file'])
         if not (voice['seconds'] == asset['seconds'] and voice['duration'] >= voice['seconds'] + course['timing']['postNarrationGap']):
             raise RuntimeError('Package verification failed')
-if not set(assets) == {str(p.relative_to(resources)) for p in (resources / 'course').rglob('*.m4a')}:
+expected_clips = set(assets)
+chinese_result = {}
+if '--chinese' in sys.argv:
+    source_root = pathlib.Path(__file__).resolve().parents[1]
+    source_resources = source_root / 'Sources/CheckmateCore/Resources'
+    chinese_settings = dict(line.split('=', 1) for line in (source_root / 'ChineseVersion.env').read_text().splitlines() if '=' in line)
+    if (info.get('CFBundleIdentifier') != 'ai.xiaolai.checkmate.zh-Hans'
+            or info.get('CFBundleDisplayName') != 'Checkmate 中文版'
+            or info.get('CFBundleLocalizations') != ['zh-Hans']
+            or info.get('CFBundleVersion') != chinese_settings['CHECKMATE_CHINESE_BUILD_NUMBER']
+            or info.get('CheckmateChineseRelease') != chinese_settings['CHECKMATE_CHINESE_RELEASE']):
+        raise RuntimeError('Chinese edition identity/version mismatch')
+    for name in ('course.zh-Hans.json', 'localization-zh-Hans.json', 'piece-guide.zh-Hans.json'):
+        if (resources / name).read_bytes() != (source_resources / name).read_bytes():
+            raise RuntimeError(f'Chinese resource differs from source: {name}')
+    chinese_course = json.loads((resources / 'course.zh-Hans.json').read_text())
+    guide = json.loads((resources / 'piece-guide.zh-Hans.json').read_text())
+    voices = [voice for lesson in chinese_course['voices'] for voice in lesson]
+    if (len(chinese_course['lessons']), len(chinese_course['puzzles']), len(voices), len(guide)) != (40, 87, 864, 10):
+        raise RuntimeError('Incomplete Chinese lessons, puzzles, narration or rules')
+    chinese_clips = {voice['file'] for voice in voices} | {entry['audio'] for entry in guide}
+    if len(chinese_clips) != 874:
+        raise RuntimeError('Expected 874 distinct Chinese recordings')
+    for name in chinese_clips:
+        if not name.startswith('course/zh-Hans/') or '..' in pathlib.PurePosixPath(name).parts:
+            raise RuntimeError(f'Invalid Chinese audio path: {name}')
+        if hashlib.sha256((resources / name).read_bytes()).digest() != hashlib.sha256((source_resources / name).read_bytes()).digest():
+            raise RuntimeError(f'Chinese audio differs from source: {name}')
+    expected_clips |= chinese_clips
+    chinese_result = {'chineseRelease': chinese_settings['CHECKMATE_CHINESE_RELEASE'], 'chineseAudioFiles': 874, 'chineseAudioHashesVerified': True, 'chineseRules': 10}
+if not expected_clips == {str(p.relative_to(resources)) for p in (resources / 'course').rglob('*.m4a')}:
     raise RuntimeError('Obsolete or missing bundled clips')
 for file in ['stockfish', 'chess.js', 'chess-LICENSE', 'Stockfish-COPYING.txt', 'THIRD_PARTY_NOTICES.txt', 'voice-tools.json', 'coach-instructions.txt']:
     if not (resources / file).is_file():
@@ -101,4 +131,4 @@ if '--release' in sys.argv:
     signature = subprocess.run(['codesign', '-d', '--verbose=4', str(app)], capture_output=True, text=True, check=True).stderr
     if '(runtime)' not in signature or 'Timestamp=' not in signature:
         raise RuntimeError('Release must use hardened runtime and a secure timestamp')
-print(json.dumps({'passed': True, 'iconFormat': 'Icon Composer with legacy fallback', 'architectures': ['arm64', 'x86_64'], 'minimumMacOS': settings['CHECKMATE_MINIMUM_MACOS'], 'lessons': 40, 'audioFiles': 864, 'narrationVoice': 'cedar', 'audioHashesVerified': True, 'puzzles': 87, 'webRuntime': False, 'engineHasSystemDependenciesOnly': True}))
+print(json.dumps({'passed': True, 'iconFormat': 'Icon Composer with legacy fallback', 'architectures': ['arm64', 'x86_64'], 'minimumMacOS': settings['CHECKMATE_MINIMUM_MACOS'], 'lessons': 40, 'audioFiles': 864, 'narrationVoice': 'cedar', 'audioHashesVerified': True, 'puzzles': 87, 'webRuntime': False, 'engineHasSystemDependenciesOnly': True, **chinese_result}))

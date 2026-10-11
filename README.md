@@ -18,6 +18,18 @@
 
 运行需要 **macOS 14 或更新版本**。应用支持 Apple Silicon 和 Intel Mac。
 
+**[下载最新版 macOS 安装包（DMG）](https://github.com/DioBrando3/checkmate/releases/latest)**，无需 Xcode 或编程工具：
+
+1. 下载名称以 `CheckmateChinese-` 开头、以 `-universal.dmg` 结尾的文件。
+2. 打开 DMG，将 **CheckmateChinese.app** 拖到 **Applications（应用程序）**。
+3. 推出磁盘映像，从“应用程序”打开 **Checkmate 中文版**。
+
+当前中文发行包采用临时签名，**尚未经过 Apple Developer ID 签名和公证**。如果首次打开时提示无法验证开发者或无法检查恶意软件，请确认来源后，到“系统设置 → 隐私与安全性”点击这款应用旁的“仍要打开”，按提示确认。详见 [Apple 官方说明](https://support.apple.com/zh-cn/102445) 和[完整安装说明](docs/install.zh-Hans.txt)。如果系统提示包含恶意软件、将损坏电脑或文件已损坏，请停止安装并反馈。
+
+Release 同时提供 `SHA256SUMS.txt` 和对应源码。更新前退出旧版，将新版拖入“应用程序”替换即可，学习进度会保留。
+
+### 从源码构建
+
 从源码构建需要完整 Xcode（含 Swift 6 及图标编译工具）和 Python 3.9 或更新版本：
 
 ```sh
@@ -70,6 +82,7 @@ bash scripts/build-chinese.sh
 - `Sources/CheckmateCore/Resources/course/zh-Hans/`：课程及棋规的普通话录音。
 - `Sources/`、`Tests/`：应用、MCP 助手与测试。
 - `scripts/build-chinese.sh`：中文版构建入口。
+- `scripts/package-chinese.sh`：中文版通用 DMG 打包入口（优化构建、资源校验与 SHA-256）。
 - `docs/`：棋规、中文定制、开发与发布文档。
 
 本机验证记录：完整测试 262 项，5 项长期校准与性能测试按项目设置跳过，0 失败；中文版安装包、Stockfish、离线旁白及在线普通话教练均已实际验证。详情见[验证说明](docs/chinese-edition.md#本机验证2026-10-10)。
@@ -80,4 +93,4 @@ bash scripts/build-chinese.sh
 
 原始代码、作者课程内容及本分支修改沿用 **GPL-3.0-or-later**；第三方内容遵循各自许可，见 [LICENSE](LICENSE) 和 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。Stockfish 对应源码及构建说明位于 `ThirdParty/Stockfish/`。课程语音为合成语音。
 
-[上游英文说明](README.en.md) · [开发文档](docs/development.md) · [发布文档](docs/releases.md) · [上游更新日志](CHANGELOG.md)
+[上游英文说明](README.en.md) · [开发文档](docs/development.md) · [中文版发布流程](docs/chinese-releases.md) · [上游发布流程](docs/releases.md) · [上游更新日志](CHANGELOG.md)
